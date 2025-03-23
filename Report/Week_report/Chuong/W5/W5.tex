@@ -1,0 +1,121 @@
+% - Nên có 1 module, giải thuật chạy local, độc lập riêng với đầu vào là các File, đầy ra là các File hoặc lịch cơ bản
+% - Ghép nối ( tích hợp với dxclan) Vậy sẽ
+% - Hoàn thiện thuật toán:
+% - Đầu vào :
+% - 1 tập dự án
+% - 1 tập nhân viên - năng lực liên quan
+% - 1 tập công việc trong dự án kèm theo yêu cầu
+% - Đầu ra:
+% - Lịch của toàn bộ công ty, nhân sự
+% - Lịch cho từng dự án
+% - Lịch cho từng nhân viên.
+% - Nhân viên cũng cần theo dõi xem tham gia dự án nào
+% - Tích hợp vào dxclan:
+
+% Công việc to -> báo cáo n lần ->kpi là hợp của các công việc con
+% Công việc to -> công việc con -> định nghĩa ràng buộc theo kiều gì
+% Cả hai cái trên đều ok, mình hỗ trợ cái nào hay cả 2
+
+% Đầu vào , hướng dẫn đánh giá KPI ,
+
+% Đầu ra: ngoài lịch ra còn có File dự báo kpi của từng người
+
+
+% Vấn đề quan trọng :
+% Đặc tả đầu vào đầu ra cho nó đúng
+% - Hiển thị lịch cho nhân viên tham gia vào nhiều dự án
+% - Kế hoạch phân bổ kpi cho nhân viên trong nhiều dự án. Với mỗi kpi thì phải thực hiện công việc gì của dự án nào để được kpi đó
+% - Sau đó : xem kpi có cân bằng không,….( để sau).
+
+% Đánh giá Kpi phân bổ cho những người có Profile khác nhau nó có bị lệch không?
+% Ẩn bớt
+\documentclass{article}
+\usepackage[utf8]{vietnam}
+\usepackage{graphicx}
+\usepackage{booktabs}%
+\usepackage{algorithm2e}%
+\usepackage{multirow}
+\usepackage{natbib,stfloats}
+\usepackage{mathrsfs}
+
+\title{Báo cáo tuần 5}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Giới thiệu chung}
+
+Trong nghiên cứu này, chúng tôi tập trung vào bài toán phân bổ nguồn lực cho nhiều dự án diễn ra đồng thời. Một trong những yêu cầu quan trọng của bài toán là \textbf{nhân viên không được làm việc trên nhiều dự án khác nhau trong cùng một ngày}, nhằm đảm bảo sự tập trung và hiệu quả. Bài toán này mở rộng từ vấn đề phân bổ nguồn lực cho một dự án duy nhất bằng cách tích hợp thêm các ràng buộc phức tạp liên quan đến quản lý đa dự án.
+
+Mục tiêu chính là tối ưu hóa việc sử dụng tài sản, nhân lực và thời gian, đồng thời thỏa mãn các ràng buộc về \textbf{thời gian hoàn thành}, \textbf{KPI (Key Performance Indicators)} của từng dự án, và \textbf{chi phí vận hành}. Các đóng góp chính của nghiên cứu bao gồm:
+\begin{itemize}
+    \item Điều chỉnh cấu trúc dữ liệu để hỗ trợ quản lý đồng thời nhiều dự án.
+    \item Phát triển thuật toán lập lịch tổng hợp cho tất cả các công việc từ nhiều dự án.
+    \item Mở rộng thuật toán DLHS (Dựa trên Harmony Search) để gán nhân lực với ràng buộc không làm việc đa dự án trong cùng ngày.
+    \item Đề xuất cơ chế xử lý xung đột thời gian nhằm đảm bảo tính khả thi của lịch trình.
+\end{itemize}
+
+\section{Cấu trúc dữ liệu}
+\subsection{Inputs (Đầu vào)}
+    Đầu vào của bài toán bao gồm các thông tin sau: 
+\subsubsection{Dự án}   
+    Thông tin về dự án được mô tả trong Bảng \ref{tab:table_input_thongtinchung}
+        \begin{table} [htbp]
+            \caption{Đầu vào thông tin chung về danh sách dự án}
+            \centering
+            \begin{tabular}{p{0.22\linewidth} p{0.3\linewidth} p{0.53\linewidth}} 
+                \toprule
+                \multicolumn{3}{c}{\textbf{Dự án} \textit{$P_{i}\epsilon P$}}\\
+                \textbf{ID} & $P_i^{id}$ & 1\\ 
+                \textbf{Tên dự án} & $P_i^n$ & Dự án phát triển PM prj-prp\\ 
+                \textbf{Mô tả} & $P_i^d$ & Phần mềm hỗ trợ phân bổ nguồn lực dự án\\ 
+                \textbf{Thời gian bắt đầu dự kiến} & $P_i^s$ & 8:00 01/08/2024\\ 
+                \textbf{Thời gian kết thúc dự kiến} & $P_i^e$ & 8:00 01/11/2024\\ 
+                \textbf{Danh sách chỉ tiêu KPI} & $KPI_{target} = \{K_i\}$ & \\ 
+                \bottomrule             
+            \end{tabular}
+            \label{tab:table_input_thongtinchung}
+        \end{table}
+\subsubsection{Nhân viên}
+    Thông tin về nhân viên được mô tả trong Bảng \ref{tab:table_input_thongtinnhanvien}
+        \begin{table} [htbp]
+            \caption{Đầu vào thông tin chung về danh sách nhân viên}
+            \centering
+            \begin{tabular}{p{0.22\linewidth} p{0.3\linewidth} p{0.53\linewidth}} 
+                \toprule
+                \multicolumn{3}{c}{\textbf{Nhân viên} \textit{$E_{i}\epsilon E$}}\\
+                \textbf{ID} & $E_{i}^{id}$ & 1\\ 
+                \textbf{Họ và tên} & $E_{i}^n$ & Nguyễn Văn A\\ 
+                \textbf{Chức vụ} & $E_{i}^p$ & Trưởng nhóm\\ 
+                \textbf{Bộ năng lực} & $E_{i}^{skills} = \{S_i\}$ & \\
+                \textbf{Danh sách dự án tham gia} & $P_{assign} = \{P_i\}$ & \\ 
+                \bottomrule             
+            \end{tabular}
+            \label{tab:table_input_thongtinnhanvien}
+        \end{table}
+
+\subsubsection{Công việc}
+Thông tin về công việc kèm theo yêu cầu được mô tả trong Bảng \ref{tab:table_input_thongtincongviec}
+        \begin{table} [htbp]
+            \caption{Đầu vào thông tin chung về danh sách công việc}
+            \centering
+            \begin{tabular}{p{0.22\linewidth} p{0.3\linewidth} p{0.53\linewidth}} 
+                \toprule
+                \multicolumn{3}{c}{\textbf{Công việc} \textit{$T_{i}\epsilon T$}}\\
+                \textbf{ID} & $T_{i}^{id}$ & 1\\ 
+                \textbf{Tên công việc} & $T_{i}^n$ & Phân tích yêu cầu\\ 
+                \textbf{Mô tả} & $T_{i}^d$ & Phân tích yêu cầu của khách hàng\\ 
+                \textbf{Thời gian bắt đầu dự kiến} & $T_{i}^s$ & 8:00 01/08/2024\\ 
+                \textbf{Thời gian kết thúc dự kiến} & $T_{i}^e$ & 8:00 01/11/2024\\ 
+                \textbf{Người thực hiện} & $T_{i}^{assignee}$ & $E_{i}$\\ 
+                \textbf{Danh sách phân đoạn} & $T_{i}^{segments} = \{S_i\}$ & \\ 
+                \bottomrule             
+            \end{tabular}
+            \label{tab:table_input_thongtincongviec}
+        \end{table}
+
+
+\end{document}
