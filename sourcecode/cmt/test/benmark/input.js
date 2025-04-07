@@ -1,7 +1,8 @@
 
 const { tasks } = require('../../data-benmark/get-data');
 const { employees } = require('../../data-benmark/get-data');
-
+const { projects } = require('../../../MPRA/data/input/projects');
+const { project } = require('../../../MPRA/algorithm/input');
 const START_DATE = new Date()
 START_DATE.setFullYear(2024, 7, 1)
 START_DATE.setHours(0, 0, 0, 0)
@@ -29,15 +30,15 @@ const kpiTarget = {
   'C': { value: 0.0, weight: 0.3 },
 }
 
-const project = {
-  startTime: START_DATE,
-  endTime: END_DATE,
-  tasks: tasks,
-  kpiTarget: kpiTarget,
-  employees: employees,
-  assets: []
-}
-
+// const project = {
+//   startTime: START_DATE,
+//   endTime: END_DATE,
+//   tasks: tasks,
+//   kpiTarget: kpiTarget,
+//   employees: employees,
+//   assets: []
+// }
+project = projects[0]
 module.exports = {
   project,
   assetHasKPIWeight,

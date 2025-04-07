@@ -1,8 +1,8 @@
 // Thuật toán lõi
 const fs = require('fs');
 const ExcelJS = require('exceljs');
-const { allTasksOutOfProject } = require('../data/taskOutofProject');
-const { allTasksInPast } = require('../data/taskInPast');
+const { allTasksOutOfProject } = require('./data/taskOutofProject');
+const { allTasksInPast } = require('./data/taskInPast');
 const { proposalForProjectWithDLHS, getTimeForProject } = require('./hs_helper');
 
 async function testDLHS() {

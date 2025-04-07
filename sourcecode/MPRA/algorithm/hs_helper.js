@@ -1,4 +1,4 @@
-const { KPI_TYPES, KPI_NOT_VALUE, KPI_CANNOT_WORK, DAY_WORK_HOURS, KPI_OF_ASSET_IN_TASK } = require('../constants/kpi.const')
+const { KPI_TYPES, KPI_NOT_VALUE, KPI_CANNOT_WORK, DAY_WORK_HOURS, KPI_OF_ASSET_IN_TASK } = require('./constants/kpi.const')
 const { topologicalSort, duplicateSchedule, getLastestEndTime, calculateCPM, checkHasAvailableSolution } = require("./helper");
 const { splitKPIToEmployeesByKMeans, findBestMiniKPIOfTasks, reSplitKPIOfEmployees } = require('./k-mean.helper');
 
@@ -2484,9 +2484,18 @@ const proposalForProjectWithDLHS = (job, allTasksInPast, allTasksOutOfProject, D
 
   // Step 1.1: topo sort
   job.tasks = topologicalSort(job.tasks)
+  console.log(" topo sort job.tasks: ", job)
 
   // Step 1.2: CPM
-  job.tasks = calculateCPM(job.tasks, job?.willStart, job?.willEnd, 'days')
+  try {
+  job.tasks = calculateCPM(job.tasks, job?.startTime, job?.endTime, 'days')}
+  catch (e) {
+    console.log("Error: ", e)
+  }
+
+  console.log(" CPM job.tasks: ", job.tasks)
+
+
   let checkResult = checkHasAvailableSolution(job.tasks, job?.willStartDate, job?.willEndDate, allTasksOutOfProject)
 
   if (checkResult?.isHasAvailableSolution === false && checkResult?.error_code) {
@@ -2552,6 +2561,8 @@ const proposalForProjectWithDLHS = (job, allTasksInPast, allTasksOutOfProject, D
   return testResult
 }
 
+
+////
 const proposalForProjectWithHS_Base = (job, allTasksInPast, allTasksOutOfProject, HS_Arguments, assetHasKPIWeight) => {
   allTasksOutOfProject.sort((a, b) => new Date(a.startTime) - new Date(b.startTime))
 
@@ -2566,13 +2577,18 @@ const proposalForProjectWithHS_Base = (job, allTasksInPast, allTasksOutOfProject
   // console.log("job.task: ", job.tasks.forEach(task => {
   //   console.log(task.id, task.availableAssignee.map((emp) => emp.id).join(", "))
   // }))
-
+  
   // Step 1
   // Step 1.1
+  
   job.tasks = topologicalSort(job.tasks)
+  //console.log(" topo sort job.tasks: ", job.tasks)
+
   
   // Step 1.2: CPM
-  job.tasks = calculateCPM(job.tasks, job?.startTime, job?.endTime)
+  job.tasks = calculateCPM(job.tasks, job?.startTime, job?.endTime,'days')
+  //console.log(" CPM job.tasks: ", job.tasks)
+
   let checkResult = checkHasAvailableSolution(job.tasks, job?.startTime, job?.endTime, allTasksOutOfProject)
 
   if (checkResult?.isHasAvailableSolution === false && checkResult?.error_code) {
@@ -2594,6 +2610,7 @@ const proposalForProjectWithHS_Base = (job, allTasksInPast, allTasksOutOfProject
     }
   }
   // Step 1.2
+  
   if (isHasKPITarget) {
     kpiOfEmployeesTarget = splitKPIToEmployeesByKMeans(job.tasks, employees, kpiTarget, assetHasKPIWeight)
     const minimumKpi = findBestMiniKPIOfTasks(job.tasks, kpiTarget, assetHasKPIWeight)

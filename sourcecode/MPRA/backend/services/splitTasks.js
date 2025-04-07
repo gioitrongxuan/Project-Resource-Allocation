@@ -45,16 +45,32 @@ const splitTasks = async (tasks) => {
                     if (!segmentCounters[assignee]) segmentCounters[assignee] = {};
                     if (!segmentCounters[assignee][task.name]) segmentCounters[assignee][task.name] = 1;
 
+                    // result.push({
+                    //     ...task,
+                    //     parentId: task.parentId || task.id,
+                    //     id: task.id + segmentCounters[assignee][task.name]*1000000,
+                    //     code: task.code + "." + segmentCounters[assignee][task.name],
+                    //     name: task.name + "." + segmentCounters[assignee][task.name],
+                    //     startTime: segmentStart.toISOString(),
+                    //     endTime: segmentEnd.toISOString(),
+                    //     estimateNormalTime: splitDuration / 1000 / 60 / 60 / 24 ,
+                    // });
                     result.push({
-                        ...task,
-                        parentId: task.parentId || task.id,
-                        id: task.id + segmentCounters[assignee][task.name]*100,
+                        id: task.id + segmentCounters[assignee][task.name]*1000000,
                         code: task.code + "." + segmentCounters[assignee][task.name],
                         name: task.name + "." + segmentCounters[assignee][task.name],
+                        preceedingTasks: task.preceedingTasks || [],
                         startTime: segmentStart.toISOString(),
                         endTime: segmentEnd.toISOString(),
-                        estimateNormalTime: splitDuration / 1000 / 60 / 60 / 24 ,
-                    });
+                        requireAsset: task.requireAsset || [],
+                        tags: task.tags || [],
+                        estimateTime: task.estimateTime || null,
+                        requireAssign: task.requireAssign || {},
+                        kpiInTask: task.kpiInTask || [],
+                        projectKey: task.projectKey,
+                        assignee: task.assignee,
+                      });
+                      
                     segmentCounters[assignee][task.name]++;
                     offset += splitDuration;
                 });
@@ -70,7 +86,6 @@ const splitTasks = async (tasks) => {
         // Update prevTime for the correct assignee
         prevTime[assignee] = event.time;
     }
-    console.log("dang o ");
     const result2 = findPreceedingTasks(result);
     return result;
 }

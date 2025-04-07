@@ -1,4 +1,4 @@
-const { KPI_TYPES } = require('../constants/kpi.const')
+const { KPI_TYPES } = require('./constants/kpi.const')
 
 function preprocessEmployees(employees) {
     // Find all unique qualities
@@ -602,6 +602,7 @@ function splitKPIToEmployeesByKMeans(tasks, employees, kpiTarget, assetHasKPIWei
       }
     }
   })
+
   return kpiOfEmployees
 }
 

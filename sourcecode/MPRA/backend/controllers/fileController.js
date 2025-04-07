@@ -76,40 +76,36 @@ exports.readServerFile = (req, res) => {
     const tasks = [];
     let employee = [];
     let  employees = [];
+    let projectId = 1; // Initialize project ID counter
 
     wb.SheetNames.forEach(sheetName => {
         const ws = wb.Sheets[sheetName];
         const json = XLSX.utils.sheet_to_json(ws);
         sheetsData[sheetName] = json;
-        let projectId = 1; // Initialize project ID counter
-        json.forEach(row => {
+        json.forEach( row => {
             // projects
             if (!projects.some(p => p.projectKey === row['Project key'])) {
-            projects.push({
-                id: projectId++, // Assign and increment the project ID
-                projectKey: row['Project key'] || '',
-                projectName: row['Project name'] || '',
-                projectType: row['Project type'] || '',
-                projectLead: row['Project lead'] || '',
-            });
+                projects.push({
+                    id: projectId++,
+                    projectKey: row['Project key'] || '',
+                    projectName: row['Project name'] || '',
+                    projectType: row['Project type'] || '',
+                    projectLead: row['Project lead'] || '',
+                    description: row['Description'] || '',
+            
+                });
             }
-
+ 
             // tasks
             tasks.push({
                 id: row['Issue id'] || '',
                 code: row['Issue key'] || '',
                 name: row['Summary'] || '',
-                description: row['Description'] || '',
-                parentId: row['Parent id'] || '',
-                taskType: row['Issue Type'] || '',
-                status: row['Status'] || '',
                 projectKey: row['Project key'] || '',
-                priority: row['Priority'] || '',
-                resolution: row['Resolution'] || '',
+                description: row['Description'] || '',
                 startTime: row['Created'] || '',
-                updated: row['Updated'] || '',
                 endTime: row['Resolved'] || '',
-                assignee: row['Assignee'] || row['Reporter'] || row['Creator']|| '',
+                assignee: row['Assignee'] ,
                 estimateNormalTime: row['Estimated time'] || (new Date(row['Resolved']) - new Date(row['Created']))/1000/60/60/24,
             });
 

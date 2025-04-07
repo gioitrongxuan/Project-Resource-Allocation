@@ -1,7 +1,7 @@
 
-const { tasks } = require('../data/task');
-const { assets } = require('../data/asset');
-const { employees } = require('../data/employee');
+const { tasks } = require('./data/task');
+const { assets } = require('./data/asset');
+const { employees } = require('./data/employee');
 
   
 const START_DATE = new Date()

@@ -35,6 +35,7 @@ const UploadXlsx = () => {
           Created: row['Created'],
           Updated: row['Updated'],
           Resolved: row['Resolved'],
+          
         }));
       });
 
@@ -59,6 +60,7 @@ const UploadXlsx = () => {
     console.log(data.tasks);
     window.location.href = '/gannt-chart';
   };
+
 
   return (
     <div style={{ marginBottom: '30px' }}>

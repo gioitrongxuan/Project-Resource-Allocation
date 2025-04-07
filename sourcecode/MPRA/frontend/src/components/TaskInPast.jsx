@@ -73,13 +73,27 @@ const TaskInPast = () => {
             });
     
             const { all_employee_scores, results } = res.data;
-    
-            setEmployeeScores(all_employee_scores); // Năng lực nhân viên
+            console.log('all_employee_scores', all_employee_scores);
+            const data = localStorage.getItem('result');
+            const employees = all_employee_scores
+            
+
+            //update local storage
+            localStorage.setItem('result', JSON.stringify({ employees, projects: JSON.parse(data).projects, tasks: JSON.parse(data).tasks }));
+            setEmployeeScores(employees); // Năng lực nhân viên
             setTaskScores(results); // Yêu cầu công việc
         } catch (error) {
             console.error('Error analyzing tasks:', error);
         }
     };
+    const saveData = async () => {
+        try {
+            const data = localStorage.getItem('result');
+            const res = await axiosInstance.post('/files/save-data', JSON.parse(data));
+        } catch (error) {
+            console.error('Error saving data:', error);
+        }
+    }
     
     return (
         <div style={{ marginBottom: '30px' }}>
@@ -98,77 +112,79 @@ const TaskInPast = () => {
                 Đánh giá năng lực nhân viên
             </button>
 
-            {Object.keys(employeeScores).length > 0 && (
-    <div style={{ marginTop: '20px' }}>
-        <h3>Năng lực thực tế của nhân viên:</h3>
-        <table border="1" cellPadding="8">
-            <thead>
-                <tr>
-                    <th>Assignee</th>
-                    <th>Backend</th>
-                    <th>Frontend</th>
-                    <th>Database</th>
-                    <th>DevOps</th>
-                    <th>AI/ML</th>
-                    <th>Testing</th>
-                    <th>Issue Tracking</th>
-                </tr>
-            </thead>
-            <tbody>
-                {Object.entries(employeeScores).map(([assignee, skills], idx) => (
-                    <tr key={idx}>
-                        <td>{assignee}</td>
-                        <td>{skills.Backend}</td>
-                        <td>{skills.Frontend}</td>
-                        <td>{skills.Database}</td>
-                        <td>{skills.DevOps}</td>
-                        <td>{skills['AI/ML']}</td>
-                        <td>{skills.Testing}</td>
-                        <td>{skills['Issue Tracking']}</td>
-                    </tr>
-                ))}
-            </tbody>
-        </table>
-    </div>
-)}
+            <button onClick={saveData} disabled={tasks.length === 0} style={{ marginLeft: '10px' }}>
+                Lưu dữ liệu vào server
+            </button>
 
-{taskScores.length > 0 && (
-    <div style={{ marginTop: '20px' }}>
-        <h3>Yêu cầu năng lực cho từng Task:</h3>
-        <table border="1" cellPadding="8">
-            <thead>
-                <tr>
-                    <th>Task</th>
-                    <th>Assignee</th>
-                    <th>Backend</th>
-                    <th>Frontend</th>
-                    <th>Database</th>
-                    <th>DevOps</th>
-                    <th>AI/ML</th>
-                    <th>Testing</th>
-                    <th>Issue Tracking</th>
-                </tr>
-            </thead>
-            <tbody>
-                {taskScores.map((task, idx) => (
-                    <tr key={idx}>
-                        <td>{task.name}</td>
-                        <td>{task.assignee}</td>
-                        <td>{task.task_scores.Backend}</td>
-                        <td>{task.task_scores.Frontend}</td>
-                        <td>{task.task_scores.Database}</td>
-                        <td>{task.task_scores.DevOps}</td>
-                        <td>{task.task_scores['AI/ML']}</td>
-                        <td>{task.task_scores.Testing}</td>
-                        <td>{task.task_scores['Issue Tracking']}</td>
-                    </tr>
-                ))}
-            </tbody>
-        </table>
-    </div>
-)}
+            {employeeScores.length > 0 && (
+                <div style={{ marginTop: '20px' }}>
+                    <h3>Năng lực thực tế của nhân viên:</h3>
+                    <table border="1" cellPadding="8">
+                        <thead>
+                            <tr>
+                                <th>Assignee</th>
+                                <th>Backend</th>
+                                <th>Frontend</th>
+                                <th>Database</th>
+                                <th>DevOps</th>
+                                <th>AI/ML</th>
+                                <th>Testing</th>
+                                <th>Issue Tracking</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {employeeScores.map((employee, idx) => (
+                                <tr key={idx}>
+                                    <td>{employee.name}</td>
+                                    <td>{employee.qualities.backend}</td>
+                                    <td>{employee.qualities.frontend}</td>
+                                    <td>{employee.qualities.database}</td>
+                                    <td>{employee.qualities.devops}</td>
+                                    <td>{employee.qualities.ai_ml}</td>
+                                    <td>{employee.qualities.testing}</td>
+                                    <td>{employee.qualities.issue_tracking}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            )}
 
-
+            {taskScores.length > 0 && (
+                <div style={{ marginTop: '20px' }}>
+                    <h3>Yêu cầu năng lực cho từng Task:</h3>
+                    <table border="1" cellPadding="8">
+                        <thead>
+                            <tr>
+                                <th>Task</th>
+                                <th>Assignee</th>
+                                <th>Backend</th>
+                                <th>Frontend</th>
+                                <th>Database</th>
+                                <th>DevOps</th>
+                                <th>AI/ML</th>
+                                <th>Testing</th>
+                                <th>Issue Tracking</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {taskScores.map((task, idx) => (
+                                <tr key={idx}>
+                                    <td>{task.name}</td>
+                                    <td>{task.assignee}</td>
+                                    <td>{task.task_scores.Backend}</td>
+                                    <td>{task.task_scores.Frontend}</td>
+                                    <td>{task.task_scores.Database}</td>
+                                    <td>{task.task_scores.DevOps}</td>
+                                    <td>{task.task_scores['AI/ML']}</td>
+                                    <td>{task.task_scores.Testing}</td>
+                                    <td>{task.task_scores['Issue Tracking']}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            )}
 
             {tasks.length > 0 && (
                 <div style={{ marginTop: '20px' }}>
@@ -184,10 +200,9 @@ const TaskInPast = () => {
                         <tbody>
                             {tasks.map((task, index) => (
                                 <tr key={index}>
-                                     <td>{task.assignee}</td>
                                     <td>{task.name}</td>
                                     <td>{task.description}</td>
-                                   
+                                    <td>{task.assignee}</td>
                                 </tr>
                             ))}
                         </tbody>

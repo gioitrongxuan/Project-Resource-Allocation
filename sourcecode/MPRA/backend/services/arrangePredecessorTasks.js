@@ -35,7 +35,7 @@ const findPreceedingTasks = async (tasks) => {
             // Loại bỏ các task đã "hết hiệu lực" (endTime <= currentStart)
             while (active.length > 0 && active[0].endTime <= currentStart) {
                 const finishedTask = active.shift();
-                preceedingTasks.add(finishedTask.code);
+                preceedingTasks.add(finishedTask.id);
             }
 
             preceedingTasksMap[currentTask.id] = Array.from(preceedingTasks);
@@ -56,8 +56,6 @@ const findPreceedingTasks = async (tasks) => {
           preceedingTasks: ${JSON.stringify(task.preceedingTasks)},
           startTime: "${task.startTime.toISOString()}",
           endTime: "${task.endTime.toISOString()}",
-          kpiInTask: kpiC,
-          taskKPIWeight: 0.005
         }`).join(",\n")}
       ];
       module.exports = { tasks };`;

@@ -1,5 +1,5 @@
-const { DAY_WORK_HOURS } = require("../constants/kpi.const");
-const { assets } = require("../data/asset");
+const { DAY_WORK_HOURS } = require("./constants/kpi.const");
+const { assets } = require("./data/asset");
 
 function topologicalSort(tasks) {
   const result = [];
@@ -18,7 +18,7 @@ function topologicalSort(tasks) {
       dependencies.forEach(depId => {
         const dependency = tasks.find(t => t.id === depId);
         if (!dependency) {
-          throw new Error(`Dependency with id ${depId} not found.`);
+          throw new Error(`Dependency with code ${depId} not found.`);
         }
         visit(dependency);
       });
@@ -32,7 +32,6 @@ function topologicalSort(tasks) {
   for (const task of tasks) {
     visit(task);
   }
-  
   return result.reverse();
 }
 
@@ -43,6 +42,168 @@ function reCalculateStartTime(startTime) {
   }
   return startTime;
 }
+
+// const calculateCPM = (tasks, projectStartTime, projectEndTime, unitTime, n) => {
+//   if (!tasks || !tasks.length) return [];
+
+//   let updateTasks = [...tasks];
+
+//   // Chuyển đổi projectStartTime và projectEndTime thành kiểu Date hợp lệ
+//   projectStartTime = new Date(projectStartTime);
+//   projectEndTime = new Date(projectEndTime);
+
+//   if (isNaN(projectStartTime.getTime()) || isNaN(projectEndTime.getTime())) {
+//     throw new Error("Invalid project start or end time");
+//   }
+
+//   // Tạo bảng successors để xác định các task kế nhiệm
+//   let successors = {};
+//   updateTasks.forEach(task => {
+//     task.ES = new Date(projectStartTime);
+//     task.EF = new Date(projectStartTime);
+//     task.LS = new Date(projectEndTime);
+//     task.LF = new Date(projectEndTime);
+
+//     // Xây dựng danh sách successors
+//     task.preceedingTasks?.forEach(prevId => {
+//       if (!successors[prevId]) {
+//         successors[prevId] = [];
+//       }
+//       successors[prevId].push(task.id);
+//     });
+//   });
+
+//   // Sắp xếp task theo thứ tự ưu tiên (dựa trên thời điểm bắt đầu sớm nhất)
+//   updateTasks.sort((a, b) => a.ES - b.ES);
+
+//   let activeTasks = []; // Danh sách các task đang chạy (tối đa n)
+
+//   // Tính ES, EF (forward pass) với ràng buộc số lượng task song song
+//   updateTasks.forEach(task => {
+//     let preceedingTasks = (task.preceedingTasks || [])
+//       .map(id => updateTasks.find(t => t.id === id))
+//       .filter(Boolean);
+
+//     let maxEF = preceedingTasks.length
+//       ? Math.max(...preceedingTasks.map(t => t.EF.getTime()))
+//       : projectStartTime.getTime();
+
+//     task.ES = new Date(maxEF);
+//     if (isNaN(task.ES.getTime())) {
+//       console.error("Invalid Date in ES:", task);
+//       task.ES = new Date(projectStartTime); // Cố định lỗi
+//     }
+
+//     // Kiểm tra nếu đã đủ n task đang thực hiện
+//     while (activeTasks.length >= n) {
+//       let minFinishTask = activeTasks.reduce((prev, curr) => (prev.EF < curr.EF ? prev : curr));
+//       activeTasks = activeTasks.filter(t => t !== minFinishTask);
+//     }
+
+//     task.ES = reCalculateTimeWorking(task.ES);
+//     task.EF = calculateEndDateFromStartDate(task.ES, task.estimateTime, unitTime);
+//     task.EF = reCalculateTimeWorking(task.EF);
+
+//     activeTasks.push(task); // Thêm task vào danh sách đang thực hiện
+//   });
+
+//   // Tính LS, LF (backward pass)
+//   updateTasks.reverse().forEach(task => {
+//     let successorTasks = (successors[task.id] || [])
+//       .map(id => updateTasks.find(t => t.id === id))
+//       .filter(Boolean);
+
+//     let minLS = successorTasks.length
+//       ? Math.min(...successorTasks.map(t => t.LS.getTime()))
+//       : projectEndTime.getTime();
+
+//     task.LF = new Date(minLS);
+//     if (isNaN(task.LF.getTime())) {
+//       console.error("Invalid Date in LF:", task);
+//       task.LF = new Date(projectEndTime); // Cố định lỗi
+//     }
+
+//     task.LS = calculateStartDateFromEndDate(task.LF, task.estimateTime, unitTime);
+//   });
+
+//   return updateTasks.reverse();
+// };
+
+const calculateCPM = (tasks, projectStartTime, projectEndTime, unitTime) => {
+  if (!tasks || !tasks?.length) {
+    return []
+  }
+  let updateTasks = [...tasks]
+  // console.log("updateTasks: ", updateTasks.map((item) => item.code))
+
+
+  //
+  let successors = {
+    // key: code of task
+    // value: [] array list tasks v that v has key is one of preceedingTasks 
+  }
+
+  for(let i = 0; i < updateTasks?.length; i++) {
+    let task = updateTasks[i]
+    task.ES = new Date(0)
+    task.EF = new Date(0)
+    task.LS = new Date("2100-04-30T00:00:00Z")
+    task.LF = Date("2100-04-30T00:00:00Z")
+    if (!successors[task?.code]) {
+      successors[task.code] = []
+    }
+    let preceedingTasks = task?.preceedingTasks
+    if (preceedingTasks && preceedingTasks?.length > 0) {
+      preceedingTasks.forEach((item) => {
+        let taskCode = item
+
+        // taskCode is prev of this task => this taskCode has successor is this task.code
+
+        if (!successors[taskCode]) {
+          successors[taskCode] = []
+        }
+        successors[taskCode].push(task.code)
+      })
+      // console.log("task.code: ", task.code, "pre: ", preceedingTasks.map((item) => item.link))
+    }
+  }
+
+  for(let i = 0; i < updateTasks?.length; i++) {
+    let task = updateTasks[i]
+    let preceedingTasks = task?.preceedingTasks && task?.preceedingTasks?.length ? 
+      task?.preceedingTasks.map((item) => updateTasks?.find((taskItem) => taskItem?.id === item))
+      : []
+    if (!preceedingTasks || !preceedingTasks?.length) {
+      task.ES = new Date(projectStartTime)
+    } else {
+      task.ES = new Date(Math.max(...preceedingTasks.map((item) => item.EF)))
+    }
+    task.ES = reCalculateTimeWorking(task.ES)
+    task.EF = calculateEndDateFromStartDate(task.ES, task?.estimateNormalTime, unitTime)
+    task.EF = reCalculateTimeWorking(task.EF)
+  }
+
+  updateTasks = updateTasks.reverse()
+  // console.log("updateTasks: ", updateTasks.map((item) => item.code))
+  for(let i = 0; i < updateTasks?.length; i++) {
+    let task = updateTasks[i]
+    // let preceedingTasks = task?.preceedingTasks && task?.preceedingTasks?.length ? 
+    //   task?.preceedingTasks.map((item) => updateTasks?.find((taskItem) => taskItem?.code === item?.link))
+    //   : []
+    // console.log("pre: ", task.code, preceedingTasks)
+    let successorTasks = successors[task.code] && successors[task.code]?.length > 0 ? 
+      successors[task.code].map((item) => updateTasks.find((task) => task.code === item)) : []
+    
+    if (!successorTasks || !successorTasks?.length) {
+      task.LF = new Date(projectEndTime)
+    } else {
+      task.LF = new Date(Math.min(...successorTasks.map((item) => item.LS)))
+    }
+    task.LS = calculateStartDateFromEndDate(task.LF, task?.estimateNormalTime, unitTime)
+  }
+  return updateTasks.reverse()
+}
+
 
 function reCalculateTimeWorking(time, isStartIndex = false) {
   // Đưa về giờ làm chuẩn
@@ -457,82 +618,9 @@ function calculateEndDateFromStartDate(startDate, duration, unitTime = 'days') {
   }
 }
 
-const calculateCPM = (tasks, projectStartTime, projectEndTime, unitTime) => {
-  if (!tasks || !tasks?.length) {
-    return []
-  }
-  let updateTasks = [...tasks]
-  // console.log("updateTasks: ", updateTasks.map((item) => item.code))
-
-
-  //
-  let successors = {
-    // key: code of task
-    // value: [] array list tasks v that v has key is one of preceedingTasks 
-  }
-
-  for(let i = 0; i < updateTasks?.length; i++) {
-    let task = updateTasks[i]
-    task.ES = new Date(0)
-    task.EF = new Date(0)
-    task.LS = new Date("2100-04-30T00:00:00Z")
-    task.LF = Date("2100-04-30T00:00:00Z")
-    if (!successors[task?.code]) {
-      successors[task.code] = []
-    }
-    let preceedingTasks = task?.preceedingTasks
-    if (preceedingTasks && preceedingTasks?.length > 0) {
-      preceedingTasks.forEach((item) => {
-        let taskCode = item
-
-        // taskCode is prev of this task => this taskCode has successor is this task.code
-
-        if (!successors[taskCode]) {
-          successors[taskCode] = []
-        }
-        successors[taskCode].push(task.code)
-      })
-      // console.log("task.code: ", task.code, "pre: ", preceedingTasks.map((item) => item.link))
-    }
-  }
-
-  for(let i = 0; i < updateTasks?.length; i++) {
-    let task = updateTasks[i]
-    let preceedingTasks = task?.preceedingTasks && task?.preceedingTasks?.length ? 
-      task?.preceedingTasks.map((item) => updateTasks?.find((taskItem) => taskItem?.id === item))
-      : []
-    if (!preceedingTasks || !preceedingTasks?.length) {
-      task.ES = new Date(projectStartTime)
-    } else {
-      task.ES = new Date(Math.max(...preceedingTasks.map((item) => item.EF)))
-    }
-    task.ES = reCalculateTimeWorking(task.ES)
-    task.EF = calculateEndDateFromStartDate(task.ES, task?.estimateNormalTime, unitTime)
-    task.EF = reCalculateTimeWorking(task.EF)
-  }
-
-  updateTasks = updateTasks.reverse()
-  // console.log("updateTasks: ", updateTasks.map((item) => item.code))
-  for(let i = 0; i < updateTasks?.length; i++) {
-    let task = updateTasks[i]
-    // let preceedingTasks = task?.preceedingTasks && task?.preceedingTasks?.length ? 
-    //   task?.preceedingTasks.map((item) => updateTasks?.find((taskItem) => taskItem?.code === item?.link))
-    //   : []
-    // console.log("pre: ", task.code, preceedingTasks)
-    let successorTasks = successors[task.code] && successors[task.code]?.length > 0 ? 
-      successors[task.code].map((item) => updateTasks.find((task) => task.code === item)) : []
-    
-    if (!successorTasks || !successorTasks?.length) {
-      task.LF = new Date(projectEndTime)
-    } else {
-      task.LF = new Date(Math.min(...successorTasks.map((item) => item.LS)))
-    }
-    task.LS = calculateStartDateFromEndDate(task.LF, task?.estimateNormalTime, unitTime)
-  }
-  return updateTasks.reverse()
-}
 
 function checkHasAvailableSolution(tasks, projectStartTime, projectEndTime, tasksOutOfProject = []) {
+
   let parallelTaskFlows = {}
   let result = {
     isHasAvailableSolution: true,
@@ -581,6 +669,8 @@ function checkHasAvailableSolution(tasks, projectStartTime, projectEndTime, task
     // console.log("taskcode: ", taskCode)
     const { ES, LF, parallelTasks } = parallelTaskFlows[taskCode]
     // console.log("taskcode: ", taskCode, parallelTasks.map((item) => item.code))
+    console.log(parallelTaskFlows);
+    console.log('parallelTasks: ', parallelTasks.map((item) => item.code))
     if (parallelTasks && parallelTasks?.length) {
       let availableAssigneeForTask = []
       parallelTasks.forEach((task) => {
@@ -609,8 +699,9 @@ function checkHasAvailableSolution(tasks, projectStartTime, projectEndTime, task
       })
 
       // Nếu số nhân viên phù hợp < số task song song => lỗi
-      // console.log("flow: ", taskCode, "check length: ", availableAssigneeForTask?.length, parallelTasks?.length)
+       console.log("flow: ", taskCode, "check length: ", availableAssigneeForTask?.length, parallelTasks?.length)
       if (availableAssigneeForTask?.length < parallelTasks?.length) {
+         console.log("flow: ", taskCode, "check length: ", availableAssigneeForTask?.length, parallelTasks?.length)
         result = {
           isHasAvailableSolution: false,
           error_code: 'not_enough_employee_for_parallel'

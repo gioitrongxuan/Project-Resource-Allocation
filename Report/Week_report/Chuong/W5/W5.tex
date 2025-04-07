@@ -32,8 +32,11 @@
 \documentclass{article}
 \usepackage[utf8]{vietnam}
 \usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{array} % Added to fix tabular issues
 \usepackage{booktabs}%
 \usepackage{algorithm2e}%
+\usepackage{algpseudocode}%
 \usepackage{multirow}
 \usepackage{natbib,stfloats}
 \usepackage{mathrsfs}
@@ -61,8 +64,6 @@ Mục tiêu chính là tối ưu hóa việc sử dụng tài sản, nhân lực
 \section{Cấu trúc dữ liệu}
 \subsection{Inputs (Đầu vào)}
     Đầu vào của bài toán bao gồm các thông tin sau: 
-\subsubsection{Dự án}   
-    Thông tin về dự án được mô tả trong Bảng \ref{tab:table_input_thongtinchung}
         \begin{table} [htbp]
             \caption{Đầu vào thông tin chung về danh sách dự án}
             \centering
@@ -74,48 +75,91 @@ Mục tiêu chính là tối ưu hóa việc sử dụng tài sản, nhân lực
                 \textbf{Mô tả} & $P_i^d$ & Phần mềm hỗ trợ phân bổ nguồn lực dự án\\ 
                 \textbf{Thời gian bắt đầu dự kiến} & $P_i^s$ & 8:00 01/08/2024\\ 
                 \textbf{Thời gian kết thúc dự kiến} & $P_i^e$ & 8:00 01/11/2024\\ 
-                \textbf{Danh sách chỉ tiêu KPI} & $KPI_{target} = \{K_i\}$ & \\ 
+                \textbf{Danh sách chỉ tiêu KPI} & $P_i^{kpi} = \lbrace K_i \rbrace$ & \\
+                \textbf{Danh sách công việc} & \textcolor{red}{$T_{assign} = \{T_i\}$} & \\
+             \textbf{Danh sách nhân viên tham gia} & \textcolor{red}{$E_{assign} = \{E_i\}$} & \\
+            
                 \bottomrule             
             \end{tabular}
             \label{tab:table_input_thongtinchung}
         \end{table}
-\subsubsection{Nhân viên}
-    Thông tin về nhân viên được mô tả trong Bảng \ref{tab:table_input_thongtinnhanvien}
+    Thông tin về chỉ tiêu KPI của dự án được mô tả trong Bảng \ref{tab:table_input_thongtinchitieukpi}
         \begin{table} [htbp]
-            \caption{Đầu vào thông tin chung về danh sách nhân viên}
+            \caption{Đầu vào thông tin chung về chỉ tiêu KPI}
             \centering
             \begin{tabular}{p{0.22\linewidth} p{0.3\linewidth} p{0.53\linewidth}} 
                 \toprule
-                \multicolumn{3}{c}{\textbf{Nhân viên} \textit{$E_{i}\epsilon E$}}\\
-                \textbf{ID} & $E_{i}^{id}$ & 1\\ 
-                \textbf{Họ và tên} & $E_{i}^n$ & Nguyễn Văn A\\ 
-                \textbf{Chức vụ} & $E_{i}^p$ & Trưởng nhóm\\ 
-                \textbf{Bộ năng lực} & $E_{i}^{skills} = \{S_i\}$ & \\
-                \textbf{Danh sách dự án tham gia} & $P_{assign} = \{P_i\}$ & \\ 
+                \multicolumn{3}{c}{\textbf{Chỉ tiêu KPI} \textit{$K_{i}\epsilon K$}}\\
+                \textbf{ID} & $K_i^{id}$ & 1\\ 
+                \textbf{Tên KPI} & $K_i^n$ & Phân tích, phát triển chức năng, mô-đun\\
+                \textbf{Tiêu chí đánh giá} & $K_i^c$ & Số lượng mô-đun hoàn thành đúng tiến độ\\
+                \textbf{Đơn vị giá trị } & $K_i^u$ & mô-đun\\
+                \textbf{Tổng giá trị giao} & $K_i^total$ & 100\%\\ 
+                \textbf{Giá trị cần đạt} & $K_i^require$ & 80\%\\
+                \textbf{Giá trị KPI mục tiêu} & $K_i^tv$ & 0.8\\
                 \bottomrule             
             \end{tabular}
-            \label{tab:table_input_thongtinnhanvien}
+            \label{tab:table_input_thongtinchitieukpi}
         \end{table}
+\begin{table} [htbp]
+    \caption{Đầu vào danh sách công việc trong dự án}
+    {\begin{tabular}{>{\raggedright\arraybackslash}p{0.26\linewidth}>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.5\linewidth}} \toprule
+         \multicolumn{3}{c}{\textbf{Công việc} \textit{P}}\\ %\midrule 
+         Tên công việc& $T_i^n$ &Dựng trang thống kê dự án\\ 
+         Mã công việc&$T_i^c$ &A4\\   
+         Thẻ công việc (tags) &$T_i^{tags}$ &frontend\\   
+         Công việc tiền nhiệm& $T_i^{p}=\{t_i\} \subseteq \{T_i^c\}$&A2, A3\\   
+         Ước tính thời gian thực hiện& $T_i^d$ &3 ngày\\   
+         Yêu cầu năng lực nhân viên& $re_i$ & (1, Lập trình viên, (Back-end, thành thạo), bắt buộc)\\   
+         Yêu cầu năng lực tài sản& $ra_i $ & (2, Laptop, {(RAM, 32GB), (Disk, 100GB)}, tùy chọn)\\   
+         KPI tương ứng công việc& $T_i^{kpi}$ &\\   \midrule  
+         \multicolumn{3}{c}{\textbf{Yêu cầu về năng lực nhân viên} $re_{ij}= (q, \{(re_{ij}^{qa}, re_{ij}^{qv})\}, o) \in re_i$}\\ %\midrule  
+         Số lượng&$ra_i^{n}$ &1\\   
+         Vai trò &$ra_i^t$& Lập trình viên\\   
+         Năng lực yêu cầu &$re_{ij}^{qa}$ &Backend\\   
+         Giá trị năng lực yêu cầu&$re_{ij}^{qv}$ &Thành thạo\\   
+         Loại yêu cầu&$ra_i^{rt}$ &Bắt buộc\\ \midrule
+         \multicolumn{3}{c}{\textbf{Yêu cầu về năng lực tài sản} $ra_{ij} = (q, \{(ra_{ij}^{qa}, ra_{ij}^{qv})\}, o) \in ra_i$}\\   %\midrule
+         Số lượng&$ra_{ij}^{n}$ &1\\   
+         Vai trò&$ra_{ij}^t$ &Laptop\\   
+         Năng lực yêu cầu &$ra_{ij}^{qa}$ &RAM\\   
+         Giá trị năng lực yêu cầu&$ra_{ij}^{qv}$ &32GB\\   
+         Loại yêu cầu&$ra_{ij}^{rt}$ &Bắt buộc\\   \midrule         
+         \multicolumn{3}{c}{\textbf{KPI tương ứng với task} $T_i^{kpi}=(k_i^{id}, k_i^{w})$}\\ %  \midrule
+         ID của KPI&$k_i^{id} \in \{k_i\}$& 1 \\  
+         Trọng số &$k_i^{w}$ &0.125\\ 
+         \bottomrule             
+    \end{tabular}}
+    \label{tab:table_input_task_list}
+\end{table}
 
-\subsubsection{Công việc}
-Thông tin về công việc kèm theo yêu cầu được mô tả trong Bảng \ref{tab:table_input_thongtincongviec}
-        \begin{table} [htbp]
-            \caption{Đầu vào thông tin chung về danh sách công việc}
-            \centering
-            \begin{tabular}{p{0.22\linewidth} p{0.3\linewidth} p{0.53\linewidth}} 
-                \toprule
-                \multicolumn{3}{c}{\textbf{Công việc} \textit{$T_{i}\epsilon T$}}\\
-                \textbf{ID} & $T_{i}^{id}$ & 1\\ 
-                \textbf{Tên công việc} & $T_{i}^n$ & Phân tích yêu cầu\\ 
-                \textbf{Mô tả} & $T_{i}^d$ & Phân tích yêu cầu của khách hàng\\ 
-                \textbf{Thời gian bắt đầu dự kiến} & $T_{i}^s$ & 8:00 01/08/2024\\ 
-                \textbf{Thời gian kết thúc dự kiến} & $T_{i}^e$ & 8:00 01/11/2024\\ 
-                \textbf{Người thực hiện} & $T_{i}^{assignee}$ & $E_{i}$\\ 
-                \textbf{Danh sách phân đoạn} & $T_{i}^{segments} = \{S_i\}$ & \\ 
-                \bottomrule             
-            \end{tabular}
-            \label{tab:table_input_thongtincongviec}
-        \end{table}
+
+    \begin{table} [htbp]
+        \caption{Đầu vào danh sách nhân viên tham gia dự án}
+        {\begin{tabular}{>{\raggedright\arraybackslash}p{0.32\linewidth}>{\raggedright\arraybackslash}p{0.12\linewidth}>{\raggedright\arraybackslash}p{0.57\linewidth}} \toprule
+             \multicolumn{3}{c}{\textbf{Tài nguyên} $E_i \in E$}\\ %\midrule
+            %\textbf{Thuộc tính}& \textbf{Ký hiệu}&\textbf{Ví dụ}\\ \midrule 
+             ID& $E_i^{id}$&H0001\\   
+            Tên tài nguyên& $E_i^n$ &Nguyễn Văn M\\  
+            Mã tài nguyên&$E_i^c$ &SW20210901\\   
+            Loại tài nguyên& $E_i^t$& \{Nhân viên, Chuyên gia ATTT, ...\}\\  
+            Chi phí vận hành / lương & $E_i^s$&10,000,000 VNĐ\\  
+            Tập năng lực & $E_i^q=\{E_{ij}^q\}$&\\  \midrule
+            \multicolumn{3}{c}{\textbf{Năng lực} $E_{ij}^q = (E_{ij}^{qa}, E_{ij}^{qv}) \in E_i^q$}\\ %\hline 
+            %\textbf{Thuộc tính}& \textbf{Ký hiệu}&\textbf{Ví dụ}\\ \hline 
+            Tên năng lực& $E_{ij}^{qa}$&Backend\\  
+            Giá trị năng lực& $E_{ij}^{qv}$&Chuyên nghiệp\\ 
+            Tập kinh nghiệm & $E_i^q=\{E_{ij}^q\}$&\\  \midrule
+            \multicolumn{3}{c}{\textbf{Kinh nghiệm} $E_{ij}^q = (E_{ij}^{qa}, E_{ij}^{qv}) \in E_i^q$}\\ %\hline 
+           % \textbf{Thuộc tính}& \textbf{Ký hiệu}&\textbf{Ví dụ}\\ \hline 
+            Tên kinh nghiệm (tag) & $E_{ij}^{qa}$&Lập trình C\\  
+            Hiệu suất thực hiện trong quá khứ & $E_{ij}^{qv}$&0.8\\ 
+             \bottomrule             
+        \end{tabular}}
+        %\tabnote{\textsuperscript{a}This footnote shows how to include footnotes to a table if required.}
+        \label{tab:table_resource}
+    \end{table}
+
 
 
 \end{document}

@@ -2,13 +2,15 @@
 const fs = require('fs');
 const ExcelJS = require('exceljs');
 
-const { allTasksOutOfProject } = require('../data/taskOutofProject');
-const { allTasksInPast } = require('../data/taskInPast');
+const { allTasksOutOfProject } = require('./data/taskOutofProject');
+const { allTasksInPast } = require('./data/taskInPast');
 const { proposalForProjectWithHS_Base, getTimeForProject } = require('./hs_helper');
 
 async function testDLHS() {
   const { project, assetHasKPIWeight, DLHS_Arguments, HS_Arguments } = require('./input')
   
+
+  console.log("project: ", project)
   const start = performance.now()
   let testResult = proposalForProjectWithHS_Base(project, allTasksInPast, allTasksOutOfProject, HS_Arguments, assetHasKPIWeight)
   const end = performance.now()

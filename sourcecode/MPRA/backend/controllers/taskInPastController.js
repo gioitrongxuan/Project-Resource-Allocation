@@ -87,10 +87,10 @@ exports.readServerFileTaskInPast = (req, res) => {
             if (!projects.some(p => p.projectKey === row['Project key'])) {
             projects.push({
                 id: projectId++, // Assign and increment the project ID
-                projectKey: row['Project key'] || '',
-                projectName: row['Project name'] || '',
+                name: row['Project name'] || '',
                 projectType: row['Project type'] || '',
-                projectLead: row['Project lead'] || '',
+                projectManager: row['Project lead'] || '',
+                description: row['Project description'] || '',
             });
             }
 
@@ -100,14 +100,7 @@ exports.readServerFileTaskInPast = (req, res) => {
                 code: row['Issue key'] || '',
                 name: row['Summary'] || '',
                 description: row['Description'] || '',
-                parentId: row['Parent id'] || '',
-                taskType: row['Issue Type'] || '',
-                status: row['Status'] || '',
-                projectKey: row['Project key'] || '',
-                priority: row['Priority'] || '',
-                resolution: row['Resolution'] || '',
                 startTime: row['Created'] || '',
-                updated: row['Updated'] || '',
                 endTime: row['Resolved'] || '',
                 assignee: row['Assignee'] ,
                 estimateNormalTime: row['Estimated time'] || (new Date(row['Resolved']) - new Date(row['Created']))/1000/60/60/24,

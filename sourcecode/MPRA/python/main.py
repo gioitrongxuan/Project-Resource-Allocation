@@ -18,21 +18,18 @@ app.add_middleware(
 )
 
 
-# Load mô hình NLP
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Định nghĩa nhóm kỹ năng + từ khóa
 skills = {
-    "Backend": ["API", "microservice", "RESTful", "backend", "upstream", "java", "amq", "kafka", "spring", "hibernate", "jpa", "algorithm"],
-    "Frontend": ["React", "Vue", "UI/UX", "console", "frontend", "web", "javascript", "html", "css"],
-    "Database": ["SQL", "NoSQL", "database", "query", "data warehouse"],
-    "DevOps": ["CI/CD", "Docker", "Kubernetes", "cloud", "infrastructure", "log", "info"],
-    "AI/ML": ["machine learning", "deep learning", "AI", "data science", "ML pipeline"],
-    "Testing": ["test", "systemtest", "automation", "unit test", "integration test"],
-    "Issue Tracking": ["issue", "github", "jira", "bug tracking"]
+    "backend": ["API", "microservice", "RESTful", "backend", "upstream", "java", "amq", "kafka", "spring", "hibernate", "jpa", "algorithm"],
+    "frontend": ["React", "Vue", "UI/UX", "console", "frontend", "web", "javascript", "html", "css"],
+    "database": ["SQL", "NoSQL", "database", "query", "data warehouse"],
+    "devops": ["CI/CD", "Docker", "Kubernetes", "cloud", "infrastructure", "log", "info"],
+    "ai_ml": ["machine learning", "deep learning", "AI", "data science", "ML pipeline"],
+    "testing": ["test", "systemtest", "automation", "unit test", "integration test"],
+    "issue_tracking": ["issue", "github", "jira", "bug tracking"]
 }
 
-# Tạo vector trung bình cho từng nhóm kỹ năng
 skill_vectors = {}
 for skill, keywords in skills.items():
     embeddings = model.encode(keywords)
@@ -98,7 +95,57 @@ def analyze_tasks(tasks: List[TaskInput]):
             for skill in skill_names:
                 employee_scores_summary[emp][skill] = round(employee_scores_summary[emp][skill] / count, 2)
 
+    all_employee_scores = []
+    for emp, qualities in employee_scores_summary.items():
+        total_score = sum(qualities.values())
+        avg_score = total_score / len(qualities)
+
+        # Tính level theo avg
+        if avg_score >= 4.5:
+            level = 5
+        elif avg_score >= 3.5:
+            level = 4
+        elif avg_score >= 2.5:
+            level = 3
+        elif avg_score >= 1.5:
+            level = 2
+        else:
+            level = 1
+
+        # Suy ra costPerHour
+        costPerHour = round(level * 2.5, 2)
+
+        # Tìm skill cao nhất
+        top_skill = max(qualities, key=qualities.get)
+
+        # Gán position theo skill nổi bật
+        if top_skill in ["backend", "frontend", "database"]:
+            position = "Dev"
+        elif top_skill == "testing":
+            position = "Tester"
+        elif top_skill == "issue_tracking":
+            position = "QA"
+        elif top_skill == "devops":
+            position = "DevOps"
+        elif top_skill == "ai_ml":
+            position = "AI Engineer"
+        else:
+            position = "Staff"
+
+        employee = {
+            "id": hash(emp) % 10000,
+            "name": emp,
+            "employeeNumber": f"MS2024{str(hash(emp) % 1000).zfill(3)}",
+            "position": position,
+            "tags": [],
+            "level": level,
+            "costPerHour": costPerHour,
+            "qualities": qualities
+        }
+        all_employee_scores.append(employee)
+
     return {
         "results": all_results,
-        "all_employee_scores": employee_scores_summary
+        "all_employee_scores": all_employee_scores
     }
+

@@ -1,6 +1,19 @@
 const mainMRA = (projects, employees, assets, kpiTargets) => {
-    // Bước 1: Sắp xếp thứ tự tô-pô cho từng dự án
-    //  Tasks: [{ id: 1, 
+    // Bước 1: Sắp xếp thứ tự tô-pô cho từng dự án\
+    // //  Tasks: [{ 
+    //       id:
+    //       code: "ENTMQMAAS-536.6",
+    //       name: "As a Tenant Admin I want to Create an address space through the service catalog.6",
+    //         projectKey: "ENTMQMAAS_5xxxx",
+    //         preceedingTasks: ["ENTMQMAAS-505.6"],
+    //         startTime: "2019-11-29T05:44:52.428Z",
+    //         endTime: "2019-11-30T05:06:17.142Z",
+    //         kpiInTask: kpiC,
+    //         taskKPIWeight:
+    //         requireAssignee :{
+    //            key: value,
+    //            key: value
+    //         }
     const topologicalSort = (tasks) => {
         const indegree = new Map(); // Lưu số lượng cạnh vào của mỗi task
         const graph = new Map(); // Biểu đồ lưu các task và các cạnh
@@ -15,10 +28,12 @@ const mainMRA = (projects, employees, assets, kpiTargets) => {
 
         // Xây dựng đồ thị và cập nhật số lượng cạnh vào
         tasks.forEach(task => {
-            task.predecessors.forEach(pre => {
-                graph.get(pre).push(task.id);
-                indegree.set(task.id, indegree.get(task.id) + 1);
-            });
+            if (task.preceedingTasks) {
+                task.preceedingTasks.forEach(pre => {
+                    graph.get(pre).push(task.id);
+                    indegree.set(task.id, indegree.get(task.id) + 1);
+                });
+            }
         });
 
         // Thêm các task không có cạnh vào vào hàng đợi
@@ -42,7 +57,7 @@ const mainMRA = (projects, employees, assets, kpiTargets) => {
             throw new Error("Phát hiện chu trình trong các task của dự án");
         }
 
-        return result;
+        return result.map(taskId => tasks.find(task => task.id === taskId));
     };
 
     const sortedTasksByProject = {};
