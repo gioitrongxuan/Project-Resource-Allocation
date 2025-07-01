@@ -116,7 +116,7 @@ exports.readServerFile = (req, res) => {
                 }
             });
                                // Filter out empty employees before saving
-                                employees = employee.filter(emp => emp.name && emp.name.trim() !== '');
+             employees = employee.filter(emp => emp.name && emp.name.trim() !== '');
         });
     });
 

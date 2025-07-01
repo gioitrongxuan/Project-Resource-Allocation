@@ -1,0 +1,8214 @@
+[
+  {
+    "id": 13737484,
+    "code": "ENTMQMAAS-406.1",
+    "name": "[#972] : Make global-max-size parameter configurable via template/plan.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.6060185185185185,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.025551
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13737430,
+    "code": "ENTMQMAAS-400.1",
+    "name": "[#795] : System-tests: Enable authentication in marathon tests.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.2594618055555556,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.002609
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 14737430,
+    "code": "ENTMQMAAS-400.2",
+    "name": "[#795] : System-tests: Enable authentication in marathon tests.2",
+    "preceedingTasks": [
+      13737484,
+      13737430
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.10674603174603176,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.022015
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13738314,
+    "code": "ENTMQMAAS-416.1",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.1",
+    "preceedingTasks": [
+      14737430
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.01423611111111111,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.012353
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13738369,
+    "code": "ENTMQMAAS-417.1",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.1",
+    "preceedingTasks": [
+      13738314
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.016087962962962964,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.013126
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14738314,
+    "code": "ENTMQMAAS-416.2",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.2",
+    "preceedingTasks": [
+      13738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.20375,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.02351
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 14738369,
+    "code": "ENTMQMAAS-417.2",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.18944444444444444,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.012928
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 15738369,
+    "code": "ENTMQMAAS-417.3",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.3",
+    "preceedingTasks": [
+      14738314,
+      14738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.28604166666666664,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.00135
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13738609,
+    "code": "ENTMQMAAS-426.1",
+    "name": "[#1034] : system-tests: create test for REST API - address resource required params are missing.1",
+    "preceedingTasks": [
+      13737492,
+      15738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.28604166666666664,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.016942
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13738628,
+    "code": "ENTMQMAAS-428.1",
+    "name": "[#1029] : system-tests: modify authentication tests to create multiple address-spaces in one request.1",
+    "preceedingTasks": [
+      13737483,
+      13738609
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.28604166666666664,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.007979
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13738631,
+    "code": "ENTMQMAAS-431.1",
+    "name": "[#1036] : system-tests: create new test for address-space endpoints \\\"host\\\".1",
+    "preceedingTasks": [
+      13738628
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.28604166666666664,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.000736
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13738629,
+    "code": "ENTMQMAAS-429.1",
+    "name": "[#1031] : system-tests: create new test for replace address-space list.1",
+    "preceedingTasks": [
+      13738631
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.28604166666666664,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.001602
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13738634,
+    "code": "ENTMQMAAS-434.1",
+    "name": "[#1040] : system-tests: create new test that verify that returned restapi routes are reachable.1",
+    "preceedingTasks": [
+      13738629
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.28604166666666664,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.012461
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13737483,
+    "code": "ENTMQMAAS-405.1",
+    "name": "[#949] : agent: Results count is not set correctly after refresh the page.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.3904166666666666,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.02274
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 13737485,
+    "code": "ENTMQMAAS-407.1",
+    "name": "[#973] : Configure per-address settings for each address created on broker.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.3904166666666666,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.019164
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 13737492,
+    "code": "ENTMQMAAS-410.1",
+    "name": "Docs: how to manage user permissions.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.7848958333333333,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.007322
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 13737495,
+    "code": "ENTMQMAAS-411.1",
+    "name": "Docs: document the sign-up process for beta.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.7848958333333333,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.018262
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 14737484,
+    "code": "ENTMQMAAS-406.2",
+    "name": "[#972] : Make global-max-size parameter configurable via template/plan.2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.6422222222222222,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.022153
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13738010,
+    "code": "ENTMQMAAS-413.1",
+    "name": "[#1009] : Make resync interval in controllers configurable.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.6422222222222222,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.000421
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13738011,
+    "code": "ENTMQMAAS-414.1",
+    "name": "[#1011] : Separata status check from controller resync.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.6422222222222222,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.005124
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15737484,
+    "code": "ENTMQMAAS-406.3",
+    "name": "[#972] : Make global-max-size parameter configurable via template/plan.3",
+    "preceedingTasks": [
+      16738369,
+      13738608,
+      13738011
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.11782407407407407,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.011526
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 14738010,
+    "code": "ENTMQMAAS-413.2",
+    "name": "[#1009] : Make resync interval in controllers configurable.2",
+    "preceedingTasks": [
+      15737484
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.11782407407407407,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.016945
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 14738011,
+    "code": "ENTMQMAAS-414.2",
+    "name": "[#1011] : Separata status check from controller resync.2",
+    "preceedingTasks": [
+      14738010
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.11782407407407407,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.010459
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13739606,
+    "code": "ENTMQMAAS-435.1",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.1",
+    "preceedingTasks": [
+      14738011
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.11782407407407407,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.016676
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15738314,
+    "code": "ENTMQMAAS-416.3",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.3",
+    "preceedingTasks": [
+      14737484,
+      13738634
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.7602623456790122,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.007805
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13738605,
+    "code": "ENTMQMAAS-422.1",
+    "name": "[#1026] : System-tests: create test for REST API - GET | /v1/addresses/myspace/:name .1",
+    "preceedingTasks": [
+      13737485,
+      13737495,
+      15738314
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.7602623456790122,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003262
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13738610,
+    "code": "ENTMQMAAS-427.1",
+    "name": "[#1035] : system-tests: create set of tests for REST API - address resource optional params are missing.1",
+    "preceedingTasks": [
+      13738010,
+      13738605
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.7602623456790122,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.015043
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13738608,
+    "code": "ENTMQMAAS-425.1",
+    "name": "[#1033] : System-tests: create test for REST API - GET /v1/schema.1",
+    "preceedingTasks": [
+      13738610
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.7602623456790122,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.010486
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13738607,
+    "code": "ENTMQMAAS-424.1",
+    "name": "[#1028] : System-tests: create test for REST API - DELETE | /v1/addresses/myspace.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.7602623456790122,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.002393
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 14737485,
+    "code": "ENTMQMAAS-407.2",
+    "name": "[#973] : Configure per-address settings for each address created on broker.2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.7286458333333332,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.006916
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 16738369,
+    "code": "ENTMQMAAS-417.4",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.4",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.7882716049382715,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.003264
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14738609,
+    "code": "ENTMQMAAS-426.2",
+    "name": "[#1034] : system-tests: create test for REST API - address resource required params are missing.2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.7882716049382715,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.023465
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14738628,
+    "code": "ENTMQMAAS-428.2",
+    "name": "[#1029] : system-tests: modify authentication tests to create multiple address-spaces in one request.2",
+    "preceedingTasks": [
+      13739606,
+      14738609
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.7882716049382715,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.007484
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14738631,
+    "code": "ENTMQMAAS-431.2",
+    "name": "[#1036] : system-tests: create new test for address-space endpoints \\\"host\\\".2",
+    "preceedingTasks": [
+      13738607,
+      14738628
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.7882716049382715,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.003569
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14738629,
+    "code": "ENTMQMAAS-429.2",
+    "name": "[#1031] : system-tests: create new test for replace address-space list.2",
+    "preceedingTasks": [
+      14738631
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.7882716049382715,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.022721
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14738634,
+    "code": "ENTMQMAAS-434.2",
+    "name": "[#1040] : system-tests: create new test that verify that returned restapi routes are reachable.2",
+    "preceedingTasks": [
+      14738629
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.7882716049382715,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.001893
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 16738314,
+    "code": "ENTMQMAAS-416.4",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.4",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.6613888888888889,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.001093
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 17738369,
+    "code": "ENTMQMAAS-417.5",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.5",
+    "preceedingTasks": [
+      15738010,
+      14737485,
+      14738634
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.021875000000000002,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.007557
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 15738609,
+    "code": "ENTMQMAAS-426.3",
+    "name": "[#1034] : system-tests: create test for REST API - address resource required params are missing.3",
+    "preceedingTasks": [
+      17738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.021875000000000002,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003422
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 15738631,
+    "code": "ENTMQMAAS-431.3",
+    "name": "[#1036] : system-tests: create new test for address-space endpoints \\\"host\\\".3",
+    "preceedingTasks": [
+      15738609
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.021875000000000002,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.006725
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 15738629,
+    "code": "ENTMQMAAS-429.3",
+    "name": "[#1031] : system-tests: create new test for replace address-space list.3",
+    "preceedingTasks": [
+      15738631
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.021875000000000002,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.017634
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 15738634,
+    "code": "ENTMQMAAS-434.3",
+    "name": "[#1040] : system-tests: create new test that verify that returned restapi routes are reachable.3",
+    "preceedingTasks": [
+      15738629
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.021875000000000002,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.024153
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14737492,
+    "code": "ENTMQMAAS-410.2",
+    "name": "Docs: how to manage user permissions.2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.341666666666667,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.015338
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 16737484,
+    "code": "ENTMQMAAS-406.4",
+    "name": "[#972] : Make global-max-size parameter configurable via template/plan.4",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.8543055555555555,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.004889
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15738010,
+    "code": "ENTMQMAAS-413.3",
+    "name": "[#1009] : Make resync interval in controllers configurable.3",
+    "preceedingTasks": [
+      16737484
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.8543055555555555,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.009466
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15738011,
+    "code": "ENTMQMAAS-414.3",
+    "name": "[#1011] : Separata status check from controller resync.3",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.8543055555555555,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.017162
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 14739606,
+    "code": "ENTMQMAAS-435.2",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.2",
+    "preceedingTasks": [
+      16738314,
+      15738634,
+      15738011
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.8543055555555555,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003788
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 17737484,
+    "code": "ENTMQMAAS-406.5",
+    "name": "[#972] : Make global-max-size parameter configurable via template/plan.5",
+    "preceedingTasks": [
+      14739606
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.17002314814814815,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.024777
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 16738010,
+    "code": "ENTMQMAAS-413.4",
+    "name": "[#1009] : Make resync interval in controllers configurable.4",
+    "preceedingTasks": [
+      17737484
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.17002314814814815,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.020798
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 16738011,
+    "code": "ENTMQMAAS-414.4",
+    "name": "[#1011] : Separata status check from controller resync.4",
+    "preceedingTasks": [
+      16738010
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.17002314814814815,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.004819
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15739606,
+    "code": "ENTMQMAAS-435.3",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.3",
+    "preceedingTasks": [
+      16738609,
+      16738011
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.17002314814814815,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.004506
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13740288,
+    "code": "ENTMQMAAS-450.1",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.1",
+    "preceedingTasks": [
+      15739606
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.17002314814814815,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.01304
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 17738314,
+    "code": "ENTMQMAAS-416.5",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.5",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.4675925925925926,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.009172
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13740031,
+    "code": "ENTMQMAAS-438.1",
+    "name": "[#1073] : system-tests: Create test for check if size of messages was exceeded.1",
+    "preceedingTasks": [
+      17738314
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.4675925925925926,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.006256
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 18738369,
+    "code": "ENTMQMAAS-417.6",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.6",
+    "preceedingTasks": [
+      14737492
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.4009920634920634,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.016527
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 16738609,
+    "code": "ENTMQMAAS-426.4",
+    "name": "[#1034] : system-tests: create test for REST API - address resource required params are missing.4",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.4009920634920634,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.020868
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 16738631,
+    "code": "ENTMQMAAS-431.4",
+    "name": "[#1036] : system-tests: create new test for address-space endpoints \\\"host\\\".4",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.4009920634920634,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.007978
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 16738629,
+    "code": "ENTMQMAAS-429.4",
+    "name": "[#1031] : system-tests: create new test for replace address-space list.4",
+    "preceedingTasks": [
+      13740288,
+      16738631
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.4009920634920634,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.007582
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 16738634,
+    "code": "ENTMQMAAS-434.4",
+    "name": "[#1040] : system-tests: create new test that verify that returned restapi routes are reachable.4",
+    "preceedingTasks": [
+      16738629
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.4009920634920634,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.012508
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 18738314,
+    "code": "ENTMQMAAS-416.6",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.6",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.7851388888888887,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.005194
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 14740031,
+    "code": "ENTMQMAAS-438.2",
+    "name": "[#1073] : system-tests: Create test for check if size of messages was exceeded.2",
+    "preceedingTasks": [
+      18738314
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.7851388888888887,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.011728
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 19738369,
+    "code": "ENTMQMAAS-417.7",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.7",
+    "preceedingTasks": [
+      13740031,
+      16738634
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.6851851851851851,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.004847
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 17738609,
+    "code": "ENTMQMAAS-426.5",
+    "name": "[#1034] : system-tests: create test for REST API - address resource required params are missing.5",
+    "preceedingTasks": [
+      19738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.6851851851851851,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.008952
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 17738631,
+    "code": "ENTMQMAAS-431.5",
+    "name": "[#1036] : system-tests: create new test for address-space endpoints \\\"host\\\".5",
+    "preceedingTasks": [
+      17738609
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.6851851851851851,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.012973
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 17738629,
+    "code": "ENTMQMAAS-429.5",
+    "name": "[#1031] : system-tests: create new test for replace address-space list.5",
+    "preceedingTasks": [
+      17738631
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.6851851851851851,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.020819
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 17738634,
+    "code": "ENTMQMAAS-434.5",
+    "name": "[#1040] : system-tests: create new test that verify that returned restapi routes are reachable.5",
+    "preceedingTasks": [
+      17738629
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.6851851851851851,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003276
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 20738369,
+    "code": "ENTMQMAAS-417.8",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.8",
+    "preceedingTasks": [
+      17738010,
+      14740031,
+      17738634
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.15458333333333332,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.014287
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 18738609,
+    "code": "ENTMQMAAS-426.6",
+    "name": "[#1034] : system-tests: create test for REST API - address resource required params are missing.6",
+    "preceedingTasks": [
+      20738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.15458333333333332,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.008401
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 18738631,
+    "code": "ENTMQMAAS-431.6",
+    "name": "[#1036] : system-tests: create new test for address-space endpoints \\\"host\\\".6",
+    "preceedingTasks": [
+      18738609
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.15458333333333332,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.007175
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 18738634,
+    "code": "ENTMQMAAS-434.6",
+    "name": "[#1040] : system-tests: create new test that verify that returned restapi routes are reachable.6",
+    "preceedingTasks": [
+      18738631
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.15458333333333332,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.015089
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 19738314,
+    "code": "ENTMQMAAS-416.7",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.7",
+    "preceedingTasks": [
+      18738634,
+      17738011
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.8204861111111111,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.00769
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 15737485,
+    "code": "ENTMQMAAS-407.3",
+    "name": "[#973] : Configure per-address settings for each address created on broker.3",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 4.95462962962963,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.001166
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 16737485,
+    "code": "ENTMQMAAS-407.4",
+    "name": "[#973] : Configure per-address settings for each address created on broker.4",
+    "preceedingTasks": [
+      20738314,
+      15737485
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.1708333333333333,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.018254
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 17738010,
+    "code": "ENTMQMAAS-413.5",
+    "name": "[#1009] : Make resync interval in controllers configurable.5",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.1622685185185184,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.024776
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 17738011,
+    "code": "ENTMQMAAS-414.5",
+    "name": "[#1011] : Separata status check from controller resync.5",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.1622685185185184,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.009416
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 16739606,
+    "code": "ENTMQMAAS-435.4",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.4",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.1622685185185184,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.016948
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 14740288,
+    "code": "ENTMQMAAS-450.2",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.2",
+    "preceedingTasks": [
+      16739606
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.1622685185185184,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.014298
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13740575,
+    "code": "ENTMQMAAS-452.1",
+    "name": "[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.1622685185185184,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.010646
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 21738369,
+    "code": "ENTMQMAAS-417.9",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.9",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 3.6645833333333333,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.009777
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 22738369,
+    "code": "ENTMQMAAS-417.10",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.10",
+    "preceedingTasks": [
+      16737485,
+      13740575,
+      21738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.2039351851851852,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.002217
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13742584,
+    "code": "ENTMQMAAS-466.1",
+    "name": "[#1123] :  system-tests: new test for auto scaleup after manual scaledown.1",
+    "preceedingTasks": [
+      22738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.2039351851851852,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.001239
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 20738314,
+    "code": "ENTMQMAAS-416.8",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.8",
+    "preceedingTasks": [
+      14740288
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 1.1269444444444445,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.022448
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13742276,
+    "code": "ENTMQMAAS-455.1",
+    "name": "[#1115] : New system-tests for websocket.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 1.1269444444444445,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.013091
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 23738369,
+    "code": "ENTMQMAAS-417.11",
+    "name": "[#1021] : system-tests: modify QueueTest#testScaledown.11",
+    "preceedingTasks": [
+      13742276
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.2943452380952378,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.022044
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14742584,
+    "code": "ENTMQMAAS-466.2",
+    "name": "[#1123] :  system-tests: new test for auto scaleup after manual scaledown.2",
+    "preceedingTasks": [
+      23738369
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.2943452380952378,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.023606
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13742677,
+    "code": "ENTMQMAAS-469.1",
+    "name": "[#1124] : system-tests: review of list of disabled tests from March and create new one for April.1",
+    "preceedingTasks": [
+      14742584
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.2943452380952378,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.005547
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13742678,
+    "code": "ENTMQMAAS-470.1",
+    "name": "system-tests: unclosed archives exception in Jenkins when core-dump is stored.1",
+    "preceedingTasks": [
+      13742677
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.2943452380952378,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.009317
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13742679,
+    "code": "ENTMQMAAS-471.1",
+    "name": "[#1128] : system-tests: Remove logs collecting for pods/statefull-sets.1",
+    "preceedingTasks": [
+      18738010,
+      13742678
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.2943452380952378,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.000838
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 13742683,
+    "code": "ENTMQMAAS-475.1",
+    "name": "[#1125] : system-tests: Rewrite tests to use Dependency injection.1",
+    "preceedingTasks": [
+      21738314,
+      13742679
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.2943452380952378,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.018182
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14742677,
+    "code": "ENTMQMAAS-469.2",
+    "name": "[#1124] : system-tests: review of list of disabled tests from March and create new one for April.2",
+    "preceedingTasks": [
+      18738011,
+      13742683,
+      14742276
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.80125,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.016042
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14742678,
+    "code": "ENTMQMAAS-470.2",
+    "name": "system-tests: unclosed archives exception in Jenkins when core-dump is stored.2",
+    "preceedingTasks": [
+      14742677
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.80125,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.006579
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14742679,
+    "code": "ENTMQMAAS-471.2",
+    "name": "[#1128] : system-tests: Remove logs collecting for pods/statefull-sets.2",
+    "preceedingTasks": [
+      13742682,
+      14742678
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.80125,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.007941
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 14742683,
+    "code": "ENTMQMAAS-475.2",
+    "name": "[#1125] : system-tests: Rewrite tests to use Dependency injection.2",
+    "preceedingTasks": [
+      14742679
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 0.80125,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.007002
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 21738314,
+    "code": "ENTMQMAAS-416.9",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.9",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 1.8850198412698413,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.013098
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 14742276,
+    "code": "ENTMQMAAS-455.2",
+    "name": "[#1115] : New system-tests for websocket.2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 1.8850198412698413,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.012851
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13742682,
+    "code": "ENTMQMAAS-474.1",
+    "name": "[#1126] : system-tests: use multi-asserts instead of single asserts.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 1.8850198412698413,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.023684
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13742680,
+    "code": "ENTMQMAAS-472.1",
+    "name": "[#1127] : system-tests: Use ENUM instead of string tags.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 1.8850198412698413,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.015423
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 22738314,
+    "code": "ENTMQMAAS-416.10",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.10",
+    "preceedingTasks": [
+      17739606,
+      14742683,
+      13742680
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.1590277777777778,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.01252
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 15742276,
+    "code": "ENTMQMAAS-455.3",
+    "name": "[#1115] : New system-tests for websocket.3",
+    "preceedingTasks": [
+      22738314
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.1590277777777778,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.024294
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 14742680,
+    "code": "ENTMQMAAS-472.2",
+    "name": "[#1127] : system-tests: Use ENUM instead of string tags.2",
+    "preceedingTasks": [
+      15742276
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.1590277777777778,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.018012
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 23738314,
+    "code": "ENTMQMAAS-416.11",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.11",
+    "preceedingTasks": [
+      14742680,
+      17737485
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.501736111111111,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.016494
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 16742276,
+    "code": "ENTMQMAAS-455.4",
+    "name": "[#1115] : New system-tests for websocket.4",
+    "preceedingTasks": [
+      15740288,
+      23738314
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 0.501736111111111,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.02086
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 15742677,
+    "code": "ENTMQMAAS-469.3",
+    "name": "[#1124] : system-tests: review of list of disabled tests from March and create new one for April.3",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.5635416666666666,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.000245
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 15742678,
+    "code": "ENTMQMAAS-470.3",
+    "name": "system-tests: unclosed archives exception in Jenkins when core-dump is stored.3",
+    "preceedingTasks": [
+      15742677
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.5635416666666666,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.008599
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 15742683,
+    "code": "ENTMQMAAS-475.3",
+    "name": "[#1125] : system-tests: Rewrite tests to use Dependency injection.3",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.5635416666666666,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.01778
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 24738314,
+    "code": "ENTMQMAAS-416.12",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.12",
+    "preceedingTasks": [
+      15742678
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 1.0440972222222222,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.022663
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 13746088,
+    "code": "ENTMQMAAS-483.1",
+    "name": "[#1159] : System-tests: Improve waiting for webItems.1",
+    "preceedingTasks": [
+      14740575,
+      24738314
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 1.0440972222222222,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.018149
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 16742677,
+    "code": "ENTMQMAAS-469.4",
+    "name": "[#1124] : system-tests: review of list of disabled tests from March and create new one for April.4",
+    "preceedingTasks": [
+      15742683,
+      13746088
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.2659722222222223,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.019299
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 16742678,
+    "code": "ENTMQMAAS-470.4",
+    "name": "system-tests: unclosed archives exception in Jenkins when core-dump is stored.4",
+    "preceedingTasks": [
+      13742571,
+      16742677
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 1.2659722222222223,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.006475
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 25738314,
+    "code": "ENTMQMAAS-416.13",
+    "name": "[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.13",
+    "preceedingTasks": [
+      16742678,
+      13742577
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "issue_tracking"
+    ],
+    "estimateTime": 2.628935185185185,
+    "requireAssign": {
+      "backend": 2.88,
+      "frontend": 2.27,
+      "database": 2.29,
+      "devops": 2.98,
+      "ai_ml": 2.49,
+      "testing": 2.85,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.013533
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "dkornel@redhat.com"
+  },
+  {
+    "id": 17742678,
+    "code": "ENTMQMAAS-470.5",
+    "name": "system-tests: unclosed archives exception in Jenkins when core-dump is stored.5",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 2.5565972222222224,
+    "requireAssign": {
+      "backend": 2.82,
+      "frontend": 2.05,
+      "database": 1.99,
+      "devops": 3,
+      "ai_ml": 2.21,
+      "testing": 2.89,
+      "issue_tracking": 3.02
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.019742
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "tkratky_jira"
+  },
+  {
+    "id": 18738010,
+    "code": "ENTMQMAAS-413.6",
+    "name": "[#1009] : Make resync interval in controllers configurable.6",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.223148148148148,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.015438
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 18738011,
+    "code": "ENTMQMAAS-414.6",
+    "name": "[#1011] : Separata status check from controller resync.6",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.223148148148148,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.000686
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 17739606,
+    "code": "ENTMQMAAS-435.5",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.5",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.223148148148148,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.014
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15740288,
+    "code": "ENTMQMAAS-450.3",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.3",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.223148148148148,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.017792
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 14740575,
+    "code": "ENTMQMAAS-452.2",
+    "name": "[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.223148148148148,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.007901
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13742576,
+    "code": "ENTMQMAAS-462.1",
+    "name": "[#1117] : Response code/payload of AddressController REST API POST/DELETE operations.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.223148148148148,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.004926
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13742577,
+    "code": "ENTMQMAAS-463.1",
+    "name": "[#1091] : Endpoints declaratively specified should be checked in status.1",
+    "preceedingTasks": [
+      13742576
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.223148148148148,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003633
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13742583,
+    "code": "ENTMQMAAS-465.1",
+    "name": "Install EnMasse on Bosch OpenShift Dedicated cluster.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.223148148148148,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.019093
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 17737485,
+    "code": "ENTMQMAAS-407.5",
+    "name": "[#973] : Configure per-address settings for each address created on broker.5",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 7.419305555555556,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003267
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 13742571,
+    "code": "ENTMQMAAS-457.1",
+    "name": "[#1096] : agent: use \\\"direction\\\" attribute instead of \\\"dir\\\" for autoLinks.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 7.419305555555556,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.012396
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 13742573,
+    "code": "ENTMQMAAS-459.1",
+    "name": "[#1084] : agent container: high load and memory issue with many addresses.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 7.419305555555556,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.008551
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 13742572,
+    "code": "ENTMQMAAS-458.1",
+    "name": "[#1097] : When creating many addresses at the same time, a few have missing autolinks.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 7.419305555555556,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.000624
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 19738010,
+    "code": "ENTMQMAAS-413.7",
+    "name": "[#1009] : Make resync interval in controllers configurable.7",
+    "preceedingTasks": [
+      25738314,
+      17742678,
+      13742583,
+      13742573
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.0098090277777778,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.017327
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 19738011,
+    "code": "ENTMQMAAS-414.7",
+    "name": "[#1011] : Separata status check from controller resync.7",
+    "preceedingTasks": [
+      19738010
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.0098090277777778,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.004473
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 18739606,
+    "code": "ENTMQMAAS-435.6",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.6",
+    "preceedingTasks": [
+      19738011
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.0098090277777778,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.01248
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 16740288,
+    "code": "ENTMQMAAS-450.4",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.4",
+    "preceedingTasks": [
+      18739606
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.0098090277777778,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.011604
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15740575,
+    "code": "ENTMQMAAS-452.3",
+    "name": "[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.3",
+    "preceedingTasks": [
+      16740288
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.0098090277777778,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.019545
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 14742576,
+    "code": "ENTMQMAAS-462.2",
+    "name": "[#1117] : Response code/payload of AddressController REST API POST/DELETE operations.2",
+    "preceedingTasks": [
+      15740575
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.0098090277777778,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.008797
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 14742577,
+    "code": "ENTMQMAAS-463.2",
+    "name": "[#1091] : Endpoints declaratively specified should be checked in status.2",
+    "preceedingTasks": [
+      14742576
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.0098090277777778,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.017585
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 20738010,
+    "code": "ENTMQMAAS-413.8",
+    "name": "[#1009] : Make resync interval in controllers configurable.8",
+    "preceedingTasks": [
+      13742572,
+      14742577
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.9518849206349203,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.009052
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 20738011,
+    "code": "ENTMQMAAS-414.8",
+    "name": "[#1011] : Separata status check from controller resync.8",
+    "preceedingTasks": [
+      20738010
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.9518849206349203,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.023801
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 19739606,
+    "code": "ENTMQMAAS-435.7",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.7",
+    "preceedingTasks": [
+      20738011
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.9518849206349203,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.011205
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 17740288,
+    "code": "ENTMQMAAS-450.5",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.5",
+    "preceedingTasks": [
+      19739606
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.9518849206349203,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.022385
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 16740575,
+    "code": "ENTMQMAAS-452.4",
+    "name": "[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.4",
+    "preceedingTasks": [
+      17740288
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.9518849206349203,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.01785
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15742576,
+    "code": "ENTMQMAAS-462.3",
+    "name": "[#1117] : Response code/payload of AddressController REST API POST/DELETE operations.3",
+    "preceedingTasks": [
+      16740575
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.9518849206349203,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.00016
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 15742577,
+    "code": "ENTMQMAAS-463.3",
+    "name": "[#1091] : Endpoints declaratively specified should be checked in status.3",
+    "preceedingTasks": [
+      15742576
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.9518849206349203,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.02159
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 18737485,
+    "code": "ENTMQMAAS-407.6",
+    "name": "[#973] : Configure per-address settings for each address created on broker.6",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 6.222685185185185,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.02399
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 14742572,
+    "code": "ENTMQMAAS-458.2",
+    "name": "[#1097] : When creating many addresses at the same time, a few have missing autolinks.2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 6.222685185185185,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.022223
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 20739606,
+    "code": "ENTMQMAAS-435.8",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.8",
+    "preceedingTasks": [
+      18737485,
+      15742577
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.1831944444444444,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.001742
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 18740288,
+    "code": "ENTMQMAAS-450.6",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.6",
+    "preceedingTasks": [
+      20739606
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.1831944444444444,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.008896
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 17740575,
+    "code": "ENTMQMAAS-452.5",
+    "name": "[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.5",
+    "preceedingTasks": [
+      18740288
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.1831944444444444,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.005167
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 16742576,
+    "code": "ENTMQMAAS-462.4",
+    "name": "[#1117] : Response code/payload of AddressController REST API POST/DELETE operations.4",
+    "preceedingTasks": [
+      17740575
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.1831944444444444,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.00138
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 16742577,
+    "code": "ENTMQMAAS-463.4",
+    "name": "[#1091] : Endpoints declaratively specified should be checked in status.4",
+    "preceedingTasks": [
+      16742576
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.1831944444444444,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.022552
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 21739606,
+    "code": "ENTMQMAAS-435.9",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.9",
+    "preceedingTasks": [
+      14742572,
+      16742577
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.0593749999999997,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.012629
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 19740288,
+    "code": "ENTMQMAAS-450.7",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.7",
+    "preceedingTasks": [
+      21739606
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.0593749999999997,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.012424
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 18740575,
+    "code": "ENTMQMAAS-452.6",
+    "name": "[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.6",
+    "preceedingTasks": [
+      19740288
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.0593749999999997,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.023503
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 17742577,
+    "code": "ENTMQMAAS-463.5",
+    "name": "[#1091] : Endpoints declaratively specified should be checked in status.5",
+    "preceedingTasks": [
+      18740575
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.0593749999999997,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.010349
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 22739606,
+    "code": "ENTMQMAAS-435.10",
+    "name": "[#1017] : Events sent to address of type queue not delivered after a while.10",
+    "preceedingTasks": [
+      15737492,
+      17742577
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.658333333333333,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.012828
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 20740288,
+    "code": "ENTMQMAAS-450.8",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.8",
+    "preceedingTasks": [
+      22739606
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.658333333333333,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.006331
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 19740575,
+    "code": "ENTMQMAAS-452.7",
+    "name": "[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.7",
+    "preceedingTasks": [
+      20740288
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.658333333333333,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.001211
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 19737485,
+    "code": "ENTMQMAAS-407.7",
+    "name": "[#973] : Configure per-address settings for each address created on broker.7",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 10.576736111111112,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.010351
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 21740288,
+    "code": "ENTMQMAAS-450.9",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.9",
+    "preceedingTasks": [
+      19740575
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 34.409375000000004,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.004525
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 20740575,
+    "code": "ENTMQMAAS-452.8",
+    "name": "[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.8",
+    "preceedingTasks": [
+      21740288
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 34.409375000000004,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.010702
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13738426,
+    "code": "ENTMQMAAS-419.1",
+    "name": "Remove 'docker' for the templates and images.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 223.73611111111111,
+    "requireAssign": {
+      "backend": 2.97,
+      "frontend": 2.6,
+      "database": 2.42,
+      "devops": 3.11,
+      "ai_ml": 2.48,
+      "testing": 1.77,
+      "issue_tracking": 2.85
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.014226
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "buschv"
+  },
+  {
+    "id": 15737492,
+    "code": "ENTMQMAAS-410.3",
+    "name": "Docs: how to manage user permissions.3",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 27.226302083333334,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.002237
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 13740087,
+    "code": "ENTMQMAAS-439.1",
+    "name": "Reference table for Developer role assumptions.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 27.226302083333334,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.011054
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 14740094,
+    "code": "ENTMQMAAS-440.2",
+    "name": "Reference table for Developer role assumptions.2",
+    "preceedingTasks": [
+      19737485,
+      13740087
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 27.226302083333334,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.016635
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 15740096,
+    "code": "ENTMQMAAS-441.3",
+    "name": "Reference table for Developer role assumptions.3",
+    "preceedingTasks": [
+      14740094
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 27.226302083333334,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.021169
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 16740098,
+    "code": "ENTMQMAAS-443.4",
+    "name": "Reference table for Developer role assumptions.4",
+    "preceedingTasks": [
+      20740575,
+      15740096
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 27.226302083333334,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.022436
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 13740105,
+    "code": "ENTMQMAAS-447.1",
+    "name": "Self-provision an address/destination.1",
+    "preceedingTasks": [
+      16740098
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 27.226302083333334,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.018474
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 17740087,
+    "code": "ENTMQMAAS-439.5",
+    "name": "Reference table for Developer role assumptions.5",
+    "preceedingTasks": [
+      13738426,
+      13740105
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.463988095238095,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.010998
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 18740094,
+    "code": "ENTMQMAAS-440.6",
+    "name": "Reference table for Developer role assumptions.6",
+    "preceedingTasks": [
+      17740087
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.463988095238095,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.013884
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 19740096,
+    "code": "ENTMQMAAS-441.7",
+    "name": "Reference table for Developer role assumptions.7",
+    "preceedingTasks": [
+      18740094
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.463988095238095,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.015293
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 20740098,
+    "code": "ENTMQMAAS-443.8",
+    "name": "Reference table for Developer role assumptions.8",
+    "preceedingTasks": [
+      19740096
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.463988095238095,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.014194
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 14740105,
+    "code": "ENTMQMAAS-447.2",
+    "name": "Self-provision an address/destination.2",
+    "preceedingTasks": [
+      20740098
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 2.463988095238095,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.017773
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 21740087,
+    "code": "ENTMQMAAS-439.9",
+    "name": "Reference table for Developer role assumptions.9",
+    "preceedingTasks": [
+      14740105
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 36.789351851851855,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.019969
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 22740094,
+    "code": "ENTMQMAAS-440.10",
+    "name": "Reference table for Developer role assumptions.10",
+    "preceedingTasks": [
+      21740087
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 36.789351851851855,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.010161
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 23740096,
+    "code": "ENTMQMAAS-441.11",
+    "name": "Reference table for Developer role assumptions.11",
+    "preceedingTasks": [
+      22740094
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 36.789351851851855,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.010754
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 24740098,
+    "code": "ENTMQMAAS-443.12",
+    "name": "Reference table for Developer role assumptions.12",
+    "preceedingTasks": [
+      23740096
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 36.789351851851855,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.005426
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 15740105,
+    "code": "ENTMQMAAS-447.3",
+    "name": "Self-provision an address/destination.3",
+    "preceedingTasks": [
+      24740098
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 36.789351851851855,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.003012
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 25740087,
+    "code": "ENTMQMAAS-439.13",
+    "name": "Reference table for Developer role assumptions.13",
+    "preceedingTasks": [
+      15740105
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.45777777777777784,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.01252
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 26740094,
+    "code": "ENTMQMAAS-440.14",
+    "name": "Reference table for Developer role assumptions.14",
+    "preceedingTasks": [
+      25740087
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.45777777777777784,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.02495
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 27740096,
+    "code": "ENTMQMAAS-441.15",
+    "name": "Reference table for Developer role assumptions.15",
+    "preceedingTasks": [
+      26740094
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.45777777777777784,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.009012
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 28740098,
+    "code": "ENTMQMAAS-443.16",
+    "name": "Reference table for Developer role assumptions.16",
+    "preceedingTasks": [
+      27740096
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.45777777777777784,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.024892
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 16740105,
+    "code": "ENTMQMAAS-447.4",
+    "name": "Self-provision an address/destination.4",
+    "preceedingTasks": [
+      28740098
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.45777777777777784,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.012165
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 17740105,
+    "code": "ENTMQMAAS-447.5",
+    "name": "Self-provision an address/destination.5",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 4.78125,
+    "requireAssign": {
+      "backend": 3.16,
+      "frontend": 2.58,
+      "database": 2.92,
+      "devops": 3.18,
+      "ai_ml": 2.72,
+      "testing": 1.81,
+      "issue_tracking": 2.93
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.018164
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-jmalloy"
+  },
+  {
+    "id": 22740288,
+    "code": "ENTMQMAAS-450.10",
+    "name": "[#1079] : standard-controller: is trying to connect to router which was already killed.10",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 504.9916666666666,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.14,
+      "database": 2.31,
+      "devops": 3.03,
+      "ai_ml": 2.35,
+      "testing": 1.73,
+      "issue_tracking": 2.81
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.004963
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "lulf@redhat.com"
+  },
+  {
+    "id": 13740112,
+    "code": "ENTMQMAAS-448.1",
+    "name": "Document how to delete a destination/address.1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 777.9812499999999,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.020945
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 14740112,
+    "code": "ENTMQMAAS-448.2",
+    "name": "Document how to delete a destination/address.2",
+    "preceedingTasks": [
+      17740105,
+      22740288,
+      13740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.9774305555555555,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.008237
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 15740112,
+    "code": "ENTMQMAAS-448.3",
+    "name": "Document how to delete a destination/address.3",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.1770833333333333,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.012571
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 20737485,
+    "code": "ENTMQMAAS-407.8",
+    "name": "[#973] : Configure per-address settings for each address created on broker.8",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 691.3756944444444,
+    "requireAssign": {
+      "backend": 3.04,
+      "frontend": 2.54,
+      "database": 2.45,
+      "devops": 3.16,
+      "ai_ml": 2.49,
+      "testing": 1.71,
+      "issue_tracking": 2.95
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.021989
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "gordonsim"
+  },
+  {
+    "id": 16740112,
+    "code": "ENTMQMAAS-448.4",
+    "name": "Document how to delete a destination/address.4",
+    "preceedingTasks": [
+      15740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.8899305555555557,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.002472
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 17740112,
+    "code": "ENTMQMAAS-448.5",
+    "name": "Document how to delete a destination/address.5",
+    "preceedingTasks": [
+      16740112,
+      20737485
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.08842592592592592,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.001769
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 18740112,
+    "code": "ENTMQMAAS-448.6",
+    "name": "Document how to delete a destination/address.6",
+    "preceedingTasks": [
+      17740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.39999999999999997,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.020123
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 19740112,
+    "code": "ENTMQMAAS-448.7",
+    "name": "Document how to delete a destination/address.7",
+    "preceedingTasks": [
+      18740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.1361111111111111,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003771
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 20740112,
+    "code": "ENTMQMAAS-448.8",
+    "name": "Document how to delete a destination/address.8",
+    "preceedingTasks": [
+      19740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.15434027777777778,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.014413
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 21740112,
+    "code": "ENTMQMAAS-448.9",
+    "name": "Document how to delete a destination/address.9",
+    "preceedingTasks": [
+      20740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.488425925925926,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.000938
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 22740112,
+    "code": "ENTMQMAAS-448.10",
+    "name": "Document how to delete a destination/address.10",
+    "preceedingTasks": [
+      21740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.026805555555555555,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.012276
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 23740112,
+    "code": "ENTMQMAAS-448.11",
+    "name": "Document how to delete a destination/address.11",
+    "preceedingTasks": [
+      22740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.7333333333333334,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.005763
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 24740112,
+    "code": "ENTMQMAAS-448.12",
+    "name": "Document how to delete a destination/address.12",
+    "preceedingTasks": [
+      23740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.3469907407407407,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.009284
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 25740112,
+    "code": "ENTMQMAAS-448.13",
+    "name": "Document how to delete a destination/address.13",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.2182291666666667,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.007479
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 26740112,
+    "code": "ENTMQMAAS-448.14",
+    "name": "Document how to delete a destination/address.14",
+    "preceedingTasks": [
+      25740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.07222222222222223,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.016053
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 27740112,
+    "code": "ENTMQMAAS-448.15",
+    "name": "Document how to delete a destination/address.15",
+    "preceedingTasks": [
+      26740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.11273148148148149,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.012641
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 28740112,
+    "code": "ENTMQMAAS-448.16",
+    "name": "Document how to delete a destination/address.16",
+    "preceedingTasks": [
+      27740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.027083333333333334,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.007988
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 13737477,
+    "code": "ENTMQMAAS-404.1",
+    "name": "Investigate what's needed for operations (logs/monitoring).1",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 818.8305555555556,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.42,
+      "database": 2.62,
+      "devops": 3.28,
+      "ai_ml": 2.86,
+      "testing": 2.3,
+      "issue_tracking": 3.4
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.017126
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rshelly"
+  },
+  {
+    "id": 29740112,
+    "code": "ENTMQMAAS-448.17",
+    "name": "Document how to delete a destination/address.17",
+    "preceedingTasks": [
+      28740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.9703703703703703,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.024792
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 30740112,
+    "code": "ENTMQMAAS-448.18",
+    "name": "Document how to delete a destination/address.18",
+    "preceedingTasks": [
+      29740112,
+      13737477
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.32589285714285715,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.020228
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 31740112,
+    "code": "ENTMQMAAS-448.19",
+    "name": "Document how to delete a destination/address.19",
+    "preceedingTasks": [
+      30740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.33446180555555555,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.018766
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 32740112,
+    "code": "ENTMQMAAS-448.20",
+    "name": "Document how to delete a destination/address.20",
+    "preceedingTasks": [
+      31740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.016071428571428573,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.012583
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 33740112,
+    "code": "ENTMQMAAS-448.21",
+    "name": "Document how to delete a destination/address.21",
+    "preceedingTasks": [
+      32740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.10824652777777778,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.00803
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 34740112,
+    "code": "ENTMQMAAS-448.22",
+    "name": "Document how to delete a destination/address.22",
+    "preceedingTasks": [
+      33740112,
+      14737477
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.15287698412698414,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.02077
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 35740112,
+    "code": "ENTMQMAAS-448.23",
+    "name": "Document how to delete a destination/address.23",
+    "preceedingTasks": [
+      34740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.8487268518518519,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.004113
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 36740112,
+    "code": "ENTMQMAAS-448.24",
+    "name": "Document how to delete a destination/address.24",
+    "preceedingTasks": [
+      35740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.17444444444444443,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.02339
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 14737477,
+    "code": "ENTMQMAAS-404.2",
+    "name": "Investigate what's needed for operations (logs/monitoring).2",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 8.02361111111111,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.42,
+      "database": 2.62,
+      "devops": 3.28,
+      "ai_ml": 2.86,
+      "testing": 2.3,
+      "issue_tracking": 3.4
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.017434
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rshelly"
+  },
+  {
+    "id": 37740112,
+    "code": "ENTMQMAAS-448.25",
+    "name": "Document how to delete a destination/address.25",
+    "preceedingTasks": [
+      36740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.6719907407407407,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.008073
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 38740112,
+    "code": "ENTMQMAAS-448.26",
+    "name": "Document how to delete a destination/address.26",
+    "preceedingTasks": [
+      37740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.23194444444444443,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.000527
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 39740112,
+    "code": "ENTMQMAAS-448.27",
+    "name": "Document how to delete a destination/address.27",
+    "preceedingTasks": [
+      38740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.048379629629629634,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.01544
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 15737477,
+    "code": "ENTMQMAAS-404.3",
+    "name": "Investigate what's needed for operations (logs/monitoring).3",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 3.504861111111111,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.42,
+      "database": 2.62,
+      "devops": 3.28,
+      "ai_ml": 2.86,
+      "testing": 2.3,
+      "issue_tracking": 3.4
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.013585
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rshelly"
+  },
+  {
+    "id": 40740112,
+    "code": "ENTMQMAAS-448.28",
+    "name": "Document how to delete a destination/address.28",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.2276041666666666,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.024353
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 41740112,
+    "code": "ENTMQMAAS-448.29",
+    "name": "Document how to delete a destination/address.29",
+    "preceedingTasks": [
+      40740112,
+      15737477
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.05399305555555556,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.001721
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 42740112,
+    "code": "ENTMQMAAS-448.30",
+    "name": "Document how to delete a destination/address.30",
+    "preceedingTasks": [
+      41740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.17027777777777778,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.0086
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 43740112,
+    "code": "ENTMQMAAS-448.31",
+    "name": "Document how to delete a destination/address.31",
+    "preceedingTasks": [
+      42740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.03871527777777778,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.016764
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 44740112,
+    "code": "ENTMQMAAS-448.32",
+    "name": "Document how to delete a destination/address.32",
+    "preceedingTasks": [
+      43740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.14583333333333334,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.021438
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 45740112,
+    "code": "ENTMQMAAS-448.33",
+    "name": "Document how to delete a destination/address.33",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 9.062152777777778,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.015127
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 46740112,
+    "code": "ENTMQMAAS-448.34",
+    "name": "Document how to delete a destination/address.34",
+    "preceedingTasks": [
+      45740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.03680555555555556,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.009896
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 47740112,
+    "code": "ENTMQMAAS-448.35",
+    "name": "Document how to delete a destination/address.35",
+    "preceedingTasks": [
+      46740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.3668402777777778,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.015952
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 48740112,
+    "code": "ENTMQMAAS-448.36",
+    "name": "Document how to delete a destination/address.36",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 3.2784722222222222,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.009418
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 49740112,
+    "code": "ENTMQMAAS-448.37",
+    "name": "Document how to delete a destination/address.37",
+    "preceedingTasks": [
+      48740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.6030092592592593,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.023758
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 50740112,
+    "code": "ENTMQMAAS-448.38",
+    "name": "Document how to delete a destination/address.38",
+    "preceedingTasks": [
+      49740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.6736111111111112,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.023357
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 51740112,
+    "code": "ENTMQMAAS-448.39",
+    "name": "Document how to delete a destination/address.39",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.208888888888889,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.013615
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 52740112,
+    "code": "ENTMQMAAS-448.40",
+    "name": "Document how to delete a destination/address.40",
+    "preceedingTasks": [
+      51740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.18935185185185188,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.0114
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 53740112,
+    "code": "ENTMQMAAS-448.41",
+    "name": "Document how to delete a destination/address.41",
+    "preceedingTasks": [
+      52740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.10992063492063492,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.021453
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 54740112,
+    "code": "ENTMQMAAS-448.42",
+    "name": "Document how to delete a destination/address.42",
+    "preceedingTasks": [
+      53740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.03861111111111111,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.021064
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 55740112,
+    "code": "ENTMQMAAS-448.43",
+    "name": "Document how to delete a destination/address.43",
+    "preceedingTasks": [
+      54740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.028819444444444443,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.012807
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 56740112,
+    "code": "ENTMQMAAS-448.44",
+    "name": "Document how to delete a destination/address.44",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.8604166666666666,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.01188
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 57740112,
+    "code": "ENTMQMAAS-448.45",
+    "name": "Document how to delete a destination/address.45",
+    "preceedingTasks": [
+      56740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.09807098765432098,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.010041
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 58740112,
+    "code": "ENTMQMAAS-448.46",
+    "name": "Document how to delete a destination/address.46",
+    "preceedingTasks": [
+      57740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.015972222222222224,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003671
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 59740112,
+    "code": "ENTMQMAAS-448.47",
+    "name": "Document how to delete a destination/address.47",
+    "preceedingTasks": [
+      58740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.3744444444444445,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.013072
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 60740112,
+    "code": "ENTMQMAAS-448.48",
+    "name": "Document how to delete a destination/address.48",
+    "preceedingTasks": [
+      59740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.14461805555555554,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.015299
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 61740112,
+    "code": "ENTMQMAAS-448.49",
+    "name": "Document how to delete a destination/address.49",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 1.1712752525252526,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.001408
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 62740112,
+    "code": "ENTMQMAAS-448.50",
+    "name": "Document how to delete a destination/address.50",
+    "preceedingTasks": [
+      61740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.2027083333333333,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.01062
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 63740112,
+    "code": "ENTMQMAAS-448.51",
+    "name": "Document how to delete a destination/address.51",
+    "preceedingTasks": [
+      62740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.4318672839506173,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.013528
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 64740112,
+    "code": "ENTMQMAAS-448.52",
+    "name": "Document how to delete a destination/address.52",
+    "preceedingTasks": [
+      63740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.3730902777777778,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.023416
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 65740112,
+    "code": "ENTMQMAAS-448.53",
+    "name": "Document how to delete a destination/address.53",
+    "preceedingTasks": [
+      64740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.5806547619047618,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.010722
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 66740112,
+    "code": "ENTMQMAAS-448.54",
+    "name": "Document how to delete a destination/address.54",
+    "preceedingTasks": [
+      65740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.028819444444444443,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.003568
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 67740112,
+    "code": "ENTMQMAAS-448.55",
+    "name": "Document how to delete a destination/address.55",
+    "preceedingTasks": [
+      66740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.08016975308641976,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 1,
+        "type": "B",
+        "weight": 0.014926
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 68740112,
+    "code": "ENTMQMAAS-448.56",
+    "name": "Document how to delete a destination/address.56",
+    "preceedingTasks": [
+      67740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.134375,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.00361
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 69740112,
+    "code": "ENTMQMAAS-448.57",
+    "name": "Document how to delete a destination/address.57",
+    "preceedingTasks": [
+      68740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.8827380952380954,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.003044
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 70740112,
+    "code": "ENTMQMAAS-448.58",
+    "name": "Document how to delete a destination/address.58",
+    "preceedingTasks": [
+      69740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.2847222222222222,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.009548
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 71740112,
+    "code": "ENTMQMAAS-448.59",
+    "name": "Document how to delete a destination/address.59",
+    "preceedingTasks": [
+      70740112
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "devops",
+      "backend"
+    ],
+    "estimateTime": 0.14047619047619048,
+    "requireAssign": {
+      "backend": 2.95,
+      "frontend": 2.28,
+      "database": 2.61,
+      "devops": 3.01,
+      "ai_ml": 2.48,
+      "testing": 1.66,
+      "issue_tracking": 2.89
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.022657
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rhn-support-hmaclean"
+  },
+  {
+    "id": 16737477,
+    "code": "ENTMQMAAS-404.4",
+    "name": "Investigate what's needed for operations (logs/monitoring).4",
+    "preceedingTasks": [],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 242.94027777777777,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.42,
+      "database": 2.62,
+      "devops": 3.28,
+      "ai_ml": 2.86,
+      "testing": 2.3,
+      "issue_tracking": 3.4
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.003501
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rshelly"
+  },
+  {
+    "id": 17737477,
+    "code": "ENTMQMAAS-404.5",
+    "name": "Investigate what's needed for operations (logs/monitoring).5",
+    "preceedingTasks": [
+      16737477
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 7.007986111111111,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.42,
+      "database": 2.62,
+      "devops": 3.28,
+      "ai_ml": 2.86,
+      "testing": 2.3,
+      "issue_tracking": 3.4
+    },
+    "kpiInTask": [
+      {
+        "id": 2,
+        "type": "C",
+        "weight": 0.000469
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rshelly"
+  },
+  {
+    "id": 18737477,
+    "code": "ENTMQMAAS-404.6",
+    "name": "Investigate what's needed for operations (logs/monitoring).6",
+    "preceedingTasks": [
+      17737477
+    ],
+    "startTime": null,
+    "endTime": null,
+    "requireAsset": [],
+    "tags": [
+      "issue_tracking",
+      "devops"
+    ],
+    "estimateTime": 324.27152777777775,
+    "requireAssign": {
+      "backend": 2.99,
+      "frontend": 2.42,
+      "database": 2.62,
+      "devops": 3.28,
+      "ai_ml": 2.86,
+      "testing": 2.3,
+      "issue_tracking": 3.4
+    },
+    "kpiInTask": [
+      {
+        "id": 0,
+        "type": "A",
+        "weight": 0.021557
+      }
+    ],
+    "projectKey": "ENTMQMAAS_4xxxx",
+    "assignee": "rshelly"
+  }
+]

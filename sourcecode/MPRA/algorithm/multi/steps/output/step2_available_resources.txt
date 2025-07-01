@@ -1,0 +1,977 @@
+[STEP 2 - Nhân sự & Thiết bị]
+
+- Task [#13737430] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13737477] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758
+  + Thiết bị khả dụng: Không có
+
+- Task [#13737483] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#13737484] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13737485] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#13737492] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#13737495] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738010] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738011] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738426] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 3487
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738605] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738607] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738608] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738609] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738610] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738628] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738629] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738631] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13738634] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13740031] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13740087] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#13740105] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#13740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#13740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13740575] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742276] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742571] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742572] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742573] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742576] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742577] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742583] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742584] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742677] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742678] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742679] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742680] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742682] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#13742683] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#13746088] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#14737430] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#14737477] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758
+  + Thiết bị khả dụng: Không có
+
+- Task [#14737484] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#14737485] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#14737492] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738010] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738011] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738609] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738628] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738629] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738631] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14738634] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#14740031] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#14740094] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#14740105] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#14740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#14740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#14740575] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742276] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742572] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742576] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742577] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742584] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742677] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742678] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742679] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742680] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#14742683] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#15737477] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758
+  + Thiết bị khả dụng: Không có
+
+- Task [#15737484] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#15737485] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#15737492] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#15738010] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#15738011] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#15738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#15738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#15738609] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#15738629] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#15738631] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#15738634] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#15739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#15740096] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#15740105] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#15740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#15740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#15740575] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#15742276] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#15742576] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#15742577] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#15742677] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#15742678] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#15742683] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#16737477] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758
+  + Thiết bị khả dụng: Không có
+
+- Task [#16737484] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#16737485] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#16738010] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#16738011] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#16738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#16738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#16738609] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#16738629] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#16738631] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#16738634] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#16739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#16740098] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#16740105] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#16740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#16740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#16740575] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#16742276] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#16742576] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#16742577] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#16742677] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#16742678] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#17737477] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758
+  + Thiết bị khả dụng: Không có
+
+- Task [#17737484] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#17737485] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#17738010] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#17738011] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#17738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#17738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#17738609] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#17738629] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#17738631] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#17738634] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#17739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#17740087] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#17740105] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#17740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#17740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#17740575] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#17742577] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#17742678] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#18737477] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758
+  + Thiết bị khả dụng: Không có
+
+- Task [#18737485] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#18738010] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#18738011] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#18738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#18738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#18738609] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#18738631] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#18738634] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#18739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#18740094] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#18740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#18740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#18740575] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#19737485] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#19738010] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#19738011] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#19738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#19738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#19739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#19740096] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#19740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#19740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#19740575] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#20737485] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 9744
+  + Thiết bị khả dụng: Không có
+
+- Task [#20738010] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#20738011] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#20738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#20738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#20739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#20740098] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#20740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#20740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#20740575] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#21738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#21738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#21739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#21740087] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#21740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#21740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#22738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#22738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#22739606] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#22740094] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#22740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#22740288] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 7663
+  + Thiết bị khả dụng: Không có
+
+- Task [#23738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#23738369] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 1993
+  + Thiết bị khả dụng: Không có
+
+- Task [#23740096] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#23740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#24738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#24740098] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#24740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#25738314] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 787
+  + Thiết bị khả dụng: Không có
+
+- Task [#25740087] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#25740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#26740094] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#26740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#27740096] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#27740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#28740098] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 8385
+  + Thiết bị khả dụng: Không có
+
+- Task [#28740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#29740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#30740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#31740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#32740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#33740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#34740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#35740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#36740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#37740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#38740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#39740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#40740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#41740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#42740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#43740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#44740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#45740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#46740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#47740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#48740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#49740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#50740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#51740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#52740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#53740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#54740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#55740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#56740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#57740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#58740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#59740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#60740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#61740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#62740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#63740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#64740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#65740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#66740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#67740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#68740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#69740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#70740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có
+
+- Task [#71740112] - Project ENTMQMAAS_4xxxx:
+  + Nhân sự phù hợp: 758, 8385, 1193
+  + Thiết bị khả dụng: Không có

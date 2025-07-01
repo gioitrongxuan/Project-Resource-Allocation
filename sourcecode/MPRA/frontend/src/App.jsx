@@ -4,6 +4,7 @@ import InputData from './components/InputData';
 import TaskGantt from './components/TaskGantt';
 import TaskInPast from './components/TaskInPast';
 import ProcessedData from './components/ProcessedData';
+import ResultGanttChart from './components/ResultGanttChart';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/gannt-chart" element={<TaskGantt/>} />
       <Route path="/task-in-past" element={<TaskInPast />} />
       <Route path="/processed-data" element={<ProcessedData />} />
+      <Route path ="/result-gantt" element={<ResultGanttChart />} />
     </Routes>
   </Router>
   );

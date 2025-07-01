@@ -1,0 +1,1226 @@
+📋 Kết quả phân bổ sơ bộ cho project: ENTMQMAAS_3xxxx
+
+- Task [#13720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-13T23:15:41.000Z
+  + Kết thúc: 2017-11-14T23:15:41.000Z
+
+- Task [#13720952] - [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-13T23:15:41.000Z
+  + Kết thúc: 2017-11-14T23:15:41.000Z
+
+- Task [#13720955] - [#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-14T23:15:41.000Z
+  + Kết thúc: 2017-11-15T23:15:41.000Z
+
+- Task [#13720976] - [#526] : System-tests: November list of disabled tests.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-14T23:15:41.000Z
+  + Kết thúc: 2017-11-15T23:15:41.000Z
+
+- Task [#13721160] - Unable test io.enmasse.systemtest.brokered.clients.rhea.MsgPatternsTest.testMessageSelectorTopic.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-15T23:15:41.000Z
+  + Kết thúc: 2017-11-16T23:15:41.000Z
+
+- Task [#13721310] - [#539] : System-tests: createtestAuthSendReceiveLong.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-16T23:15:41.000Z
+  + Kết thúc: 2017-11-17T23:15:41.000Z
+
+- Task [#13721458] - Console UI tweaks to Create Address wizard.1:
+  + Nhân sự: 4714
+  + Bắt đầu: 2017-11-13T23:15:41.000Z
+  + Kết thúc: 2018-03-07T23:15:41.000Z
+
+- Task [#13724080] - Productize ER3 of RHOM.1:
+  + Nhân sự: 6672
+  + Bắt đầu: 2017-11-13T23:15:41.000Z
+  + Kết thúc: 2017-11-14T23:15:41.000Z
+
+- Task [#13727841] - Document Creating and deleting addresses.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-13T23:15:41.000Z
+  + Kết thúc: 2017-11-17T23:15:41.000Z
+
+- Task [#13730068] - [#744] : Implement Plan resource limits for address space.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-17T23:15:41.000Z
+  + Kết thúc: 2017-11-18T23:15:41.000Z
+
+- Task [#13730069] - [#745] : Implement Plan resource requests for addresses.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-18T23:15:41.000Z
+  + Kết thúc: 2017-11-19T23:15:41.000Z
+
+- Task [#13730070] - [#746] : Add support for checking requests against limits and setting status on address.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-19T23:15:41.000Z
+  + Kết thúc: 2017-11-20T23:15:41.000Z
+
+- Task [#13730071] - [#747] : Add support for colocated topics.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-20T23:15:41.000Z
+  + Kết thúc: 2017-11-21T23:15:41.000Z
+
+- Task [#13730072] - [#748] : Persist decision about where queues/topics are placed.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-21T23:15:41.000Z
+  + Kết thúc: 2017-11-22T23:15:41.000Z
+
+- Task [#13730073] - [#749] : Use statefulsets for brokers.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-22T23:15:41.000Z
+  + Kết thúc: 2017-11-23T23:15:41.000Z
+
+- Task [#13730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-23T23:15:41.000Z
+  + Kết thúc: 2017-11-24T23:15:41.000Z
+
+- Task [#13730081] - [#757] : Oauth for console.1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-13T23:15:41.000Z
+  + Kết thúc: 2017-11-14T23:15:41.000Z
+
+- Task [#13730082] - [#758] : Keycloak plugin OAUTH2 support.1:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-13T23:15:41.000Z
+  + Kết thúc: 2017-11-14T23:15:41.000Z
+
+- Task [#13730083] - [#759] : Delegate from keycloak to OpenShift Pro.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-24T23:15:41.000Z
+  + Kết thúc: 2017-11-25T23:15:41.000Z
+
+- Task [#13730085] - [#761] : Console to support status for addresses.1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-14T23:15:41.000Z
+  + Kết thúc: 2017-11-15T23:15:41.000Z
+
+- Task [#13730086] - [#762] : How to match plans offered to plans specified (e.g. have console offer plans based on the presence of configmaps in its namespace or variations of that).1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-15T23:15:41.000Z
+  + Kết thúc: 2017-11-16T23:15:41.000Z
+
+- Task [#13730089] - [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .1:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-14T23:15:41.000Z
+  + Kết thúc: 2017-11-15T23:15:41.000Z
+
+- Task [#13730091] - [#767] : Disable durable subs (configurable upstream?).1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-16T23:15:41.000Z
+  + Kết thúc: 2017-11-17T23:15:41.000Z
+
+- Task [#13730092] - [#768] : Disable MQTT (configurable upstream?).1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-25T23:15:41.000Z
+  + Kết thúc: 2017-11-26T23:15:41.000Z
+
+- Task [#13730139] - Polarion reporting of enmasse test cases.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-15T23:15:41.000Z
+  + Kết thúc: 2017-11-16T23:15:41.000Z
+
+- Task [#13730141] - [#770] : Define tests for limitation of address-spaces (by credits).1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-16T23:15:41.000Z
+  + Kết thúc: 2017-11-17T23:15:41.000Z
+
+- Task [#13730143] - [#772] : WebConsole Tests for addresses status.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-17T23:15:41.000Z
+  + Kết thúc: 2017-11-18T23:15:41.000Z
+
+- Task [#13730144] - [#773] : Tests for authentication WebConsole.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-18T23:15:41.000Z
+  + Kết thúc: 2017-11-19T23:15:41.000Z
+
+- Task [#13730145] - [#774] : Tests for authorization in WebConsole.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-19T23:15:41.000Z
+  + Kết thúc: 2017-11-20T23:15:41.000Z
+
+- Task [#13730146] - [#775] : Tests for clients authorization.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-20T23:15:41.000Z
+  + Kết thúc: 2017-11-21T23:15:41.000Z
+
+- Task [#13730147] - [#776] : Recheck and enable system tests for standard address space.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-17T23:15:41.000Z
+  + Kết thúc: 2017-11-18T23:15:41.000Z
+
+- Task [#13730148] - [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-21T23:15:41.000Z
+  + Kết thúc: 2017-11-22T23:15:41.000Z
+
+- Task [#13730167] - Setup Jenkins job with productized images.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-22T23:15:41.000Z
+  + Kết thúc: 2017-11-23T23:15:41.000Z
+
+- Task [#13732596] - [#843] : improve test framework regarding to definition of dynamically created plans.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-18T23:15:41.000Z
+  + Kết thúc: 2017-11-19T23:15:41.000Z
+
+- Task [#13732615] - [#844] : system-tests: create documentation in HACKING doc how to execute webconsole tests.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-23T23:15:41.000Z
+  + Kết thúc: 2017-11-24T23:15:41.000Z
+
+- Task [#13733175] - Add Documentation Conventions to Guide.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-26T23:15:41.000Z
+  + Kết thúc: 2017-11-28T23:15:41.000Z
+
+- Task [#13733952] - Investigate options for enforcing backlog limits on broker/router.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-28T23:15:41.000Z
+  + Kết thúc: 2017-11-29T23:15:41.000Z
+
+- Task [#13733954] - [#811] : Brokered: cannot create topic: user null does not have permissions to 'send'....1:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-15T23:15:41.000Z
+  + Kết thúc: 2017-11-16T23:15:41.000Z
+
+- Task [#13733964] - [#877] : Make ansible deployment for install dependencies for running systemtests.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-24T23:15:41.000Z
+  + Kết thúc: 2017-11-25T23:15:41.000Z
+
+- Task [#13734956] - [#894] : Console does not sanitize address config names.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-29T23:15:41.000Z
+  + Kết thúc: 2017-11-30T23:15:41.000Z
+
+- Task [#13735371] - [#910] : address-controller can't replace addresses created via console.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-11-30T23:15:41.000Z
+  + Kết thúc: 2017-12-01T23:15:41.000Z
+
+- Task [#13735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-19T23:15:41.000Z
+  + Kết thúc: 2017-11-20T23:15:41.000Z
+
+- Task [#13735527] - [#919] : system-tests: new scale test: testPodsLimitation.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-25T23:15:41.000Z
+  + Kết thúc: 2017-11-26T23:15:41.000Z
+
+- Task [#13735530] - [#920] : system-tests: new scale test: testCreditLimitation.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-26T23:15:41.000Z
+  + Kết thúc: 2017-11-27T23:15:41.000Z
+
+- Task [#13735531] - [#921] : system-tests: new Plan test: testPlansAvailableViaConsole.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-20T23:15:41.000Z
+  + Kết thúc: 2017-11-21T23:15:41.000Z
+
+- Task [#13736171] - [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-21T23:15:41.000Z
+  + Kết thúc: 2017-11-22T23:15:41.000Z
+
+- Task [#13737362] - [#991] : system-tests: new scale test: testCreditLimitation ({sharded,pooled}{queues,topics}).1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-27T23:15:41.000Z
+  + Kết thúc: 2017-11-28T23:15:41.000Z
+
+- Task [#13737403] - [#996] : system-tests: look at longtime running tests and fix them.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-28T23:15:41.000Z
+  + Kết thúc: 2017-11-29T23:15:41.000Z
+
+- Task [#13737413] - [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-22T23:15:41.000Z
+  + Kết thúc: 2017-11-23T23:15:41.000Z
+
+- Task [#13737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).1:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-29T23:15:41.000Z
+  + Kết thúc: 2017-11-30T23:15:41.000Z
+
+- Task [#13737429] - [#998] : system-tests: review list of February disabled tests.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-23T23:15:41.000Z
+  + Kết thúc: 2017-11-24T23:15:41.000Z
+
+- Task [#14720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-11-30T23:15:41.000Z
+  + Kết thúc: 2017-12-01T23:15:41.000Z
+
+- Task [#14720952] - [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-24T23:15:41.000Z
+  + Kết thúc: 2017-11-25T23:15:41.000Z
+
+- Task [#14720955] - [#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-01T23:15:41.000Z
+  + Kết thúc: 2017-12-02T23:15:41.000Z
+
+- Task [#14720976] - [#526] : System-tests: November list of disabled tests.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-25T23:15:41.000Z
+  + Kết thúc: 2017-11-26T23:15:41.000Z
+
+- Task [#14727841] - Document Creating and deleting addresses.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-01T23:15:41.000Z
+  + Kết thúc: 2017-12-03T23:15:41.000Z
+
+- Task [#14730068] - [#744] : Implement Plan resource limits for address space.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-03T23:15:41.000Z
+  + Kết thúc: 2017-12-04T23:15:41.000Z
+
+- Task [#14730069] - [#745] : Implement Plan resource requests for addresses.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-04T23:15:41.000Z
+  + Kết thúc: 2017-12-05T23:15:41.000Z
+
+- Task [#14730070] - [#746] : Add support for checking requests against limits and setting status on address.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-05T23:15:41.000Z
+  + Kết thúc: 2017-12-06T23:15:41.000Z
+
+- Task [#14730071] - [#747] : Add support for colocated topics.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-06T23:15:41.000Z
+  + Kết thúc: 2017-12-07T23:15:41.000Z
+
+- Task [#14730072] - [#748] : Persist decision about where queues/topics are placed.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-07T23:15:41.000Z
+  + Kết thúc: 2017-12-08T23:15:41.000Z
+
+- Task [#14730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-08T23:15:41.000Z
+  + Kết thúc: 2017-12-09T23:15:41.000Z
+
+- Task [#14730081] - [#757] : Oauth for console.2:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-17T23:15:41.000Z
+  + Kết thúc: 2017-11-18T23:15:41.000Z
+
+- Task [#14730082] - [#758] : Keycloak plugin OAUTH2 support.2:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-16T23:15:41.000Z
+  + Kết thúc: 2017-11-17T23:15:41.000Z
+
+- Task [#14730083] - [#759] : Delegate from keycloak to OpenShift Pro.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-09T23:15:41.000Z
+  + Kết thúc: 2017-12-10T23:15:41.000Z
+
+- Task [#14730085] - [#761] : Console to support status for addresses.2:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-18T23:15:41.000Z
+  + Kết thúc: 2017-11-19T23:15:41.000Z
+
+- Task [#14730089] - [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .2:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-17T23:15:41.000Z
+  + Kết thúc: 2017-11-18T23:15:41.000Z
+
+- Task [#14730091] - [#767] : Disable durable subs (configurable upstream?).2:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-19T23:15:41.000Z
+  + Kết thúc: 2017-11-20T23:15:41.000Z
+
+- Task [#14730092] - [#768] : Disable MQTT (configurable upstream?).2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-10T23:15:41.000Z
+  + Kết thúc: 2017-12-11T23:15:41.000Z
+
+- Task [#14730141] - [#770] : Define tests for limitation of address-spaces (by credits).2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-26T23:15:41.000Z
+  + Kết thúc: 2017-11-27T23:15:41.000Z
+
+- Task [#14730143] - [#772] : WebConsole Tests for addresses status.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-02T23:15:41.000Z
+  + Kết thúc: 2017-12-03T23:15:41.000Z
+
+- Task [#14730144] - [#773] : Tests for authentication WebConsole.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-03T23:15:41.000Z
+  + Kết thúc: 2017-12-04T23:15:41.000Z
+
+- Task [#14730147] - [#776] : Recheck and enable system tests for standard address space.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-27T23:15:41.000Z
+  + Kết thúc: 2017-11-28T23:15:41.000Z
+
+- Task [#14730148] - [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-04T23:15:41.000Z
+  + Kết thúc: 2017-12-05T23:15:41.000Z
+
+- Task [#14730167] - Setup Jenkins job with productized images.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-05T23:15:41.000Z
+  + Kết thúc: 2017-12-06T23:15:41.000Z
+
+- Task [#14732596] - [#843] : improve test framework regarding to definition of dynamically created plans.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-28T23:15:41.000Z
+  + Kết thúc: 2017-11-29T23:15:41.000Z
+
+- Task [#14732615] - [#844] : system-tests: create documentation in HACKING doc how to execute webconsole tests.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-06T23:15:41.000Z
+  + Kết thúc: 2017-12-07T23:15:41.000Z
+
+- Task [#14733175] - Add Documentation Conventions to Guide.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-11T23:15:41.000Z
+  + Kết thúc: 2017-12-12T23:15:41.000Z
+
+- Task [#14733952] - Investigate options for enforcing backlog limits on broker/router.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-12T23:15:41.000Z
+  + Kết thúc: 2017-12-13T23:15:41.000Z
+
+- Task [#14734956] - [#894] : Console does not sanitize address config names.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-13T23:15:41.000Z
+  + Kết thúc: 2017-12-14T23:15:41.000Z
+
+- Task [#14735371] - [#910] : address-controller can't replace addresses created via console.2:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-14T23:15:41.000Z
+  + Kết thúc: 2017-12-15T23:15:41.000Z
+
+- Task [#14735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-29T23:15:41.000Z
+  + Kết thúc: 2017-11-30T23:15:41.000Z
+
+- Task [#14735527] - [#919] : system-tests: new scale test: testPodsLimitation.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-07T23:15:41.000Z
+  + Kết thúc: 2017-12-08T23:15:41.000Z
+
+- Task [#14735530] - [#920] : system-tests: new scale test: testCreditLimitation.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-08T23:15:41.000Z
+  + Kết thúc: 2017-12-09T23:15:41.000Z
+
+- Task [#14735531] - [#921] : system-tests: new Plan test: testPlansAvailableViaConsole.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-11-30T23:15:41.000Z
+  + Kết thúc: 2017-12-01T23:15:41.000Z
+
+- Task [#14736171] - [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-01T23:15:41.000Z
+  + Kết thúc: 2017-12-02T23:15:41.000Z
+
+- Task [#14737362] - [#991] : system-tests: new scale test: testCreditLimitation ({sharded,pooled}{queues,topics}).2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-09T23:15:41.000Z
+  + Kết thúc: 2017-12-10T23:15:41.000Z
+
+- Task [#14737403] - [#996] : system-tests: look at longtime running tests and fix them.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-10T23:15:41.000Z
+  + Kết thúc: 2017-12-11T23:15:41.000Z
+
+- Task [#14737413] - [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-02T23:15:41.000Z
+  + Kết thúc: 2017-12-03T23:15:41.000Z
+
+- Task [#14737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).2:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-11T23:15:41.000Z
+  + Kết thúc: 2017-12-12T23:15:41.000Z
+
+- Task [#14737429] - [#998] : system-tests: review list of February disabled tests.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-03T23:15:41.000Z
+  + Kết thúc: 2017-12-04T23:15:41.000Z
+
+- Task [#15720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-12T23:15:41.000Z
+  + Kết thúc: 2017-12-13T23:15:41.000Z
+
+- Task [#15720952] - [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-04T23:15:41.000Z
+  + Kết thúc: 2017-12-05T23:15:41.000Z
+
+- Task [#15720955] - [#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-13T23:15:41.000Z
+  + Kết thúc: 2017-12-14T23:15:41.000Z
+
+- Task [#15720976] - [#526] : System-tests: November list of disabled tests.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-05T23:15:41.000Z
+  + Kết thúc: 2017-12-06T23:15:41.000Z
+
+- Task [#15727841] - Document Creating and deleting addresses.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-15T23:15:41.000Z
+  + Kết thúc: 2017-12-16T23:15:41.000Z
+
+- Task [#15730070] - [#746] : Add support for checking requests against limits and setting status on address.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-16T23:15:41.000Z
+  + Kết thúc: 2017-12-17T23:15:41.000Z
+
+- Task [#15730071] - [#747] : Add support for colocated topics.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-17T23:15:41.000Z
+  + Kết thúc: 2017-12-18T23:15:41.000Z
+
+- Task [#15730072] - [#748] : Persist decision about where queues/topics are placed.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-18T23:15:41.000Z
+  + Kết thúc: 2017-12-19T23:15:41.000Z
+
+- Task [#15730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-19T23:15:41.000Z
+  + Kết thúc: 2017-12-20T23:15:41.000Z
+
+- Task [#15730081] - [#757] : Oauth for console.3:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-20T23:15:41.000Z
+  + Kết thúc: 2017-11-21T23:15:41.000Z
+
+- Task [#15730082] - [#758] : Keycloak plugin OAUTH2 support.3:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-18T23:15:41.000Z
+  + Kết thúc: 2017-11-19T23:15:41.000Z
+
+- Task [#15730083] - [#759] : Delegate from keycloak to OpenShift Pro.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-20T23:15:41.000Z
+  + Kết thúc: 2017-12-21T23:15:41.000Z
+
+- Task [#15730089] - [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .3:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-19T23:15:41.000Z
+  + Kết thúc: 2017-11-20T23:15:41.000Z
+
+- Task [#15730091] - [#767] : Disable durable subs (configurable upstream?).3:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-21T23:15:41.000Z
+  + Kết thúc: 2017-11-22T23:15:41.000Z
+
+- Task [#15730092] - [#768] : Disable MQTT (configurable upstream?).3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-21T23:15:41.000Z
+  + Kết thúc: 2017-12-22T23:15:41.000Z
+
+- Task [#15730141] - [#770] : Define tests for limitation of address-spaces (by credits).3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-06T23:15:41.000Z
+  + Kết thúc: 2017-12-07T23:15:41.000Z
+
+- Task [#15730143] - [#772] : WebConsole Tests for addresses status.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-14T23:15:41.000Z
+  + Kết thúc: 2017-12-15T23:15:41.000Z
+
+- Task [#15730144] - [#773] : Tests for authentication WebConsole.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-15T23:15:41.000Z
+  + Kết thúc: 2017-12-16T23:15:41.000Z
+
+- Task [#15730148] - [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-16T23:15:41.000Z
+  + Kết thúc: 2017-12-17T23:15:41.000Z
+
+- Task [#15730167] - Setup Jenkins job with productized images.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-17T23:15:41.000Z
+  + Kết thúc: 2017-12-18T23:15:41.000Z
+
+- Task [#15733175] - Add Documentation Conventions to Guide.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-22T23:15:41.000Z
+  + Kết thúc: 2017-12-23T23:15:41.000Z
+
+- Task [#15733952] - Investigate options for enforcing backlog limits on broker/router.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-23T23:15:41.000Z
+  + Kết thúc: 2017-12-24T23:15:41.000Z
+
+- Task [#15734956] - [#894] : Console does not sanitize address config names.3:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-24T23:15:41.000Z
+  + Kết thúc: 2017-12-25T23:15:41.000Z
+
+- Task [#15735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-07T23:15:41.000Z
+  + Kết thúc: 2017-12-08T23:15:41.000Z
+
+- Task [#15735527] - [#919] : system-tests: new scale test: testPodsLimitation.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-18T23:15:41.000Z
+  + Kết thúc: 2017-12-19T23:15:41.000Z
+
+- Task [#15736171] - [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-08T23:15:41.000Z
+  + Kết thúc: 2017-12-09T23:15:41.000Z
+
+- Task [#15737403] - [#996] : system-tests: look at longtime running tests and fix them.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-19T23:15:41.000Z
+  + Kết thúc: 2017-12-20T23:15:41.000Z
+
+- Task [#15737413] - [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-09T23:15:41.000Z
+  + Kết thúc: 2017-12-10T23:15:41.000Z
+
+- Task [#15737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).3:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-20T23:15:41.000Z
+  + Kết thúc: 2017-12-21T23:15:41.000Z
+
+- Task [#16720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.4:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-21T23:15:41.000Z
+  + Kết thúc: 2017-12-22T23:15:41.000Z
+
+- Task [#16720952] - [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-10T23:15:41.000Z
+  + Kết thúc: 2017-12-11T23:15:41.000Z
+
+- Task [#16720955] - [#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak.4:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-22T23:15:41.000Z
+  + Kết thúc: 2017-12-23T23:15:41.000Z
+
+- Task [#16727841] - Document Creating and deleting addresses.4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-25T23:15:41.000Z
+  + Kết thúc: 2017-12-26T23:15:41.000Z
+
+- Task [#16730070] - [#746] : Add support for checking requests against limits and setting status on address.4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-26T23:15:41.000Z
+  + Kết thúc: 2017-12-27T23:15:41.000Z
+
+- Task [#16730071] - [#747] : Add support for colocated topics.4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-27T23:15:41.000Z
+  + Kết thúc: 2017-12-28T23:15:41.000Z
+
+- Task [#16730072] - [#748] : Persist decision about where queues/topics are placed.4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-28T23:15:41.000Z
+  + Kết thúc: 2017-12-29T23:15:41.000Z
+
+- Task [#16730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-29T23:15:41.000Z
+  + Kết thúc: 2017-12-30T23:15:41.000Z
+
+- Task [#16730081] - [#757] : Oauth for console.4:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-22T23:15:41.000Z
+  + Kết thúc: 2017-11-23T23:15:41.000Z
+
+- Task [#16730082] - [#758] : Keycloak plugin OAUTH2 support.4:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-20T23:15:41.000Z
+  + Kết thúc: 2017-11-22T23:15:41.000Z
+
+- Task [#16730083] - [#759] : Delegate from keycloak to OpenShift Pro.4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-30T23:15:41.000Z
+  + Kết thúc: 2017-12-31T23:15:41.000Z
+
+- Task [#16730089] - [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .4:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-22T23:15:41.000Z
+  + Kết thúc: 2017-11-24T23:15:41.000Z
+
+- Task [#16730091] - [#767] : Disable durable subs (configurable upstream?).4:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-23T23:15:41.000Z
+  + Kết thúc: 2017-11-24T23:15:41.000Z
+
+- Task [#16730092] - [#768] : Disable MQTT (configurable upstream?).4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2017-12-31T23:15:41.000Z
+  + Kết thúc: 2018-01-01T23:15:41.000Z
+
+- Task [#16730143] - [#772] : WebConsole Tests for addresses status.4:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-23T23:15:41.000Z
+  + Kết thúc: 2017-12-24T23:15:41.000Z
+
+- Task [#16730148] - [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.4:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-24T23:15:41.000Z
+  + Kết thúc: 2017-12-25T23:15:41.000Z
+
+- Task [#16730167] - Setup Jenkins job with productized images.4:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-25T23:15:41.000Z
+  + Kết thúc: 2017-12-26T23:15:41.000Z
+
+- Task [#16733175] - Add Documentation Conventions to Guide.4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-01-01T23:15:41.000Z
+  + Kết thúc: 2018-01-05T23:15:41.000Z
+
+- Task [#16733952] - Investigate options for enforcing backlog limits on broker/router.4:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-01-05T23:15:41.000Z
+  + Kết thúc: 2018-01-06T23:15:41.000Z
+
+- Task [#16735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-11T23:15:41.000Z
+  + Kết thúc: 2017-12-12T23:15:41.000Z
+
+- Task [#16735527] - [#919] : system-tests: new scale test: testPodsLimitation.4:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-26T23:15:41.000Z
+  + Kết thúc: 2017-12-27T23:15:41.000Z
+
+- Task [#16736171] - [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-12T23:15:41.000Z
+  + Kết thúc: 2017-12-13T23:15:41.000Z
+
+- Task [#16737413] - [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-13T23:15:41.000Z
+  + Kết thúc: 2017-12-14T23:15:41.000Z
+
+- Task [#16737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).4:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-27T23:15:41.000Z
+  + Kết thúc: 2017-12-28T23:15:41.000Z
+
+- Task [#17720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.5:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-28T23:15:41.000Z
+  + Kết thúc: 2017-12-29T23:15:41.000Z
+
+- Task [#17720952] - [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-14T23:15:41.000Z
+  + Kết thúc: 2017-12-16T23:15:41.000Z
+
+- Task [#17727841] - Document Creating and deleting addresses.5:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-01-06T23:15:41.000Z
+  + Kết thúc: 2018-01-10T23:15:41.000Z
+
+- Task [#17730070] - [#746] : Add support for checking requests against limits and setting status on address.5:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-01-10T23:15:41.000Z
+  + Kết thúc: 2018-01-11T23:15:41.000Z
+
+- Task [#17730071] - [#747] : Add support for colocated topics.5:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-01-11T23:15:41.000Z
+  + Kết thúc: 2018-01-12T23:15:41.000Z
+
+- Task [#17730072] - [#748] : Persist decision about where queues/topics are placed.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-13T23:15:41.000Z
+  + Kết thúc: 2017-11-14T23:15:41.000Z
+
+- Task [#17730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-14T23:15:41.000Z
+  + Kết thúc: 2017-11-15T23:15:41.000Z
+
+- Task [#17730081] - [#757] : Oauth for console.5:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-24T23:15:41.000Z
+  + Kết thúc: 2017-11-25T23:15:41.000Z
+
+- Task [#17730083] - [#759] : Delegate from keycloak to OpenShift Pro.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-15T23:15:41.000Z
+  + Kết thúc: 2017-11-16T23:15:41.000Z
+
+- Task [#17730089] - [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .5:
+  + Nhân sự: 3608
+  + Bắt đầu: 2017-11-24T23:15:41.000Z
+  + Kết thúc: 2017-11-30T23:15:41.000Z
+
+- Task [#17730091] - [#767] : Disable durable subs (configurable upstream?).5:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-25T23:15:41.000Z
+  + Kết thúc: 2017-11-26T23:15:41.000Z
+
+- Task [#17730092] - [#768] : Disable MQTT (configurable upstream?).5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-16T23:15:41.000Z
+  + Kết thúc: 2017-11-17T23:15:41.000Z
+
+- Task [#17730143] - [#772] : WebConsole Tests for addresses status.5:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-29T23:15:41.000Z
+  + Kết thúc: 2017-12-30T23:15:41.000Z
+
+- Task [#17730148] - [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.5:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-30T23:15:41.000Z
+  + Kết thúc: 2017-12-31T23:15:41.000Z
+
+- Task [#17730167] - Setup Jenkins job with productized images.5:
+  + Nhân sự: 787
+  + Bắt đầu: 2017-12-31T23:15:41.000Z
+  + Kết thúc: 2018-01-01T23:15:41.000Z
+
+- Task [#17733175] - Add Documentation Conventions to Guide.5:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#17733952] - Investigate options for enforcing backlog limits on broker/router.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-17T23:15:41.000Z
+  + Kết thúc: 2017-11-18T23:15:41.000Z
+
+- Task [#17735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-16T23:15:41.000Z
+  + Kết thúc: 2017-12-17T23:15:41.000Z
+
+- Task [#17735527] - [#919] : system-tests: new scale test: testPodsLimitation.5:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-01T23:15:41.000Z
+  + Kết thúc: 2018-01-02T23:15:41.000Z
+
+- Task [#17736171] - [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-17T23:15:41.000Z
+  + Kết thúc: 2017-12-18T23:15:41.000Z
+
+- Task [#17737413] - [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-18T23:15:41.000Z
+  + Kết thúc: 2017-12-19T23:15:41.000Z
+
+- Task [#17737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).5:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-02T23:15:41.000Z
+  + Kết thúc: 2018-01-03T23:15:41.000Z
+
+- Task [#18720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.6:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-03T23:15:41.000Z
+  + Kết thúc: 2018-01-04T23:15:41.000Z
+
+- Task [#18727841] - Document Creating and deleting addresses.6:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#18730070] - [#746] : Add support for checking requests against limits and setting status on address.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-18T23:15:41.000Z
+  + Kết thúc: 2017-11-19T23:15:41.000Z
+
+- Task [#18730071] - [#747] : Add support for colocated topics.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-19T23:15:41.000Z
+  + Kết thúc: 2017-11-20T23:15:41.000Z
+
+- Task [#18730072] - [#748] : Persist decision about where queues/topics are placed.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-20T23:15:41.000Z
+  + Kết thúc: 2017-11-21T23:15:41.000Z
+
+- Task [#18730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-21T23:15:41.000Z
+  + Kết thúc: 2017-11-22T23:15:41.000Z
+
+- Task [#18730081] - [#757] : Oauth for console.6:
+  + Nhân sự: 9744
+  + Bắt đầu: 2017-11-26T23:15:41.000Z
+  + Kết thúc: 2017-11-27T23:15:41.000Z
+
+- Task [#18730083] - [#759] : Delegate from keycloak to OpenShift Pro.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-22T23:15:41.000Z
+  + Kết thúc: 2017-11-23T23:15:41.000Z
+
+- Task [#18730092] - [#768] : Disable MQTT (configurable upstream?).6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-23T23:15:41.000Z
+  + Kết thúc: 2017-11-24T23:15:41.000Z
+
+- Task [#18730143] - [#772] : WebConsole Tests for addresses status.6:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-04T23:15:41.000Z
+  + Kết thúc: 2018-01-05T23:15:41.000Z
+
+- Task [#18730148] - [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.6:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-05T23:15:41.000Z
+  + Kết thúc: 2018-01-06T23:15:41.000Z
+
+- Task [#18730167] - Setup Jenkins job with productized images.6:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-06T23:15:41.000Z
+  + Kết thúc: 2018-01-07T23:15:41.000Z
+
+- Task [#18733952] - Investigate options for enforcing backlog limits on broker/router.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-24T23:15:41.000Z
+  + Kết thúc: 2017-11-25T23:15:41.000Z
+
+- Task [#18735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.6:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-19T23:15:41.000Z
+  + Kết thúc: 2017-12-20T23:15:41.000Z
+
+- Task [#18736171] - [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.6:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-20T23:15:41.000Z
+  + Kết thúc: 2017-12-21T23:15:41.000Z
+
+- Task [#18737413] - [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.6:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-21T23:15:41.000Z
+  + Kết thúc: 2017-12-22T23:15:41.000Z
+
+- Task [#18737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).6:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-07T23:15:41.000Z
+  + Kết thúc: 2018-01-08T23:15:41.000Z
+
+- Task [#19720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.7:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-08T23:15:41.000Z
+  + Kết thúc: 2018-01-10T23:15:41.000Z
+
+- Task [#19727841] - Document Creating and deleting addresses.7:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#19730070] - [#746] : Add support for checking requests against limits and setting status on address.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-25T23:15:41.000Z
+  + Kết thúc: 2017-11-26T23:15:41.000Z
+
+- Task [#19730072] - [#748] : Persist decision about where queues/topics are placed.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-26T23:15:41.000Z
+  + Kết thúc: 2017-11-27T23:15:41.000Z
+
+- Task [#19730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-27T23:15:41.000Z
+  + Kết thúc: 2017-11-28T23:15:41.000Z
+
+- Task [#19730083] - [#759] : Delegate from keycloak to OpenShift Pro.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-28T23:15:41.000Z
+  + Kết thúc: 2017-11-29T23:15:41.000Z
+
+- Task [#19730092] - [#768] : Disable MQTT (configurable upstream?).7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-29T23:15:41.000Z
+  + Kết thúc: 2017-11-30T23:15:41.000Z
+
+- Task [#19730143] - [#772] : WebConsole Tests for addresses status.7:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-10T23:15:41.000Z
+  + Kết thúc: 2018-01-11T23:15:41.000Z
+
+- Task [#19730148] - [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.7:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-01-11T23:15:41.000Z
+  + Kết thúc: 2018-01-12T23:15:41.000Z
+
+- Task [#19730167] - Setup Jenkins job with productized images.7:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#19733952] - Investigate options for enforcing backlog limits on broker/router.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-11-30T23:15:41.000Z
+  + Kết thúc: 2017-12-01T23:15:41.000Z
+
+- Task [#19735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.7:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-22T23:15:41.000Z
+  + Kết thúc: 2017-12-23T23:15:41.000Z
+
+- Task [#19737413] - [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.7:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-23T23:15:41.000Z
+  + Kết thúc: 2017-12-24T23:15:41.000Z
+
+- Task [#19737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).7:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#20720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.8:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#20730070] - [#746] : Add support for checking requests against limits and setting status on address.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-01T23:15:41.000Z
+  + Kết thúc: 2017-12-02T23:15:41.000Z
+
+- Task [#20730072] - [#748] : Persist decision about where queues/topics are placed.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-02T23:15:41.000Z
+  + Kết thúc: 2017-12-03T23:15:41.000Z
+
+- Task [#20730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-03T23:15:41.000Z
+  + Kết thúc: 2017-12-04T23:15:41.000Z
+
+- Task [#20730083] - [#759] : Delegate from keycloak to OpenShift Pro.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-04T23:15:41.000Z
+  + Kết thúc: 2017-12-05T23:15:41.000Z
+
+- Task [#20730092] - [#768] : Disable MQTT (configurable upstream?).8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-05T23:15:41.000Z
+  + Kết thúc: 2017-12-06T23:15:41.000Z
+
+- Task [#20730143] - [#772] : WebConsole Tests for addresses status.8:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#20730167] - Setup Jenkins job with productized images.8:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#20733952] - Investigate options for enforcing backlog limits on broker/router.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-06T23:15:41.000Z
+  + Kết thúc: 2017-12-07T23:15:41.000Z
+
+- Task [#20735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.8:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-24T23:15:41.000Z
+  + Kết thúc: 2017-12-25T23:15:41.000Z
+
+- Task [#20737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).8:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#21720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.9:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#21730070] - [#746] : Add support for checking requests against limits and setting status on address.9:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-07T23:15:41.000Z
+  + Kết thúc: 2017-12-08T23:15:41.000Z
+
+- Task [#21730072] - [#748] : Persist decision about where queues/topics are placed.9:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-08T23:15:41.000Z
+  + Kết thúc: 2017-12-09T23:15:41.000Z
+
+- Task [#21730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.9:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-09T23:15:41.000Z
+  + Kết thúc: 2017-12-10T23:15:41.000Z
+
+- Task [#21730083] - [#759] : Delegate from keycloak to OpenShift Pro.9:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-10T23:15:41.000Z
+  + Kết thúc: 2017-12-11T23:15:41.000Z
+
+- Task [#21730143] - [#772] : WebConsole Tests for addresses status.9:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#21730167] - Setup Jenkins job with productized images.9:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#21733952] - Investigate options for enforcing backlog limits on broker/router.9:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-11T23:15:41.000Z
+  + Kết thúc: 2017-12-12T23:15:41.000Z
+
+- Task [#21735522] - [#918] : system-tests: new scale test: testScaleRouterAutomatically.9:
+  + Nhân sự: 1993
+  + Bắt đầu: 2017-12-25T23:15:41.000Z
+  + Kết thúc: 2017-12-26T23:15:41.000Z
+
+- Task [#21737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).9:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#22720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.10:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#22730076] - [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.10:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-12T23:15:41.000Z
+  + Kết thúc: 2017-12-13T23:15:41.000Z
+
+- Task [#22730083] - [#759] : Delegate from keycloak to OpenShift Pro.10:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-13T23:15:41.000Z
+  + Kết thúc: 2017-12-14T23:15:41.000Z
+
+- Task [#22730167] - Setup Jenkins job with productized images.10:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#22733952] - Investigate options for enforcing backlog limits on broker/router.10:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-14T23:15:41.000Z
+  + Kết thúc: 2017-12-15T23:15:41.000Z
+
+- Task [#22737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).10:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#23720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.11:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#23730083] - [#759] : Delegate from keycloak to OpenShift Pro.11:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-15T23:15:41.000Z
+  + Kết thúc: 2017-12-16T23:15:41.000Z
+
+- Task [#23730167] - Setup Jenkins job with productized images.11:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#23733952] - Investigate options for enforcing backlog limits on broker/router.11:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-16T23:15:41.000Z
+  + Kết thúc: 2017-12-17T23:15:41.000Z
+
+- Task [#23737421] - [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).11:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#24720876] - [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.12:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#24730083] - [#759] : Delegate from keycloak to OpenShift Pro.12:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-17T23:15:41.000Z
+  + Kết thúc: 2017-12-18T23:15:41.000Z
+
+- Task [#24730167] - Setup Jenkins job with productized images.12:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#25730083] - [#759] : Delegate from keycloak to OpenShift Pro.13:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-18T23:15:41.000Z
+  + Kết thúc: 2017-12-19T23:15:41.000Z
+
+- Task [#25730167] - Setup Jenkins job with productized images.13:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#26730083] - [#759] : Delegate from keycloak to OpenShift Pro.14:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-19T23:15:41.000Z
+  + Kết thúc: 2017-12-20T23:15:41.000Z
+
+- Task [#26730167] - Setup Jenkins job with productized images.14:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#27730083] - [#759] : Delegate from keycloak to OpenShift Pro.15:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-20T23:15:41.000Z
+  + Kết thúc: 2017-12-21T23:15:41.000Z
+
+- Task [#27730167] - Setup Jenkins job with productized images.15:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#28730083] - [#759] : Delegate from keycloak to OpenShift Pro.16:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-21T23:15:41.000Z
+  + Kết thúc: 2017-12-22T23:15:41.000Z
+
+- Task [#28730167] - Setup Jenkins job with productized images.16:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#29730083] - [#759] : Delegate from keycloak to OpenShift Pro.17:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-22T23:15:41.000Z
+  + Kết thúc: 2017-12-23T23:15:41.000Z
+
+- Task [#29730167] - Setup Jenkins job with productized images.17:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#30730083] - [#759] : Delegate from keycloak to OpenShift Pro.18:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-23T23:15:41.000Z
+  + Kết thúc: 2017-12-24T23:15:41.000Z
+
+- Task [#30730167] - Setup Jenkins job with productized images.18:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#31730083] - [#759] : Delegate from keycloak to OpenShift Pro.19:
+  + Nhân sự: 7663
+  + Bắt đầu: 2017-12-24T23:15:41.000Z
+  + Kết thúc: 2017-12-25T23:15:41.000Z

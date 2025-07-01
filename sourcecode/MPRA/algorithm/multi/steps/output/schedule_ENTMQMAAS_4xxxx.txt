@@ -1,0 +1,1221 @@
+📋 Kết quả phân bổ sơ bộ cho project: ENTMQMAAS_4xxxx
+
+- Task [#13737430] - [#795] : System-tests: Enable authentication in marathon tests.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-05T01:14:01.000Z
+  + Kết thúc: 2018-03-06T01:14:01.000Z
+
+- Task [#13737477] - Investigate what's needed for operations (logs/monitoring).1:
+  + Nhân sự: 758
+  + Bắt đầu: 2018-03-05T01:14:01.000Z
+  + Kết thúc: 2018-06-16T01:14:01.000Z
+
+- Task [#13737483] - [#949] : agent: Results count is not set correctly after refresh the page.1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-05T01:14:01.000Z
+  + Kết thúc: 2018-03-06T01:14:01.000Z
+
+- Task [#13737484] - [#972] : Make global-max-size parameter configurable via template/plan.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-05T01:14:01.000Z
+  + Kết thúc: 2018-03-06T01:14:01.000Z
+
+- Task [#13737485] - [#973] : Configure per-address settings for each address created on broker.1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-06T01:14:01.000Z
+  + Kết thúc: 2018-03-07T01:14:01.000Z
+
+- Task [#13737492] - Docs: how to manage user permissions.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-06T01:14:01.000Z
+  + Kết thúc: 2018-03-07T01:14:01.000Z
+
+- Task [#13737495] - Docs: document the sign-up process for beta.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-07T01:14:01.000Z
+  + Kết thúc: 2018-03-08T01:14:01.000Z
+
+- Task [#13738010] - [#1009] : Make resync interval in controllers configurable.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-08T01:14:01.000Z
+  + Kết thúc: 2018-03-09T01:14:01.000Z
+
+- Task [#13738011] - [#1011] : Separata status check from controller resync.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-09T01:14:01.000Z
+  + Kết thúc: 2018-03-10T01:14:01.000Z
+
+- Task [#13738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-06T01:14:01.000Z
+  + Kết thúc: 2018-03-07T01:14:01.000Z
+
+- Task [#13738369] - [#1021] : system-tests: modify QueueTest#testScaledown.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-05T01:14:01.000Z
+  + Kết thúc: 2018-03-06T01:14:01.000Z
+
+- Task [#13738426] - Remove 'docker' for the templates and images.1:
+  + Nhân sự: 3487
+  + Bắt đầu: 2018-03-05T01:14:01.000Z
+  + Kết thúc: 2018-04-02T01:14:01.000Z
+
+- Task [#13738605] - [#1026] : System-tests: create test for REST API - GET | /v1/addresses/myspace/:name .1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-07T01:14:01.000Z
+  + Kết thúc: 2018-03-08T01:14:01.000Z
+
+- Task [#13738607] - [#1028] : System-tests: create test for REST API - DELETE | /v1/addresses/myspace.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-08T01:14:01.000Z
+  + Kết thúc: 2018-03-09T01:14:01.000Z
+
+- Task [#13738608] - [#1033] : System-tests: create test for REST API - GET /v1/schema.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-09T01:14:01.000Z
+  + Kết thúc: 2018-03-10T01:14:01.000Z
+
+- Task [#13738609] - [#1034] : system-tests: create test for REST API - address resource required params are missing.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-06T01:14:01.000Z
+  + Kết thúc: 2018-03-07T01:14:01.000Z
+
+- Task [#13738610] - [#1035] : system-tests: create set of tests for REST API - address resource optional params are missing.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-10T01:14:01.000Z
+  + Kết thúc: 2018-03-11T01:14:01.000Z
+
+- Task [#13738628] - [#1029] : system-tests: modify authentication tests to create multiple address-spaces in one request.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-07T01:14:01.000Z
+  + Kết thúc: 2018-03-08T01:14:01.000Z
+
+- Task [#13738629] - [#1031] : system-tests: create new test for replace address-space list.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-08T01:14:01.000Z
+  + Kết thúc: 2018-03-09T01:14:01.000Z
+
+- Task [#13738631] - [#1036] : system-tests: create new test for address-space endpoints \"host\".1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-09T01:14:01.000Z
+  + Kết thúc: 2018-03-10T01:14:01.000Z
+
+- Task [#13738634] - [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-10T01:14:01.000Z
+  + Kết thúc: 2018-03-11T01:14:01.000Z
+
+- Task [#13739606] - [#1017] : Events sent to address of type queue not delivered after a while.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-10T01:14:01.000Z
+  + Kết thúc: 2018-03-11T01:14:01.000Z
+
+- Task [#13740031] - [#1073] : system-tests: Create test for check if size of messages was exceeded.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-11T01:14:01.000Z
+  + Kết thúc: 2018-03-12T01:14:01.000Z
+
+- Task [#13740087] - Reference table for Developer role assumptions.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-11T01:14:01.000Z
+  + Kết thúc: 2018-03-15T01:14:01.000Z
+
+- Task [#13740105] - Self-provision an address/destination.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-15T01:14:01.000Z
+  + Kết thúc: 2018-03-19T01:14:01.000Z
+
+- Task [#13740112] - Document how to delete a destination/address.1:
+  + Nhân sự: 8385
+  + Bắt đầu: 2018-03-19T01:14:01.000Z
+  + Kết thúc: 2018-06-25T01:14:01.000Z
+
+- Task [#13740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.1:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-05T01:14:01.000Z
+  + Kết thúc: 2018-03-06T01:14:01.000Z
+
+- Task [#13740575] - [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.1:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-06T01:14:01.000Z
+  + Kết thúc: 2018-03-07T01:14:01.000Z
+
+- Task [#13742276] - [#1115] : New system-tests for websocket.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-12T01:14:01.000Z
+  + Kết thúc: 2018-03-13T01:14:01.000Z
+
+- Task [#13742571] - [#1096] : agent: use \"direction\" attribute instead of \"dir\" for autoLinks.1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-07T01:14:01.000Z
+  + Kết thúc: 2018-03-08T01:14:01.000Z
+
+- Task [#13742572] - [#1097] : When creating many addresses at the same time, a few have missing autolinks.1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-08T01:14:01.000Z
+  + Kết thúc: 2018-03-09T01:14:01.000Z
+
+- Task [#13742573] - [#1084] : agent container: high load and memory issue with many addresses.1:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-09T01:14:01.000Z
+  + Kết thúc: 2018-03-10T01:14:01.000Z
+
+- Task [#13742576] - [#1117] : Response code/payload of AddressController REST API POST/DELETE operations.1:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-07T01:14:01.000Z
+  + Kết thúc: 2018-03-08T01:14:01.000Z
+
+- Task [#13742577] - [#1091] : Endpoints declaratively specified should be checked in status.1:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-08T01:14:01.000Z
+  + Kết thúc: 2018-03-09T01:14:01.000Z
+
+- Task [#13742583] - Install EnMasse on Bosch OpenShift Dedicated cluster.1:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-09T01:14:01.000Z
+  + Kết thúc: 2018-03-10T01:14:01.000Z
+
+- Task [#13742584] - [#1123] :  system-tests: new test for auto scaleup after manual scaledown.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-11T01:14:01.000Z
+  + Kết thúc: 2018-03-12T01:14:01.000Z
+
+- Task [#13742677] - [#1124] : system-tests: review of list of disabled tests from March and create new one for April.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-12T01:14:01.000Z
+  + Kết thúc: 2018-03-13T01:14:01.000Z
+
+- Task [#13742678] - system-tests: unclosed archives exception in Jenkins when core-dump is stored.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-13T01:14:01.000Z
+  + Kết thúc: 2018-03-14T01:14:01.000Z
+
+- Task [#13742679] - [#1128] : system-tests: Remove logs collecting for pods/statefull-sets.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-14T01:14:01.000Z
+  + Kết thúc: 2018-03-15T01:14:01.000Z
+
+- Task [#13742680] - [#1127] : system-tests: Use ENUM instead of string tags.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-13T01:14:01.000Z
+  + Kết thúc: 2018-03-14T01:14:01.000Z
+
+- Task [#13742682] - [#1126] : system-tests: use multi-asserts instead of single asserts.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-14T01:14:01.000Z
+  + Kết thúc: 2018-03-15T01:14:01.000Z
+
+- Task [#13742683] - [#1125] : system-tests: Rewrite tests to use Dependency injection.1:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-15T01:14:01.000Z
+  + Kết thúc: 2018-03-16T01:14:01.000Z
+
+- Task [#13746088] - [#1159] : System-tests: Improve waiting for webItems.1:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-15T01:14:01.000Z
+  + Kết thúc: 2018-03-16T01:14:01.000Z
+
+- Task [#14737430] - [#795] : System-tests: Enable authentication in marathon tests.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-16T01:14:01.000Z
+  + Kết thúc: 2018-03-17T01:14:01.000Z
+
+- Task [#14737477] - Investigate what's needed for operations (logs/monitoring).2:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#14737484] - [#972] : Make global-max-size parameter configurable via template/plan.2:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-10T01:14:01.000Z
+  + Kết thúc: 2018-03-11T01:14:01.000Z
+
+- Task [#14737485] - [#973] : Configure per-address settings for each address created on broker.2:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-10T01:14:01.000Z
+  + Kết thúc: 2018-03-11T01:14:01.000Z
+
+- Task [#14737492] - Docs: how to manage user permissions.2:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#14738010] - [#1009] : Make resync interval in controllers configurable.2:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-11T01:14:01.000Z
+  + Kết thúc: 2018-03-12T01:14:01.000Z
+
+- Task [#14738011] - [#1011] : Separata status check from controller resync.2:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-12T01:14:01.000Z
+  + Kết thúc: 2018-03-13T01:14:01.000Z
+
+- Task [#14738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-17T01:14:01.000Z
+  + Kết thúc: 2018-03-18T01:14:01.000Z
+
+- Task [#14738369] - [#1021] : system-tests: modify QueueTest#testScaledown.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-16T01:14:01.000Z
+  + Kết thúc: 2018-03-17T01:14:01.000Z
+
+- Task [#14738609] - [#1034] : system-tests: create test for REST API - address resource required params are missing.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-17T01:14:01.000Z
+  + Kết thúc: 2018-03-18T01:14:01.000Z
+
+- Task [#14738628] - [#1029] : system-tests: modify authentication tests to create multiple address-spaces in one request.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-18T01:14:01.000Z
+  + Kết thúc: 2018-03-19T01:14:01.000Z
+
+- Task [#14738629] - [#1031] : system-tests: create new test for replace address-space list.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-19T01:14:01.000Z
+  + Kết thúc: 2018-03-20T01:14:01.000Z
+
+- Task [#14738631] - [#1036] : system-tests: create new test for address-space endpoints \"host\".2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-20T01:14:01.000Z
+  + Kết thúc: 2018-03-21T01:14:01.000Z
+
+- Task [#14738634] - [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-21T01:14:01.000Z
+  + Kết thúc: 2018-03-22T01:14:01.000Z
+
+- Task [#14739606] - [#1017] : Events sent to address of type queue not delivered after a while.2:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-13T01:14:01.000Z
+  + Kết thúc: 2018-03-14T01:14:01.000Z
+
+- Task [#14740031] - [#1073] : system-tests: Create test for check if size of messages was exceeded.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-18T01:14:01.000Z
+  + Kết thúc: 2018-03-19T01:14:01.000Z
+
+- Task [#14740094] - Reference table for Developer role assumptions.2:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#14740105] - Self-provision an address/destination.2:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#14740112] - Document how to delete a destination/address.2:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-05T01:14:01.000Z
+  + Kết thúc: 2018-03-06T01:14:01.000Z
+
+- Task [#14740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.2:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-14T01:14:01.000Z
+  + Kết thúc: 2018-03-15T01:14:01.000Z
+
+- Task [#14740575] - [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.2:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-15T01:14:01.000Z
+  + Kết thúc: 2018-03-16T01:14:01.000Z
+
+- Task [#14742276] - [#1115] : New system-tests for websocket.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-19T01:14:01.000Z
+  + Kết thúc: 2018-03-20T01:14:01.000Z
+
+- Task [#14742572] - [#1097] : When creating many addresses at the same time, a few have missing autolinks.2:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-11T01:14:01.000Z
+  + Kết thúc: 2018-03-12T01:14:01.000Z
+
+- Task [#14742576] - [#1117] : Response code/payload of AddressController REST API POST/DELETE operations.2:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-16T01:14:01.000Z
+  + Kết thúc: 2018-03-17T01:14:01.000Z
+
+- Task [#14742577] - [#1091] : Endpoints declaratively specified should be checked in status.2:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-17T01:14:01.000Z
+  + Kết thúc: 2018-03-18T01:14:01.000Z
+
+- Task [#14742584] - [#1123] :  system-tests: new test for auto scaleup after manual scaledown.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-22T01:14:01.000Z
+  + Kết thúc: 2018-03-23T01:14:01.000Z
+
+- Task [#14742677] - [#1124] : system-tests: review of list of disabled tests from March and create new one for April.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-23T01:14:01.000Z
+  + Kết thúc: 2018-03-24T01:14:01.000Z
+
+- Task [#14742678] - system-tests: unclosed archives exception in Jenkins when core-dump is stored.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-24T01:14:01.000Z
+  + Kết thúc: 2018-03-25T01:14:01.000Z
+
+- Task [#14742679] - [#1128] : system-tests: Remove logs collecting for pods/statefull-sets.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-25T01:14:01.000Z
+  + Kết thúc: 2018-03-26T01:14:01.000Z
+
+- Task [#14742680] - [#1127] : system-tests: Use ENUM instead of string tags.2:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-20T01:14:01.000Z
+  + Kết thúc: 2018-03-21T01:14:01.000Z
+
+- Task [#14742683] - [#1125] : system-tests: Rewrite tests to use Dependency injection.2:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-26T01:14:01.000Z
+  + Kết thúc: 2018-03-27T01:14:01.000Z
+
+- Task [#15737477] - Investigate what's needed for operations (logs/monitoring).3:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#15737484] - [#972] : Make global-max-size parameter configurable via template/plan.3:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-18T01:14:01.000Z
+  + Kết thúc: 2018-03-19T01:14:01.000Z
+
+- Task [#15737485] - [#973] : Configure per-address settings for each address created on broker.3:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-12T01:14:01.000Z
+  + Kết thúc: 2018-03-13T01:14:01.000Z
+
+- Task [#15737492] - Docs: how to manage user permissions.3:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#15738010] - [#1009] : Make resync interval in controllers configurable.3:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-19T01:14:01.000Z
+  + Kết thúc: 2018-03-20T01:14:01.000Z
+
+- Task [#15738011] - [#1011] : Separata status check from controller resync.3:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-20T01:14:01.000Z
+  + Kết thúc: 2018-03-21T01:14:01.000Z
+
+- Task [#15738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-21T01:14:01.000Z
+  + Kết thúc: 2018-03-22T01:14:01.000Z
+
+- Task [#15738369] - [#1021] : system-tests: modify QueueTest#testScaledown.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-27T01:14:01.000Z
+  + Kết thúc: 2018-03-28T01:14:01.000Z
+
+- Task [#15738609] - [#1034] : system-tests: create test for REST API - address resource required params are missing.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-28T01:14:01.000Z
+  + Kết thúc: 2018-03-29T01:14:01.000Z
+
+- Task [#15738629] - [#1031] : system-tests: create new test for replace address-space list.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-29T01:14:01.000Z
+  + Kết thúc: 2018-03-30T01:14:01.000Z
+
+- Task [#15738631] - [#1036] : system-tests: create new test for address-space endpoints \"host\".3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-30T01:14:01.000Z
+  + Kết thúc: 2018-03-31T01:14:01.000Z
+
+- Task [#15738634] - [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-03-31T01:14:01.000Z
+  + Kết thúc: 2018-04-01T01:14:01.000Z
+
+- Task [#15739606] - [#1017] : Events sent to address of type queue not delivered after a while.3:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-21T01:14:01.000Z
+  + Kết thúc: 2018-03-22T01:14:01.000Z
+
+- Task [#15740096] - Reference table for Developer role assumptions.3:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#15740105] - Self-provision an address/destination.3:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#15740112] - Document how to delete a destination/address.3:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-06T01:14:01.000Z
+  + Kết thúc: 2018-03-07T01:14:01.000Z
+
+- Task [#15740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.3:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-22T01:14:01.000Z
+  + Kết thúc: 2018-03-23T01:14:01.000Z
+
+- Task [#15740575] - [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.3:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-23T01:14:01.000Z
+  + Kết thúc: 2018-03-24T01:14:01.000Z
+
+- Task [#15742276] - [#1115] : New system-tests for websocket.3:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-22T01:14:01.000Z
+  + Kết thúc: 2018-03-23T01:14:01.000Z
+
+- Task [#15742576] - [#1117] : Response code/payload of AddressController REST API POST/DELETE operations.3:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-24T01:14:01.000Z
+  + Kết thúc: 2018-03-25T01:14:01.000Z
+
+- Task [#15742577] - [#1091] : Endpoints declaratively specified should be checked in status.3:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-25T01:14:01.000Z
+  + Kết thúc: 2018-03-26T01:14:01.000Z
+
+- Task [#15742677] - [#1124] : system-tests: review of list of disabled tests from March and create new one for April.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-01T01:14:01.000Z
+  + Kết thúc: 2018-04-02T01:14:01.000Z
+
+- Task [#15742678] - system-tests: unclosed archives exception in Jenkins when core-dump is stored.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-02T01:14:01.000Z
+  + Kết thúc: 2018-04-03T01:14:01.000Z
+
+- Task [#15742683] - [#1125] : system-tests: Rewrite tests to use Dependency injection.3:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-03T01:14:01.000Z
+  + Kết thúc: 2018-04-04T01:14:01.000Z
+
+- Task [#16737477] - Investigate what's needed for operations (logs/monitoring).4:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#16737484] - [#972] : Make global-max-size parameter configurable via template/plan.4:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-26T01:14:01.000Z
+  + Kết thúc: 2018-03-27T01:14:01.000Z
+
+- Task [#16737485] - [#973] : Configure per-address settings for each address created on broker.4:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-13T01:14:01.000Z
+  + Kết thúc: 2018-03-14T01:14:01.000Z
+
+- Task [#16738010] - [#1009] : Make resync interval in controllers configurable.4:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-27T01:14:01.000Z
+  + Kết thúc: 2018-03-28T01:14:01.000Z
+
+- Task [#16738011] - [#1011] : Separata status check from controller resync.4:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-28T01:14:01.000Z
+  + Kết thúc: 2018-03-29T01:14:01.000Z
+
+- Task [#16738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.4:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-23T01:14:01.000Z
+  + Kết thúc: 2018-03-24T01:14:01.000Z
+
+- Task [#16738369] - [#1021] : system-tests: modify QueueTest#testScaledown.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-04T01:14:01.000Z
+  + Kết thúc: 2018-04-05T01:14:01.000Z
+
+- Task [#16738609] - [#1034] : system-tests: create test for REST API - address resource required params are missing.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-05T01:14:01.000Z
+  + Kết thúc: 2018-04-06T01:14:01.000Z
+
+- Task [#16738629] - [#1031] : system-tests: create new test for replace address-space list.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-06T01:14:01.000Z
+  + Kết thúc: 2018-04-07T01:14:01.000Z
+
+- Task [#16738631] - [#1036] : system-tests: create new test for address-space endpoints \"host\".4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-07T01:14:01.000Z
+  + Kết thúc: 2018-04-08T01:14:01.000Z
+
+- Task [#16738634] - [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-08T01:14:01.000Z
+  + Kết thúc: 2018-04-09T01:14:01.000Z
+
+- Task [#16739606] - [#1017] : Events sent to address of type queue not delivered after a while.4:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-29T01:14:01.000Z
+  + Kết thúc: 2018-03-30T01:14:01.000Z
+
+- Task [#16740098] - Reference table for Developer role assumptions.4:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#16740105] - Self-provision an address/destination.4:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#16740112] - Document how to delete a destination/address.4:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-07T01:14:01.000Z
+  + Kết thúc: 2018-03-08T01:14:01.000Z
+
+- Task [#16740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.4:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-30T01:14:01.000Z
+  + Kết thúc: 2018-03-31T01:14:01.000Z
+
+- Task [#16740575] - [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.4:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-03-31T01:14:01.000Z
+  + Kết thúc: 2018-04-01T01:14:01.000Z
+
+- Task [#16742276] - [#1115] : New system-tests for websocket.4:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-24T01:14:01.000Z
+  + Kết thúc: 2018-03-25T01:14:01.000Z
+
+- Task [#16742576] - [#1117] : Response code/payload of AddressController REST API POST/DELETE operations.4:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-01T01:14:01.000Z
+  + Kết thúc: 2018-04-02T01:14:01.000Z
+
+- Task [#16742577] - [#1091] : Endpoints declaratively specified should be checked in status.4:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-02T01:14:01.000Z
+  + Kết thúc: 2018-04-03T01:14:01.000Z
+
+- Task [#16742677] - [#1124] : system-tests: review of list of disabled tests from March and create new one for April.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-09T01:14:01.000Z
+  + Kết thúc: 2018-04-10T01:14:01.000Z
+
+- Task [#16742678] - system-tests: unclosed archives exception in Jenkins when core-dump is stored.4:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-10T01:14:01.000Z
+  + Kết thúc: 2018-04-11T01:14:01.000Z
+
+- Task [#17737477] - Investigate what's needed for operations (logs/monitoring).5:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#17737484] - [#972] : Make global-max-size parameter configurable via template/plan.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-03T01:14:01.000Z
+  + Kết thúc: 2018-04-04T01:14:01.000Z
+
+- Task [#17737485] - [#973] : Configure per-address settings for each address created on broker.5:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-14T01:14:01.000Z
+  + Kết thúc: 2018-03-15T01:14:01.000Z
+
+- Task [#17738010] - [#1009] : Make resync interval in controllers configurable.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-04T01:14:01.000Z
+  + Kết thúc: 2018-04-05T01:14:01.000Z
+
+- Task [#17738011] - [#1011] : Separata status check from controller resync.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-05T01:14:01.000Z
+  + Kết thúc: 2018-04-06T01:14:01.000Z
+
+- Task [#17738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.5:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-25T01:14:01.000Z
+  + Kết thúc: 2018-03-26T01:14:01.000Z
+
+- Task [#17738369] - [#1021] : system-tests: modify QueueTest#testScaledown.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-11T01:14:01.000Z
+  + Kết thúc: 2018-04-12T01:14:01.000Z
+
+- Task [#17738609] - [#1034] : system-tests: create test for REST API - address resource required params are missing.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-12T01:14:01.000Z
+  + Kết thúc: 2018-04-13T01:14:01.000Z
+
+- Task [#17738629] - [#1031] : system-tests: create new test for replace address-space list.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-13T01:14:01.000Z
+  + Kết thúc: 2018-04-14T01:14:01.000Z
+
+- Task [#17738631] - [#1036] : system-tests: create new test for address-space endpoints \"host\".5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-14T01:14:01.000Z
+  + Kết thúc: 2018-04-15T01:14:01.000Z
+
+- Task [#17738634] - [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-15T01:14:01.000Z
+  + Kết thúc: 2018-04-16T01:14:01.000Z
+
+- Task [#17739606] - [#1017] : Events sent to address of type queue not delivered after a while.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-06T01:14:01.000Z
+  + Kết thúc: 2018-04-07T01:14:01.000Z
+
+- Task [#17740087] - Reference table for Developer role assumptions.5:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#17740105] - Self-provision an address/destination.5:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#17740112] - Document how to delete a destination/address.5:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-08T01:14:01.000Z
+  + Kết thúc: 2018-03-09T01:14:01.000Z
+
+- Task [#17740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-07T01:14:01.000Z
+  + Kết thúc: 2018-04-08T01:14:01.000Z
+
+- Task [#17740575] - [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-08T01:14:01.000Z
+  + Kết thúc: 2018-04-09T01:14:01.000Z
+
+- Task [#17742577] - [#1091] : Endpoints declaratively specified should be checked in status.5:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-09T01:14:01.000Z
+  + Kết thúc: 2018-04-10T01:14:01.000Z
+
+- Task [#17742678] - system-tests: unclosed archives exception in Jenkins when core-dump is stored.5:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-16T01:14:01.000Z
+  + Kết thúc: 2018-04-17T01:14:01.000Z
+
+- Task [#18737477] - Investigate what's needed for operations (logs/monitoring).6:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#18737485] - [#973] : Configure per-address settings for each address created on broker.6:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-15T01:14:01.000Z
+  + Kết thúc: 2018-03-16T01:14:01.000Z
+
+- Task [#18738010] - [#1009] : Make resync interval in controllers configurable.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-10T01:14:01.000Z
+  + Kết thúc: 2018-04-11T01:14:01.000Z
+
+- Task [#18738011] - [#1011] : Separata status check from controller resync.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-11T01:14:01.000Z
+  + Kết thúc: 2018-04-12T01:14:01.000Z
+
+- Task [#18738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.6:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-26T01:14:01.000Z
+  + Kết thúc: 2018-03-27T01:14:01.000Z
+
+- Task [#18738369] - [#1021] : system-tests: modify QueueTest#testScaledown.6:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-17T01:14:01.000Z
+  + Kết thúc: 2018-04-18T01:14:01.000Z
+
+- Task [#18738609] - [#1034] : system-tests: create test for REST API - address resource required params are missing.6:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-18T01:14:01.000Z
+  + Kết thúc: 2018-04-19T01:14:01.000Z
+
+- Task [#18738631] - [#1036] : system-tests: create new test for address-space endpoints \"host\".6:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-19T01:14:01.000Z
+  + Kết thúc: 2018-04-20T01:14:01.000Z
+
+- Task [#18738634] - [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.6:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-20T01:14:01.000Z
+  + Kết thúc: 2018-04-21T01:14:01.000Z
+
+- Task [#18739606] - [#1017] : Events sent to address of type queue not delivered after a while.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-12T01:14:01.000Z
+  + Kết thúc: 2018-04-13T01:14:01.000Z
+
+- Task [#18740094] - Reference table for Developer role assumptions.6:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#18740112] - Document how to delete a destination/address.6:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-09T01:14:01.000Z
+  + Kết thúc: 2018-03-10T01:14:01.000Z
+
+- Task [#18740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-13T01:14:01.000Z
+  + Kết thúc: 2018-04-14T01:14:01.000Z
+
+- Task [#18740575] - [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.6:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-14T01:14:01.000Z
+  + Kết thúc: 2018-04-15T01:14:01.000Z
+
+- Task [#19737485] - [#973] : Configure per-address settings for each address created on broker.7:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-16T01:14:01.000Z
+  + Kết thúc: 2018-03-18T01:14:01.000Z
+
+- Task [#19738010] - [#1009] : Make resync interval in controllers configurable.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-15T01:14:01.000Z
+  + Kết thúc: 2018-04-16T01:14:01.000Z
+
+- Task [#19738011] - [#1011] : Separata status check from controller resync.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-16T01:14:01.000Z
+  + Kết thúc: 2018-04-17T01:14:01.000Z
+
+- Task [#19738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.7:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-27T01:14:01.000Z
+  + Kết thúc: 2018-03-28T01:14:01.000Z
+
+- Task [#19738369] - [#1021] : system-tests: modify QueueTest#testScaledown.7:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-21T01:14:01.000Z
+  + Kết thúc: 2018-04-22T01:14:01.000Z
+
+- Task [#19739606] - [#1017] : Events sent to address of type queue not delivered after a while.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-17T01:14:01.000Z
+  + Kết thúc: 2018-04-18T01:14:01.000Z
+
+- Task [#19740096] - Reference table for Developer role assumptions.7:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#19740112] - Document how to delete a destination/address.7:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-10T01:14:01.000Z
+  + Kết thúc: 2018-03-11T01:14:01.000Z
+
+- Task [#19740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-18T01:14:01.000Z
+  + Kết thúc: 2018-04-19T01:14:01.000Z
+
+- Task [#19740575] - [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.7:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-19T01:14:01.000Z
+  + Kết thúc: 2018-04-20T01:14:01.000Z
+
+- Task [#20737485] - [#973] : Configure per-address settings for each address created on broker.8:
+  + Nhân sự: 9744
+  + Bắt đầu: 2018-03-18T01:14:01.000Z
+  + Kết thúc: 2018-06-13T01:14:01.000Z
+
+- Task [#20738010] - [#1009] : Make resync interval in controllers configurable.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-20T01:14:01.000Z
+  + Kết thúc: 2018-04-21T01:14:01.000Z
+
+- Task [#20738011] - [#1011] : Separata status check from controller resync.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-21T01:14:01.000Z
+  + Kết thúc: 2018-04-22T01:14:01.000Z
+
+- Task [#20738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.8:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-28T01:14:01.000Z
+  + Kết thúc: 2018-03-29T01:14:01.000Z
+
+- Task [#20738369] - [#1021] : system-tests: modify QueueTest#testScaledown.8:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-22T01:14:01.000Z
+  + Kết thúc: 2018-04-23T01:14:01.000Z
+
+- Task [#20739606] - [#1017] : Events sent to address of type queue not delivered after a while.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-22T01:14:01.000Z
+  + Kết thúc: 2018-04-23T01:14:01.000Z
+
+- Task [#20740098] - Reference table for Developer role assumptions.8:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#20740112] - Document how to delete a destination/address.8:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-11T01:14:01.000Z
+  + Kết thúc: 2018-03-12T01:14:01.000Z
+
+- Task [#20740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-23T01:14:01.000Z
+  + Kết thúc: 2018-04-24T01:14:01.000Z
+
+- Task [#20740575] - [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.8:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-24T01:14:01.000Z
+  + Kết thúc: 2018-04-29T01:14:01.000Z
+
+- Task [#21738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.9:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-29T01:14:01.000Z
+  + Kết thúc: 2018-03-30T01:14:01.000Z
+
+- Task [#21738369] - [#1021] : system-tests: modify QueueTest#testScaledown.9:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-23T01:14:01.000Z
+  + Kết thúc: 2018-04-24T01:14:01.000Z
+
+- Task [#21739606] - [#1017] : Events sent to address of type queue not delivered after a while.9:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-29T01:14:01.000Z
+  + Kết thúc: 2018-04-30T01:14:01.000Z
+
+- Task [#21740087] - Reference table for Developer role assumptions.9:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#21740112] - Document how to delete a destination/address.9:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-12T01:14:01.000Z
+  + Kết thúc: 2018-03-13T01:14:01.000Z
+
+- Task [#21740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.9:
+  + Nhân sự: 7663
+  + Bắt đầu: 2018-04-30T01:14:01.000Z
+  + Kết thúc: 2018-05-05T01:14:01.000Z
+
+- Task [#22738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.10:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-30T01:14:01.000Z
+  + Kết thúc: 2018-03-31T01:14:01.000Z
+
+- Task [#22738369] - [#1021] : system-tests: modify QueueTest#testScaledown.10:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-24T01:14:01.000Z
+  + Kết thúc: 2018-04-25T01:14:01.000Z
+
+- Task [#22739606] - [#1017] : Events sent to address of type queue not delivered after a while.10:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#22740094] - Reference table for Developer role assumptions.10:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#22740112] - Document how to delete a destination/address.10:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-13T01:14:01.000Z
+  + Kết thúc: 2018-03-14T01:14:01.000Z
+
+- Task [#22740288] - [#1079] : standard-controller: is trying to connect to router which was already killed.10:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#23738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.11:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-03-31T01:14:01.000Z
+  + Kết thúc: 2018-04-01T01:14:01.000Z
+
+- Task [#23738369] - [#1021] : system-tests: modify QueueTest#testScaledown.11:
+  + Nhân sự: 1993
+  + Bắt đầu: 2018-04-25T01:14:01.000Z
+  + Kết thúc: 2018-04-26T01:14:01.000Z
+
+- Task [#23740096] - Reference table for Developer role assumptions.11:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#23740112] - Document how to delete a destination/address.11:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-14T01:14:01.000Z
+  + Kết thúc: 2018-03-15T01:14:01.000Z
+
+- Task [#24738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.12:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-04-01T01:14:01.000Z
+  + Kết thúc: 2018-04-02T01:14:01.000Z
+
+- Task [#24740098] - Reference table for Developer role assumptions.12:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#24740112] - Document how to delete a destination/address.12:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-15T01:14:01.000Z
+  + Kết thúc: 2018-03-16T01:14:01.000Z
+
+- Task [#25738314] - [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.13:
+  + Nhân sự: 787
+  + Bắt đầu: 2018-04-02T01:14:01.000Z
+  + Kết thúc: 2018-04-03T01:14:01.000Z
+
+- Task [#25740087] - Reference table for Developer role assumptions.13:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#25740112] - Document how to delete a destination/address.13:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-16T01:14:01.000Z
+  + Kết thúc: 2018-03-17T01:14:01.000Z
+
+- Task [#26740094] - Reference table for Developer role assumptions.14:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#26740112] - Document how to delete a destination/address.14:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-17T01:14:01.000Z
+  + Kết thúc: 2018-03-18T01:14:01.000Z
+
+- Task [#27740096] - Reference table for Developer role assumptions.15:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#27740112] - Document how to delete a destination/address.15:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-18T01:14:01.000Z
+  + Kết thúc: 2018-03-19T01:14:01.000Z
+
+- Task [#28740098] - Reference table for Developer role assumptions.16:
+  + Nhân sự: Unassigned
+  + Bắt đầu: ---
+  + Kết thúc: ---
+
+- Task [#28740112] - Document how to delete a destination/address.16:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-19T01:14:01.000Z
+  + Kết thúc: 2018-03-20T01:14:01.000Z
+
+- Task [#29740112] - Document how to delete a destination/address.17:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-20T01:14:01.000Z
+  + Kết thúc: 2018-03-21T01:14:01.000Z
+
+- Task [#30740112] - Document how to delete a destination/address.18:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-21T01:14:01.000Z
+  + Kết thúc: 2018-03-22T01:14:01.000Z
+
+- Task [#31740112] - Document how to delete a destination/address.19:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-22T01:14:01.000Z
+  + Kết thúc: 2018-03-23T01:14:01.000Z
+
+- Task [#32740112] - Document how to delete a destination/address.20:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-23T01:14:01.000Z
+  + Kết thúc: 2018-03-24T01:14:01.000Z
+
+- Task [#33740112] - Document how to delete a destination/address.21:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-24T01:14:01.000Z
+  + Kết thúc: 2018-03-25T01:14:01.000Z
+
+- Task [#34740112] - Document how to delete a destination/address.22:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-25T01:14:01.000Z
+  + Kết thúc: 2018-03-26T01:14:01.000Z
+
+- Task [#35740112] - Document how to delete a destination/address.23:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-26T01:14:01.000Z
+  + Kết thúc: 2018-03-27T01:14:01.000Z
+
+- Task [#36740112] - Document how to delete a destination/address.24:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-27T01:14:01.000Z
+  + Kết thúc: 2018-03-28T01:14:01.000Z
+
+- Task [#37740112] - Document how to delete a destination/address.25:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-28T01:14:01.000Z
+  + Kết thúc: 2018-03-29T01:14:01.000Z
+
+- Task [#38740112] - Document how to delete a destination/address.26:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-29T01:14:01.000Z
+  + Kết thúc: 2018-03-30T01:14:01.000Z
+
+- Task [#39740112] - Document how to delete a destination/address.27:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-30T01:14:01.000Z
+  + Kết thúc: 2018-03-31T01:14:01.000Z
+
+- Task [#40740112] - Document how to delete a destination/address.28:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-03-31T01:14:01.000Z
+  + Kết thúc: 2018-04-01T01:14:01.000Z
+
+- Task [#41740112] - Document how to delete a destination/address.29:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-01T01:14:01.000Z
+  + Kết thúc: 2018-04-02T01:14:01.000Z
+
+- Task [#42740112] - Document how to delete a destination/address.30:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-02T01:14:01.000Z
+  + Kết thúc: 2018-04-03T01:14:01.000Z
+
+- Task [#43740112] - Document how to delete a destination/address.31:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-03T01:14:01.000Z
+  + Kết thúc: 2018-04-04T01:14:01.000Z
+
+- Task [#44740112] - Document how to delete a destination/address.32:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-04T01:14:01.000Z
+  + Kết thúc: 2018-04-05T01:14:01.000Z
+
+- Task [#45740112] - Document how to delete a destination/address.33:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-05T01:14:01.000Z
+  + Kết thúc: 2018-04-07T01:14:01.000Z
+
+- Task [#46740112] - Document how to delete a destination/address.34:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-07T01:14:01.000Z
+  + Kết thúc: 2018-04-08T01:14:01.000Z
+
+- Task [#47740112] - Document how to delete a destination/address.35:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-08T01:14:01.000Z
+  + Kết thúc: 2018-04-09T01:14:01.000Z
+
+- Task [#48740112] - Document how to delete a destination/address.36:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-09T01:14:01.000Z
+  + Kết thúc: 2018-04-10T01:14:01.000Z
+
+- Task [#49740112] - Document how to delete a destination/address.37:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-10T01:14:01.000Z
+  + Kết thúc: 2018-04-11T01:14:01.000Z
+
+- Task [#50740112] - Document how to delete a destination/address.38:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-11T01:14:01.000Z
+  + Kết thúc: 2018-04-12T01:14:01.000Z
+
+- Task [#51740112] - Document how to delete a destination/address.39:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-12T01:14:01.000Z
+  + Kết thúc: 2018-04-13T01:14:01.000Z
+
+- Task [#52740112] - Document how to delete a destination/address.40:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-13T01:14:01.000Z
+  + Kết thúc: 2018-04-14T01:14:01.000Z
+
+- Task [#53740112] - Document how to delete a destination/address.41:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-14T01:14:01.000Z
+  + Kết thúc: 2018-04-15T01:14:01.000Z
+
+- Task [#54740112] - Document how to delete a destination/address.42:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-15T01:14:01.000Z
+  + Kết thúc: 2018-04-16T01:14:01.000Z
+
+- Task [#55740112] - Document how to delete a destination/address.43:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-16T01:14:01.000Z
+  + Kết thúc: 2018-04-17T01:14:01.000Z
+
+- Task [#56740112] - Document how to delete a destination/address.44:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-17T01:14:01.000Z
+  + Kết thúc: 2018-04-18T01:14:01.000Z
+
+- Task [#57740112] - Document how to delete a destination/address.45:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-18T01:14:01.000Z
+  + Kết thúc: 2018-04-19T01:14:01.000Z
+
+- Task [#58740112] - Document how to delete a destination/address.46:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-19T01:14:01.000Z
+  + Kết thúc: 2018-04-20T01:14:01.000Z
+
+- Task [#59740112] - Document how to delete a destination/address.47:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-20T01:14:01.000Z
+  + Kết thúc: 2018-04-21T01:14:01.000Z
+
+- Task [#60740112] - Document how to delete a destination/address.48:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-21T01:14:01.000Z
+  + Kết thúc: 2018-04-22T01:14:01.000Z
+
+- Task [#61740112] - Document how to delete a destination/address.49:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-22T01:14:01.000Z
+  + Kết thúc: 2018-04-23T01:14:01.000Z
+
+- Task [#62740112] - Document how to delete a destination/address.50:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-23T01:14:01.000Z
+  + Kết thúc: 2018-04-24T01:14:01.000Z
+
+- Task [#63740112] - Document how to delete a destination/address.51:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-24T01:14:01.000Z
+  + Kết thúc: 2018-04-25T01:14:01.000Z
+
+- Task [#64740112] - Document how to delete a destination/address.52:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-25T01:14:01.000Z
+  + Kết thúc: 2018-04-26T01:14:01.000Z
+
+- Task [#65740112] - Document how to delete a destination/address.53:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-26T01:14:01.000Z
+  + Kết thúc: 2018-04-27T01:14:01.000Z
+
+- Task [#66740112] - Document how to delete a destination/address.54:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-27T01:14:01.000Z
+  + Kết thúc: 2018-04-28T01:14:01.000Z
+
+- Task [#67740112] - Document how to delete a destination/address.55:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-28T01:14:01.000Z
+  + Kết thúc: 2018-04-29T01:14:01.000Z
+
+- Task [#68740112] - Document how to delete a destination/address.56:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-29T01:14:01.000Z
+  + Kết thúc: 2018-04-30T01:14:01.000Z
+
+- Task [#69740112] - Document how to delete a destination/address.57:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-04-30T01:14:01.000Z
+  + Kết thúc: 2018-05-01T01:14:01.000Z
+
+- Task [#70740112] - Document how to delete a destination/address.58:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-05-01T01:14:01.000Z
+  + Kết thúc: 2018-05-02T01:14:01.000Z
+
+- Task [#71740112] - Document how to delete a destination/address.59:
+  + Nhân sự: 1193
+  + Bắt đầu: 2018-05-02T01:14:01.000Z
+  + Kết thúc: 2018-05-03T01:14:01.000Z

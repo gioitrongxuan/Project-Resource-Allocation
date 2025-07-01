@@ -2,6 +2,7 @@
 const { tasks } = require('./data/task');
 const { assets } = require('./data/asset');
 const { employees } = require('./data/employee');
+const { projects } = require('../data/input/projects');
 
   
 const START_DATE = new Date()
@@ -19,26 +20,33 @@ const DLHS_Arguments = {
 }
 
 // For HS
-const bw = 1, maxIter = 20000, hmSize = 60, PAR = 0.5, HMCR = 0.95
+const bw = 1, maxIter = 10, hmSize = 60, PAR = 0.5, HMCR = 0.95
 const HS_Arguments = {
   bw, maxIter, hmSize, PAR, HMCR
 }
 
 const assetHasKPIWeight = 0.1
 const kpiTarget = {
-  'A': { value: 0.88, weight: 0.35 },
-  'B': { value: 0.91, weight: 0.35 },
-  'C': { value: 0.91, weight: 0.3 },
+  // 'A': { value: 0.88, weight: 0.35 },
+  // 'B': { value: 0.91, weight: 0.35 },
+  // 'C': { value: 0.91, weight: 0.3 },
+  'cycleTime': { value: 0.9, weight: 1 },
 }
 
-const project = {
-  startTime: START_DATE,
-  endTime: END_DATE,
-  tasks: tasks,
+// const project = {
+//   startTime: START_DATE,
+//   endTime: END_DATE,
+//   tasks: tasks,
+//   kpiTarget: kpiTarget,
+//   employees: employees,
+//   assets: assets
+// }
+
+const project = {...projects[1],
   kpiTarget: kpiTarget,
-  employees: employees,
-  assets: assets
 }
+project.startTime = new Date(project.startTime);
+project.endTime = new Date(project.endTime);
 
 
 module.exports = {

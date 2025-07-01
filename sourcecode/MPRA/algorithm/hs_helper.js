@@ -145,17 +145,33 @@ function getLastKPIAndAvailableEmpsInTasks(tasks, allTasksInPast, employees) {
     // console.log("requireAssign: ", requireAssign)
     let availableAssignee = employees
     
-    if (requireAssign === undefined || !Object.keys(requireAssign)?.length) {
+    if (!requireAssign || Object.keys(requireAssign).length === 0) {
       employees.map((employee) => {
         const employeeId = employee.id
         let kpiValue = 0
         // Nếu không yêu cầu năng lực => lấy năng lực thực hiện task tốt nhất từ trước giờ của nó
-        taskOfEmps = allTasksInPast.filter((item) => item.assignee.id === employeeId).sort((a, b) => b.evaluatePoint - a.evaluatePoint)
-        // console.log("taskOfEmp: ", taskOfEmps)
-        kpiValue = taskOfEmps[0].evaluatePoint
-        kpiInTaskWithEmp = lastKPIsOfEmps.find((item) => item.id === employee.id)
+        // taskOfEmps = allTasksInPast.filter((item) => item.assignee.id === employeeId).sort((a, b) => b.evaluatePoint - a.evaluatePoint)
+        // // console.log("taskOfEmp: ", taskOfEmps)
+        // kpiValue = taskOfEmps[0].evaluatePoint
+        // kpiInTaskWithEmp = lastKPIsOfEmps.find((item) => item.id === employee.id)
 
-        kpiInTaskWithEmp[task.id] = kpiValue
+        // kpiInTaskWithEmp[task.id] = kpiValue
+
+        taskOfEmps = allTasksInPast
+      .filter((item) => item.assignee?.id === employeeId)
+      .sort((a, b) => b.evaluatePoint - a.evaluatePoint)
+
+      kpiInTaskWithEmp = lastKPIsOfEmps.find((item) => item.id === employee.id)
+
+      if (taskOfEmps.length > 0) {
+        kpiValue = taskOfEmps[0].evaluatePoint
+      } else {
+        // Nếu chưa từng có task nào trong quá khứ → gán KPI ngẫu nhiên nhẹ
+        kpiValue = 0.7 + Math.random() * (1 - 0.7)
+      }
+
+      kpiInTaskWithEmp.kpiInTask[task.id] = kpiValue
+
       })
     } else {
       const listTasksMatching = findTasksWithMatchingTagsAndRequire(allTasksInPast, task)
@@ -567,8 +583,8 @@ function splitKPIToEmployees(tasks, employees, kpiTarget) {
 }
 
 function markAssetsAsUsed(currentAssets, taskAssets, startTime, endTime) {
-  let updateInUse = currentAssets.inUse
-  let updateReadyToUse = currentAssets.readyToUse
+  let updateInUse = currentAssets?.inUse || [];
+  let updateReadyToUse = currentAssets?.readyToUse || [];
   
   for (let i = 0; i < taskAssets.length; i++) {
     let taskAsset = taskAssets[i]
@@ -1440,6 +1456,7 @@ function harmonySearch_Base(HS_Arguments, tasks, employees, lastKPIs,  kpiTarget
   
   // STEP 2: 
   for (let i = 0; i < maxIter; i++) {
+    console.log("day",i,maxIter);
     const bestSolution = findBestAndWorstHarmonySolution(HM, kpiTarget, kpiOfEmployeesTarget).best
     const worstSolution = findBestAndWorstHarmonySolution(HM, kpiTarget, kpiOfEmployeesTarget).worst
 
@@ -1450,6 +1467,7 @@ function harmonySearch_Base(HS_Arguments, tasks, employees, lastKPIs,  kpiTarget
     //     bestFitnessSolutions.push(bestSolution)
     //   }
     // } 
+
     let improviseAssignment = []
     let empAssigned = []
     let falseAssigneeScore = 0, falseDuplicate = 0
@@ -1533,6 +1551,8 @@ function harmonySearch_Base(HS_Arguments, tasks, employees, lastKPIs,  kpiTarget
       }
     }
   }
+
+
 
   const filePath = './output/hs_task_kpis_output_logs.xlsx';
   workbook2.xlsx.writeFile(filePath);
@@ -2535,6 +2555,9 @@ const proposalForProjectWithDLHS = (job, allTasksInPast, allTasksOutOfProject, D
     
   }
   if (new Date(lastestEndTime) > new Date(job.endTime)) {
+    console.log("lastestEndTime: ", lastestEndTime)
+    console.log("job.endTime: ", job.endTime)
+    console.log("job.tasks: ", job)
     throw Error("Không thể tìm được phương án phân bổ để thỏa mãn thời gian của dự án! Hãy điều chỉnh lại tài nguyên và thời gian dự kiến!")
   }
 
@@ -2594,7 +2617,7 @@ const proposalForProjectWithHS_Base = (job, allTasksInPast, allTasksOutOfProject
   if (checkResult?.isHasAvailableSolution === false && checkResult?.error_code) {
     throw Error(checkResult?.error_code)
   }
-
+  console.log("step 1.2 ");
   // Step 1.2
   let kpiOfEmployeesTarget = {}
   employees.forEach((employee) => {
@@ -2631,7 +2654,7 @@ const proposalForProjectWithHS_Base = (job, allTasksInPast, allTasksOutOfProject
   if (new Date(lastestEndTime) > new Date(job.endTime)) {
     throw Error("Không thể tìm được phương án phân bổ để thỏa mãn thời gian của dự án! Hãy điều chỉnh lại tài nguyên và thời gian dự kiến!")
   }
-
+  console.log("step 1.2 ");
   // Step 2
   let testResult = harmonySearch_Base(HS_Arguments, job.tasks, employees, lastKPIs, kpiTarget, kpiOfEmployeesTarget, assetHasKPIWeight)
   for (let i = 1; i < 10; i++) {
@@ -2647,7 +2670,7 @@ const proposalForProjectWithHS_Base = (job, allTasksInPast, allTasksOutOfProject
       testResult = result
     }
   }
-
+console.log("step 2 ");
   // Step 3
   if (testResult?.falseDuplicate) {
     // console.log("vào đây")
@@ -2656,7 +2679,9 @@ const proposalForProjectWithHS_Base = (job, allTasksInPast, allTasksOutOfProject
   }
 
   return testResult
+  console.log("step 3 ");
 }
+
 
 module.exports = {
   findEmployeesWithQualities,

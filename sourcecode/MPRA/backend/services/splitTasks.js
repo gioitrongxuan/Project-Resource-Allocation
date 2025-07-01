@@ -2,6 +2,7 @@ const findPreceedingTasks =  require('./arrangePredecessorTasks.js');
 const splitTasks = async (tasks) => {
     let events = [];
 
+
     // Step 1: Build events for each task (start and end)
     tasks.forEach((task) => {
         events.push({ time: new Date(task.startTime), type: 'start', task });
@@ -40,8 +41,8 @@ const splitTasks = async (tasks) => {
                 let splitDuration = duration / tasksSet.size;
                 let offset = 0;
                 tasksSet.forEach((task) => {
-                    let segmentStart = new Date(prevTime[assignee].getTime() + offset+1000);
-                    let segmentEnd = new Date(segmentStart.getTime() + splitDuration-1000);
+                    let segmentStart = new Date(prevTime[assignee].getTime() + offset+1000*60);
+                    let segmentEnd = new Date(segmentStart.getTime() + splitDuration-1000*60);
                     if (!segmentCounters[assignee]) segmentCounters[assignee] = {};
                     if (!segmentCounters[assignee][task.name]) segmentCounters[assignee][task.name] = 1;
 
@@ -55,6 +56,7 @@ const splitTasks = async (tasks) => {
                     //     endTime: segmentEnd.toISOString(),
                     //     estimateNormalTime: splitDuration / 1000 / 60 / 60 / 24 ,
                     // });
+                    
                     result.push({
                         id: task.id + segmentCounters[assignee][task.name]*1000000,
                         code: task.code + "." + segmentCounters[assignee][task.name],
@@ -64,7 +66,7 @@ const splitTasks = async (tasks) => {
                         endTime: segmentEnd.toISOString(),
                         requireAsset: task.requireAsset || [],
                         tags: task.tags || [],
-                        estimateTime: task.estimateTime || null,
+                        estimateTime: splitDuration / 1000 / 60 / 60 / 24 ,
                         requireAssign: task.requireAssign || {},
                         kpiInTask: task.kpiInTask || [],
                         projectKey: task.projectKey,

@@ -49,8 +49,8 @@ async function testDLHS() {
   projectGeneralSheet.addRow([project.startTime.toLocaleString(), project.endTime.toLocaleString()])
 
   // Thêm dữ liệu cho sheet kết quả phân bổ task
-  taskSheet.addRow(['Thông tin phân bổ'])
-  taskSheet.addRow(['Task ID (Task Name)', 'Start Time', 'End Time', 'AssigneeId (Assignee Name)', 'AssetId (Asset Name)']);
+  // taskSheet.addRow(['Thông tin phân bổ'])
+  taskSheet.addRow(['Task ID (Task Name)', 'code','Start Time', 'End Time', 'AssigneeId (Assignee Name)', 'AssetId (Asset Name)']);
   for (let i = 0; i < testResult.assignment.length; i++) {
     const { task, assignee, assets } = testResult.assignment[i]
     let assetToPush = ''
@@ -119,6 +119,11 @@ async function testDLHS() {
 
   for (let i = 0; i < testResult.assignment.length; i++) {
     const { task, assignee, assets } = testResult.assignment[i]
+
+    if (!employeeTimes[assignee.id]) {
+      employeeTimes[assignee.id] = [];
+    }
+
     employeeTimes[assignee.id].push({
       startTime: task.startTime,
       endTime: task.endTime,
@@ -140,36 +145,71 @@ async function testDLHS() {
   }
 
 
-  // Thêm dữ liệu cho sheet thời gian của tài sản
-  const assetsAll = project.assets
-  const allAssets = [...assetsAll.inUse, ...assetsAll.readyToUse]
-  let allAssetTimes = {}
-  allAssets.forEach((asset) => {
-    allAssetTimes[asset.id] = asset.usageLogs || []
-  })
-  testResult.assignment.forEach(({ task, assets }) => {
-    const {startTime, endTime} = task
-    assets.forEach((asset) => {
-      allAssetTimes[asset.id].push({
-        startDate: new Date(startTime),
-        endDate: new Date(endTime),
-        task: task.name
-      })
-    })
-  })
+  // // Thêm dữ liệu cho sheet thời gian của tài sản
+  // const assetsAll = project.assets
+  // const allAssets = [...assetsAll.inUse, ...assetsAll.readyToUse]
+  // let allAssetTimes = {}
+  // allAssets.forEach((asset) => {
+  //   allAssetTimes[asset.id] = asset.usageLogs || []
+  // })
+  // testResult.assignment.forEach(({ task, assets }) => {
+  //   const {startTime, endTime} = task
+  //   assets.forEach((asset) => {
+  //     allAssetTimes[asset.id].push({
+  //       startDate: new Date(startTime),
+  //       endDate: new Date(endTime),
+  //       task: task.name
+  //     })
+  //   })
+  // })
 
-  assetSheet.addRow(['AssetID', 'Start Date', 'End Date', 'Thực hiện công việc trong dự án'])
+  // assetSheet.addRow(['AssetID', 'Start Date', 'End Date', 'Thực hiện công việc trong dự án'])
 
-  Object.keys(allAssetTimes).forEach(assetId => {
-    allAssetTimes[assetId].forEach(time => {
-      assetSheet.addRow([
-        assetId,
-        time.startDate.toLocaleString(),
-        time.endDate.toLocaleString(),
-        time?.task ? item.task : "Công việc khác ngoài dự án"
-      ]);
+  // Object.keys(allAssetTimes).forEach(assetId => {
+  //   allAssetTimes[assetId].forEach(time => {
+  //     assetSheet.addRow([
+  //       assetId,
+  //       time.startDate.toLocaleString(),
+  //       time.endDate.toLocaleString(),
+  //       time?.task ? item.task : "Công việc khác ngoài dự án"
+  //     ]);
+  //   });
+  // });
+  if (project.assets && (project.assets.inUse?.length > 0 || project.assets.readyToUse?.length > 0)) {
+    const assetsAll = project.assets;
+    const allAssets = [...(assetsAll.inUse || []), ...(assetsAll.readyToUse || [])];
+    let allAssetTimes = {};
+  
+    allAssets.forEach((asset) => {
+      allAssetTimes[asset.id] = asset.usageLogs || [];
     });
-  });
+  
+    testResult.assignment.forEach(({ task, assets }) => {
+      const { startTime, endTime } = task;
+      assets.forEach((asset) => {
+        allAssetTimes[asset.id].push({
+          startDate: new Date(startTime),
+          endDate: new Date(endTime),
+          task: task.name
+        });
+      });
+    });
+  
+    assetSheet.addRow(['AssetID', 'Start Date', 'End Date', 'Thực hiện công việc trong dự án']);
+  
+    Object.keys(allAssetTimes).forEach(assetId => {
+      allAssetTimes[assetId].forEach(time => {
+        assetSheet.addRow([
+          assetId,
+          time.startDate.toLocaleString(),
+          time.endDate.toLocaleString(),
+          time?.task ? time.task : "Công việc khác ngoài dự án"
+        ]);
+      });
+    });
+  } else {
+    assetSheet.addRow(["Dự án này không sử dụng tài sản nào."]);
+  }
   
   // Save workbook to a file
   const filePath = './output/hs_task_kpis_output.xlsx';

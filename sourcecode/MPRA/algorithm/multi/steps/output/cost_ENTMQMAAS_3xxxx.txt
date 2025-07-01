@@ -1,0 +1,1229 @@
+💰 Chi phí dự kiến cho project ENTMQMAAS_3xxxx
+
+- Task [#13720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.1
+  + Assignee: 787
+  + Time: 2017-11-14T01:00:00.000Z → 2017-11-14T01:09:06.666Z
+  + Cost: 0.38 đ
+
+- Task [#13720952] – [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.1
+  + Assignee: 1993
+  + Time: 2017-11-14T01:00:00.000Z → 2017-11-14T03:25:46.666Z
+  + Cost: 6.07 đ
+
+- Task [#13720955] – [#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak.1
+  + Assignee: 787
+  + Time: 2017-11-15T01:00:00.000Z → 2017-11-15T01:50:58.000Z
+  + Cost: 2.12 đ
+
+- Task [#13720976] – [#526] : System-tests: November list of disabled tests.1
+  + Assignee: 1993
+  + Time: 2017-11-15T01:00:00.000Z → 2017-11-15T03:25:46.666Z
+  + Cost: 6.07 đ
+
+- Task [#13721160] – Unable test io.enmasse.systemtest.brokered.clients.rhea.MsgPatternsTest.testMessageSelectorTopic.1
+  + Assignee: 787
+  + Time: 2017-11-16T01:00:00.000Z → 2017-11-16T01:32:41.818Z
+  + Cost: 1.36 đ
+
+- Task [#13721310] – [#539] : System-tests: createtestAuthSendReceiveLong.1
+  + Assignee: 787
+  + Time: 2017-11-17T01:00:00.000Z → 2017-11-18T03:20:53.333Z
+  + Cost: 65.87 đ
+
+- Task [#13721458] – Console UI tweaks to Create Address wizard.1
+  + Assignee: 4714
+  + Time: 2017-11-14T01:00:00.000Z → 2020-01-27T05:19:40.000Z
+  + Cost: 48250.82 đ
+
+- Task [#13724080] – Productize ER3 of RHOM.1
+  + Assignee: 6672
+  + Time: 2017-11-14T01:00:00.000Z → 2017-11-14T02:40:20.000Z
+  + Cost: 4.18 đ
+
+- Task [#13727841] – Document Creating and deleting addresses.1
+  + Assignee: 8385
+  + Time: 2017-11-14T01:00:00.000Z → 2017-12-07T01:42:00.000Z
+  + Cost: 1381.75 đ
+
+- Task [#13730068] – [#744] : Implement Plan resource limits for address space.1
+  + Assignee: 8385
+  + Time: 2017-12-08T01:00:00.000Z → 2017-12-08T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730069] – [#745] : Implement Plan resource requests for addresses.1
+  + Assignee: 8385
+  + Time: 2017-12-09T01:00:00.000Z → 2017-12-09T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730070] – [#746] : Add support for checking requests against limits and setting status on address.1
+  + Assignee: 8385
+  + Time: 2017-12-10T01:00:00.000Z → 2017-12-10T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730071] – [#747] : Add support for colocated topics.1
+  + Assignee: 8385
+  + Time: 2017-12-11T01:00:00.000Z → 2017-12-11T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730072] – [#748] : Persist decision about where queues/topics are placed.1
+  + Assignee: 8385
+  + Time: 2017-12-12T01:00:00.000Z → 2017-12-12T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730073] – [#749] : Use statefulsets for brokers.1
+  + Assignee: 8385
+  + Time: 2017-12-13T01:00:00.000Z → 2017-12-13T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.1
+  + Assignee: 8385
+  + Time: 2017-12-14T01:00:00.000Z → 2017-12-14T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730081] – [#757] : Oauth for console.1
+  + Assignee: 9744
+  + Time: 2017-11-14T01:00:00.000Z → 2017-11-19T04:09:44.000Z
+  + Cost: 307.91 đ
+
+- Task [#13730082] – [#758] : Keycloak plugin OAUTH2 support.1
+  + Assignee: 3608
+  + Time: 2017-11-14T01:00:00.000Z → 2017-11-20T05:48:46.666Z
+  + Cost: 248.02 đ
+
+- Task [#13730083] – [#759] : Delegate from keycloak to OpenShift Pro.1
+  + Assignee: 8385
+  + Time: 2017-12-15T01:00:00.000Z → 2017-12-15T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730085] – [#761] : Console to support status for addresses.1
+  + Assignee: 9744
+  + Time: 2017-11-20T01:00:00.000Z → 2017-11-25T04:09:44.000Z
+  + Cost: 307.91 đ
+
+- Task [#13730086] – [#762] : How to match plans offered to plans specified (e.g. have console offer plans based on the presence of configmaps in its namespace or variations of that).1
+  + Assignee: 9744
+  + Time: 2017-11-26T01:00:00.000Z → 2017-12-01T04:09:44.000Z
+  + Cost: 307.91 đ
+
+- Task [#13730089] – [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .1
+  + Assignee: 3608
+  + Time: 2017-11-21T01:00:00.000Z → 2017-11-27T05:48:46.666Z
+  + Cost: 248.02 đ
+
+- Task [#13730091] – [#767] : Disable durable subs (configurable upstream?).1
+  + Assignee: 9744
+  + Time: 2017-12-02T01:00:00.000Z → 2017-12-07T04:09:44.000Z
+  + Cost: 307.91 đ
+
+- Task [#13730092] – [#768] : Disable MQTT (configurable upstream?).1
+  + Assignee: 8385
+  + Time: 2017-12-16T01:00:00.000Z → 2017-12-16T08:58:04.444Z
+  + Cost: 19.92 đ
+
+- Task [#13730139] – Polarion reporting of enmasse test cases.1
+  + Assignee: 1993
+  + Time: 2017-11-16T01:00:00.000Z → 2017-11-19T01:59:30.000Z
+  + Cost: 182.48 đ
+
+- Task [#13730141] – [#770] : Define tests for limitation of address-spaces (by credits).1
+  + Assignee: 1993
+  + Time: 2017-11-20T01:00:00.000Z → 2017-11-23T01:59:30.000Z
+  + Cost: 182.48 đ
+
+- Task [#13730143] – [#772] : WebConsole Tests for addresses status.1
+  + Assignee: 787
+  + Time: 2017-11-19T01:00:00.000Z → 2017-11-20T03:05:58.000Z
+  + Cost: 65.25 đ
+
+- Task [#13730144] – [#773] : Tests for authentication WebConsole.1
+  + Assignee: 787
+  + Time: 2017-11-21T01:00:00.000Z → 2017-11-22T03:05:58.000Z
+  + Cost: 65.25 đ
+
+- Task [#13730145] – [#774] : Tests for authorization in WebConsole.1
+  + Assignee: 787
+  + Time: 2017-11-23T01:00:00.000Z → 2017-11-24T03:05:58.000Z
+  + Cost: 65.25 đ
+
+- Task [#13730146] – [#775] : Tests for clients authorization.1
+  + Assignee: 787
+  + Time: 2017-11-25T01:00:00.000Z → 2017-11-26T03:05:58.000Z
+  + Cost: 65.25 đ
+
+- Task [#13730147] – [#776] : Recheck and enable system tests for standard address space.1
+  + Assignee: 1993
+  + Time: 2017-11-24T01:00:00.000Z → 2017-11-27T01:59:30.000Z
+  + Cost: 182.48 đ
+
+- Task [#13730148] – [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.1
+  + Assignee: 787
+  + Time: 2017-11-27T01:00:00.000Z → 2017-11-28T03:05:58.000Z
+  + Cost: 65.25 đ
+
+- Task [#13730167] – Setup Jenkins job with productized images.1
+  + Assignee: 787
+  + Time: 2017-11-29T01:00:00.000Z → 2017-11-30T03:05:58.000Z
+  + Cost: 65.25 đ
+
+- Task [#13732596] – [#843] : improve test framework regarding to definition of dynamically created plans.1
+  + Assignee: 1993
+  + Time: 2017-11-28T01:00:00.000Z → 2017-11-28T04:45:45.000Z
+  + Cost: 9.41 đ
+
+- Task [#13732615] – [#844] : system-tests: create documentation in HACKING doc how to execute webconsole tests.1
+  + Assignee: 787
+  + Time: 2017-12-01T01:00:00.000Z → 2017-12-01T02:45:40.000Z
+  + Cost: 4.40 đ
+
+- Task [#13733175] – Add Documentation Conventions to Guide.1
+  + Assignee: 8385
+  + Time: 2017-12-17T01:00:00.000Z → 2017-12-28T05:50:20.000Z
+  + Cost: 672.10 đ
+
+- Task [#13733952] – Investigate options for enforcing backlog limits on broker/router.1
+  + Assignee: 8385
+  + Time: 2017-12-29T01:00:00.000Z → 2017-12-29T07:49:25.714Z
+  + Cost: 17.06 đ
+
+- Task [#13733954] – [#811] : Brokered: cannot create topic: user null does not have permissions to 'send'....1
+  + Assignee: 3608
+  + Time: 2017-11-28T01:00:00.000Z → 2017-11-28T06:55:15.000Z
+  + Cost: 9.87 đ
+
+- Task [#13733964] – [#877] : Make ansible deployment for install dependencies for running systemtests.1
+  + Assignee: 787
+  + Time: 2017-12-02T01:00:00.000Z → 2017-12-03T02:32:53.333Z
+  + Cost: 63.87 đ
+
+- Task [#13734956] – [#894] : Console does not sanitize address config names.1
+  + Assignee: 8385
+  + Time: 2017-12-30T01:00:00.000Z → 2017-12-30T02:14:02.500Z
+  + Cost: 3.09 đ
+
+- Task [#13735371] – [#910] : address-controller can't replace addresses created via console.1
+  + Assignee: 8385
+  + Time: 2017-12-31T01:00:00.000Z → 2017-12-31T01:40:37.777Z
+  + Cost: 1.69 đ
+
+- Task [#13735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.1
+  + Assignee: 1993
+  + Time: 2017-11-29T01:00:00.000Z → 2017-11-30T04:36:26.666Z
+  + Cost: 69.02 đ
+
+- Task [#13735527] – [#919] : system-tests: new scale test: testPodsLimitation.1
+  + Assignee: 787
+  + Time: 2017-12-04T01:00:00.000Z → 2017-12-04T07:37:33.333Z
+  + Cost: 16.56 đ
+
+- Task [#13735530] – [#920] : system-tests: new scale test: testCreditLimitation.1
+  + Assignee: 787
+  + Time: 2017-12-05T01:00:00.000Z → 2017-12-05T07:37:33.333Z
+  + Cost: 16.56 đ
+
+- Task [#13735531] – [#921] : system-tests: new Plan test: testPlansAvailableViaConsole.1
+  + Assignee: 1993
+  + Time: 2017-12-01T01:00:00.000Z → 2017-12-02T04:36:26.666Z
+  + Cost: 69.02 đ
+
+- Task [#13736171] – [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.1
+  + Assignee: 1993
+  + Time: 2017-12-03T01:00:00.000Z → 2017-12-04T05:57:35.000Z
+  + Cost: 72.40 đ
+
+- Task [#13737362] – [#991] : system-tests: new scale test: testCreditLimitation ({sharded,pooled}{queues,topics}).1
+  + Assignee: 787
+  + Time: 2017-12-06T01:00:00.000Z → 2017-12-06T01:09:28.000Z
+  + Cost: 0.39 đ
+
+- Task [#13737403] – [#996] : system-tests: look at longtime running tests and fix them.1
+  + Assignee: 787
+  + Time: 2017-12-07T01:00:00.000Z → 2017-12-07T03:04:32.500Z
+  + Cost: 5.19 đ
+
+- Task [#13737413] – [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.1
+  + Assignee: 1993
+  + Time: 2017-12-05T01:00:00.000Z → 2017-12-05T05:41:48.000Z
+  + Cost: 11.74 đ
+
+- Task [#13737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).1
+  + Assignee: 787
+  + Time: 2017-12-08T01:00:00.000Z → 2017-12-08T03:04:32.500Z
+  + Cost: 5.19 đ
+
+- Task [#13737429] – [#998] : system-tests: review list of February disabled tests.1
+  + Assignee: 1993
+  + Time: 2017-12-06T01:00:00.000Z → 2017-12-06T05:41:48.000Z
+  + Cost: 11.74 đ
+
+- Task [#14720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.2
+  + Assignee: 787
+  + Time: 2017-12-09T01:00:00.000Z → 2017-12-09T01:50:58.000Z
+  + Cost: 2.12 đ
+
+- Task [#14720952] – [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.2
+  + Assignee: 1993
+  + Time: 2017-12-07T01:00:00.000Z → 2017-12-07T07:56:20.000Z
+  + Cost: 17.35 đ
+
+- Task [#14720955] – [#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak.2
+  + Assignee: 787
+  + Time: 2017-12-10T01:00:00.000Z → 2017-12-10T01:32:41.818Z
+  + Cost: 1.36 đ
+
+- Task [#14720976] – [#526] : System-tests: November list of disabled tests.2
+  + Assignee: 1993
+  + Time: 2017-12-08T01:00:00.000Z → 2017-12-08T07:56:20.000Z
+  + Cost: 17.35 đ
+
+- Task [#14727841] – Document Creating and deleting addresses.2
+  + Assignee: 8385
+  + Time: 2018-01-01T01:00:00.000Z → 2018-01-12T05:50:20.000Z
+  + Cost: 672.10 đ
+
+- Task [#14730068] – [#744] : Implement Plan resource limits for address space.2
+  + Assignee: 8385
+  + Time: 2018-01-13T01:00:00.000Z → 2018-01-13T06:09:52.500Z
+  + Cost: 12.91 đ
+
+- Task [#14730069] – [#745] : Implement Plan resource requests for addresses.2
+  + Assignee: 8385
+  + Time: 2018-01-14T01:00:00.000Z → 2018-01-14T06:09:52.500Z
+  + Cost: 12.91 đ
+
+- Task [#14730070] – [#746] : Add support for checking requests against limits and setting status on address.2
+  + Assignee: 8385
+  + Time: 2018-01-15T01:00:00.000Z → 2018-01-15T06:09:52.500Z
+  + Cost: 12.91 đ
+
+- Task [#14730071] – [#747] : Add support for colocated topics.2
+  + Assignee: 8385
+  + Time: 2018-01-16T01:00:00.000Z → 2018-01-16T06:09:52.500Z
+  + Cost: 12.91 đ
+
+- Task [#14730072] – [#748] : Persist decision about where queues/topics are placed.2
+  + Assignee: 8385
+  + Time: 2018-01-17T01:00:00.000Z → 2018-01-17T06:09:52.500Z
+  + Cost: 12.91 đ
+
+- Task [#14730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.2
+  + Assignee: 8385
+  + Time: 2018-01-18T01:00:00.000Z → 2018-01-18T06:09:52.500Z
+  + Cost: 12.91 đ
+
+- Task [#14730081] – [#757] : Oauth for console.2
+  + Assignee: 9744
+  + Time: 2017-12-08T01:00:00.000Z → 2017-12-08T03:21:20.000Z
+  + Cost: 5.89 đ
+
+- Task [#14730082] – [#758] : Keycloak plugin OAUTH2 support.2
+  + Assignee: 3608
+  + Time: 2017-11-29T01:00:00.000Z → 2017-11-29T06:55:15.000Z
+  + Cost: 9.87 đ
+
+- Task [#14730083] – [#759] : Delegate from keycloak to OpenShift Pro.2
+  + Assignee: 8385
+  + Time: 2018-01-19T01:00:00.000Z → 2018-01-19T06:09:52.500Z
+  + Cost: 12.91 đ
+
+- Task [#14730085] – [#761] : Console to support status for addresses.2
+  + Assignee: 9744
+  + Time: 2017-12-09T01:00:00.000Z → 2017-12-09T03:21:20.000Z
+  + Cost: 5.89 đ
+
+- Task [#14730089] – [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .2
+  + Assignee: 3608
+  + Time: 2017-11-30T01:00:00.000Z → 2017-11-30T06:55:15.000Z
+  + Cost: 9.87 đ
+
+- Task [#14730091] – [#767] : Disable durable subs (configurable upstream?).2
+  + Assignee: 9744
+  + Time: 2017-12-10T01:00:00.000Z → 2017-12-10T03:21:20.000Z
+  + Cost: 5.89 đ
+
+- Task [#14730092] – [#768] : Disable MQTT (configurable upstream?).2
+  + Assignee: 8385
+  + Time: 2018-01-20T01:00:00.000Z → 2018-01-20T06:09:52.500Z
+  + Cost: 12.91 đ
+
+- Task [#14730141] – [#770] : Define tests for limitation of address-spaces (by credits).2
+  + Assignee: 1993
+  + Time: 2017-12-09T01:00:00.000Z → 2017-12-09T04:45:45.000Z
+  + Cost: 9.41 đ
+
+- Task [#14730143] – [#772] : WebConsole Tests for addresses status.2
+  + Assignee: 787
+  + Time: 2017-12-11T01:00:00.000Z → 2017-12-11T01:07:50.000Z
+  + Cost: 0.33 đ
+
+- Task [#14730144] – [#773] : Tests for authentication WebConsole.2
+  + Assignee: 787
+  + Time: 2017-12-12T01:00:00.000Z → 2017-12-12T01:07:50.000Z
+  + Cost: 0.33 đ
+
+- Task [#14730147] – [#776] : Recheck and enable system tests for standard address space.2
+  + Assignee: 1993
+  + Time: 2017-12-10T01:00:00.000Z → 2017-12-10T04:45:45.000Z
+  + Cost: 9.41 đ
+
+- Task [#14730148] – [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.2
+  + Assignee: 787
+  + Time: 2017-12-13T01:00:00.000Z → 2017-12-13T01:07:50.000Z
+  + Cost: 0.33 đ
+
+- Task [#14730167] – Setup Jenkins job with productized images.2
+  + Assignee: 787
+  + Time: 2017-12-14T01:00:00.000Z → 2017-12-14T01:07:50.000Z
+  + Cost: 0.33 đ
+
+- Task [#14732596] – [#843] : improve test framework regarding to definition of dynamically created plans.2
+  + Assignee: 1993
+  + Time: 2017-12-11T01:00:00.000Z → 2017-12-15T02:21:46.666Z
+  + Cost: 243.41 đ
+
+- Task [#14732615] – [#844] : system-tests: create documentation in HACKING doc how to execute webconsole tests.2
+  + Assignee: 787
+  + Time: 2017-12-15T01:00:00.000Z → 2017-12-15T05:49:02.500Z
+  + Cost: 12.04 đ
+
+- Task [#14733175] – Add Documentation Conventions to Guide.2
+  + Assignee: 8385
+  + Time: 2018-01-21T01:00:00.000Z → 2018-01-22T06:16:45.000Z
+  + Cost: 73.20 đ
+
+- Task [#14733952] – Investigate options for enforcing backlog limits on broker/router.2
+  + Assignee: 8385
+  + Time: 2018-01-23T01:00:00.000Z → 2018-01-23T02:14:02.500Z
+  + Cost: 3.09 đ
+
+- Task [#14734956] – [#894] : Console does not sanitize address config names.2
+  + Assignee: 8385
+  + Time: 2018-01-24T01:00:00.000Z → 2018-01-24T01:40:37.777Z
+  + Cost: 1.69 đ
+
+- Task [#14735371] – [#910] : address-controller can't replace addresses created via console.2
+  + Assignee: 8385
+  + Time: 2018-01-25T01:00:00.000Z → 2018-01-25T06:02:47.500Z
+  + Cost: 12.62 đ
+
+- Task [#14735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.2
+  + Assignee: 1993
+  + Time: 2017-12-16T01:00:00.000Z → 2017-12-17T05:57:35.000Z
+  + Cost: 72.40 đ
+
+- Task [#14735527] – [#919] : system-tests: new scale test: testPodsLimitation.2
+  + Assignee: 787
+  + Time: 2017-12-16T01:00:00.000Z → 2017-12-17T03:02:44.000Z
+  + Cost: 65.11 đ
+
+- Task [#14735530] – [#920] : system-tests: new scale test: testCreditLimitation.2
+  + Assignee: 787
+  + Time: 2017-12-18T01:00:00.000Z → 2017-12-19T03:02:44.000Z
+  + Cost: 65.11 đ
+
+- Task [#14735531] – [#921] : system-tests: new Plan test: testPlansAvailableViaConsole.2
+  + Assignee: 1993
+  + Time: 2017-12-18T01:00:00.000Z → 2017-12-19T05:57:35.000Z
+  + Cost: 72.40 đ
+
+- Task [#14736171] – [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.2
+  + Assignee: 1993
+  + Time: 2017-12-20T01:00:00.000Z → 2017-12-20T01:32:13.333Z
+  + Cost: 1.34 đ
+
+- Task [#14737362] – [#991] : system-tests: new scale test: testCreditLimitation ({sharded,pooled}{queues,topics}).2
+  + Assignee: 787
+  + Time: 2017-12-20T01:00:00.000Z → 2017-12-20T03:04:32.500Z
+  + Cost: 5.19 đ
+
+- Task [#14737403] – [#996] : system-tests: look at longtime running tests and fix them.2
+  + Assignee: 787
+  + Time: 2017-12-21T01:00:00.000Z → 2017-12-21T01:51:14.285Z
+  + Cost: 2.13 đ
+
+- Task [#14737413] – [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.2
+  + Assignee: 1993
+  + Time: 2017-12-21T01:00:00.000Z → 2017-12-21T01:07:43.333Z
+  + Cost: 0.32 đ
+
+- Task [#14737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).2
+  + Assignee: 787
+  + Time: 2017-12-22T01:00:00.000Z → 2017-12-22T01:51:14.285Z
+  + Cost: 2.13 đ
+
+- Task [#14737429] – [#998] : system-tests: review list of February disabled tests.2
+  + Assignee: 1993
+  + Time: 2017-12-22T01:00:00.000Z → 2017-12-22T01:07:43.333Z
+  + Cost: 0.32 đ
+
+- Task [#15720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.3
+  + Assignee: 787
+  + Time: 2017-12-23T01:00:00.000Z → 2017-12-23T01:32:41.818Z
+  + Cost: 1.36 đ
+
+- Task [#15720952] – [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.3
+  + Assignee: 1993
+  + Time: 2017-12-23T01:00:00.000Z → 2017-12-25T04:27:50.000Z
+  + Cost: 128.66 đ
+
+- Task [#15720955] – [#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak.3
+  + Assignee: 787
+  + Time: 2017-12-24T01:00:00.000Z → 2017-12-24T01:11:00.000Z
+  + Cost: 0.46 đ
+
+- Task [#15720976] – [#526] : System-tests: November list of disabled tests.3
+  + Assignee: 1993
+  + Time: 2017-12-26T01:00:00.000Z → 2017-12-28T04:27:50.000Z
+  + Cost: 128.66 đ
+
+- Task [#15727841] – Document Creating and deleting addresses.3
+  + Assignee: 8385
+  + Time: 2018-01-26T01:00:00.000Z → 2018-01-27T06:16:45.000Z
+  + Cost: 73.20 đ
+
+- Task [#15730070] – [#746] : Add support for checking requests against limits and setting status on address.3
+  + Assignee: 8385
+  + Time: 2018-01-28T01:00:00.000Z → 2018-01-29T02:33:30.000Z
+  + Cost: 63.90 đ
+
+- Task [#15730071] – [#747] : Add support for colocated topics.3
+  + Assignee: 8385
+  + Time: 2018-01-30T01:00:00.000Z → 2018-01-31T02:33:30.000Z
+  + Cost: 63.90 đ
+
+- Task [#15730072] – [#748] : Persist decision about where queues/topics are placed.3
+  + Assignee: 8385
+  + Time: 2018-02-01T01:00:00.000Z → 2018-02-02T02:33:30.000Z
+  + Cost: 63.90 đ
+
+- Task [#15730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.3
+  + Assignee: 8385
+  + Time: 2018-02-03T01:00:00.000Z → 2018-02-04T02:33:30.000Z
+  + Cost: 63.90 đ
+
+- Task [#15730081] – [#757] : Oauth for console.3
+  + Assignee: 9744
+  + Time: 2017-12-11T01:00:00.000Z → 2017-12-14T03:00:40.000Z
+  + Cost: 185.03 đ
+
+- Task [#15730082] – [#758] : Keycloak plugin OAUTH2 support.3
+  + Assignee: 3608
+  + Time: 2017-12-01T01:00:00.000Z → 2017-12-06T01:11:46.666Z
+  + Cost: 200.33 đ
+
+- Task [#15730083] – [#759] : Delegate from keycloak to OpenShift Pro.3
+  + Assignee: 8385
+  + Time: 2018-02-05T01:00:00.000Z → 2018-02-06T02:33:30.000Z
+  + Cost: 63.90 đ
+
+- Task [#15730089] – [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .3
+  + Assignee: 3608
+  + Time: 2017-12-07T01:00:00.000Z → 2017-12-12T01:11:46.666Z
+  + Cost: 200.33 đ
+
+- Task [#15730091] – [#767] : Disable durable subs (configurable upstream?).3
+  + Assignee: 9744
+  + Time: 2017-12-15T01:00:00.000Z → 2017-12-18T03:00:40.000Z
+  + Cost: 185.03 đ
+
+- Task [#15730092] – [#768] : Disable MQTT (configurable upstream?).3
+  + Assignee: 8385
+  + Time: 2018-02-07T01:00:00.000Z → 2018-02-08T02:33:30.000Z
+  + Cost: 63.90 đ
+
+- Task [#15730141] – [#770] : Define tests for limitation of address-spaces (by credits).3
+  + Assignee: 1993
+  + Time: 2017-12-29T01:00:00.000Z → 2018-01-02T02:21:46.666Z
+  + Cost: 243.41 đ
+
+- Task [#15730143] – [#772] : WebConsole Tests for addresses status.3
+  + Assignee: 787
+  + Time: 2017-12-25T01:00:00.000Z → 2017-12-25T02:45:40.000Z
+  + Cost: 4.40 đ
+
+- Task [#15730144] – [#773] : Tests for authentication WebConsole.3
+  + Assignee: 787
+  + Time: 2017-12-26T01:00:00.000Z → 2017-12-26T02:45:40.000Z
+  + Cost: 4.40 đ
+
+- Task [#15730148] – [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.3
+  + Assignee: 787
+  + Time: 2017-12-27T01:00:00.000Z → 2017-12-27T02:45:40.000Z
+  + Cost: 4.40 đ
+
+- Task [#15730167] – Setup Jenkins job with productized images.3
+  + Assignee: 787
+  + Time: 2017-12-28T01:00:00.000Z → 2017-12-28T02:45:40.000Z
+  + Cost: 4.40 đ
+
+- Task [#15733175] – Add Documentation Conventions to Guide.3
+  + Assignee: 8385
+  + Time: 2018-02-09T01:00:00.000Z → 2018-02-11T01:44:00.000Z
+  + Cost: 121.83 đ
+
+- Task [#15733952] – Investigate options for enforcing backlog limits on broker/router.3
+  + Assignee: 8385
+  + Time: 2018-02-12T01:00:00.000Z → 2018-02-12T01:40:37.777Z
+  + Cost: 1.69 đ
+
+- Task [#15734956] – [#894] : Console does not sanitize address config names.3
+  + Assignee: 8385
+  + Time: 2018-02-13T01:00:00.000Z → 2018-02-13T06:02:47.500Z
+  + Cost: 12.62 đ
+
+- Task [#15735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.3
+  + Assignee: 1993
+  + Time: 2018-01-03T01:00:00.000Z → 2018-01-03T01:32:13.333Z
+  + Cost: 1.34 đ
+
+- Task [#15735527] – [#919] : system-tests: new scale test: testPodsLimitation.3
+  + Assignee: 787
+  + Time: 2017-12-29T01:00:00.000Z → 2017-12-29T01:09:28.000Z
+  + Cost: 0.39 đ
+
+- Task [#15736171] – [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.3
+  + Assignee: 1993
+  + Time: 2018-01-04T01:00:00.000Z → 2018-01-04T05:41:48.000Z
+  + Cost: 11.74 đ
+
+- Task [#15737403] – [#996] : system-tests: look at longtime running tests and fix them.3
+  + Assignee: 787
+  + Time: 2017-12-30T01:00:00.000Z → 2017-12-30T01:06:50.000Z
+  + Cost: 0.28 đ
+
+- Task [#15737413] – [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.3
+  + Assignee: 1993
+  + Time: 2018-01-05T01:00:00.000Z → 2018-01-05T02:30:56.000Z
+  + Cost: 3.79 đ
+
+- Task [#15737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).3
+  + Assignee: 787
+  + Time: 2017-12-31T01:00:00.000Z → 2017-12-31T01:06:50.000Z
+  + Cost: 0.28 đ
+
+- Task [#16720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.4
+  + Assignee: 787
+  + Time: 2018-01-01T01:00:00.000Z → 2018-01-01T01:11:00.000Z
+  + Cost: 0.46 đ
+
+- Task [#16720952] – [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.4
+  + Assignee: 1993
+  + Time: 2018-01-06T01:00:00.000Z → 2018-01-07T07:47:33.333Z
+  + Cost: 76.98 đ
+
+- Task [#16720955] – [#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak.4
+  + Assignee: 787
+  + Time: 2018-01-02T01:00:00.000Z → 2018-01-03T03:20:53.333Z
+  + Cost: 65.87 đ
+
+- Task [#16727841] – Document Creating and deleting addresses.4
+  + Assignee: 8385
+  + Time: 2018-02-14T01:00:00.000Z → 2018-02-16T01:44:00.000Z
+  + Cost: 121.83 đ
+
+- Task [#16730070] – [#746] : Add support for checking requests against limits and setting status on address.4
+  + Assignee: 8385
+  + Time: 2018-02-17T01:00:00.000Z → 2018-02-17T07:49:25.714Z
+  + Cost: 17.06 đ
+
+- Task [#16730071] – [#747] : Add support for colocated topics.4
+  + Assignee: 8385
+  + Time: 2018-02-18T01:00:00.000Z → 2018-02-18T07:49:25.714Z
+  + Cost: 17.06 đ
+
+- Task [#16730072] – [#748] : Persist decision about where queues/topics are placed.4
+  + Assignee: 8385
+  + Time: 2018-02-19T01:00:00.000Z → 2018-02-19T07:49:25.714Z
+  + Cost: 17.06 đ
+
+- Task [#16730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.4
+  + Assignee: 8385
+  + Time: 2018-02-20T01:00:00.000Z → 2018-02-20T07:49:25.714Z
+  + Cost: 17.06 đ
+
+- Task [#16730081] – [#757] : Oauth for console.4
+  + Assignee: 9744
+  + Time: 2017-12-19T01:00:00.000Z → 2017-12-20T03:07:24.000Z
+  + Cost: 65.31 đ
+
+- Task [#16730082] – [#758] : Keycloak plugin OAUTH2 support.4
+  + Assignee: 3608
+  + Time: 2017-12-13T01:00:00.000Z → 2017-12-22T04:40:50.000Z
+  + Cost: 366.13 đ
+
+- Task [#16730083] – [#759] : Delegate from keycloak to OpenShift Pro.4
+  + Assignee: 8385
+  + Time: 2018-02-21T01:00:00.000Z → 2018-02-21T07:49:25.714Z
+  + Cost: 17.06 đ
+
+- Task [#16730089] – [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .4
+  + Assignee: 3608
+  + Time: 2017-12-23T01:00:00.000Z → 2018-01-01T04:40:50.000Z
+  + Cost: 366.13 đ
+
+- Task [#16730091] – [#767] : Disable durable subs (configurable upstream?).4
+  + Assignee: 9744
+  + Time: 2017-12-21T01:00:00.000Z → 2017-12-22T03:07:24.000Z
+  + Cost: 65.31 đ
+
+- Task [#16730092] – [#768] : Disable MQTT (configurable upstream?).4
+  + Assignee: 7663
+  + Time: 2017-11-14T01:00:00.000Z → 2017-11-14T07:49:25.714Z
+  + Cost: 11.37 đ
+
+- Task [#16730143] – [#772] : WebConsole Tests for addresses status.4
+  + Assignee: 787
+  + Time: 2018-01-04T01:00:00.000Z → 2018-01-04T05:49:02.500Z
+  + Cost: 12.04 đ
+
+- Task [#16730148] – [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.4
+  + Assignee: 787
+  + Time: 2018-01-05T01:00:00.000Z → 2018-01-05T05:49:02.500Z
+  + Cost: 12.04 đ
+
+- Task [#16730167] – Setup Jenkins job with productized images.4
+  + Assignee: 787
+  + Time: 2018-01-06T01:00:00.000Z → 2018-01-06T05:49:02.500Z
+  + Cost: 12.04 đ
+
+- Task [#16733175] – Add Documentation Conventions to Guide.4
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#16733952] – Investigate options for enforcing backlog limits on broker/router.4
+  + Assignee: 7663
+  + Time: 2017-11-15T01:00:00.000Z → 2017-11-15T06:02:47.500Z
+  + Cost: 8.41 đ
+
+- Task [#16735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.4
+  + Assignee: 1993
+  + Time: 2018-01-08T01:00:00.000Z → 2018-01-08T05:41:48.000Z
+  + Cost: 11.74 đ
+
+- Task [#16735527] – [#919] : system-tests: new scale test: testPodsLimitation.4
+  + Assignee: 787
+  + Time: 2018-01-07T01:00:00.000Z → 2018-01-07T03:04:32.500Z
+  + Cost: 5.19 đ
+
+- Task [#16736171] – [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.4
+  + Assignee: 1993
+  + Time: 2018-01-09T01:00:00.000Z → 2018-01-09T01:07:43.333Z
+  + Cost: 0.32 đ
+
+- Task [#16737413] – [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.4
+  + Assignee: 1993
+  + Time: 2018-01-10T01:00:00.000Z → 2018-01-10T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#16737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).4
+  + Assignee: 787
+  + Time: 2018-01-08T01:00:00.000Z → 2018-01-08T02:37:48.000Z
+  + Cost: 4.08 đ
+
+- Task [#17720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.5
+  + Assignee: 787
+  + Time: 2018-01-09T01:00:00.000Z → 2018-01-10T03:20:53.333Z
+  + Cost: 65.87 đ
+
+- Task [#17720952] – [#523] : SystemTests: brokered/standard: new test for keycloak persistent storage.5
+  + Assignee: 1993
+  + Time: 2018-01-11T01:00:00.000Z → 2018-01-23T04:41:40.000Z
+  + Cost: 729.24 đ
+
+- Task [#17727841] – Document Creating and deleting addresses.5
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#17730070] – [#746] : Add support for checking requests against limits and setting status on address.5
+  + Assignee: 7663
+  + Time: 2017-11-16T01:00:00.000Z → 2017-11-16T02:14:02.500Z
+  + Cost: 2.06 đ
+
+- Task [#17730071] – [#747] : Add support for colocated topics.5
+  + Assignee: 7663
+  + Time: 2017-11-17T01:00:00.000Z → 2017-11-17T02:14:02.500Z
+  + Cost: 2.06 đ
+
+- Task [#17730072] – [#748] : Persist decision about where queues/topics are placed.5
+  + Assignee: 7663
+  + Time: 2017-11-18T01:00:00.000Z → 2017-11-18T02:14:02.500Z
+  + Cost: 2.06 đ
+
+- Task [#17730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.5
+  + Assignee: 7663
+  + Time: 2017-11-19T01:00:00.000Z → 2017-11-19T02:14:02.500Z
+  + Cost: 2.06 đ
+
+- Task [#17730081] – [#757] : Oauth for console.5
+  + Assignee: 9744
+  + Time: 2017-12-23T01:00:00.000Z → 2017-12-24T05:49:45.000Z
+  + Cost: 72.07 đ
+
+- Task [#17730083] – [#759] : Delegate from keycloak to OpenShift Pro.5
+  + Assignee: 7663
+  + Time: 2017-11-20T01:00:00.000Z → 2017-11-20T02:14:02.500Z
+  + Cost: 2.06 đ
+
+- Task [#17730089] – [#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) .5
+  + Assignee: 3608
+  + Time: 2018-01-02T01:00:00.000Z → 2018-02-11T02:35:00.000Z
+  + Cost: 1602.64 đ
+
+- Task [#17730091] – [#767] : Disable durable subs (configurable upstream?).5
+  + Assignee: 9744
+  + Time: 2017-12-25T01:00:00.000Z → 2017-12-26T05:49:45.000Z
+  + Cost: 72.07 đ
+
+- Task [#17730092] – [#768] : Disable MQTT (configurable upstream?).5
+  + Assignee: 7663
+  + Time: 2017-11-21T01:00:00.000Z → 2017-11-21T02:14:02.500Z
+  + Cost: 2.06 đ
+
+- Task [#17730143] – [#772] : WebConsole Tests for addresses status.5
+  + Assignee: 787
+  + Time: 2018-01-11T01:00:00.000Z → 2018-01-11T02:06:42.857Z
+  + Cost: 2.78 đ
+
+- Task [#17730148] – [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.5
+  + Assignee: 787
+  + Time: 2018-01-12T01:00:00.000Z → 2018-01-12T02:06:42.857Z
+  + Cost: 2.78 đ
+
+- Task [#17730167] – Setup Jenkins job with productized images.5
+  + Assignee: 787
+  + Time: 2018-01-13T01:00:00.000Z → 2018-01-13T02:06:42.857Z
+  + Cost: 2.78 đ
+
+- Task [#17733175] – Add Documentation Conventions to Guide.5
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#17733952] – Investigate options for enforcing backlog limits on broker/router.5
+  + Assignee: 7663
+  + Time: 2017-11-22T01:00:00.000Z → 2017-11-22T02:27:53.333Z
+  + Cost: 2.44 đ
+
+- Task [#17735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.5
+  + Assignee: 1993
+  + Time: 2018-01-24T01:00:00.000Z → 2018-01-24T01:07:43.333Z
+  + Cost: 0.32 đ
+
+- Task [#17735527] – [#919] : system-tests: new scale test: testPodsLimitation.5
+  + Assignee: 787
+  + Time: 2018-01-14T01:00:00.000Z → 2018-01-14T01:51:14.285Z
+  + Cost: 2.13 đ
+
+- Task [#17736171] – [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.5
+  + Assignee: 1993
+  + Time: 2018-01-25T01:00:00.000Z → 2018-01-25T02:30:56.000Z
+  + Cost: 3.79 đ
+
+- Task [#17737413] – [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.5
+  + Assignee: 1993
+  + Time: 2018-01-26T01:00:00.000Z → 2018-01-26T07:18:22.222Z
+  + Cost: 15.77 đ
+
+- Task [#17737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).5
+  + Assignee: 787
+  + Time: 2018-01-15T01:00:00.000Z → 2018-01-15T07:04:55.555Z
+  + Cost: 15.21 đ
+
+- Task [#18720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.6
+  + Assignee: 787
+  + Time: 2018-01-16T01:00:00.000Z → 2018-01-17T08:05:03.333Z
+  + Cost: 77.71 đ
+
+- Task [#18727841] – Document Creating and deleting addresses.6
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#18730070] – [#746] : Add support for checking requests against limits and setting status on address.6
+  + Assignee: 7663
+  + Time: 2017-11-23T01:00:00.000Z → 2017-11-23T01:40:37.777Z
+  + Cost: 1.13 đ
+
+- Task [#18730071] – [#747] : Add support for colocated topics.6
+  + Assignee: 7663
+  + Time: 2017-11-24T01:00:00.000Z → 2017-11-24T01:40:37.777Z
+  + Cost: 1.13 đ
+
+- Task [#18730072] – [#748] : Persist decision about where queues/topics are placed.6
+  + Assignee: 7663
+  + Time: 2017-11-25T01:00:00.000Z → 2017-11-25T01:40:37.777Z
+  + Cost: 1.13 đ
+
+- Task [#18730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.6
+  + Assignee: 7663
+  + Time: 2017-11-26T01:00:00.000Z → 2017-11-26T01:40:37.777Z
+  + Cost: 1.13 đ
+
+- Task [#18730081] – [#757] : Oauth for console.6
+  + Assignee: 9744
+  + Time: 2017-12-27T01:00:00.000Z → 2017-12-31T04:38:13.333Z
+  + Cost: 249.09 đ
+
+- Task [#18730083] – [#759] : Delegate from keycloak to OpenShift Pro.6
+  + Assignee: 7663
+  + Time: 2017-11-27T01:00:00.000Z → 2017-11-27T01:40:37.777Z
+  + Cost: 1.13 đ
+
+- Task [#18730092] – [#768] : Disable MQTT (configurable upstream?).6
+  + Assignee: 7663
+  + Time: 2017-11-28T01:00:00.000Z → 2017-11-28T01:40:37.777Z
+  + Cost: 1.13 đ
+
+- Task [#18730143] – [#772] : WebConsole Tests for addresses status.6
+  + Assignee: 787
+  + Time: 2018-01-18T01:00:00.000Z → 2018-01-18T01:16:48.000Z
+  + Cost: 0.70 đ
+
+- Task [#18730148] – [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.6
+  + Assignee: 787
+  + Time: 2018-01-19T01:00:00.000Z → 2018-01-19T01:16:48.000Z
+  + Cost: 0.70 đ
+
+- Task [#18730167] – Setup Jenkins job with productized images.6
+  + Assignee: 787
+  + Time: 2018-01-20T01:00:00.000Z → 2018-01-20T01:16:48.000Z
+  + Cost: 0.70 đ
+
+- Task [#18733952] – Investigate options for enforcing backlog limits on broker/router.6
+  + Assignee: 7663
+  + Time: 2017-11-29T01:00:00.000Z → 2017-11-30T01:17:08.000Z
+  + Cost: 40.48 đ
+
+- Task [#18735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.6
+  + Assignee: 1993
+  + Time: 2018-01-27T01:00:00.000Z → 2018-01-27T02:30:56.000Z
+  + Cost: 3.79 đ
+
+- Task [#18736171] – [#936] : system-tests: create new test for thorough testing of REST API for address/address-space.6
+  + Assignee: 1993
+  + Time: 2018-01-28T01:00:00.000Z → 2018-01-28T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#18737413] – [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.6
+  + Assignee: 1993
+  + Time: 2018-01-29T01:00:00.000Z → 2018-01-29T01:10:30.000Z
+  + Cost: 0.44 đ
+
+- Task [#18737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).6
+  + Assignee: 787
+  + Time: 2018-01-21T01:00:00.000Z → 2018-01-21T06:17:28.000Z
+  + Cost: 13.23 đ
+
+- Task [#19720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.7
+  + Assignee: 787
+  + Time: 2018-01-22T01:00:00.000Z → 2018-01-31T04:13:45.000Z
+  + Cost: 548.07 đ
+
+- Task [#19727841] – Document Creating and deleting addresses.7
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#19730070] – [#746] : Add support for checking requests against limits and setting status on address.7
+  + Assignee: 7663
+  + Time: 2017-12-01T01:00:00.000Z → 2017-12-01T06:02:47.500Z
+  + Cost: 8.41 đ
+
+- Task [#19730072] – [#748] : Persist decision about where queues/topics are placed.7
+  + Assignee: 7663
+  + Time: 2017-12-02T01:00:00.000Z → 2017-12-02T06:02:47.500Z
+  + Cost: 8.41 đ
+
+- Task [#19730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.7
+  + Assignee: 7663
+  + Time: 2017-12-03T01:00:00.000Z → 2017-12-03T06:02:47.500Z
+  + Cost: 8.41 đ
+
+- Task [#19730083] – [#759] : Delegate from keycloak to OpenShift Pro.7
+  + Assignee: 7663
+  + Time: 2017-12-04T01:00:00.000Z → 2017-12-04T06:02:47.500Z
+  + Cost: 8.41 đ
+
+- Task [#19730092] – [#768] : Disable MQTT (configurable upstream?).7
+  + Assignee: 7663
+  + Time: 2017-12-05T01:00:00.000Z → 2017-12-05T06:02:47.500Z
+  + Cost: 8.41 đ
+
+- Task [#19730143] – [#772] : WebConsole Tests for addresses status.7
+  + Assignee: 787
+  + Time: 2018-02-01T01:00:00.000Z → 2018-02-02T02:32:53.333Z
+  + Cost: 63.87 đ
+
+- Task [#19730148] – [#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax.7
+  + Assignee: 787
+  + Time: 2018-02-03T01:00:00.000Z → 2018-02-04T02:32:53.333Z
+  + Cost: 63.87 đ
+
+- Task [#19730167] – Setup Jenkins job with productized images.7
+  + Assignee: 787
+  + Time: 2018-02-05T01:00:00.000Z → 2018-02-06T02:32:53.333Z
+  + Cost: 63.87 đ
+
+- Task [#19733952] – Investigate options for enforcing backlog limits on broker/router.7
+  + Assignee: 7663
+  + Time: 2017-12-06T01:00:00.000Z → 2017-12-06T01:15:40.000Z
+  + Cost: 0.44 đ
+
+- Task [#19735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.7
+  + Assignee: 1993
+  + Time: 2018-01-30T01:00:00.000Z → 2018-01-30T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#19737413] – [#907] : system-tests: add parametr for disable 'tear down' methods in systemtests.7
+  + Assignee: 1993
+  + Time: 2018-01-31T01:00:00.000Z → 2018-01-31T04:12:28.571Z
+  + Cost: 8.02 đ
+
+- Task [#19737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).7
+  + Assignee: 787
+  + Time: 2018-02-07T01:00:00.000Z → 2018-02-07T04:44:26.666Z
+  + Cost: 9.35 đ
+
+- Task [#20720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.8
+  + Assignee: 787
+  + Time: 2018-02-08T01:00:00.000Z → 2018-02-09T03:05:58.000Z
+  + Cost: 65.25 đ
+
+- Task [#20730070] – [#746] : Add support for checking requests against limits and setting status on address.8
+  + Assignee: 7663
+  + Time: 2017-12-07T01:00:00.000Z → 2017-12-07T02:27:53.333Z
+  + Cost: 2.44 đ
+
+- Task [#20730072] – [#748] : Persist decision about where queues/topics are placed.8
+  + Assignee: 7663
+  + Time: 2017-12-08T01:00:00.000Z → 2017-12-08T02:27:53.333Z
+  + Cost: 2.44 đ
+
+- Task [#20730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.8
+  + Assignee: 7663
+  + Time: 2017-12-09T01:00:00.000Z → 2017-12-09T02:27:53.333Z
+  + Cost: 2.44 đ
+
+- Task [#20730083] – [#759] : Delegate from keycloak to OpenShift Pro.8
+  + Assignee: 7663
+  + Time: 2017-12-10T01:00:00.000Z → 2017-12-10T02:27:53.333Z
+  + Cost: 2.44 đ
+
+- Task [#20730092] – [#768] : Disable MQTT (configurable upstream?).8
+  + Assignee: 7663
+  + Time: 2017-12-11T01:00:00.000Z → 2017-12-11T02:27:53.333Z
+  + Cost: 2.44 đ
+
+- Task [#20730143] – [#772] : WebConsole Tests for addresses status.8
+  + Assignee: 787
+  + Time: 2018-02-10T01:00:00.000Z → 2018-02-10T01:11:40.000Z
+  + Cost: 0.49 đ
+
+- Task [#20730167] – Setup Jenkins job with productized images.8
+  + Assignee: 787
+  + Time: 2018-02-11T01:00:00.000Z → 2018-02-11T01:11:40.000Z
+  + Cost: 0.49 đ
+
+- Task [#20733952] – Investigate options for enforcing backlog limits on broker/router.8
+  + Assignee: 7663
+  + Time: 2017-12-12T01:00:00.000Z → 2017-12-12T01:23:30.000Z
+  + Cost: 0.65 đ
+
+- Task [#20735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.8
+  + Assignee: 1993
+  + Time: 2018-02-01T01:00:00.000Z → 2018-02-01T07:18:22.222Z
+  + Cost: 15.77 đ
+
+- Task [#20737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).8
+  + Assignee: 787
+  + Time: 2018-02-12T01:00:00.000Z → 2018-02-12T07:16:52.000Z
+  + Cost: 15.70 đ
+
+- Task [#21720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.9
+  + Assignee: 787
+  + Time: 2018-02-13T01:00:00.000Z → 2018-02-13T01:07:50.000Z
+  + Cost: 0.33 đ
+
+- Task [#21730070] – [#746] : Add support for checking requests against limits and setting status on address.9
+  + Assignee: 7663
+  + Time: 2017-12-13T01:00:00.000Z → 2017-12-14T01:17:08.000Z
+  + Cost: 40.48 đ
+
+- Task [#21730072] – [#748] : Persist decision about where queues/topics are placed.9
+  + Assignee: 7663
+  + Time: 2017-12-15T01:00:00.000Z → 2017-12-16T01:17:08.000Z
+  + Cost: 40.48 đ
+
+- Task [#21730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.9
+  + Assignee: 7663
+  + Time: 2017-12-17T01:00:00.000Z → 2017-12-18T01:17:08.000Z
+  + Cost: 40.48 đ
+
+- Task [#21730083] – [#759] : Delegate from keycloak to OpenShift Pro.9
+  + Assignee: 7663
+  + Time: 2017-12-19T01:00:00.000Z → 2017-12-20T01:17:08.000Z
+  + Cost: 40.48 đ
+
+- Task [#21730143] – [#772] : WebConsole Tests for addresses status.9
+  + Assignee: 787
+  + Time: 2018-02-14T01:00:00.000Z → 2018-02-14T07:37:33.333Z
+  + Cost: 16.56 đ
+
+- Task [#21730167] – Setup Jenkins job with productized images.9
+  + Assignee: 787
+  + Time: 2018-02-15T01:00:00.000Z → 2018-02-15T07:37:33.333Z
+  + Cost: 16.56 đ
+
+- Task [#21733952] – Investigate options for enforcing backlog limits on broker/router.9
+  + Assignee: 7663
+  + Time: 2017-12-21T01:00:00.000Z → 2017-12-21T05:50:53.333Z
+  + Cost: 8.08 đ
+
+- Task [#21735522] – [#918] : system-tests: new scale test: testScaleRouterAutomatically.9
+  + Assignee: 1993
+  + Time: 2018-02-02T01:00:00.000Z → 2018-02-02T01:10:30.000Z
+  + Cost: 0.44 đ
+
+- Task [#21737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).9
+  + Assignee: 787
+  + Time: 2018-02-16T01:00:00.000Z → 2018-02-16T07:33:50.000Z
+  + Cost: 16.41 đ
+
+- Task [#22720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.10
+  + Assignee: 787
+  + Time: 2018-02-17T01:00:00.000Z → 2018-02-17T02:45:40.000Z
+  + Cost: 4.40 đ
+
+- Task [#22730076] – [#752] : Need to be able to configure address-controller to use wildcard cert for route certs.10
+  + Assignee: 7663
+  + Time: 2017-12-22T01:00:00.000Z → 2017-12-22T01:15:40.000Z
+  + Cost: 0.44 đ
+
+- Task [#22730083] – [#759] : Delegate from keycloak to OpenShift Pro.10
+  + Assignee: 7663
+  + Time: 2017-12-23T01:00:00.000Z → 2017-12-23T01:15:40.000Z
+  + Cost: 0.44 đ
+
+- Task [#22730167] – Setup Jenkins job with productized images.10
+  + Assignee: 787
+  + Time: 2018-02-18T01:00:00.000Z → 2018-02-19T03:02:44.000Z
+  + Cost: 65.11 đ
+
+- Task [#22733952] – Investigate options for enforcing backlog limits on broker/router.10
+  + Assignee: 7663
+  + Time: 2017-12-24T01:00:00.000Z → 2017-12-25T05:08:16.000Z
+  + Cost: 46.90 đ
+
+- Task [#22737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).10
+  + Assignee: 787
+  + Time: 2018-02-20T01:00:00.000Z → 2018-02-21T01:00:56.000Z
+  + Cost: 60.04 đ
+
+- Task [#23720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.11
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#23730083] – [#759] : Delegate from keycloak to OpenShift Pro.11
+  + Assignee: 7663
+  + Time: 2017-12-26T01:00:00.000Z → 2017-12-26T01:23:30.000Z
+  + Cost: 0.65 đ
+
+- Task [#23730167] – Setup Jenkins job with productized images.11
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#23733952] – Investigate options for enforcing backlog limits on broker/router.11
+  + Assignee: 7663
+  + Time: 2017-12-27T01:00:00.000Z → 2017-12-27T01:56:33.333Z
+  + Cost: 1.57 đ
+
+- Task [#23737421] – [#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases).11
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#24720876] – [#516] : System-tests: create testCreateDeleteAddressesViaAgentLong.12
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#24730083] – [#759] : Delegate from keycloak to OpenShift Pro.12
+  + Assignee: 7663
+  + Time: 2017-12-28T01:00:00.000Z → 2017-12-28T05:50:53.333Z
+  + Cost: 8.08 đ
+
+- Task [#24730167] – Setup Jenkins job with productized images.12
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#25730083] – [#759] : Delegate from keycloak to OpenShift Pro.13
+  + Assignee: 7663
+  + Time: 2017-12-29T01:00:00.000Z → 2017-12-30T05:08:16.000Z
+  + Cost: 46.90 đ
+
+- Task [#25730167] – Setup Jenkins job with productized images.13
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#26730083] – [#759] : Delegate from keycloak to OpenShift Pro.14
+  + Assignee: 7663
+  + Time: 2017-12-31T01:00:00.000Z → 2017-12-31T01:56:33.333Z
+  + Cost: 1.57 đ
+
+- Task [#26730167] – Setup Jenkins job with productized images.14
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#27730083] – [#759] : Delegate from keycloak to OpenShift Pro.15
+  + Assignee: 7663
+  + Time: 2018-01-01T01:00:00.000Z → 2018-01-01T07:50:04.000Z
+  + Cost: 11.39 đ
+
+- Task [#27730167] – Setup Jenkins job with productized images.15
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#28730083] – [#759] : Delegate from keycloak to OpenShift Pro.16
+  + Assignee: 7663
+  + Time: 2018-01-02T01:00:00.000Z → 2018-01-02T02:21:36.666Z
+  + Cost: 2.27 đ
+
+- Task [#28730167] – Setup Jenkins job with productized images.16
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#29730083] – [#759] : Delegate from keycloak to OpenShift Pro.17
+  + Assignee: 7663
+  + Time: 2018-01-03T01:00:00.000Z → 2018-01-04T09:17:53.333Z
+  + Cost: 53.83 đ
+
+- Task [#29730167] – Setup Jenkins job with productized images.17
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#30730083] – [#759] : Delegate from keycloak to OpenShift Pro.18
+  + Assignee: 7663
+  + Time: 2018-01-05T01:00:00.000Z → 2018-01-07T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#30730167] – Setup Jenkins job with productized images.18
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#31730083] – [#759] : Delegate from keycloak to OpenShift Pro.19
+  + Assignee: 7663
+  + Time: 2018-01-08T01:00:00.000Z → 2018-01-08T09:04:42.500Z
+  + Cost: 13.46 đ
+
+
+🧾 Tổng chi phí: 62872.86 đ

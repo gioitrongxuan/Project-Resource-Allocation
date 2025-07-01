@@ -669,8 +669,8 @@ function checkHasAvailableSolution(tasks, projectStartTime, projectEndTime, task
     // console.log("taskcode: ", taskCode)
     const { ES, LF, parallelTasks } = parallelTaskFlows[taskCode]
     // console.log("taskcode: ", taskCode, parallelTasks.map((item) => item.code))
-    console.log(parallelTaskFlows);
-    console.log('parallelTasks: ', parallelTasks.map((item) => item.code))
+    // console.log(parallelTaskFlows);
+    // console.log('parallelTasks: ', parallelTasks.map((item) => item.code))
     if (parallelTasks && parallelTasks?.length) {
       let availableAssigneeForTask = []
       parallelTasks.forEach((task) => {

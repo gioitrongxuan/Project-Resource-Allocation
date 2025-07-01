@@ -8,6 +8,7 @@ const { proposalForProjectWithDLHS, getTimeForProject } = require('./hs_helper')
 async function testDLHS() {
   const { project, assetHasKPIWeight, DLHS_Arguments, HS_Arguments } = require('./input')
   
+  console.log("project: ", project)
   const start = performance.now()
   let testResult = proposalForProjectWithDLHS(project, allTasksInPast, allTasksOutOfProject, DLHS_Arguments, assetHasKPIWeight)
   const end = performance.now()

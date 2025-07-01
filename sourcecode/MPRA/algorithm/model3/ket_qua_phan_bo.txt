@@ -1,0 +1,4272 @@
+KẾT QUẢ PHÂN BỔ NGUỒN LỰC CHO NHIỀU DỰ ÁN
+============================================
+
+THÔNG TIN TỔNG QUAN:
+-------------------
+Thời gian bắt đầu: 1/1/1970, 8:00:00 AM
+Thời gian kết thúc: 4/13/1970, 12:00:00 AM
+Tổng thời gian thực hiện: 101.67 ngày
+Tổng chi phí: 115,278.88 VNĐ
+Tỷ lệ đạt KPI: 100.00%
+Tỷ lệ sử dụng nguồn lực: 100.00%
+
+LỊCH TRÌNH CHI TIẾT CÔNG VIỆC:
+------------------------------
+MÃ CÔNG VIỆC | TÊN CÔNG VIỆC | NHÂN VIÊN | BẮT ĐẦU | KẾT THÚC | DỰ ÁN
+P1_T1        | Task 1               | 101/1/1970, 8:00:00 AM | Project_1
+P1_T2        | Task 2               | 11/3/1970, 12:00:00 AM | Project_1
+P1_T3        | Task 3               | 31/2/1970, 8:00:00 AM | Project_1
+P1_T4        | Task 4               | 121/3/1970, 4:00:00 PM | Project_1
+P1_T6        | Task 6               | 71/3/1970, 12:00:00 AM | Project_1
+P1_T7        | Task 7               | 21/3/1970, 12:00:00 AM | Project_1
+P1_T10       | Task 10              | 51/3/1970, 12:00:00 AM | Project_1
+P1_T12       | Task 12              | 111/2/1970, 12:00:00 AM | Project_1
+P1_T13       | Task 13              | 101/1/1970, 4:00:00 PM | Project_1
+P1_T14       | Task 14              | 151/4/1970, 12:00:00 AM | Project_1
+P1_T15       | Task 15              | 41/3/1970, 12:00:00 AM | Project_1
+P1_T17       | Task 17              | 81/2/1970, 12:00:00 AM | Project_1
+P1_T21       | Task 21              | 61/2/1970, 4:00:00 PM | Project_1
+P1_T24       | Task 24              | 141/2/1970, 8:00:00 AM | Project_1
+P1_T27       | Task 27              | 131/3/1970, 8:00:00 AM | Project_1
+P1_T35       | Task 35              | 91/4/1970, 8:00:00 AM | Project_1
+P1_T62       | Task 62              | 31/1/1970, 8:00:00 AM | Project_1
+P2_T1        | Task 1               | 41/1/1970, 8:00:00 AM | Project_2
+P2_T62       | Task 62              | 131/1/1970, 8:00:00 AM | Project_2
+P3_T1        | Task 1               | 21/1/1970, 8:00:00 AM | Project_3
+P3_T62       | Task 62              | 51/1/1970, 8:00:00 AM | Project_3
+P4_T1        | Task 1               | 121/1/1970, 8:00:00 AM | Project_4
+P4_T62       | Task 62              | 81/1/1970, 8:00:00 AM | Project_4
+P5_T1        | Task 1               | 81/1/1970, 8:00:00 AM | Project_5
+P5_T62       | Task 62              | 81/1/1970, 8:00:00 AM | Project_5
+P6_T1        | Task 1               | 101/1/1970, 8:00:00 AM | Project_6
+P6_T62       | Task 62              | 71/1/1970, 8:00:00 AM | Project_6
+P1_T36       | Task 36              | 101/4/1970, 12:00:00 AM | Project_1
+P1_T25       | Task 25              | 111/4/1970, 12:00:00 AM | Project_1
+P1_T54       | Task 54              | 81/4/1970, 8:00:00 AM | Project_1
+P1_T28       | Task 28              | 141/5/1970, 12:00:00 AM | Project_1
+P1_T43       | Task 43              | 31/4/1970, 12:00:00 AM | Project_1
+P1_T26       | Task 26              | 61/5/1970, 4:00:00 PM | Project_1
+P1_T8        | Task 8               | 71/5/1970, 12:00:00 AM | Project_1
+P1_T11       | Task 11              | 11/4/1970, 8:00:00 AM | Project_1
+P1_T20       | Task 20              | 21/4/1970, 4:00:00 PM | Project_1
+P1_T30       | Task 30              | 41/6/1970, 8:00:00 AM | Project_1
+P2_T8        | Task 8               | 51/4/1970, 4:00:00 PM | Project_2
+P1_T46       | Task 46              | 131/6/1970, 12:00:00 AM | Project_1
+P1_T5        | Task 5               | 121/4/1970, 12:00:00 AM | Project_1
+P1_T9        | Task 9               | 121/5/1970, 12:00:00 AM | Project_1
+P1_T16       | Task 16              | 151/4/1970, 8:00:00 AM | Project_1
+P1_T34       | Task 34              | 111/7/1970, 8:00:00 AM | Project_1
+P1_T38       | Task 38              | 101/4/1970, 4:00:00 PM | Project_1
+P2_T15       | Task 15              | 31/7/1970, 8:00:00 AM | Project_2
+P1_T19       | Task 19              | 11/6/1970, 8:00:00 AM | Project_1
+P1_T40       | Task 40              | 151/5/1970, 8:00:00 AM | Project_1
+P1_T59       | Task 59              | 91/5/1970, 12:00:00 AM | Project_1
+P1_T61       | Task 61              | 81/5/1970, 4:00:00 PM | Project_1
+P1_T22       | Task 22              | 21/6/1970, 12:00:00 AM | Project_1
+P1_T45       | Task 45              | 101/8/1970, 12:00:00 AM | Project_1
+P2_T14       | Task 14              | 51/5/1970, 8:00:00 AM | Project_2
+P1_T18       | Task 18              | 121/8/1970, 8:00:00 AM | Project_1
+P1_T29       | Task 29              | 71/6/1970, 12:00:00 AM | Project_1
+P1_T60       | Task 60              | 141/6/1970, 4:00:00 PM | Project_1
+P2_T46       | Task 46              | 91/6/1970, 12:00:00 AM | Project_2
+P1_T52       | Task 52              | 151/7/1970, 12:00:00 AM | Project_1
+P2_T27       | Task 27              | 51/6/1970, 8:00:00 AM | Project_2
+P2_T3        | Task 3               | 81/8/1970, 4:00:00 PM | Project_2
+P2_T9        | Task 9               | 61/8/1970, 4:00:00 PM | Project_2
+P1_T48       | Task 48              | 71/6/1970, 4:00:00 PM | Project_1
+P1_T49       | Task 49              | 131/8/1970, 12:00:00 AM | Project_1
+P1_T57       | Task 57              | 21/9/1970, 12:00:00 AM | Project_1
+P3_T19       | Task 19              | 91/8/1970, 8:00:00 AM | Project_3
+P1_T23       | Task 23              | 11/8/1970, 12:00:00 AM | Project_1
+P1_T39       | Task 39              | 41/8/1970, 8:00:00 AM | Project_1
+P3_T3        | Task 3               | 51/9/1970, 12:00:00 AM | Project_3
+P2_T2        | Task 2               | 71/9/1970, 8:00:00 AM | Project_2
+P2_T55       | Task 55              | 141/8/1970, 4:00:00 PM | Project_2
+P2_T4        | Task 4               | 151/10/1970, 8:00:00 AM | Project_2
+P1_T56       | Task 56              | 111/8/1970, 8:00:00 AM | Project_1
+P2_T32       | Task 32              | 31/10/1970, 8:00:00 AM | Project_2
+P1_T31       | Task 31              | 11/10/1970, 4:00:00 PM | Project_1
+P2_T13       | Task 13              | 131/10/1970, 4:00:00 PM | Project_2
+P2_T18       | Task 18              | 101/11/1970, 8:00:00 AM | Project_2
+P1_T32       | Task 32              | 121/11/1970, 4:00:00 PM | Project_1
+P1_T44       | Task 44              | 41/9/1970, 12:00:00 AM | Project_1
+P2_T21       | Task 21              | 111/9/1970, 12:00:00 AM | Project_2
+P3_T28       | Task 28              | 91/9/1970, 12:00:00 AM | Project_3
+P2_T29       | Task 29              | 61/9/1970, 4:00:00 PM | Project_2
+P2_T31       | Task 31              | 81/11/1970, 8:00:00 AM | Project_2
+P3_T6        | Task 6               | 141/12/1970, 12:00:00 AM | Project_3
+P2_T10       | Task 10              | 41/10/1970, 4:00:00 PM | Project_2
+P2_T39       | Task 39              | 111/12/1970, 8:00:00 AM | Project_2
+P2_T49       | Task 49              | 21/12/1970, 8:00:00 AM | Project_2
+P3_T14       | Task 14              | 51/10/1970, 4:00:00 PM | Project_3
+P4_T17       | Task 17              | 91/11/1970, 4:00:00 PM | Project_4
+P2_T19       | Task 19              | 71/12/1970, 12:00:00 AM | Project_2
+P2_T30       | Task 30              | 61/12/1970, 4:00:00 PM | Project_2
+P2_T5        | Task 5               | 151/12/1970, 4:00:00 PM | Project_2
+P2_T38       | Task 38              | 31/12/1970, 12:00:00 AM | Project_2
+P1_T33       | Task 33              | 11/11/1970, 12:00:00 AM | Project_1
+P2_T11       | Task 11              | 41/13/1970, 8:00:00 AM | Project_2
+P2_T28       | Task 28              | 131/13/1970, 12:00:00 AM | Project_2
+P3_T47       | Task 47              | 51/11/1970, 4:00:00 PM | Project_3
+P1_T41       | Task 41              | 11/12/1970, 4:00:00 PM | Project_1
+P2_T23       | Task 23              | 101/12/1970, 4:00:00 PM | Project_2
+P2_T42       | Task 42              | 81/14/1970, 8:00:00 AM | Project_2
+P1_T37       | Task 37              | 121/13/1970, 8:00:00 AM | Project_1
+P3_T48       | Task 48              | 51/14/1970, 4:00:00 PM | Project_3
+P4_T22       | Task 22              | 91/12/1970, 12:00:00 AM | Project_4
+P2_T34       | Task 34              | 71/14/1970, 8:00:00 AM | Project_2
+P2_T41       | Task 41              | 31/15/1970, 12:00:00 AM | Project_2
+P3_T25       | Task 25              | 141/12/1970, 8:00:00 AM | Project_3
+P4_T35       | Task 35              | 91/13/1970, 8:00:00 AM | Project_4
+P2_T43       | Task 43              | 111/13/1970, 4:00:00 PM | Project_2
+P2_T58       | Task 58              | 21/13/1970, 8:00:00 AM | Project_2
+P3_T38       | Task 38              | 141/13/1970, 4:00:00 PM | Project_3
+P1_T42       | Task 42              | 11/14/1970, 8:00:00 AM | Project_1
+P2_T20       | Task 20              | 151/16/1970, 12:00:00 AM | Project_2
+P2_T25       | Task 25              | 101/14/1970, 4:00:00 PM | Project_2
+P2_T61       | Task 61              | 61/15/1970, 12:00:00 AM | Project_2
+P2_T36       | Task 36              | 131/13/1970, 4:00:00 PM | Project_2
+P1_T50       | Task 50              | 121/14/1970, 8:00:00 AM | Project_1
+P2_T12       | Task 12              | 41/14/1970, 8:00:00 AM | Project_2
+P3_T22       | Task 22              | 21/14/1970, 4:00:00 PM | Project_3
+P5_T2        | Task 2               | 91/14/1970, 4:00:00 PM | Project_5
+P2_T40       | Task 40              | 131/14/1970, 12:00:00 AM | Project_2
+P2_T45       | Task 45              | 111/16/1970, 4:00:00 PM | Project_2
+P3_T55       | Task 55              | 141/14/1970, 8:00:00 AM | Project_3
+P3_T11       | Task 11              | 131/16/1970, 4:00:00 PM | Project_3
+P1_T47       | Task 47              | 11/16/1970, 8:00:00 AM | Project_1
+P2_T6        | Task 6               | 121/16/1970, 4:00:00 PM | Project_2
+P2_T26       | Task 26              | 41/16/1970, 12:00:00 AM | Project_2
+P2_T44       | Task 44              | 81/15/1970, 12:00:00 AM | Project_2
+P2_T57       | Task 57              | 71/15/1970, 4:00:00 PM | Project_2
+P4_T23       | Task 23              | 141/17/1970, 4:00:00 PM | Project_4
+P2_T33       | Task 33              | 101/16/1970, 12:00:00 AM | Project_2
+P3_T45       | Task 45              | 21/18/1970, 12:00:00 AM | Project_3
+P3_T60       | Task 60              | 51/16/1970, 12:00:00 AM | Project_3
+P5_T19       | Task 19              | 91/15/1970, 4:00:00 PM | Project_5
+P3_T8        | Task 8               | 61/16/1970, 8:00:00 AM | Project_3
+P3_T12       | Task 12              | 31/17/1970, 8:00:00 AM | Project_3
+P3_T41       | Task 41              | 81/16/1970, 8:00:00 AM | Project_3
+P3_T7        | Task 7               | 71/16/1970, 8:00:00 AM | Project_3
+P5_T36       | Task 36              | 91/17/1970, 12:00:00 AM | Project_5
+P2_T35       | Task 35              | 41/17/1970, 8:00:00 AM | Project_2
+P2_T48       | Task 48              | 101/19/1970, 12:00:00 AM | Project_2
+P2_T52       | Task 52              | 151/19/1970, 12:00:00 AM | Project_2
+P4_T15       | Task 15              | 51/17/1970, 8:00:00 AM | Project_4
+P1_T51       | Task 51              | 11/19/1970, 8:00:00 AM | Project_1
+P3_T10       | Task 10              | 71/19/1970, 4:00:00 PM | Project_3
+P3_T13       | Task 13              | 61/19/1970, 12:00:00 AM | Project_3
+P3_T44       | Task 44              | 81/18/1970, 12:00:00 AM | Project_3
+P2_T7        | Task 7               | 121/19/1970, 8:00:00 AM | Project_2
+P2_T56       | Task 56              | 111/17/1970, 8:00:00 AM | Project_2
+P3_T18       | Task 18              | 131/17/1970, 12:00:00 AM | Project_3
+P3_T24       | Task 24              | 131/18/1970, 8:00:00 AM | Project_3
+P5_T47       | Task 47              | 91/17/1970, 8:00:00 AM | Project_5
+P2_T53       | Task 53              | 41/17/1970, 4:00:00 PM | Project_2
+P3_T27       | Task 27              | 111/19/1970, 8:00:00 AM | Project_3
+P4_T6        | Task 6               | 31/19/1970, 4:00:00 PM | Project_4
+P4_T32       | Task 32              | 51/18/1970, 12:00:00 AM | Project_4
+P5_T54       | Task 54              | 91/20/1970, 12:00:00 AM | Project_5
+P3_T16       | Task 16              | 41/18/1970, 8:00:00 AM | Project_3
+P4_T34       | Task 34              | 141/20/1970, 8:00:00 AM | Project_4
+P3_T61       | Task 61              | 21/20/1970, 12:00:00 AM | Project_3
+P4_T36       | Task 36              | 81/19/1970, 8:00:00 AM | Project_4
+P4_T58       | Task 58              | 51/20/1970, 4:00:00 PM | Project_4
+P3_T36       | Task 36              | 131/20/1970, 4:00:00 PM | Project_3
+P3_T40       | Task 40              | 41/20/1970, 4:00:00 PM | Project_3
+P2_T51       | Task 51              | 101/20/1970, 8:00:00 AM | Project_2
+P3_T29       | Task 29              | 61/21/1970, 4:00:00 PM | Project_3
+P3_T35       | Task 35              | 151/20/1970, 12:00:00 AM | Project_3
+P1_T53       | Task 53              | 11/20/1970, 12:00:00 AM | Project_1
+P2_T47       | Task 47              | 121/22/1970, 8:00:00 AM | Project_2
+P4_T18       | Task 18              | 111/20/1970, 12:00:00 AM | Project_4
+P4_T42       | Task 42              | 81/20/1970, 12:00:00 AM | Project_4
+P3_T17       | Task 17              | 71/21/1970, 4:00:00 PM | Project_3
+P4_T14       | Task 14              | 31/22/1970, 12:00:00 AM | Project_4
+P1_T55       | Task 55              | 11/20/1970, 8:00:00 AM | Project_1
+P3_T37       | Task 37              | 151/23/1970, 12:00:00 AM | Project_3
+P4_T21       | Task 21              | 111/20/1970, 4:00:00 PM | Project_4
+P4_T26       | Task 26              | 21/20/1970, 8:00:00 AM | Project_4
+P4_T53       | Task 53              | 81/21/1970, 8:00:00 AM | Project_4
+P5_T56       | Task 56              | 91/20/1970, 8:00:00 AM | Project_5
+P1_T58       | Task 58              | 11/22/1970, 8:00:00 AM | Project_1
+P2_T59       | Task 59              | 101/23/1970, 12:00:00 AM | Project_2
+P4_T43       | Task 43              | 21/23/1970, 4:00:00 PM | Project_4
+P5_T37       | Task 37              | 141/23/1970, 12:00:00 AM | Project_5
+P5_T59       | Task 59              | 91/22/1970, 12:00:00 AM | Project_5
+P3_T51       | Task 51              | 41/21/1970, 12:00:00 AM | Project_3
+P3_T52       | Task 52              | 131/21/1970, 12:00:00 AM | Project_3
+P4_T31       | Task 31              | 111/23/1970, 4:00:00 PM | Project_4
+P5_T10       | Task 10              | 51/23/1970, 8:00:00 AM | Project_5
+P4_T7        | Task 7               | 41/24/1970, 8:00:00 AM | Project_4
+P4_T8        | Task 8               | 131/23/1970, 12:00:00 AM | Project_4
+P4_T57       | Task 57              | 81/21/1970, 4:00:00 PM | Project_4
+P3_T20       | Task 20              | 71/22/1970, 4:00:00 PM | Project_3
+P3_T30       | Task 30              | 61/24/1970, 12:00:00 AM | Project_3
+P4_T59       | Task 59              | 81/23/1970, 4:00:00 PM | Project_4
+P4_T27       | Task 27              | 31/23/1970, 12:00:00 AM | Project_4
+P6_T15       | Task 15              | 91/25/1970, 12:00:00 AM | Project_6
+P2_T16       | Task 16              | 11/25/1970, 8:00:00 AM | Project_2
+P3_T2        | Task 2               | 121/24/1970, 12:00:00 AM | Project_3
+P3_T31       | Task 31              | 71/24/1970, 4:00:00 PM | Project_3
+P3_T23       | Task 23              | 101/24/1970, 12:00:00 AM | Project_3
+P3_T42       | Task 42              | 151/26/1970, 12:00:00 AM | Project_3
+P4_T28       | Task 28              | 131/24/1970, 4:00:00 PM | Project_4
+P4_T33       | Task 33              | 31/24/1970, 4:00:00 PM | Project_4
+P6_T19       | Task 19              | 141/25/1970, 12:00:00 AM | Project_6
+P5_T13       | Task 13              | 51/23/1970, 4:00:00 PM | Project_5
+P4_T45       | Task 45              | 111/24/1970, 8:00:00 AM | Project_4
+P5_T15       | Task 15              | 81/27/1970, 12:00:00 AM | Project_5
+P5_T17       | Task 17              | 21/25/1970, 8:00:00 AM | Project_5
+P5_T33       | Task 33              | 51/24/1970, 12:00:00 AM | Project_5
+P3_T32       | Task 32              | 61/24/1970, 4:00:00 PM | Project_3
+P3_T33       | Task 33              | 121/26/1970, 4:00:00 PM | Project_3
+P3_T57       | Task 57              | 101/26/1970, 8:00:00 AM | Project_3
+P5_T44       | Task 44              | 51/24/1970, 8:00:00 AM | Project_5
+P4_T9        | Task 9               | 41/26/1970, 12:00:00 AM | Project_4
+P4_T54       | Task 54              | 111/27/1970, 12:00:00 AM | Project_4
+P5_T53       | Task 53              | 51/25/1970, 8:00:00 AM | Project_5
+P3_T34       | Task 34              | 61/25/1970, 8:00:00 AM | Project_3
+P3_T46       | Task 46              | 71/26/1970, 8:00:00 AM | Project_3
+P4_T60       | Task 60              | 131/27/1970, 4:00:00 PM | Project_4
+P5_T3        | Task 3               | 31/25/1970, 8:00:00 AM | Project_5
+P6_T33       | Task 33              | 141/27/1970, 4:00:00 PM | Project_6
+P6_T47       | Task 47              | 91/26/1970, 8:00:00 AM | Project_6
+P2_T17       | Task 17              | 11/27/1970, 4:00:00 PM | Project_2
+P3_T53       | Task 53              | 61/28/1970, 4:00:00 PM | Project_3
+P5_T11       | Task 11              | 31/26/1970, 12:00:00 AM | Project_5
+P5_T18       | Task 18              | 21/25/1970, 4:00:00 PM | Project_5
+P6_T6        | Task 6               | 51/27/1970, 12:00:00 AM | Project_6
+P6_T11       | Task 11              | 21/27/1970, 8:00:00 AM | Project_6
+P4_T4        | Task 4               | 151/29/1970, 12:00:00 AM | Project_4
+P5_T20       | Task 20              | 41/28/1970, 8:00:00 AM | Project_5
+P5_T35       | Task 35              | 31/28/1970, 12:00:00 AM | Project_5
+P4_T10       | Task 10              | 101/27/1970, 12:00:00 AM | Project_4
+P4_T11       | Task 11              | 71/28/1970, 4:00:00 PM | Project_4
+P6_T61       | Task 61              | 91/28/1970, 4:00:00 PM | Project_6
+P3_T39       | Task 39              | 121/28/1970, 8:00:00 AM | Project_3
+P4_T13       | Task 13              | 101/28/1970, 4:00:00 PM | Project_4
+P5_T16       | Task 16              | 111/27/1970, 8:00:00 AM | Project_5
+P5_T22       | Task 22              | 81/27/1970, 8:00:00 AM | Project_5
+P6_T7        | Task 7               | 51/29/1970, 12:00:00 AM | Project_6
+P5_T24       | Task 24              | 81/29/1970, 8:00:00 AM | Project_5
+P5_T39       | Task 39              | 111/27/1970, 4:00:00 PM | Project_5
+P6_T24       | Task 24              | 21/30/1970, 8:00:00 AM | Project_6
+P2_T22       | Task 22              | 11/29/1970, 12:00:00 AM | Project_2
+P5_T29       | Task 29              | 131/31/1970, 12:00:00 AM | Project_5
+P5_T49       | Task 49              | 111/29/1970, 12:00:00 AM | Project_5
+P6_T36       | Task 36              | 141/28/1970, 4:00:00 PM | Project_6
+P5_T52       | Task 52              | 31/29/1970, 4:00:00 PM | Project_5
+P3_T43       | Task 43              | 121/29/1970, 4:00:00 PM | Project_3
+P5_T28       | Task 28              | 41/30/1970, 8:00:00 AM | Project_5
+P4_T5        | Task 5               | 61/30/1970, 4:00:00 PM | Project_4
+P4_T20       | Task 20              | 102/1/1970, 12:00:00 AM | Project_4
+P4_T41       | Task 41              | 71/30/1970, 12:00:00 AM | Project_4
+P6_T37       | Task 37              | 141/29/1970, 12:00:00 AM | Project_6
+P2_T24       | Task 24              | 11/30/1970, 4:00:00 PM | Project_2
+P4_T40       | Task 40              | 151/29/1970, 8:00:00 AM | Project_4
+P5_T51       | Task 51              | 112/1/1970, 8:00:00 AM | Project_5
+P6_T16       | Task 16              | 51/30/1970, 12:00:00 AM | Project_6
+P4_T51       | Task 51              | 151/30/1970, 12:00:00 AM | Project_4
+P5_T31       | Task 31              | 82/1/1970, 4:00:00 PM | Project_5
+P3_T49       | Task 49              | 121/30/1970, 12:00:00 AM | Project_3
+P5_T61       | Task 61              | 31/30/1970, 4:00:00 PM | Project_5
+P3_T56       | Task 56              | 121/31/1970, 4:00:00 PM | Project_3
+P4_T46       | Task 46              | 72/1/1970, 8:00:00 AM | Project_4
+P5_T5        | Task 5               | 151/31/1970, 12:00:00 AM | Project_5
+P6_T32       | Task 32              | 51/30/1970, 8:00:00 AM | Project_6
+P5_T42       | Task 42              | 42/2/1970, 8:00:00 AM | Project_5
+P6_T41       | Task 41              | 51/31/1970, 8:00:00 AM | Project_6
+P6_T51       | Task 51              | 21/30/1970, 4:00:00 PM | Project_6
+P2_T37       | Task 37              | 12/1/1970, 4:00:00 PM | Project_2
+P4_T38       | Task 38              | 62/1/1970, 8:00:00 AM | Project_4
+P6_T4        | Task 4               | 32/3/1970, 12:00:00 AM | Project_6
+P5_T32       | Task 32              | 152/3/1970, 12:00:00 AM | Project_5
+P6_T10       | Task 10              | 132/2/1970, 12:00:00 AM | Project_6
+P6_T57       | Task 57              | 52/3/1970, 4:00:00 PM | Project_6
+P4_T25       | Task 25              | 122/2/1970, 12:00:00 AM | Project_4
+P4_T37       | Task 37              | 102/1/1970, 8:00:00 AM | Project_4
+P4_T49       | Task 49              | 62/3/1970, 12:00:00 AM | Project_4
+P4_T52       | Task 52              | 72/4/1970, 8:00:00 AM | Project_4
+P4_T61       | Task 61              | 102/2/1970, 12:00:00 AM | Project_4
+P6_T8        | Task 8               | 112/3/1970, 12:00:00 AM | Project_6
+P2_T50       | Task 50              | 12/2/1970, 8:00:00 AM | Project_2
+P5_T41       | Task 41              | 82/2/1970, 4:00:00 PM | Project_5
+P4_T44       | Task 44              | 122/2/1970, 4:00:00 PM | Project_4
+P5_T38       | Task 38              | 102/3/1970, 4:00:00 PM | Project_5
+P6_T23       | Task 23              | 132/4/1970, 4:00:00 PM | Project_6
+P2_T54       | Task 54              | 12/5/1970, 8:00:00 AM | Project_2
+P5_T48       | Task 48              | 42/3/1970, 12:00:00 AM | Project_5
+P5_T6        | Task 6               | 122/6/1970, 12:00:00 AM | Project_5
+P5_T45       | Task 45              | 82/4/1970, 12:00:00 AM | Project_5
+P5_T23       | Task 23              | 62/5/1970, 8:00:00 AM | Project_5
+P5_T50       | Task 50              | 152/4/1970, 12:00:00 AM | Project_5
+P6_T9        | Task 9               | 32/4/1970, 8:00:00 AM | Project_6
+P6_T30       | Task 30              | 112/3/1970, 8:00:00 AM | Project_6
+P6_T35       | Task 35              | 42/4/1970, 8:00:00 AM | Project_6
+P6_T40       | Task 40              | 112/4/1970, 12:00:00 AM | Project_6
+P5_T40       | Task 40              | 102/6/1970, 8:00:00 AM | Project_5
+P5_T57       | Task 57              | 152/5/1970, 8:00:00 AM | Project_5
+P5_T58       | Task 58              | 82/6/1970, 8:00:00 AM | Project_5
+P6_T58       | Task 58              | 112/6/1970, 12:00:00 AM | Project_6
+P5_T7        | Task 7               | 72/6/1970, 4:00:00 PM | Project_5
+P6_T38       | Task 38              | 32/5/1970, 4:00:00 PM | Project_6
+P6_T42       | Task 42              | 132/6/1970, 4:00:00 PM | Project_6
+P2_T60       | Task 60              | 12/7/1970, 8:00:00 AM | Project_2
+P6_T3        | Task 3               | 152/6/1970, 4:00:00 PM | Project_6
+P6_T20       | Task 20              | 62/8/1970, 8:00:00 AM | Project_6
+P6_T54       | Task 54              | 32/7/1970, 8:00:00 AM | Project_6
+P5_T8        | Task 8               | 122/6/1970, 8:00:00 AM | Project_5
+P5_T12       | Task 12              | 122/9/1970, 4:00:00 PM | Project_5
+P5_T46       | Task 46              | 102/7/1970, 12:00:00 AM | Project_5
+P6_T17       | Task 17              | 82/8/1970, 4:00:00 PM | Project_6
+P5_T14       | Task 14              | 72/7/1970, 12:00:00 AM | Project_5
+P6_T18       | Task 18              | 152/7/1970, 12:00:00 AM | Project_6
+P6_T44       | Task 44              | 132/8/1970, 12:00:00 AM | Project_6
+P5_T25       | Task 25              | 72/8/1970, 4:00:00 PM | Project_5
+P5_T55       | Task 55              | 102/10/1970, 12:00:00 AM | Project_5
+P6_T22       | Task 22              | 152/9/1970, 4:00:00 PM | Project_6
+P3_T4        | Task 4               | 12/9/1970, 8:00:00 AM | Project_3
+P6_T49       | Task 49              | 132/9/1970, 8:00:00 AM | Project_6
+P6_T21       | Task 21              | 62/9/1970, 8:00:00 AM | Project_6
+P5_T26       | Task 26              | 72/9/1970, 12:00:00 AM | Project_5
+P6_T26       | Task 26              | 82/10/1970, 8:00:00 AM | Project_6
+P5_T27       | Task 27              | 72/10/1970, 8:00:00 AM | Project_5
+P3_T5        | Task 5               | 12/12/1970, 4:00:00 PM | Project_3
+P6_T45       | Task 45              | 62/11/1970, 8:00:00 AM | Project_6
+P5_T30       | Task 30              | 122/10/1970, 4:00:00 PM | Project_5
+P6_T39       | Task 39              | 102/12/1970, 8:00:00 AM | Project_6
+P5_T34       | Task 34              | 72/13/1970, 4:00:00 PM | Project_5
+P6_T52       | Task 52              | 82/11/1970, 8:00:00 AM | Project_6
+P5_T43       | Task 43              | 122/12/1970, 4:00:00 PM | Project_5
+P6_T55       | Task 55              | 82/14/1970, 12:00:00 AM | Project_6
+P6_T56       | Task 56              | 62/14/1970, 4:00:00 PM | Project_6
+P6_T48       | Task 48              | 102/14/1970, 12:00:00 AM | Project_6
+P3_T9        | Task 9               | 12/14/1970, 12:00:00 AM | Project_3
+P5_T60       | Task 60              | 122/14/1970, 4:00:00 PM | Project_5
+P6_T14       | Task 14              | 72/17/1970, 12:00:00 AM | Project_6
+P3_T15       | Task 15              | 12/16/1970, 12:00:00 AM | Project_3
+P6_T5        | Task 5               | 122/18/1970, 12:00:00 AM | Project_6
+P3_T21       | Task 21              | 12/16/1970, 4:00:00 PM | Project_3
+P3_T26       | Task 26              | 12/18/1970, 8:00:00 AM | Project_3
+P6_T27       | Task 27              | 72/18/1970, 8:00:00 AM | Project_6
+P6_T12       | Task 12              | 122/19/1970, 4:00:00 PM | Project_6
+P3_T50       | Task 50              | 12/20/1970, 4:00:00 PM | Project_3
+P6_T29       | Task 29              | 72/19/1970, 12:00:00 AM | Project_6
+P6_T43       | Task 43              | 72/21/1970, 4:00:00 PM | Project_6
+P6_T31       | Task 31              | 122/22/1970, 12:00:00 AM | Project_6
+P3_T54       | Task 54              | 12/23/1970, 8:00:00 AM | Project_3
+P6_T50       | Task 50              | 72/22/1970, 8:00:00 AM | Project_6
+P6_T34       | Task 34              | 122/25/1970, 8:00:00 AM | Project_6
+P6_T53       | Task 53              | 72/24/1970, 4:00:00 PM | Project_6
+P3_T58       | Task 58              | 12/26/1970, 12:00:00 AM | Project_3
+P6_T46       | Task 46              | 122/25/1970, 4:00:00 PM | Project_6
+P6_T60       | Task 60              | 122/26/1970, 12:00:00 AM | Project_6
+P3_T59       | Task 59              | 12/26/1970, 4:00:00 PM | Project_3
+P4_T2        | Task 2               | 12/28/1970, 4:00:00 PM | Project_4
+P4_T3        | Task 3               | 13/3/1970, 4:00:00 PM | Project_4
+P4_T12       | Task 12              | 13/5/1970, 4:00:00 PM | Project_4
+P4_T16       | Task 16              | 13/7/1970, 12:00:00 AM | Project_4
+P4_T19       | Task 19              | 13/8/1970, 4:00:00 PM | Project_4
+P4_T24       | Task 24              | 13/9/1970, 12:00:00 AM | Project_4
+P4_T29       | Task 29              | 13/12/1970, 12:00:00 AM | Project_4
+P4_T30       | Task 30              | 13/15/1970, 8:00:00 AM | Project_4
+P4_T39       | Task 39              | 13/16/1970, 12:00:00 AM | Project_4
+P4_T47       | Task 47              | 13/17/1970, 8:00:00 AM | Project_4
+P4_T48       | Task 48              | 13/20/1970, 12:00:00 AM | Project_4
+P4_T50       | Task 50              | 13/21/1970, 4:00:00 PM | Project_4
+P4_T55       | Task 55              | 13/22/1970, 4:00:00 PM | Project_4
+P4_T56       | Task 56              | 13/26/1970, 12:00:00 AM | Project_4
+P5_T4        | Task 4               | 13/27/1970, 8:00:00 AM | Project_5
+P5_T9        | Task 9               | 13/29/1970, 4:00:00 PM | Project_5
+P5_T21       | Task 21              | 14/2/1970, 12:00:00 AM | Project_5
+P6_T2        | Task 2               | 14/3/1970, 12:00:00 AM | Project_6
+P6_T13       | Task 13              | 14/6/1970, 12:00:00 AM | Project_6
+P6_T25       | Task 25              | 14/9/1970, 8:00:00 AM | Project_6
+P6_T28       | Task 28              | 14/11/1970, 12:00:00 AM | Project_6
+P6_T59       | Task 59              | 14/13/1970, 12:00:00 AM | Project_6
+
+PHÂN BỔ THEO DỰ ÁN:
+------------------
+
+DỰ ÁN: Project_1
+Số lượng công việc: 62
+Thời gian bắt đầu: 1/1/1970, 8:00:00 AM
+Thời gian kết thúc: 1/22/1970, 8:00:00 AM
+Tổng thời gian: 21.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T1: Task 1
+  Nhân viên: 10
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T2: Task 2
+  Nhân viên: 1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T3: Task 3
+  Nhân viên: 3
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T4: Task 4
+  Nhân viên: 12
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T6: Task 6
+  Nhân viên: 7
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T7: Task 7
+  Nhân viên: 2
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T10: Task 10
+  Nhân viên: 5
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T12: Task 12
+  Nhân viên: 11
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T13: Task 13
+  Nhân viên: 10
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T14: Task 14
+  Nhân viên: 15
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/4/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T15: Task 15
+  Nhân viên: 4
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T17: Task 17
+  Nhân viên: 8
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T21: Task 21
+  Nhân viên: 6
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T24: Task 24
+  Nhân viên: 14
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T27: Task 27
+  Nhân viên: 13
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T35: Task 35
+  Nhân viên: 9
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/4/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T62: Task 62
+  Nhân viên: 3
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T36: Task 36
+  Nhân viên: 10
+  Thời gian: 1/1/1970, 4:00:00 PM - 1/4/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T25: Task 25
+  Nhân viên: 11
+  Thời gian: 1/2/1970, 12:00:00 AM - 1/4/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T54: Task 54
+  Nhân viên: 8
+  Thời gian: 1/2/1970, 12:00:00 AM - 1/4/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T28: Task 28
+  Nhân viên: 14
+  Thời gian: 1/2/1970, 8:00:00 AM - 1/5/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T43: Task 43
+  Nhân viên: 3
+  Thời gian: 1/2/1970, 8:00:00 AM - 1/4/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T26: Task 26
+  Nhân viên: 6
+  Thời gian: 1/2/1970, 4:00:00 PM - 1/5/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T8: Task 8
+  Nhân viên: 7
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/5/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T11: Task 11
+  Nhân viên: 1
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/4/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T20: Task 20
+  Nhân viên: 2
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/4/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T30: Task 30
+  Nhân viên: 4
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/6/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T46: Task 46
+  Nhân viên: 13
+  Thời gian: 1/3/1970, 8:00:00 AM - 1/6/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T5: Task 5
+  Nhân viên: 12
+  Thời gian: 1/3/1970, 4:00:00 PM - 1/4/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T9: Task 9
+  Nhân viên: 12
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/5/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T16: Task 16
+  Nhân viên: 15
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/4/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T34: Task 34
+  Nhân viên: 11
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/7/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T38: Task 38
+  Nhân viên: 10
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/4/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T19: Task 19
+  Nhân viên: 1
+  Thời gian: 1/4/1970, 8:00:00 AM - 1/6/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T40: Task 40
+  Nhân viên: 15
+  Thời gian: 1/4/1970, 8:00:00 AM - 1/5/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T59: Task 59
+  Nhân viên: 9
+  Thời gian: 1/4/1970, 8:00:00 AM - 1/5/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T61: Task 61
+  Nhân viên: 8
+  Thời gian: 1/4/1970, 8:00:00 AM - 1/5/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T22: Task 22
+  Nhân viên: 2
+  Thời gian: 1/4/1970, 4:00:00 PM - 1/6/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T45: Task 45
+  Nhân viên: 10
+  Thời gian: 1/4/1970, 4:00:00 PM - 1/8/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T18: Task 18
+  Nhân viên: 12
+  Thời gian: 1/5/1970, 12:00:00 AM - 1/8/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T29: Task 29
+  Nhân viên: 7
+  Thời gian: 1/5/1970, 12:00:00 AM - 1/6/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T60: Task 60
+  Nhân viên: 14
+  Thời gian: 1/5/1970, 12:00:00 AM - 1/6/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T52: Task 52
+  Nhân viên: 15
+  Thời gian: 1/5/1970, 8:00:00 AM - 1/7/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T48: Task 48
+  Nhân viên: 7
+  Thời gian: 1/6/1970, 12:00:00 AM - 1/6/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T49: Task 49
+  Nhân viên: 13
+  Thời gian: 1/6/1970, 12:00:00 AM - 1/8/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T57: Task 57
+  Nhân viên: 2
+  Thời gian: 1/6/1970, 12:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T23: Task 23
+  Nhân viên: 1
+  Thời gian: 1/6/1970, 8:00:00 AM - 1/8/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T39: Task 39
+  Nhân viên: 4
+  Thời gian: 1/6/1970, 8:00:00 AM - 1/8/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T56: Task 56
+  Nhân viên: 11
+  Thời gian: 1/7/1970, 8:00:00 AM - 1/8/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T31: Task 31
+  Nhân viên: 1
+  Thời gian: 1/8/1970, 12:00:00 AM - 1/10/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T32: Task 32
+  Nhân viên: 12
+  Thời gian: 1/8/1970, 8:00:00 AM - 1/11/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T44: Task 44
+  Nhân viên: 4
+  Thời gian: 1/8/1970, 8:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T33: Task 33
+  Nhân viên: 1
+  Thời gian: 1/10/1970, 4:00:00 PM - 1/11/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T41: Task 41
+  Nhân viên: 1
+  Thời gian: 1/11/1970, 12:00:00 AM - 1/12/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T37: Task 37
+  Nhân viên: 12
+  Thời gian: 1/11/1970, 4:00:00 PM - 1/13/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T42: Task 42
+  Nhân viên: 1
+  Thời gian: 1/12/1970, 4:00:00 PM - 1/14/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T50: Task 50
+  Nhân viên: 12
+  Thời gian: 1/13/1970, 8:00:00 AM - 1/14/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T47: Task 47
+  Nhân viên: 1
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/16/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T51: Task 51
+  Nhân viên: 1
+  Thời gian: 1/16/1970, 8:00:00 AM - 1/19/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T53: Task 53
+  Nhân viên: 1
+  Thời gian: 1/19/1970, 8:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T55: Task 55
+  Nhân viên: 1
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/20/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T58: Task 58
+  Nhân viên: 1
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/22/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DỰ ÁN: Project_2
+Số lượng công việc: 62
+Thời gian bắt đầu: 1/1/1970, 8:00:00 AM
+Thời gian kết thúc: 2/7/1970, 8:00:00 AM
+Tổng thời gian: 37.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T1: Task 1
+  Nhân viên: 4
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T62: Task 62
+  Nhân viên: 13
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T8: Task 8
+  Nhân viên: 5
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/4/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T15: Task 15
+  Nhân viên: 3
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/7/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T14: Task 14
+  Nhân viên: 5
+  Thời gian: 1/4/1970, 4:00:00 PM - 1/5/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T46: Task 46
+  Nhân viên: 9
+  Thời gian: 1/5/1970, 12:00:00 AM - 1/6/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T27: Task 27
+  Nhân viên: 5
+  Thời gian: 1/5/1970, 8:00:00 AM - 1/6/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T3: Task 3
+  Nhân viên: 8
+  Thời gian: 1/5/1970, 4:00:00 PM - 1/8/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T9: Task 9
+  Nhân viên: 6
+  Thời gian: 1/5/1970, 4:00:00 PM - 1/8/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T2: Task 2
+  Nhân viên: 7
+  Thời gian: 1/6/1970, 4:00:00 PM - 1/9/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T55: Task 55
+  Nhân viên: 14
+  Thời gian: 1/6/1970, 4:00:00 PM - 1/8/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T4: Task 4
+  Nhân viên: 15
+  Thời gian: 1/7/1970, 12:00:00 AM - 1/10/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T32: Task 32
+  Nhân viên: 3
+  Thời gian: 1/7/1970, 8:00:00 AM - 1/10/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T13: Task 13
+  Nhân viên: 13
+  Thời gian: 1/8/1970, 12:00:00 AM - 1/10/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T18: Task 18
+  Nhân viên: 10
+  Thời gian: 1/8/1970, 12:00:00 AM - 1/11/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T21: Task 21
+  Nhân viên: 11
+  Thời gian: 1/8/1970, 8:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T29: Task 29
+  Nhân viên: 6
+  Thời gian: 1/8/1970, 4:00:00 PM - 1/9/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T31: Task 31
+  Nhân viên: 8
+  Thời gian: 1/8/1970, 4:00:00 PM - 1/11/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T10: Task 10
+  Nhân viên: 4
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/10/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T39: Task 39
+  Nhân viên: 11
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/12/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T49: Task 49
+  Nhân viên: 2
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/12/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T19: Task 19
+  Nhân viên: 7
+  Thời gian: 1/9/1970, 8:00:00 AM - 1/12/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T30: Task 30
+  Nhân viên: 6
+  Thời gian: 1/9/1970, 4:00:00 PM - 1/12/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T5: Task 5
+  Nhân viên: 15
+  Thời gian: 1/10/1970, 8:00:00 AM - 1/12/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T38: Task 38
+  Nhân viên: 3
+  Thời gian: 1/10/1970, 8:00:00 AM - 1/12/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T11: Task 11
+  Nhân viên: 4
+  Thời gian: 1/10/1970, 4:00:00 PM - 1/13/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T28: Task 28
+  Nhân viên: 13
+  Thời gian: 1/10/1970, 4:00:00 PM - 1/13/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T23: Task 23
+  Nhân viên: 10
+  Thời gian: 1/11/1970, 8:00:00 AM - 1/12/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T42: Task 42
+  Nhân viên: 8
+  Thời gian: 1/11/1970, 8:00:00 AM - 1/14/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T34: Task 34
+  Nhân viên: 7
+  Thời gian: 1/12/1970, 12:00:00 AM - 1/14/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T41: Task 41
+  Nhân viên: 3
+  Thời gian: 1/12/1970, 12:00:00 AM - 1/15/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T43: Task 43
+  Nhân viên: 11
+  Thời gian: 1/12/1970, 8:00:00 AM - 1/13/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T58: Task 58
+  Nhân viên: 2
+  Thời gian: 1/12/1970, 8:00:00 AM - 1/13/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T20: Task 20
+  Nhân viên: 15
+  Thời gian: 1/12/1970, 4:00:00 PM - 1/16/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T25: Task 25
+  Nhân viên: 10
+  Thời gian: 1/12/1970, 4:00:00 PM - 1/14/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T61: Task 61
+  Nhân viên: 6
+  Thời gian: 1/12/1970, 4:00:00 PM - 1/15/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T36: Task 36
+  Nhân viên: 13
+  Thời gian: 1/13/1970, 12:00:00 AM - 1/13/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T12: Task 12
+  Nhân viên: 4
+  Thời gian: 1/13/1970, 8:00:00 AM - 1/14/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T40: Task 40
+  Nhân viên: 13
+  Thời gian: 1/13/1970, 4:00:00 PM - 1/14/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T45: Task 45
+  Nhân viên: 11
+  Thời gian: 1/13/1970, 4:00:00 PM - 1/16/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T6: Task 6
+  Nhân viên: 12
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/16/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T26: Task 26
+  Nhân viên: 4
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/16/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T44: Task 44
+  Nhân viên: 8
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/15/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T57: Task 57
+  Nhân viên: 7
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/15/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T33: Task 33
+  Nhân viên: 10
+  Thời gian: 1/14/1970, 4:00:00 PM - 1/16/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T35: Task 35
+  Nhân viên: 4
+  Thời gian: 1/16/1970, 12:00:00 AM - 1/17/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T48: Task 48
+  Nhân viên: 10
+  Thời gian: 1/16/1970, 12:00:00 AM - 1/19/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T52: Task 52
+  Nhân viên: 15
+  Thời gian: 1/16/1970, 12:00:00 AM - 1/19/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T7: Task 7
+  Nhân viên: 12
+  Thời gian: 1/16/1970, 4:00:00 PM - 1/19/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T56: Task 56
+  Nhân viên: 11
+  Thời gian: 1/16/1970, 4:00:00 PM - 1/17/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T53: Task 53
+  Nhân viên: 4
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/17/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T51: Task 51
+  Nhân viên: 10
+  Thời gian: 1/19/1970, 12:00:00 AM - 1/20/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T47: Task 47
+  Nhân viên: 12
+  Thời gian: 1/19/1970, 8:00:00 AM - 1/22/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T59: Task 59
+  Nhân viên: 10
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T16: Task 16
+  Nhân viên: 1
+  Thời gian: 1/22/1970, 8:00:00 AM - 1/25/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T17: Task 17
+  Nhân viên: 1
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/27/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T22: Task 22
+  Nhân viên: 1
+  Thời gian: 1/27/1970, 4:00:00 PM - 1/29/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T24: Task 24
+  Nhân viên: 1
+  Thời gian: 1/29/1970, 12:00:00 AM - 1/30/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T37: Task 37
+  Nhân viên: 1
+  Thời gian: 1/30/1970, 4:00:00 PM - 2/1/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T50: Task 50
+  Nhân viên: 1
+  Thời gian: 2/1/1970, 4:00:00 PM - 2/2/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T54: Task 54
+  Nhân viên: 1
+  Thời gian: 2/2/1970, 8:00:00 AM - 2/5/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T60: Task 60
+  Nhân viên: 1
+  Thời gian: 2/5/1970, 8:00:00 AM - 2/7/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DỰ ÁN: Project_3
+Số lượng công việc: 62
+Thời gian bắt đầu: 1/1/1970, 8:00:00 AM
+Thời gian kết thúc: 2/26/1970, 4:00:00 PM
+Tổng thời gian: 56.33 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T1: Task 1
+  Nhân viên: 2
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T62: Task 62
+  Nhân viên: 5
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T19: Task 19
+  Nhân viên: 9
+  Thời gian: 1/6/1970, 12:00:00 AM - 1/8/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T3: Task 3
+  Nhân viên: 5
+  Thời gian: 1/6/1970, 8:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T28: Task 28
+  Nhân viên: 9
+  Thời gian: 1/8/1970, 8:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T6: Task 6
+  Nhân viên: 14
+  Thời gian: 1/8/1970, 4:00:00 PM - 1/12/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T14: Task 14
+  Nhân viên: 5
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/10/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T47: Task 47
+  Nhân viên: 5
+  Thời gian: 1/10/1970, 4:00:00 PM - 1/11/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T48: Task 48
+  Nhân viên: 5
+  Thời gian: 1/11/1970, 4:00:00 PM - 1/14/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T25: Task 25
+  Nhân viên: 14
+  Thời gian: 1/12/1970, 12:00:00 AM - 1/12/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T38: Task 38
+  Nhân viên: 14
+  Thời gian: 1/12/1970, 8:00:00 AM - 1/13/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T22: Task 22
+  Nhân viên: 2
+  Thời gian: 1/13/1970, 8:00:00 AM - 1/14/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T55: Task 55
+  Nhân viên: 14
+  Thời gian: 1/13/1970, 4:00:00 PM - 1/14/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T11: Task 11
+  Nhân viên: 13
+  Thời gian: 1/14/1970, 12:00:00 AM - 1/16/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T45: Task 45
+  Nhân viên: 2
+  Thời gian: 1/14/1970, 4:00:00 PM - 1/18/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T60: Task 60
+  Nhân viên: 5
+  Thời gian: 1/14/1970, 4:00:00 PM - 1/16/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T8: Task 8
+  Nhân viên: 6
+  Thời gian: 1/15/1970, 12:00:00 AM - 1/16/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T12: Task 12
+  Nhân viên: 3
+  Thời gian: 1/15/1970, 12:00:00 AM - 1/17/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T41: Task 41
+  Nhân viên: 8
+  Thời gian: 1/15/1970, 12:00:00 AM - 1/16/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T7: Task 7
+  Nhân viên: 7
+  Thời gian: 1/15/1970, 4:00:00 PM - 1/16/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T10: Task 10
+  Nhân viên: 7
+  Thời gian: 1/16/1970, 8:00:00 AM - 1/19/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T13: Task 13
+  Nhân viên: 6
+  Thời gian: 1/16/1970, 8:00:00 AM - 1/19/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T44: Task 44
+  Nhân viên: 8
+  Thời gian: 1/16/1970, 8:00:00 AM - 1/18/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T18: Task 18
+  Nhân viên: 13
+  Thời gian: 1/16/1970, 4:00:00 PM - 1/17/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T24: Task 24
+  Nhân viên: 13
+  Thời gian: 1/17/1970, 12:00:00 AM - 1/18/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T27: Task 27
+  Nhân viên: 11
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/19/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T16: Task 16
+  Nhân viên: 4
+  Thời gian: 1/17/1970, 4:00:00 PM - 1/18/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T61: Task 61
+  Nhân viên: 2
+  Thời gian: 1/18/1970, 12:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T36: Task 36
+  Nhân viên: 13
+  Thời gian: 1/18/1970, 8:00:00 AM - 1/20/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T40: Task 40
+  Nhân viên: 4
+  Thời gian: 1/18/1970, 8:00:00 AM - 1/20/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T29: Task 29
+  Nhân viên: 6
+  Thời gian: 1/19/1970, 12:00:00 AM - 1/21/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T35: Task 35
+  Nhân viên: 15
+  Thời gian: 1/19/1970, 12:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T17: Task 17
+  Nhân viên: 7
+  Thời gian: 1/19/1970, 4:00:00 PM - 1/21/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T37: Task 37
+  Nhân viên: 15
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T51: Task 51
+  Nhân viên: 4
+  Thời gian: 1/20/1970, 4:00:00 PM - 1/21/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T52: Task 52
+  Nhân viên: 13
+  Thời gian: 1/20/1970, 4:00:00 PM - 1/21/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T20: Task 20
+  Nhân viên: 7
+  Thời gian: 1/21/1970, 4:00:00 PM - 1/22/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T30: Task 30
+  Nhân viên: 6
+  Thời gian: 1/21/1970, 4:00:00 PM - 1/24/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T2: Task 2
+  Nhân viên: 12
+  Thời gian: 1/22/1970, 8:00:00 AM - 1/24/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T31: Task 31
+  Nhân viên: 7
+  Thời gian: 1/22/1970, 4:00:00 PM - 1/24/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T23: Task 23
+  Nhân viên: 10
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/24/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T42: Task 42
+  Nhân viên: 15
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/26/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T32: Task 32
+  Nhân viên: 6
+  Thời gian: 1/24/1970, 12:00:00 AM - 1/24/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T33: Task 33
+  Nhân viên: 12
+  Thời gian: 1/24/1970, 12:00:00 AM - 1/26/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T57: Task 57
+  Nhân viên: 10
+  Thời gian: 1/24/1970, 12:00:00 AM - 1/26/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T34: Task 34
+  Nhân viên: 6
+  Thời gian: 1/24/1970, 4:00:00 PM - 1/25/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T46: Task 46
+  Nhân viên: 7
+  Thời gian: 1/24/1970, 4:00:00 PM - 1/26/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T53: Task 53
+  Nhân viên: 6
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/28/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T39: Task 39
+  Nhân viên: 12
+  Thời gian: 1/26/1970, 4:00:00 PM - 1/28/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T43: Task 43
+  Nhân viên: 12
+  Thời gian: 1/28/1970, 8:00:00 AM - 1/29/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T49: Task 49
+  Nhân viên: 12
+  Thời gian: 1/29/1970, 4:00:00 PM - 1/30/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T56: Task 56
+  Nhân viên: 12
+  Thời gian: 1/30/1970, 12:00:00 AM - 1/31/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T4: Task 4
+  Nhân viên: 1
+  Thời gian: 2/7/1970, 8:00:00 AM - 2/9/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T5: Task 5
+  Nhân viên: 1
+  Thời gian: 2/9/1970, 8:00:00 AM - 2/12/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T9: Task 9
+  Nhân viên: 1
+  Thời gian: 2/12/1970, 4:00:00 PM - 2/14/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T15: Task 15
+  Nhân viên: 1
+  Thời gian: 2/14/1970, 12:00:00 AM - 2/16/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T21: Task 21
+  Nhân viên: 1
+  Thời gian: 2/16/1970, 12:00:00 AM - 2/16/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T26: Task 26
+  Nhân viên: 1
+  Thời gian: 2/16/1970, 4:00:00 PM - 2/18/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T50: Task 50
+  Nhân viên: 1
+  Thời gian: 2/18/1970, 8:00:00 AM - 2/20/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T54: Task 54
+  Nhân viên: 1
+  Thời gian: 2/20/1970, 4:00:00 PM - 2/23/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T58: Task 58
+  Nhân viên: 1
+  Thời gian: 2/23/1970, 8:00:00 AM - 2/26/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T59: Task 59
+  Nhân viên: 1
+  Thời gian: 2/26/1970, 12:00:00 AM - 2/26/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DỰ ÁN: Project_4
+Số lượng công việc: 62
+Thời gian bắt đầu: 1/1/1970, 8:00:00 AM
+Thời gian kết thúc: 3/26/1970, 12:00:00 AM
+Tổng thời gian: 83.67 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T1: Task 1
+  Nhân viên: 12
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T62: Task 62
+  Nhân viên: 8
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T17: Task 17
+  Nhân viên: 9
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/11/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T22: Task 22
+  Nhân viên: 9
+  Thời gian: 1/11/1970, 4:00:00 PM - 1/12/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T35: Task 35
+  Nhân viên: 9
+  Thời gian: 1/12/1970, 12:00:00 AM - 1/13/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T23: Task 23
+  Nhân viên: 14
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/17/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T15: Task 15
+  Nhân viên: 5
+  Thời gian: 1/16/1970, 12:00:00 AM - 1/17/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T6: Task 6
+  Nhân viên: 3
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/19/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T32: Task 32
+  Nhân viên: 5
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/18/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T34: Task 34
+  Nhân viên: 14
+  Thời gian: 1/17/1970, 4:00:00 PM - 1/20/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T36: Task 36
+  Nhân viên: 8
+  Thời gian: 1/18/1970, 12:00:00 AM - 1/19/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T58: Task 58
+  Nhân viên: 5
+  Thời gian: 1/18/1970, 12:00:00 AM - 1/20/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T18: Task 18
+  Nhân viên: 11
+  Thời gian: 1/19/1970, 8:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T42: Task 42
+  Nhân viên: 8
+  Thời gian: 1/19/1970, 8:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T14: Task 14
+  Nhân viên: 3
+  Thời gian: 1/19/1970, 4:00:00 PM - 1/22/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T21: Task 21
+  Nhân viên: 11
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/20/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T26: Task 26
+  Nhân viên: 2
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/20/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T53: Task 53
+  Nhân viên: 8
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/21/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T43: Task 43
+  Nhân viên: 2
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/23/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T31: Task 31
+  Nhân viên: 11
+  Thời gian: 1/20/1970, 4:00:00 PM - 1/23/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T7: Task 7
+  Nhân viên: 4
+  Thời gian: 1/21/1970, 12:00:00 AM - 1/24/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T8: Task 8
+  Nhân viên: 13
+  Thời gian: 1/21/1970, 12:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T57: Task 57
+  Nhân viên: 8
+  Thời gian: 1/21/1970, 8:00:00 AM - 1/21/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T59: Task 59
+  Nhân viên: 8
+  Thời gian: 1/21/1970, 4:00:00 PM - 1/23/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T27: Task 27
+  Nhân viên: 3
+  Thời gian: 1/22/1970, 12:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T28: Task 28
+  Nhân viên: 13
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/24/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T33: Task 33
+  Nhân viên: 3
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/24/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T45: Task 45
+  Nhân viên: 11
+  Thời gian: 1/23/1970, 4:00:00 PM - 1/24/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T9: Task 9
+  Nhân viên: 4
+  Thời gian: 1/24/1970, 8:00:00 AM - 1/26/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T54: Task 54
+  Nhân viên: 11
+  Thời gian: 1/24/1970, 8:00:00 AM - 1/27/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T60: Task 60
+  Nhân viên: 13
+  Thời gian: 1/24/1970, 4:00:00 PM - 1/27/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T4: Task 4
+  Nhân viên: 15
+  Thời gian: 1/26/1970, 12:00:00 AM - 1/29/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T10: Task 10
+  Nhân viên: 10
+  Thời gian: 1/26/1970, 8:00:00 AM - 1/27/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T11: Task 11
+  Nhân viên: 7
+  Thời gian: 1/26/1970, 8:00:00 AM - 1/28/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T13: Task 13
+  Nhân viên: 10
+  Thời gian: 1/27/1970, 12:00:00 AM - 1/28/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T5: Task 5
+  Nhân viên: 6
+  Thời gian: 1/28/1970, 4:00:00 PM - 1/30/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T20: Task 20
+  Nhân viên: 10
+  Thời gian: 1/28/1970, 4:00:00 PM - 2/1/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T41: Task 41
+  Nhân viên: 7
+  Thời gian: 1/28/1970, 4:00:00 PM - 1/30/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T40: Task 40
+  Nhân viên: 15
+  Thời gian: 1/29/1970, 12:00:00 AM - 1/29/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T51: Task 51
+  Nhân viên: 15
+  Thời gian: 1/29/1970, 8:00:00 AM - 1/30/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T46: Task 46
+  Nhân viên: 7
+  Thời gian: 1/30/1970, 12:00:00 AM - 2/1/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T38: Task 38
+  Nhân viên: 6
+  Thời gian: 1/30/1970, 4:00:00 PM - 2/1/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T25: Task 25
+  Nhân viên: 12
+  Thời gian: 1/31/1970, 4:00:00 PM - 2/2/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T37: Task 37
+  Nhân viên: 10
+  Thời gian: 2/1/1970, 12:00:00 AM - 2/1/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T49: Task 49
+  Nhân viên: 6
+  Thời gian: 2/1/1970, 8:00:00 AM - 2/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T52: Task 52
+  Nhân viên: 7
+  Thời gian: 2/1/1970, 8:00:00 AM - 2/4/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T61: Task 61
+  Nhân viên: 10
+  Thời gian: 2/1/1970, 8:00:00 AM - 2/2/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T44: Task 44
+  Nhân viên: 12
+  Thời gian: 2/2/1970, 12:00:00 AM - 2/2/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T2: Task 2
+  Nhân viên: 1
+  Thời gian: 2/26/1970, 4:00:00 PM - 2/28/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T3: Task 3
+  Nhân viên: 1
+  Thời gian: 2/28/1970, 4:00:00 PM - 3/3/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T12: Task 12
+  Nhân viên: 1
+  Thời gian: 3/3/1970, 4:00:00 PM - 3/5/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T16: Task 16
+  Nhân viên: 1
+  Thời gian: 3/5/1970, 4:00:00 PM - 3/7/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T19: Task 19
+  Nhân viên: 1
+  Thời gian: 3/7/1970, 12:00:00 AM - 3/8/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T24: Task 24
+  Nhân viên: 1
+  Thời gian: 3/8/1970, 4:00:00 PM - 3/9/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T29: Task 29
+  Nhân viên: 1
+  Thời gian: 3/9/1970, 12:00:00 AM - 3/12/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T30: Task 30
+  Nhân viên: 1
+  Thời gian: 3/12/1970, 12:00:00 AM - 3/15/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T39: Task 39
+  Nhân viên: 1
+  Thời gian: 3/15/1970, 8:00:00 AM - 3/16/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T47: Task 47
+  Nhân viên: 1
+  Thời gian: 3/16/1970, 12:00:00 AM - 3/17/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T48: Task 48
+  Nhân viên: 1
+  Thời gian: 3/17/1970, 8:00:00 AM - 3/20/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T50: Task 50
+  Nhân viên: 1
+  Thời gian: 3/20/1970, 12:00:00 AM - 3/21/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T55: Task 55
+  Nhân viên: 1
+  Thời gian: 3/21/1970, 4:00:00 PM - 3/22/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T56: Task 56
+  Nhân viên: 1
+  Thời gian: 3/22/1970, 4:00:00 PM - 3/26/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DỰ ÁN: Project_5
+Số lượng công việc: 62
+Thời gian bắt đầu: 1/1/1970, 8:00:00 AM
+Thời gian kết thúc: 4/2/1970, 12:00:00 AM
+Tổng thời gian: 90.67 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T1: Task 1
+  Nhân viên: 8
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T62: Task 62
+  Nhân viên: 8
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T2: Task 2
+  Nhân viên: 9
+  Thời gian: 1/13/1970, 8:00:00 AM - 1/14/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T19: Task 19
+  Nhân viên: 9
+  Thời gian: 1/14/1970, 4:00:00 PM - 1/15/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T36: Task 36
+  Nhân viên: 9
+  Thời gian: 1/15/1970, 4:00:00 PM - 1/17/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T47: Task 47
+  Nhân viên: 9
+  Thời gian: 1/17/1970, 12:00:00 AM - 1/17/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T54: Task 54
+  Nhân viên: 9
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T56: Task 56
+  Nhân viên: 9
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/20/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T37: Task 37
+  Nhân viên: 14
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T59: Task 59
+  Nhân viên: 9
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/22/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T10: Task 10
+  Nhân viên: 5
+  Thời gian: 1/20/1970, 4:00:00 PM - 1/23/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T13: Task 13
+  Nhân viên: 5
+  Thời gian: 1/23/1970, 8:00:00 AM - 1/23/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T15: Task 15
+  Nhân viên: 8
+  Thời gian: 1/23/1970, 4:00:00 PM - 1/27/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T17: Task 17
+  Nhân viên: 2
+  Thời gian: 1/23/1970, 4:00:00 PM - 1/25/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T33: Task 33
+  Nhân viên: 5
+  Thời gian: 1/23/1970, 4:00:00 PM - 1/24/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T44: Task 44
+  Nhân viên: 5
+  Thời gian: 1/24/1970, 12:00:00 AM - 1/24/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T53: Task 53
+  Nhân viên: 5
+  Thời gian: 1/24/1970, 8:00:00 AM - 1/25/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T3: Task 3
+  Nhân viên: 3
+  Thời gian: 1/24/1970, 4:00:00 PM - 1/25/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T11: Task 11
+  Nhân viên: 3
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/26/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T18: Task 18
+  Nhân viên: 2
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/25/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T20: Task 20
+  Nhân viên: 4
+  Thời gian: 1/26/1970, 12:00:00 AM - 1/28/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T35: Task 35
+  Nhân viên: 3
+  Thời gian: 1/26/1970, 12:00:00 AM - 1/28/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T16: Task 16
+  Nhân viên: 11
+  Thời gian: 1/27/1970, 12:00:00 AM - 1/27/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T22: Task 22
+  Nhân viên: 8
+  Thời gian: 1/27/1970, 12:00:00 AM - 1/27/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T24: Task 24
+  Nhân viên: 8
+  Thời gian: 1/27/1970, 8:00:00 AM - 1/29/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T39: Task 39
+  Nhân viên: 11
+  Thời gian: 1/27/1970, 8:00:00 AM - 1/27/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T29: Task 29
+  Nhân viên: 13
+  Thời gian: 1/27/1970, 4:00:00 PM - 1/31/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T49: Task 49
+  Nhân viên: 11
+  Thời gian: 1/27/1970, 4:00:00 PM - 1/29/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T52: Task 52
+  Nhân viên: 3
+  Thời gian: 1/28/1970, 12:00:00 AM - 1/29/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T28: Task 28
+  Nhân viên: 4
+  Thời gian: 1/28/1970, 8:00:00 AM - 1/30/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T51: Task 51
+  Nhân viên: 11
+  Thời gian: 1/29/1970, 12:00:00 AM - 2/1/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T31: Task 31
+  Nhân viên: 8
+  Thời gian: 1/29/1970, 8:00:00 AM - 2/1/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T61: Task 61
+  Nhân viên: 3
+  Thời gian: 1/29/1970, 4:00:00 PM - 1/30/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T5: Task 5
+  Nhân viên: 15
+  Thời gian: 1/30/1970, 12:00:00 AM - 1/31/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T42: Task 42
+  Nhân viên: 4
+  Thời gian: 1/30/1970, 8:00:00 AM - 2/2/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T32: Task 32
+  Nhân viên: 15
+  Thời gian: 1/31/1970, 12:00:00 AM - 2/3/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T41: Task 41
+  Nhân viên: 8
+  Thời gian: 2/1/1970, 4:00:00 PM - 2/2/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T38: Task 38
+  Nhân viên: 10
+  Thời gian: 2/2/1970, 12:00:00 AM - 2/3/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T48: Task 48
+  Nhân viên: 4
+  Thời gian: 2/2/1970, 8:00:00 AM - 2/3/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T6: Task 6
+  Nhân viên: 12
+  Thời gian: 2/2/1970, 4:00:00 PM - 2/6/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T45: Task 45
+  Nhân viên: 8
+  Thời gian: 2/2/1970, 4:00:00 PM - 2/4/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T23: Task 23
+  Nhân viên: 6
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/5/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T50: Task 50
+  Nhân viên: 15
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/4/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T40: Task 40
+  Nhân viên: 10
+  Thời gian: 2/3/1970, 4:00:00 PM - 2/6/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T57: Task 57
+  Nhân viên: 15
+  Thời gian: 2/4/1970, 12:00:00 AM - 2/5/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T58: Task 58
+  Nhân viên: 8
+  Thời gian: 2/4/1970, 12:00:00 AM - 2/6/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T7: Task 7
+  Nhân viên: 7
+  Thời gian: 2/4/1970, 8:00:00 AM - 2/6/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T8: Task 8
+  Nhân viên: 12
+  Thời gian: 2/6/1970, 12:00:00 AM - 2/6/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T12: Task 12
+  Nhân viên: 12
+  Thời gian: 2/6/1970, 8:00:00 AM - 2/9/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T46: Task 46
+  Nhân viên: 10
+  Thời gian: 2/6/1970, 8:00:00 AM - 2/7/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T14: Task 14
+  Nhân viên: 7
+  Thời gian: 2/6/1970, 4:00:00 PM - 2/7/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T25: Task 25
+  Nhân viên: 7
+  Thời gian: 2/7/1970, 12:00:00 AM - 2/8/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T55: Task 55
+  Nhân viên: 10
+  Thời gian: 2/7/1970, 12:00:00 AM - 2/10/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T26: Task 26
+  Nhân viên: 7
+  Thời gian: 2/8/1970, 4:00:00 PM - 2/9/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T27: Task 27
+  Nhân viên: 7
+  Thời gian: 2/9/1970, 12:00:00 AM - 2/10/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T30: Task 30
+  Nhân viên: 12
+  Thời gian: 2/9/1970, 4:00:00 PM - 2/10/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T34: Task 34
+  Nhân viên: 7
+  Thời gian: 2/10/1970, 8:00:00 AM - 2/13/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T43: Task 43
+  Nhân viên: 12
+  Thời gian: 2/10/1970, 4:00:00 PM - 2/12/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T60: Task 60
+  Nhân viên: 12
+  Thời gian: 2/12/1970, 4:00:00 PM - 2/14/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T4: Task 4
+  Nhân viên: 1
+  Thời gian: 3/26/1970, 12:00:00 AM - 3/27/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T9: Task 9
+  Nhân viên: 1
+  Thời gian: 3/27/1970, 8:00:00 AM - 3/29/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T21: Task 21
+  Nhân viên: 1
+  Thời gian: 3/29/1970, 4:00:00 PM - 4/2/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DỰ ÁN: Project_6
+Số lượng công việc: 62
+Thời gian bắt đầu: 1/1/1970, 8:00:00 AM
+Thời gian kết thúc: 4/13/1970, 12:00:00 AM
+Tổng thời gian: 101.67 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T1: Task 1
+  Nhân viên: 10
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T62: Task 62
+  Nhân viên: 7
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T15: Task 15
+  Nhân viên: 9
+  Thời gian: 1/22/1970, 12:00:00 AM - 1/25/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T19: Task 19
+  Nhân viên: 14
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/25/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T33: Task 33
+  Nhân viên: 14
+  Thời gian: 1/25/1970, 12:00:00 AM - 1/27/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T47: Task 47
+  Nhân viên: 9
+  Thời gian: 1/25/1970, 12:00:00 AM - 1/26/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T6: Task 6
+  Nhân viên: 5
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/27/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T11: Task 11
+  Nhân viên: 2
+  Thời gian: 1/25/1970, 4:00:00 PM - 1/27/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T61: Task 61
+  Nhân viên: 9
+  Thời gian: 1/26/1970, 8:00:00 AM - 1/28/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T7: Task 7
+  Nhân viên: 5
+  Thời gian: 1/27/1970, 12:00:00 AM - 1/29/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T24: Task 24
+  Nhân viên: 2
+  Thời gian: 1/27/1970, 8:00:00 AM - 1/30/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T36: Task 36
+  Nhân viên: 14
+  Thời gian: 1/27/1970, 4:00:00 PM - 1/28/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T37: Task 37
+  Nhân viên: 14
+  Thời gian: 1/28/1970, 4:00:00 PM - 1/29/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T16: Task 16
+  Nhân viên: 5
+  Thời gian: 1/29/1970, 12:00:00 AM - 1/30/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T32: Task 32
+  Nhân viên: 5
+  Thời gian: 1/30/1970, 12:00:00 AM - 1/30/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T41: Task 41
+  Nhân viên: 5
+  Thời gian: 1/30/1970, 8:00:00 AM - 1/31/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T51: Task 51
+  Nhân viên: 2
+  Thời gian: 1/30/1970, 8:00:00 AM - 1/30/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T4: Task 4
+  Nhân viên: 3
+  Thời gian: 1/30/1970, 4:00:00 PM - 2/3/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T10: Task 10
+  Nhân viên: 13
+  Thời gian: 1/31/1970, 12:00:00 AM - 2/2/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T57: Task 57
+  Nhân viên: 5
+  Thời gian: 1/31/1970, 8:00:00 AM - 2/3/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T8: Task 8
+  Nhân viên: 11
+  Thời gian: 2/1/1970, 8:00:00 AM - 2/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T23: Task 23
+  Nhân viên: 13
+  Thời gian: 2/2/1970, 12:00:00 AM - 2/4/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T9: Task 9
+  Nhân viên: 3
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/4/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T30: Task 30
+  Nhân viên: 11
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/3/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T35: Task 35
+  Nhân viên: 4
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/4/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T40: Task 40
+  Nhân viên: 11
+  Thời gian: 2/3/1970, 8:00:00 AM - 2/4/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T58: Task 58
+  Nhân viên: 11
+  Thời gian: 2/4/1970, 12:00:00 AM - 2/6/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T38: Task 38
+  Nhân viên: 3
+  Thời gian: 2/4/1970, 8:00:00 AM - 2/5/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T42: Task 42
+  Nhân viên: 13
+  Thời gian: 2/4/1970, 4:00:00 PM - 2/6/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T3: Task 3
+  Nhân viên: 15
+  Thời gian: 2/5/1970, 8:00:00 AM - 2/6/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T20: Task 20
+  Nhân viên: 6
+  Thời gian: 2/5/1970, 8:00:00 AM - 2/8/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T54: Task 54
+  Nhân viên: 3
+  Thời gian: 2/5/1970, 4:00:00 PM - 2/7/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T17: Task 17
+  Nhân viên: 8
+  Thời gian: 2/6/1970, 8:00:00 AM - 2/8/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T18: Task 18
+  Nhân viên: 15
+  Thời gian: 2/6/1970, 4:00:00 PM - 2/7/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T44: Task 44
+  Nhân viên: 13
+  Thời gian: 2/6/1970, 4:00:00 PM - 2/8/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T22: Task 22
+  Nhân viên: 15
+  Thời gian: 2/7/1970, 12:00:00 AM - 2/9/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T49: Task 49
+  Nhân viên: 13
+  Thời gian: 2/8/1970, 12:00:00 AM - 2/9/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T21: Task 21
+  Nhân viên: 6
+  Thời gian: 2/8/1970, 8:00:00 AM - 2/9/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T26: Task 26
+  Nhân viên: 8
+  Thời gian: 2/8/1970, 4:00:00 PM - 2/10/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T45: Task 45
+  Nhân viên: 6
+  Thời gian: 2/9/1970, 8:00:00 AM - 2/11/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T39: Task 39
+  Nhân viên: 10
+  Thời gian: 2/10/1970, 12:00:00 AM - 2/12/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T52: Task 52
+  Nhân viên: 8
+  Thời gian: 2/10/1970, 8:00:00 AM - 2/11/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T55: Task 55
+  Nhân viên: 8
+  Thời gian: 2/11/1970, 8:00:00 AM - 2/14/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T56: Task 56
+  Nhân viên: 6
+  Thời gian: 2/11/1970, 8:00:00 AM - 2/14/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T48: Task 48
+  Nhân viên: 10
+  Thời gian: 2/12/1970, 8:00:00 AM - 2/14/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T14: Task 14
+  Nhân viên: 7
+  Thời gian: 2/13/1970, 4:00:00 PM - 2/17/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T5: Task 5
+  Nhân viên: 12
+  Thời gian: 2/14/1970, 4:00:00 PM - 2/18/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T27: Task 27
+  Nhân viên: 7
+  Thời gian: 2/17/1970, 12:00:00 AM - 2/18/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T12: Task 12
+  Nhân viên: 12
+  Thời gian: 2/18/1970, 12:00:00 AM - 2/19/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T29: Task 29
+  Nhân viên: 7
+  Thời gian: 2/18/1970, 8:00:00 AM - 2/19/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T43: Task 43
+  Nhân viên: 7
+  Thời gian: 2/19/1970, 12:00:00 AM - 2/21/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T31: Task 31
+  Nhân viên: 12
+  Thời gian: 2/19/1970, 4:00:00 PM - 2/22/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T50: Task 50
+  Nhân viên: 7
+  Thời gian: 2/21/1970, 4:00:00 PM - 2/22/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T34: Task 34
+  Nhân viên: 12
+  Thời gian: 2/22/1970, 12:00:00 AM - 2/25/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T53: Task 53
+  Nhân viên: 7
+  Thời gian: 2/22/1970, 8:00:00 AM - 2/24/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T46: Task 46
+  Nhân viên: 12
+  Thời gian: 2/25/1970, 8:00:00 AM - 2/25/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T60: Task 60
+  Nhân viên: 12
+  Thời gian: 2/25/1970, 4:00:00 PM - 2/26/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T2: Task 2
+  Nhân viên: 1
+  Thời gian: 4/2/1970, 12:00:00 AM - 4/3/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T13: Task 13
+  Nhân viên: 1
+  Thời gian: 4/3/1970, 12:00:00 AM - 4/6/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T25: Task 25
+  Nhân viên: 1
+  Thời gian: 4/6/1970, 12:00:00 AM - 4/9/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T28: Task 28
+  Nhân viên: 1
+  Thời gian: 4/9/1970, 8:00:00 AM - 4/11/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T59: Task 59
+  Nhân viên: 1
+  Thời gian: 4/11/1970, 12:00:00 AM - 4/13/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+PHÂN BỔ THEO NHÂN VIÊN:
+----------------------
+
+NHÂN VIÊN: 1
+Số công việc được giao: 53
+Tổng thời gian làm việc ước tính: 305.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T2: Task 2
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T11: Task 11
+  Dự án: Project_1
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/4/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T19: Task 19
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 8:00:00 AM - 1/6/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T23: Task 23
+  Dự án: Project_1
+  Thời gian: 1/6/1970, 8:00:00 AM - 1/8/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T31: Task 31
+  Dự án: Project_1
+  Thời gian: 1/8/1970, 12:00:00 AM - 1/10/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T33: Task 33
+  Dự án: Project_1
+  Thời gian: 1/10/1970, 4:00:00 PM - 1/11/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T41: Task 41
+  Dự án: Project_1
+  Thời gian: 1/11/1970, 12:00:00 AM - 1/12/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T42: Task 42
+  Dự án: Project_1
+  Thời gian: 1/12/1970, 4:00:00 PM - 1/14/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T47: Task 47
+  Dự án: Project_1
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/16/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T51: Task 51
+  Dự án: Project_1
+  Thời gian: 1/16/1970, 8:00:00 AM - 1/19/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T53: Task 53
+  Dự án: Project_1
+  Thời gian: 1/19/1970, 8:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T55: Task 55
+  Dự án: Project_1
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/20/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T58: Task 58
+  Dự án: Project_1
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/22/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T16: Task 16
+  Dự án: Project_2
+  Thời gian: 1/22/1970, 8:00:00 AM - 1/25/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T17: Task 17
+  Dự án: Project_2
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/27/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T22: Task 22
+  Dự án: Project_2
+  Thời gian: 1/27/1970, 4:00:00 PM - 1/29/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T24: Task 24
+  Dự án: Project_2
+  Thời gian: 1/29/1970, 12:00:00 AM - 1/30/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T37: Task 37
+  Dự án: Project_2
+  Thời gian: 1/30/1970, 4:00:00 PM - 2/1/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T50: Task 50
+  Dự án: Project_2
+  Thời gian: 2/1/1970, 4:00:00 PM - 2/2/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T54: Task 54
+  Dự án: Project_2
+  Thời gian: 2/2/1970, 8:00:00 AM - 2/5/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T60: Task 60
+  Dự án: Project_2
+  Thời gian: 2/5/1970, 8:00:00 AM - 2/7/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T4: Task 4
+  Dự án: Project_3
+  Thời gian: 2/7/1970, 8:00:00 AM - 2/9/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T5: Task 5
+  Dự án: Project_3
+  Thời gian: 2/9/1970, 8:00:00 AM - 2/12/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T9: Task 9
+  Dự án: Project_3
+  Thời gian: 2/12/1970, 4:00:00 PM - 2/14/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T15: Task 15
+  Dự án: Project_3
+  Thời gian: 2/14/1970, 12:00:00 AM - 2/16/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T21: Task 21
+  Dự án: Project_3
+  Thời gian: 2/16/1970, 12:00:00 AM - 2/16/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T26: Task 26
+  Dự án: Project_3
+  Thời gian: 2/16/1970, 4:00:00 PM - 2/18/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T50: Task 50
+  Dự án: Project_3
+  Thời gian: 2/18/1970, 8:00:00 AM - 2/20/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T54: Task 54
+  Dự án: Project_3
+  Thời gian: 2/20/1970, 4:00:00 PM - 2/23/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T58: Task 58
+  Dự án: Project_3
+  Thời gian: 2/23/1970, 8:00:00 AM - 2/26/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T59: Task 59
+  Dự án: Project_3
+  Thời gian: 2/26/1970, 12:00:00 AM - 2/26/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T2: Task 2
+  Dự án: Project_4
+  Thời gian: 2/26/1970, 4:00:00 PM - 2/28/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T3: Task 3
+  Dự án: Project_4
+  Thời gian: 2/28/1970, 4:00:00 PM - 3/3/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T12: Task 12
+  Dự án: Project_4
+  Thời gian: 3/3/1970, 4:00:00 PM - 3/5/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T16: Task 16
+  Dự án: Project_4
+  Thời gian: 3/5/1970, 4:00:00 PM - 3/7/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T19: Task 19
+  Dự án: Project_4
+  Thời gian: 3/7/1970, 12:00:00 AM - 3/8/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T24: Task 24
+  Dự án: Project_4
+  Thời gian: 3/8/1970, 4:00:00 PM - 3/9/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T29: Task 29
+  Dự án: Project_4
+  Thời gian: 3/9/1970, 12:00:00 AM - 3/12/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T30: Task 30
+  Dự án: Project_4
+  Thời gian: 3/12/1970, 12:00:00 AM - 3/15/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T39: Task 39
+  Dự án: Project_4
+  Thời gian: 3/15/1970, 8:00:00 AM - 3/16/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T47: Task 47
+  Dự án: Project_4
+  Thời gian: 3/16/1970, 12:00:00 AM - 3/17/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T48: Task 48
+  Dự án: Project_4
+  Thời gian: 3/17/1970, 8:00:00 AM - 3/20/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T50: Task 50
+  Dự án: Project_4
+  Thời gian: 3/20/1970, 12:00:00 AM - 3/21/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T55: Task 55
+  Dự án: Project_4
+  Thời gian: 3/21/1970, 4:00:00 PM - 3/22/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T56: Task 56
+  Dự án: Project_4
+  Thời gian: 3/22/1970, 4:00:00 PM - 3/26/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T4: Task 4
+  Dự án: Project_5
+  Thời gian: 3/26/1970, 12:00:00 AM - 3/27/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T9: Task 9
+  Dự án: Project_5
+  Thời gian: 3/27/1970, 8:00:00 AM - 3/29/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T21: Task 21
+  Dự án: Project_5
+  Thời gian: 3/29/1970, 4:00:00 PM - 4/2/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T2: Task 2
+  Dự án: Project_6
+  Thời gian: 4/2/1970, 12:00:00 AM - 4/3/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T13: Task 13
+  Dự án: Project_6
+  Thời gian: 4/3/1970, 12:00:00 AM - 4/6/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T25: Task 25
+  Dự án: Project_6
+  Thời gian: 4/6/1970, 12:00:00 AM - 4/9/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T28: Task 28
+  Dự án: Project_6
+  Thời gian: 4/9/1970, 8:00:00 AM - 4/11/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T59: Task 59
+  Dự án: Project_6
+  Thời gian: 4/11/1970, 12:00:00 AM - 4/13/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 2
+Số công việc được giao: 17
+Tổng thời gian làm việc ước tính: 88.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T7: Task 7
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T1: Task 1
+  Dự án: Project_3
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T20: Task 20
+  Dự án: Project_1
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/4/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T22: Task 22
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 4:00:00 PM - 1/6/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T57: Task 57
+  Dự án: Project_1
+  Thời gian: 1/6/1970, 12:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T49: Task 49
+  Dự án: Project_2
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/12/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T58: Task 58
+  Dự án: Project_2
+  Thời gian: 1/12/1970, 8:00:00 AM - 1/13/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T22: Task 22
+  Dự án: Project_3
+  Thời gian: 1/13/1970, 8:00:00 AM - 1/14/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T45: Task 45
+  Dự án: Project_3
+  Thời gian: 1/14/1970, 4:00:00 PM - 1/18/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T61: Task 61
+  Dự án: Project_3
+  Thời gian: 1/18/1970, 12:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T26: Task 26
+  Dự án: Project_4
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/20/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T43: Task 43
+  Dự án: Project_4
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/23/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T17: Task 17
+  Dự án: Project_5
+  Thời gian: 1/23/1970, 4:00:00 PM - 1/25/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T18: Task 18
+  Dự án: Project_5
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/25/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T11: Task 11
+  Dự án: Project_6
+  Thời gian: 1/25/1970, 4:00:00 PM - 1/27/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T24: Task 24
+  Dự án: Project_6
+  Thời gian: 1/27/1970, 8:00:00 AM - 1/30/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T51: Task 51
+  Dự án: Project_6
+  Thời gian: 1/30/1970, 8:00:00 AM - 1/30/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 3
+Số công việc được giao: 21
+Tổng thời gian làm việc ước tính: 111.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T3: Task 3
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T62: Task 62
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T43: Task 43
+  Dự án: Project_1
+  Thời gian: 1/2/1970, 8:00:00 AM - 1/4/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T15: Task 15
+  Dự án: Project_2
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/7/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T32: Task 32
+  Dự án: Project_2
+  Thời gian: 1/7/1970, 8:00:00 AM - 1/10/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T38: Task 38
+  Dự án: Project_2
+  Thời gian: 1/10/1970, 8:00:00 AM - 1/12/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T41: Task 41
+  Dự án: Project_2
+  Thời gian: 1/12/1970, 12:00:00 AM - 1/15/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T12: Task 12
+  Dự án: Project_3
+  Thời gian: 1/15/1970, 12:00:00 AM - 1/17/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T6: Task 6
+  Dự án: Project_4
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/19/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T14: Task 14
+  Dự án: Project_4
+  Thời gian: 1/19/1970, 4:00:00 PM - 1/22/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T27: Task 27
+  Dự án: Project_4
+  Thời gian: 1/22/1970, 12:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T33: Task 33
+  Dự án: Project_4
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/24/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T3: Task 3
+  Dự án: Project_5
+  Thời gian: 1/24/1970, 4:00:00 PM - 1/25/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T11: Task 11
+  Dự án: Project_5
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/26/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T35: Task 35
+  Dự án: Project_5
+  Thời gian: 1/26/1970, 12:00:00 AM - 1/28/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T52: Task 52
+  Dự án: Project_5
+  Thời gian: 1/28/1970, 12:00:00 AM - 1/29/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T61: Task 61
+  Dự án: Project_5
+  Thời gian: 1/29/1970, 4:00:00 PM - 1/30/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T4: Task 4
+  Dự án: Project_6
+  Thời gian: 1/30/1970, 4:00:00 PM - 2/3/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T9: Task 9
+  Dự án: Project_6
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/4/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T38: Task 38
+  Dự án: Project_6
+  Thời gian: 2/4/1970, 8:00:00 AM - 2/5/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T54: Task 54
+  Dự án: Project_6
+  Thời gian: 2/5/1970, 4:00:00 PM - 2/7/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 4
+Số công việc được giao: 21
+Tổng thời gian làm việc ước tính: 102.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T15: Task 15
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T1: Task 1
+  Dự án: Project_2
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T30: Task 30
+  Dự án: Project_1
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/6/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T39: Task 39
+  Dự án: Project_1
+  Thời gian: 1/6/1970, 8:00:00 AM - 1/8/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T44: Task 44
+  Dự án: Project_1
+  Thời gian: 1/8/1970, 8:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T10: Task 10
+  Dự án: Project_2
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/10/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T11: Task 11
+  Dự án: Project_2
+  Thời gian: 1/10/1970, 4:00:00 PM - 1/13/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T12: Task 12
+  Dự án: Project_2
+  Thời gian: 1/13/1970, 8:00:00 AM - 1/14/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T26: Task 26
+  Dự án: Project_2
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/16/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T35: Task 35
+  Dự án: Project_2
+  Thời gian: 1/16/1970, 12:00:00 AM - 1/17/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T53: Task 53
+  Dự án: Project_2
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/17/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T16: Task 16
+  Dự án: Project_3
+  Thời gian: 1/17/1970, 4:00:00 PM - 1/18/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T40: Task 40
+  Dự án: Project_3
+  Thời gian: 1/18/1970, 8:00:00 AM - 1/20/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T51: Task 51
+  Dự án: Project_3
+  Thời gian: 1/20/1970, 4:00:00 PM - 1/21/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T7: Task 7
+  Dự án: Project_4
+  Thời gian: 1/21/1970, 12:00:00 AM - 1/24/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T9: Task 9
+  Dự án: Project_4
+  Thời gian: 1/24/1970, 8:00:00 AM - 1/26/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T20: Task 20
+  Dự án: Project_5
+  Thời gian: 1/26/1970, 12:00:00 AM - 1/28/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T28: Task 28
+  Dự án: Project_5
+  Thời gian: 1/28/1970, 8:00:00 AM - 1/30/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T42: Task 42
+  Dự án: Project_5
+  Thời gian: 1/30/1970, 8:00:00 AM - 2/2/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T48: Task 48
+  Dự án: Project_5
+  Thời gian: 2/2/1970, 8:00:00 AM - 2/3/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T35: Task 35
+  Dự án: Project_6
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/4/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 5
+Số công việc được giao: 24
+Tổng thời gian làm việc ước tính: 100.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T10: Task 10
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T62: Task 62
+  Dự án: Project_3
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T8: Task 8
+  Dự án: Project_2
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/4/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T14: Task 14
+  Dự án: Project_2
+  Thời gian: 1/4/1970, 4:00:00 PM - 1/5/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T27: Task 27
+  Dự án: Project_2
+  Thời gian: 1/5/1970, 8:00:00 AM - 1/6/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T3: Task 3
+  Dự án: Project_3
+  Thời gian: 1/6/1970, 8:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T14: Task 14
+  Dự án: Project_3
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/10/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T47: Task 47
+  Dự án: Project_3
+  Thời gian: 1/10/1970, 4:00:00 PM - 1/11/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T48: Task 48
+  Dự án: Project_3
+  Thời gian: 1/11/1970, 4:00:00 PM - 1/14/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T60: Task 60
+  Dự án: Project_3
+  Thời gian: 1/14/1970, 4:00:00 PM - 1/16/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T15: Task 15
+  Dự án: Project_4
+  Thời gian: 1/16/1970, 12:00:00 AM - 1/17/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T32: Task 32
+  Dự án: Project_4
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/18/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T58: Task 58
+  Dự án: Project_4
+  Thời gian: 1/18/1970, 12:00:00 AM - 1/20/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T10: Task 10
+  Dự án: Project_5
+  Thời gian: 1/20/1970, 4:00:00 PM - 1/23/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T13: Task 13
+  Dự án: Project_5
+  Thời gian: 1/23/1970, 8:00:00 AM - 1/23/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T33: Task 33
+  Dự án: Project_5
+  Thời gian: 1/23/1970, 4:00:00 PM - 1/24/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T44: Task 44
+  Dự án: Project_5
+  Thời gian: 1/24/1970, 12:00:00 AM - 1/24/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T53: Task 53
+  Dự án: Project_5
+  Thời gian: 1/24/1970, 8:00:00 AM - 1/25/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T6: Task 6
+  Dự án: Project_6
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/27/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T7: Task 7
+  Dự án: Project_6
+  Thời gian: 1/27/1970, 12:00:00 AM - 1/29/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T16: Task 16
+  Dự án: Project_6
+  Thời gian: 1/29/1970, 12:00:00 AM - 1/30/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T32: Task 32
+  Dự án: Project_6
+  Thời gian: 1/30/1970, 12:00:00 AM - 1/30/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T41: Task 41
+  Dự án: Project_6
+  Thời gian: 1/30/1970, 8:00:00 AM - 1/31/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T57: Task 57
+  Dự án: Project_6
+  Thời gian: 1/31/1970, 8:00:00 AM - 2/3/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 6
+Số công việc được giao: 21
+Tổng thời gian làm việc ước tính: 133.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T21: Task 21
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T26: Task 26
+  Dự án: Project_1
+  Thời gian: 1/2/1970, 4:00:00 PM - 1/5/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T9: Task 9
+  Dự án: Project_2
+  Thời gian: 1/5/1970, 4:00:00 PM - 1/8/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T29: Task 29
+  Dự án: Project_2
+  Thời gian: 1/8/1970, 4:00:00 PM - 1/9/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T30: Task 30
+  Dự án: Project_2
+  Thời gian: 1/9/1970, 4:00:00 PM - 1/12/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T61: Task 61
+  Dự án: Project_2
+  Thời gian: 1/12/1970, 4:00:00 PM - 1/15/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T8: Task 8
+  Dự án: Project_3
+  Thời gian: 1/15/1970, 12:00:00 AM - 1/16/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T13: Task 13
+  Dự án: Project_3
+  Thời gian: 1/16/1970, 8:00:00 AM - 1/19/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T29: Task 29
+  Dự án: Project_3
+  Thời gian: 1/19/1970, 12:00:00 AM - 1/21/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T30: Task 30
+  Dự án: Project_3
+  Thời gian: 1/21/1970, 4:00:00 PM - 1/24/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T32: Task 32
+  Dự án: Project_3
+  Thời gian: 1/24/1970, 12:00:00 AM - 1/24/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T34: Task 34
+  Dự án: Project_3
+  Thời gian: 1/24/1970, 4:00:00 PM - 1/25/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T53: Task 53
+  Dự án: Project_3
+  Thời gian: 1/25/1970, 8:00:00 AM - 1/28/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T5: Task 5
+  Dự án: Project_4
+  Thời gian: 1/28/1970, 4:00:00 PM - 1/30/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T38: Task 38
+  Dự án: Project_4
+  Thời gian: 1/30/1970, 4:00:00 PM - 2/1/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T49: Task 49
+  Dự án: Project_4
+  Thời gian: 2/1/1970, 8:00:00 AM - 2/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T23: Task 23
+  Dự án: Project_5
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/5/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T20: Task 20
+  Dự án: Project_6
+  Thời gian: 2/5/1970, 8:00:00 AM - 2/8/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T21: Task 21
+  Dự án: Project_6
+  Thời gian: 2/8/1970, 8:00:00 AM - 2/9/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T45: Task 45
+  Dự án: Project_6
+  Thời gian: 2/9/1970, 8:00:00 AM - 2/11/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T56: Task 56
+  Dự án: Project_6
+  Thời gian: 2/11/1970, 8:00:00 AM - 2/14/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 7
+Số công việc được giao: 31
+Tổng thời gian làm việc ước tính: 163.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T6: Task 6
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T62: Task 62
+  Dự án: Project_6
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T8: Task 8
+  Dự án: Project_1
+  Thời gian: 1/3/1970, 12:00:00 AM - 1/5/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T29: Task 29
+  Dự án: Project_1
+  Thời gian: 1/5/1970, 12:00:00 AM - 1/6/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T48: Task 48
+  Dự án: Project_1
+  Thời gian: 1/6/1970, 12:00:00 AM - 1/6/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T2: Task 2
+  Dự án: Project_2
+  Thời gian: 1/6/1970, 4:00:00 PM - 1/9/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T19: Task 19
+  Dự án: Project_2
+  Thời gian: 1/9/1970, 8:00:00 AM - 1/12/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T34: Task 34
+  Dự án: Project_2
+  Thời gian: 1/12/1970, 12:00:00 AM - 1/14/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T57: Task 57
+  Dự án: Project_2
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/15/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T7: Task 7
+  Dự án: Project_3
+  Thời gian: 1/15/1970, 4:00:00 PM - 1/16/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T10: Task 10
+  Dự án: Project_3
+  Thời gian: 1/16/1970, 8:00:00 AM - 1/19/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T17: Task 17
+  Dự án: Project_3
+  Thời gian: 1/19/1970, 4:00:00 PM - 1/21/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T20: Task 20
+  Dự án: Project_3
+  Thời gian: 1/21/1970, 4:00:00 PM - 1/22/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T31: Task 31
+  Dự án: Project_3
+  Thời gian: 1/22/1970, 4:00:00 PM - 1/24/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T46: Task 46
+  Dự án: Project_3
+  Thời gian: 1/24/1970, 4:00:00 PM - 1/26/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T11: Task 11
+  Dự án: Project_4
+  Thời gian: 1/26/1970, 8:00:00 AM - 1/28/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T41: Task 41
+  Dự án: Project_4
+  Thời gian: 1/28/1970, 4:00:00 PM - 1/30/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T46: Task 46
+  Dự án: Project_4
+  Thời gian: 1/30/1970, 12:00:00 AM - 2/1/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T52: Task 52
+  Dự án: Project_4
+  Thời gian: 2/1/1970, 8:00:00 AM - 2/4/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T7: Task 7
+  Dự án: Project_5
+  Thời gian: 2/4/1970, 8:00:00 AM - 2/6/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T14: Task 14
+  Dự án: Project_5
+  Thời gian: 2/6/1970, 4:00:00 PM - 2/7/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T25: Task 25
+  Dự án: Project_5
+  Thời gian: 2/7/1970, 12:00:00 AM - 2/8/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T26: Task 26
+  Dự án: Project_5
+  Thời gian: 2/8/1970, 4:00:00 PM - 2/9/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T27: Task 27
+  Dự án: Project_5
+  Thời gian: 2/9/1970, 12:00:00 AM - 2/10/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T34: Task 34
+  Dự án: Project_5
+  Thời gian: 2/10/1970, 8:00:00 AM - 2/13/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T14: Task 14
+  Dự án: Project_6
+  Thời gian: 2/13/1970, 4:00:00 PM - 2/17/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T27: Task 27
+  Dự án: Project_6
+  Thời gian: 2/17/1970, 12:00:00 AM - 2/18/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T29: Task 29
+  Dự án: Project_6
+  Thời gian: 2/18/1970, 8:00:00 AM - 2/19/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T43: Task 43
+  Dự án: Project_6
+  Thời gian: 2/19/1970, 12:00:00 AM - 2/21/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T50: Task 50
+  Dự án: Project_6
+  Thời gian: 2/21/1970, 4:00:00 PM - 2/22/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T53: Task 53
+  Dự án: Project_6
+  Thời gian: 2/22/1970, 8:00:00 AM - 2/24/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 8
+Số công việc được giao: 28
+Tổng thời gian làm việc ước tính: 131.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T17: Task 17
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T62: Task 62
+  Dự án: Project_4
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T1: Task 1
+  Dự án: Project_5
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T62: Task 62
+  Dự án: Project_5
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T54: Task 54
+  Dự án: Project_1
+  Thời gian: 1/2/1970, 12:00:00 AM - 1/4/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T61: Task 61
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 8:00:00 AM - 1/5/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T3: Task 3
+  Dự án: Project_2
+  Thời gian: 1/5/1970, 4:00:00 PM - 1/8/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T31: Task 31
+  Dự án: Project_2
+  Thời gian: 1/8/1970, 4:00:00 PM - 1/11/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T42: Task 42
+  Dự án: Project_2
+  Thời gian: 1/11/1970, 8:00:00 AM - 1/14/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T44: Task 44
+  Dự án: Project_2
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/15/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T41: Task 41
+  Dự án: Project_3
+  Thời gian: 1/15/1970, 12:00:00 AM - 1/16/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T44: Task 44
+  Dự án: Project_3
+  Thời gian: 1/16/1970, 8:00:00 AM - 1/18/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T36: Task 36
+  Dự án: Project_4
+  Thời gian: 1/18/1970, 12:00:00 AM - 1/19/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T42: Task 42
+  Dự án: Project_4
+  Thời gian: 1/19/1970, 8:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T53: Task 53
+  Dự án: Project_4
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/21/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T57: Task 57
+  Dự án: Project_4
+  Thời gian: 1/21/1970, 8:00:00 AM - 1/21/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T59: Task 59
+  Dự án: Project_4
+  Thời gian: 1/21/1970, 4:00:00 PM - 1/23/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T15: Task 15
+  Dự án: Project_5
+  Thời gian: 1/23/1970, 4:00:00 PM - 1/27/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T22: Task 22
+  Dự án: Project_5
+  Thời gian: 1/27/1970, 12:00:00 AM - 1/27/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T24: Task 24
+  Dự án: Project_5
+  Thời gian: 1/27/1970, 8:00:00 AM - 1/29/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T31: Task 31
+  Dự án: Project_5
+  Thời gian: 1/29/1970, 8:00:00 AM - 2/1/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T41: Task 41
+  Dự án: Project_5
+  Thời gian: 2/1/1970, 4:00:00 PM - 2/2/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T45: Task 45
+  Dự án: Project_5
+  Thời gian: 2/2/1970, 4:00:00 PM - 2/4/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T58: Task 58
+  Dự án: Project_5
+  Thời gian: 2/4/1970, 12:00:00 AM - 2/6/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T17: Task 17
+  Dự án: Project_6
+  Thời gian: 2/6/1970, 8:00:00 AM - 2/8/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T26: Task 26
+  Dự án: Project_6
+  Thời gian: 2/8/1970, 4:00:00 PM - 2/10/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T52: Task 52
+  Dự án: Project_6
+  Thời gian: 2/10/1970, 8:00:00 AM - 2/11/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T55: Task 55
+  Dự án: Project_6
+  Thời gian: 2/11/1970, 8:00:00 AM - 2/14/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 9
+Số công việc được giao: 18
+Tổng thời gian làm việc ước tính: 82.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T35: Task 35
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/4/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T59: Task 59
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 8:00:00 AM - 1/5/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T46: Task 46
+  Dự án: Project_2
+  Thời gian: 1/5/1970, 12:00:00 AM - 1/6/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T19: Task 19
+  Dự án: Project_3
+  Thời gian: 1/6/1970, 12:00:00 AM - 1/8/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T28: Task 28
+  Dự án: Project_3
+  Thời gian: 1/8/1970, 8:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T17: Task 17
+  Dự án: Project_4
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/11/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T22: Task 22
+  Dự án: Project_4
+  Thời gian: 1/11/1970, 4:00:00 PM - 1/12/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T35: Task 35
+  Dự án: Project_4
+  Thời gian: 1/12/1970, 12:00:00 AM - 1/13/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T2: Task 2
+  Dự án: Project_5
+  Thời gian: 1/13/1970, 8:00:00 AM - 1/14/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T19: Task 19
+  Dự án: Project_5
+  Thời gian: 1/14/1970, 4:00:00 PM - 1/15/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T36: Task 36
+  Dự án: Project_5
+  Thời gian: 1/15/1970, 4:00:00 PM - 1/17/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T47: Task 47
+  Dự án: Project_5
+  Thời gian: 1/17/1970, 12:00:00 AM - 1/17/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T54: Task 54
+  Dự án: Project_5
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T56: Task 56
+  Dự án: Project_5
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/20/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T59: Task 59
+  Dự án: Project_5
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/22/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T15: Task 15
+  Dự án: Project_6
+  Thời gian: 1/22/1970, 12:00:00 AM - 1/25/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T47: Task 47
+  Dự án: Project_6
+  Thời gian: 1/25/1970, 12:00:00 AM - 1/26/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T61: Task 61
+  Dự án: Project_6
+  Thời gian: 1/26/1970, 8:00:00 AM - 1/28/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 10
+Số công việc được giao: 26
+Tổng thời gian làm việc ước tính: 131.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T1: Task 1
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T13: Task 13
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T1: Task 1
+  Dự án: Project_6
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T36: Task 36
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 4:00:00 PM - 1/4/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T38: Task 38
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/4/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T45: Task 45
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 4:00:00 PM - 1/8/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T18: Task 18
+  Dự án: Project_2
+  Thời gian: 1/8/1970, 12:00:00 AM - 1/11/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T23: Task 23
+  Dự án: Project_2
+  Thời gian: 1/11/1970, 8:00:00 AM - 1/12/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T25: Task 25
+  Dự án: Project_2
+  Thời gian: 1/12/1970, 4:00:00 PM - 1/14/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T33: Task 33
+  Dự án: Project_2
+  Thời gian: 1/14/1970, 4:00:00 PM - 1/16/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T48: Task 48
+  Dự án: Project_2
+  Thời gian: 1/16/1970, 12:00:00 AM - 1/19/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T51: Task 51
+  Dự án: Project_2
+  Thời gian: 1/19/1970, 12:00:00 AM - 1/20/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T59: Task 59
+  Dự án: Project_2
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T23: Task 23
+  Dự án: Project_3
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/24/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T57: Task 57
+  Dự án: Project_3
+  Thời gian: 1/24/1970, 12:00:00 AM - 1/26/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T10: Task 10
+  Dự án: Project_4
+  Thời gian: 1/26/1970, 8:00:00 AM - 1/27/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T13: Task 13
+  Dự án: Project_4
+  Thời gian: 1/27/1970, 12:00:00 AM - 1/28/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T20: Task 20
+  Dự án: Project_4
+  Thời gian: 1/28/1970, 4:00:00 PM - 2/1/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T37: Task 37
+  Dự án: Project_4
+  Thời gian: 2/1/1970, 12:00:00 AM - 2/1/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T61: Task 61
+  Dự án: Project_4
+  Thời gian: 2/1/1970, 8:00:00 AM - 2/2/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T38: Task 38
+  Dự án: Project_5
+  Thời gian: 2/2/1970, 12:00:00 AM - 2/3/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T40: Task 40
+  Dự án: Project_5
+  Thời gian: 2/3/1970, 4:00:00 PM - 2/6/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T46: Task 46
+  Dự án: Project_5
+  Thời gian: 2/6/1970, 8:00:00 AM - 2/7/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T55: Task 55
+  Dự án: Project_5
+  Thời gian: 2/7/1970, 12:00:00 AM - 2/10/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T39: Task 39
+  Dự án: Project_6
+  Thời gian: 2/10/1970, 12:00:00 AM - 2/12/1970, 8:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T48: Task 48
+  Dự án: Project_6
+  Thời gian: 2/12/1970, 8:00:00 AM - 2/14/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 11
+Số công việc được giao: 23
+Tổng thời gian làm việc ước tính: 107.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T12: Task 12
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T25: Task 25
+  Dự án: Project_1
+  Thời gian: 1/2/1970, 12:00:00 AM - 1/4/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T34: Task 34
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/7/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T56: Task 56
+  Dự án: Project_1
+  Thời gian: 1/7/1970, 8:00:00 AM - 1/8/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T21: Task 21
+  Dự án: Project_2
+  Thời gian: 1/8/1970, 8:00:00 AM - 1/9/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T39: Task 39
+  Dự án: Project_2
+  Thời gian: 1/9/1970, 12:00:00 AM - 1/12/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T43: Task 43
+  Dự án: Project_2
+  Thời gian: 1/12/1970, 8:00:00 AM - 1/13/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T45: Task 45
+  Dự án: Project_2
+  Thời gian: 1/13/1970, 4:00:00 PM - 1/16/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T56: Task 56
+  Dự án: Project_2
+  Thời gian: 1/16/1970, 4:00:00 PM - 1/17/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T27: Task 27
+  Dự án: Project_3
+  Thời gian: 1/17/1970, 8:00:00 AM - 1/19/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T18: Task 18
+  Dự án: Project_4
+  Thời gian: 1/19/1970, 8:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T21: Task 21
+  Dự án: Project_4
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/20/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T31: Task 31
+  Dự án: Project_4
+  Thời gian: 1/20/1970, 4:00:00 PM - 1/23/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T45: Task 45
+  Dự án: Project_4
+  Thời gian: 1/23/1970, 4:00:00 PM - 1/24/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T54: Task 54
+  Dự án: Project_4
+  Thời gian: 1/24/1970, 8:00:00 AM - 1/27/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T16: Task 16
+  Dự án: Project_5
+  Thời gian: 1/27/1970, 12:00:00 AM - 1/27/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T39: Task 39
+  Dự án: Project_5
+  Thời gian: 1/27/1970, 8:00:00 AM - 1/27/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T49: Task 49
+  Dự án: Project_5
+  Thời gian: 1/27/1970, 4:00:00 PM - 1/29/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T51: Task 51
+  Dự án: Project_5
+  Thời gian: 1/29/1970, 12:00:00 AM - 2/1/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T8: Task 8
+  Dự án: Project_6
+  Thời gian: 2/1/1970, 8:00:00 AM - 2/3/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T30: Task 30
+  Dự án: Project_6
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/3/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T40: Task 40
+  Dự án: Project_6
+  Thời gian: 2/3/1970, 8:00:00 AM - 2/4/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T58: Task 58
+  Dự án: Project_6
+  Thời gian: 2/4/1970, 12:00:00 AM - 2/6/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 12
+Số công việc được giao: 31
+Tổng thời gian làm việc ước tính: 167.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T4: Task 4
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T1: Task 1
+  Dự án: Project_4
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T5: Task 5
+  Dự án: Project_1
+  Thời gian: 1/3/1970, 4:00:00 PM - 1/4/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T9: Task 9
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/5/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T18: Task 18
+  Dự án: Project_1
+  Thời gian: 1/5/1970, 12:00:00 AM - 1/8/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T32: Task 32
+  Dự án: Project_1
+  Thời gian: 1/8/1970, 8:00:00 AM - 1/11/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T37: Task 37
+  Dự án: Project_1
+  Thời gian: 1/11/1970, 4:00:00 PM - 1/13/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T50: Task 50
+  Dự án: Project_1
+  Thời gian: 1/13/1970, 8:00:00 AM - 1/14/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T6: Task 6
+  Dự án: Project_2
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/16/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T7: Task 7
+  Dự án: Project_2
+  Thời gian: 1/16/1970, 4:00:00 PM - 1/19/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T47: Task 47
+  Dự án: Project_2
+  Thời gian: 1/19/1970, 8:00:00 AM - 1/22/1970, 8:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T2: Task 2
+  Dự án: Project_3
+  Thời gian: 1/22/1970, 8:00:00 AM - 1/24/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T33: Task 33
+  Dự án: Project_3
+  Thời gian: 1/24/1970, 12:00:00 AM - 1/26/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T39: Task 39
+  Dự án: Project_3
+  Thời gian: 1/26/1970, 4:00:00 PM - 1/28/1970, 8:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T43: Task 43
+  Dự án: Project_3
+  Thời gian: 1/28/1970, 8:00:00 AM - 1/29/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T49: Task 49
+  Dự án: Project_3
+  Thời gian: 1/29/1970, 4:00:00 PM - 1/30/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T56: Task 56
+  Dự án: Project_3
+  Thời gian: 1/30/1970, 12:00:00 AM - 1/31/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T25: Task 25
+  Dự án: Project_4
+  Thời gian: 1/31/1970, 4:00:00 PM - 2/2/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T44: Task 44
+  Dự án: Project_4
+  Thời gian: 2/2/1970, 12:00:00 AM - 2/2/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T6: Task 6
+  Dự án: Project_5
+  Thời gian: 2/2/1970, 4:00:00 PM - 2/6/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T8: Task 8
+  Dự án: Project_5
+  Thời gian: 2/6/1970, 12:00:00 AM - 2/6/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T12: Task 12
+  Dự án: Project_5
+  Thời gian: 2/6/1970, 8:00:00 AM - 2/9/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T30: Task 30
+  Dự án: Project_5
+  Thời gian: 2/9/1970, 4:00:00 PM - 2/10/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T43: Task 43
+  Dự án: Project_5
+  Thời gian: 2/10/1970, 4:00:00 PM - 2/12/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T60: Task 60
+  Dự án: Project_5
+  Thời gian: 2/12/1970, 4:00:00 PM - 2/14/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T5: Task 5
+  Dự án: Project_6
+  Thời gian: 2/14/1970, 4:00:00 PM - 2/18/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T12: Task 12
+  Dự án: Project_6
+  Thời gian: 2/18/1970, 12:00:00 AM - 2/19/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T31: Task 31
+  Dự án: Project_6
+  Thời gian: 2/19/1970, 4:00:00 PM - 2/22/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T34: Task 34
+  Dự án: Project_6
+  Thời gian: 2/22/1970, 12:00:00 AM - 2/25/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T46: Task 46
+  Dự án: Project_6
+  Thời gian: 2/25/1970, 8:00:00 AM - 2/25/1970, 4:00:00 PM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T60: Task 60
+  Dự án: Project_6
+  Thời gian: 2/25/1970, 4:00:00 PM - 2/26/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 13
+Số công việc được giao: 22
+Tổng thời gian làm việc ước tính: 117.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T27: Task 27
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/3/1970, 8:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T62: Task 62
+  Dự án: Project_2
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/1/1970, 8:00:00 AM
+  Ước tính: 0 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T46: Task 46
+  Dự án: Project_1
+  Thời gian: 1/3/1970, 8:00:00 AM - 1/6/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T49: Task 49
+  Dự án: Project_1
+  Thời gian: 1/6/1970, 12:00:00 AM - 1/8/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T13: Task 13
+  Dự án: Project_2
+  Thời gian: 1/8/1970, 12:00:00 AM - 1/10/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T28: Task 28
+  Dự án: Project_2
+  Thời gian: 1/10/1970, 4:00:00 PM - 1/13/1970, 12:00:00 AM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T36: Task 36
+  Dự án: Project_2
+  Thời gian: 1/13/1970, 12:00:00 AM - 1/13/1970, 4:00:00 PM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T40: Task 40
+  Dự án: Project_2
+  Thời gian: 1/13/1970, 4:00:00 PM - 1/14/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T11: Task 11
+  Dự án: Project_3
+  Thời gian: 1/14/1970, 12:00:00 AM - 1/16/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T18: Task 18
+  Dự án: Project_3
+  Thời gian: 1/16/1970, 4:00:00 PM - 1/17/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T24: Task 24
+  Dự án: Project_3
+  Thời gian: 1/17/1970, 12:00:00 AM - 1/18/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T36: Task 36
+  Dự án: Project_3
+  Thời gian: 1/18/1970, 8:00:00 AM - 1/20/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T52: Task 52
+  Dự án: Project_3
+  Thời gian: 1/20/1970, 4:00:00 PM - 1/21/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T8: Task 8
+  Dự án: Project_4
+  Thời gian: 1/21/1970, 12:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T28: Task 28
+  Dự án: Project_4
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/24/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T60: Task 60
+  Dự án: Project_4
+  Thời gian: 1/24/1970, 4:00:00 PM - 1/27/1970, 4:00:00 PM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T29: Task 29
+  Dự án: Project_5
+  Thời gian: 1/27/1970, 4:00:00 PM - 1/31/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T10: Task 10
+  Dự án: Project_6
+  Thời gian: 1/31/1970, 12:00:00 AM - 2/2/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T23: Task 23
+  Dự án: Project_6
+  Thời gian: 2/2/1970, 12:00:00 AM - 2/4/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T42: Task 42
+  Dự án: Project_6
+  Thời gian: 2/4/1970, 4:00:00 PM - 2/6/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T44: Task 44
+  Dự án: Project_6
+  Thời gian: 2/6/1970, 4:00:00 PM - 2/8/1970, 12:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T49: Task 49
+  Dự án: Project_6
+  Thời gian: 2/8/1970, 12:00:00 AM - 2/9/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 14
+Số công việc được giao: 15
+Tổng thời gian làm việc ước tính: 83.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T24: Task 24
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/2/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T28: Task 28
+  Dự án: Project_1
+  Thời gian: 1/2/1970, 8:00:00 AM - 1/5/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T60: Task 60
+  Dự án: Project_1
+  Thời gian: 1/5/1970, 12:00:00 AM - 1/6/1970, 4:00:00 PM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T55: Task 55
+  Dự án: Project_2
+  Thời gian: 1/6/1970, 4:00:00 PM - 1/8/1970, 4:00:00 PM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T6: Task 6
+  Dự án: Project_3
+  Thời gian: 1/8/1970, 4:00:00 PM - 1/12/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T25: Task 25
+  Dự án: Project_3
+  Thời gian: 1/12/1970, 12:00:00 AM - 1/12/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T38: Task 38
+  Dự án: Project_3
+  Thời gian: 1/12/1970, 8:00:00 AM - 1/13/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T55: Task 55
+  Dự án: Project_3
+  Thời gian: 1/13/1970, 4:00:00 PM - 1/14/1970, 8:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T23: Task 23
+  Dự án: Project_4
+  Thời gian: 1/14/1970, 8:00:00 AM - 1/17/1970, 4:00:00 PM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T34: Task 34
+  Dự án: Project_4
+  Thời gian: 1/17/1970, 4:00:00 PM - 1/20/1970, 8:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T37: Task 37
+  Dự án: Project_5
+  Thời gian: 1/20/1970, 8:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T19: Task 19
+  Dự án: Project_6
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/25/1970, 12:00:00 AM
+  Ước tính: 6 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T33: Task 33
+  Dự án: Project_6
+  Thời gian: 1/25/1970, 12:00:00 AM - 1/27/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T36: Task 36
+  Dự án: Project_6
+  Thời gian: 1/27/1970, 4:00:00 PM - 1/28/1970, 4:00:00 PM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T37: Task 37
+  Dự án: Project_6
+  Thời gian: 1/28/1970, 4:00:00 PM - 1/29/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+NHÂN VIÊN: 15
+Số công việc được giao: 21
+Tổng thời gian làm việc ước tính: 118.00 ngày
+
+DANH SÁCH CÔNG VIỆC:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T14: Task 14
+  Dự án: Project_1
+  Thời gian: 1/1/1970, 8:00:00 AM - 1/4/1970, 12:00:00 AM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T16: Task 16
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 12:00:00 AM - 1/4/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T40: Task 40
+  Dự án: Project_1
+  Thời gian: 1/4/1970, 8:00:00 AM - 1/5/1970, 8:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P1_T52: Task 52
+  Dự án: Project_1
+  Thời gian: 1/5/1970, 8:00:00 AM - 1/7/1970, 12:00:00 AM
+  Ước tính: 5 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T4: Task 4
+  Dự án: Project_2
+  Thời gian: 1/7/1970, 12:00:00 AM - 1/10/1970, 8:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T5: Task 5
+  Dự án: Project_2
+  Thời gian: 1/10/1970, 8:00:00 AM - 1/12/1970, 4:00:00 PM
+  Ước tính: 7 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T20: Task 20
+  Dự án: Project_2
+  Thời gian: 1/12/1970, 4:00:00 PM - 1/16/1970, 12:00:00 AM
+  Ước tính: 10 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P2_T52: Task 52
+  Dự án: Project_2
+  Thời gian: 1/16/1970, 12:00:00 AM - 1/19/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T35: Task 35
+  Dự án: Project_3
+  Thời gian: 1/19/1970, 12:00:00 AM - 1/20/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T37: Task 37
+  Dự án: Project_3
+  Thời gian: 1/20/1970, 12:00:00 AM - 1/23/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P3_T42: Task 42
+  Dự án: Project_3
+  Thời gian: 1/23/1970, 12:00:00 AM - 1/26/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T4: Task 4
+  Dự án: Project_4
+  Thời gian: 1/26/1970, 12:00:00 AM - 1/29/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T40: Task 40
+  Dự án: Project_4
+  Thời gian: 1/29/1970, 12:00:00 AM - 1/29/1970, 8:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P4_T51: Task 51
+  Dự án: Project_4
+  Thời gian: 1/29/1970, 8:00:00 AM - 1/30/1970, 12:00:00 AM
+  Ước tính: 2 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T5: Task 5
+  Dự án: Project_5
+  Thời gian: 1/30/1970, 12:00:00 AM - 1/31/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T32: Task 32
+  Dự án: Project_5
+  Thời gian: 1/31/1970, 12:00:00 AM - 2/3/1970, 12:00:00 AM
+  Ước tính: 9 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T50: Task 50
+  Dự án: Project_5
+  Thời gian: 2/3/1970, 12:00:00 AM - 2/4/1970, 12:00:00 AM
+  Ước tính: 3 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P5_T57: Task 57
+  Dự án: Project_5
+  Thời gian: 2/4/1970, 12:00:00 AM - 2/5/1970, 8:00:00 AM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T3: Task 3
+  Dự án: Project_6
+  Thời gian: 2/5/1970, 8:00:00 AM - 2/6/1970, 4:00:00 PM
+  Ước tính: 4 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T18: Task 18
+  Dự án: Project_6
+  Thời gian: 2/6/1970, 4:00:00 PM - 2/7/1970, 12:00:00 AM
+  Ước tính: 1 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+P6_T22: Task 22
+  Dự án: Project_6
+  Thời gian: 2/7/1970, 12:00:00 AM - 2/9/1970, 4:00:00 PM
+  Ước tính: 8 ngày
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

@@ -46,21 +46,7 @@ const findPreceedingTasks = async (tasks) => {
         }
     }
 
-    // Ghi ra file
-    const tasksContent = `const tasks = [\n${tasks.map(task => `
-        {
-          id: ${task.id},
-          code: "${task.code}",
-        name: ${JSON.stringify(task.name)},
-          projectKey: "${task.projectKey}",
-          preceedingTasks: ${JSON.stringify(task.preceedingTasks)},
-          startTime: "${task.startTime.toISOString()}",
-          endTime: "${task.endTime.toISOString()}",
-        }`).join(",\n")}
-      ];
-      module.exports = { tasks };`;
-    fs.writeFileSync("./data/tasks.js", tasksContent);
-    console.log("tasks.js file has been created successfully!");
+
 }
 
 module.exports = findPreceedingTasks;

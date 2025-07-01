@@ -89,7 +89,12 @@ const TaskInPast = () => {
     const saveData = async () => {
         try {
             const data = localStorage.getItem('result');
-            const res = await axiosInstance.post('/files/save-data', JSON.parse(data));
+            // thêm tasks vào data
+            const parsedData = JSON.parse(data);
+            parsedData.tasksInPast = tasks;
+
+            localStorage.setItem('result', JSON.stringify(parsedData));
+            const res = await axiosInstance.post('/files/save-data', parsedData);
         } catch (error) {
             console.error('Error saving data:', error);
         }

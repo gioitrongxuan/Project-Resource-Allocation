@@ -1,0 +1,10 @@
+📈 KPI theo nhân viên – Project ENTMQMAAS_4xxxx
+
+- rshelly (ID: 758) → KPI A: 0.18
+- dkornel@redhat.com (ID: 787) → KPI A: 0.00
+- rhn-support-hmaclean (ID: 1193) → KPI A: 0.01
+- tkratky_jira (ID: 1993) → KPI A: 0.01
+- buschv (ID: 3487) → KPI A: 0.05
+- lulf@redhat.com (ID: 7663) → KPI A: 0.02
+- rhn-support-jmalloy (ID: 8385) → KPI A: 0.13
+- gordonsim (ID: 9744) → KPI A: 0.16

@@ -5,6 +5,6 @@ const employees = require('./employee').employees
 const tasks = require('./task').tasks
 
 const lastKPIs = getLastKPIAndAvailableEmpsInTasks(tasks, allTasksInPast, employees)
-console.log("lastKPIs: ", lastKPIs)
+// console.log("lastKPIs: ", lastKPIs)
 
 

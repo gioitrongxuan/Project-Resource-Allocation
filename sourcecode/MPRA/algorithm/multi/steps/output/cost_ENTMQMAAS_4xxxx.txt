@@ -1,0 +1,1224 @@
+💰 Chi phí dự kiến cho project ENTMQMAAS_4xxxx
+
+- Task [#13737430] – [#795] : System-tests: Enable authentication in marathon tests.1
+  + Assignee: 787
+  + Time: 2018-03-05T01:00:00.000Z → 2018-03-05T03:04:32.500Z
+  + Cost: 5.19 đ
+
+- Task [#13737477] – Investigate what's needed for operations (logs/monitoring).1
+  + Assignee: 758
+  + Time: 2018-03-05T01:00:00.000Z → 2020-03-01T08:38:40.000Z
+  + Cost: 43639.11 đ
+
+- Task [#13737483] – [#949] : agent: Results count is not set correctly after refresh the page.1
+  + Assignee: 9744
+  + Time: 2018-03-07T01:00:00.000Z → 2018-03-08T03:07:24.000Z
+  + Cost: 65.31 đ
+
+- Task [#13737484] – [#972] : Make global-max-size parameter configurable via template/plan.1
+  + Assignee: 8385
+  + Time: 2018-03-05T01:00:00.000Z → 2018-03-05T05:50:53.333Z
+  + Cost: 12.12 đ
+
+- Task [#13737485] – [#973] : Configure per-address settings for each address created on broker.1
+  + Assignee: 9744
+  + Time: 2018-03-09T01:00:00.000Z → 2018-03-10T03:07:24.000Z
+  + Cost: 65.31 đ
+
+- Task [#13737492] – Docs: how to manage user permissions.1
+  + Assignee: 8385
+  + Time: 2018-03-06T01:00:00.000Z → 2018-03-07T06:16:45.000Z
+  + Cost: 73.20 đ
+
+- Task [#13737495] – Docs: document the sign-up process for beta.1
+  + Assignee: 8385
+  + Time: 2018-03-08T01:00:00.000Z → 2018-03-09T06:16:45.000Z
+  + Cost: 73.20 đ
+
+- Task [#13738010] – [#1009] : Make resync interval in controllers configurable.1
+  + Assignee: 8385
+  + Time: 2018-03-10T01:00:00.000Z → 2018-03-11T05:08:16.000Z
+  + Cost: 70.34 đ
+
+- Task [#13738011] – [#1011] : Separata status check from controller resync.1
+  + Assignee: 8385
+  + Time: 2018-03-12T01:00:00.000Z → 2018-03-13T05:08:16.000Z
+  + Cost: 70.34 đ
+
+- Task [#13738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.1
+  + Assignee: 787
+  + Time: 2018-03-06T01:00:00.000Z → 2018-03-06T01:06:50.000Z
+  + Cost: 0.28 đ
+
+- Task [#13738369] – [#1021] : system-tests: modify QueueTest#testScaledown.1
+  + Assignee: 1993
+  + Time: 2018-03-05T01:00:00.000Z → 2018-03-05T01:07:43.333Z
+  + Cost: 0.32 đ
+
+- Task [#13738426] – Remove 'docker' for the templates and images.1
+  + Assignee: 3487
+  + Time: 2018-03-05T01:00:00.000Z → 2018-09-19T08:53:20.000Z
+  + Cost: 11899.72 đ
+
+- Task [#13738605] – [#1026] : System-tests: create test for REST API - GET | /v1/addresses/myspace/:name .1
+  + Assignee: 787
+  + Time: 2018-03-07T01:00:00.000Z → 2018-03-07T07:04:55.555Z
+  + Cost: 15.21 đ
+
+- Task [#13738607] – [#1028] : System-tests: create test for REST API - DELETE | /v1/addresses/myspace.1
+  + Assignee: 787
+  + Time: 2018-03-08T01:00:00.000Z → 2018-03-08T07:04:55.555Z
+  + Cost: 15.21 đ
+
+- Task [#13738608] – [#1033] : System-tests: create test for REST API - GET /v1/schema.1
+  + Assignee: 787
+  + Time: 2018-03-09T01:00:00.000Z → 2018-03-09T07:04:55.555Z
+  + Cost: 15.21 đ
+
+- Task [#13738609] – [#1034] : system-tests: create test for REST API - address resource required params are missing.1
+  + Assignee: 1993
+  + Time: 2018-03-06T01:00:00.000Z → 2018-03-06T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#13738610] – [#1035] : system-tests: create set of tests for REST API - address resource optional params are missing.1
+  + Assignee: 787
+  + Time: 2018-03-10T01:00:00.000Z → 2018-03-10T07:04:55.555Z
+  + Cost: 15.21 đ
+
+- Task [#13738628] – [#1029] : system-tests: modify authentication tests to create multiple address-spaces in one request.1
+  + Assignee: 1993
+  + Time: 2018-03-07T01:00:00.000Z → 2018-03-07T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#13738629] – [#1031] : system-tests: create new test for replace address-space list.1
+  + Assignee: 1993
+  + Time: 2018-03-08T01:00:00.000Z → 2018-03-08T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#13738631] – [#1036] : system-tests: create new test for address-space endpoints \"host\".1
+  + Assignee: 1993
+  + Time: 2018-03-09T01:00:00.000Z → 2018-03-09T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#13738634] – [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.1
+  + Assignee: 1993
+  + Time: 2018-03-10T01:00:00.000Z → 2018-03-10T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#13739606] – [#1017] : Events sent to address of type queue not delivered after a while.1
+  + Assignee: 8385
+  + Time: 2018-03-14T01:00:00.000Z → 2018-03-14T01:56:33.333Z
+  + Cost: 2.36 đ
+
+- Task [#13740031] – [#1073] : system-tests: Create test for check if size of messages was exceeded.1
+  + Assignee: 787
+  + Time: 2018-03-11T01:00:00.000Z → 2018-03-11T04:44:26.666Z
+  + Cost: 9.35 đ
+
+- Task [#13740087] – Reference table for Developer role assumptions.1
+  + Assignee: 8385
+  + Time: 2018-03-15T01:00:00.000Z → 2018-04-08T02:48:37.500Z
+  + Cost: 1444.53 đ
+
+- Task [#13740105] – Self-provision an address/destination.1
+  + Assignee: 8385
+  + Time: 2018-04-09T01:00:00.000Z → 2018-05-03T02:48:37.500Z
+  + Cost: 1444.53 đ
+
+- Task [#13740112] – Document how to delete a destination/address.1
+  + Assignee: 8385
+  + Time: 2018-05-04T01:00:00.000Z → 2020-03-25T05:51:00.000Z
+  + Cost: 41472.13 đ
+
+- Task [#13740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.1
+  + Assignee: 7663
+  + Time: 2018-03-05T01:00:00.000Z → 2018-03-05T02:21:36.666Z
+  + Cost: 2.27 đ
+
+- Task [#13740575] – [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.1
+  + Assignee: 7663
+  + Time: 2018-03-06T01:00:00.000Z → 2018-03-07T09:17:53.333Z
+  + Cost: 53.83 đ
+
+- Task [#13742276] – [#1115] : New system-tests for websocket.1
+  + Assignee: 787
+  + Time: 2018-03-12T01:00:00.000Z → 2018-03-13T01:00:56.000Z
+  + Cost: 60.04 đ
+
+- Task [#13742571] – [#1096] : agent: use \"direction\" attribute instead of \"dir\" for autoLinks.1
+  + Assignee: 9744
+  + Time: 2018-03-11T01:00:00.000Z → 2018-03-17T06:21:16.000Z
+  + Cost: 373.39 đ
+
+- Task [#13742572] – [#1097] : When creating many addresses at the same time, a few have missing autolinks.1
+  + Assignee: 9744
+  + Time: 2018-03-18T01:00:00.000Z → 2018-03-24T06:21:16.000Z
+  + Cost: 373.39 đ
+
+- Task [#13742573] – [#1084] : agent container: high load and memory issue with many addresses.1
+  + Assignee: 9744
+  + Time: 2018-03-25T01:00:00.000Z → 2018-03-31T06:21:16.000Z
+  + Cost: 373.39 đ
+
+- Task [#13742576] – [#1117] : Response code/payload of AddressController REST API POST/DELETE operations.1
+  + Assignee: 7663
+  + Time: 2018-03-08T01:00:00.000Z → 2018-03-10T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#13742577] – [#1091] : Endpoints declaratively specified should be checked in status.1
+  + Assignee: 7663
+  + Time: 2018-03-11T01:00:00.000Z → 2018-03-13T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#13742583] – Install EnMasse on Bosch OpenShift Dedicated cluster.1
+  + Assignee: 7663
+  + Time: 2018-03-14T01:00:00.000Z → 2018-03-16T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#13742584] – [#1123] :  system-tests: new test for auto scaleup after manual scaledown.1
+  + Assignee: 1993
+  + Time: 2018-03-11T01:00:00.000Z → 2018-03-11T02:37:53.333Z
+  + Cost: 4.08 đ
+
+- Task [#13742677] – [#1124] : system-tests: review of list of disabled tests from March and create new one for April.1
+  + Assignee: 1993
+  + Time: 2018-03-12T01:00:00.000Z → 2018-03-13T02:21:17.142Z
+  + Cost: 63.39 đ
+
+- Task [#13742678] – system-tests: unclosed archives exception in Jenkins when core-dump is stored.1
+  + Assignee: 1993
+  + Time: 2018-03-14T01:00:00.000Z → 2018-03-15T02:21:17.142Z
+  + Cost: 63.39 đ
+
+- Task [#13742679] – [#1128] : system-tests: Remove logs collecting for pods/statefull-sets.1
+  + Assignee: 1993
+  + Time: 2018-03-16T01:00:00.000Z → 2018-03-17T02:21:17.142Z
+  + Cost: 63.39 đ
+
+- Task [#13742680] – [#1127] : system-tests: Use ENUM instead of string tags.1
+  + Assignee: 787
+  + Time: 2018-03-14T01:00:00.000Z → 2018-03-15T07:04:48.571Z
+  + Cost: 75.20 đ
+
+- Task [#13742682] – [#1126] : system-tests: use multi-asserts instead of single asserts.1
+  + Assignee: 787
+  + Time: 2018-03-16T01:00:00.000Z → 2018-03-17T07:04:48.571Z
+  + Cost: 75.20 đ
+
+- Task [#13742683] – [#1125] : system-tests: Rewrite tests to use Dependency injection.1
+  + Assignee: 1993
+  + Time: 2018-03-18T01:00:00.000Z → 2018-03-19T02:21:17.142Z
+  + Cost: 63.39 đ
+
+- Task [#13746088] – [#1159] : System-tests: Improve waiting for webItems.1
+  + Assignee: 787
+  + Time: 2018-03-18T01:00:00.000Z → 2018-03-18T09:21:10.000Z
+  + Cost: 20.88 đ
+
+- Task [#14737430] – [#795] : System-tests: Enable authentication in marathon tests.2
+  + Assignee: 787
+  + Time: 2018-03-19T01:00:00.000Z → 2018-03-19T01:51:14.285Z
+  + Cost: 2.13 đ
+
+- Task [#14737477] – Investigate what's needed for operations (logs/monitoring).2
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#14737484] – [#972] : Make global-max-size parameter configurable via template/plan.2
+  + Assignee: 7663
+  + Time: 2018-03-17T01:00:00.000Z → 2018-03-18T05:08:16.000Z
+  + Cost: 46.90 đ
+
+- Task [#14737485] – [#973] : Configure per-address settings for each address created on broker.2
+  + Assignee: 9744
+  + Time: 2018-04-01T01:00:00.000Z → 2018-04-02T05:49:45.000Z
+  + Cost: 72.07 đ
+
+- Task [#14737492] – Docs: how to manage user permissions.2
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#14738010] – [#1009] : Make resync interval in controllers configurable.2
+  + Assignee: 7663
+  + Time: 2018-03-19T01:00:00.000Z → 2018-03-19T01:56:33.333Z
+  + Cost: 1.57 đ
+
+- Task [#14738011] – [#1011] : Separata status check from controller resync.2
+  + Assignee: 7663
+  + Time: 2018-03-20T01:00:00.000Z → 2018-03-20T01:56:33.333Z
+  + Cost: 1.57 đ
+
+- Task [#14738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.2
+  + Assignee: 787
+  + Time: 2018-03-20T01:00:00.000Z → 2018-03-20T02:37:48.000Z
+  + Cost: 4.08 đ
+
+- Task [#14738369] – [#1021] : system-tests: modify QueueTest#testScaledown.2
+  + Assignee: 1993
+  + Time: 2018-03-20T01:00:00.000Z → 2018-03-20T02:30:56.000Z
+  + Cost: 3.79 đ
+
+- Task [#14738609] – [#1034] : system-tests: create test for REST API - address resource required params are missing.2
+  + Assignee: 1993
+  + Time: 2018-03-21T01:00:00.000Z → 2018-03-21T07:18:22.222Z
+  + Cost: 15.77 đ
+
+- Task [#14738628] – [#1029] : system-tests: modify authentication tests to create multiple address-spaces in one request.2
+  + Assignee: 1993
+  + Time: 2018-03-22T01:00:00.000Z → 2018-03-22T07:18:22.222Z
+  + Cost: 15.77 đ
+
+- Task [#14738629] – [#1031] : system-tests: create new test for replace address-space list.2
+  + Assignee: 1993
+  + Time: 2018-03-23T01:00:00.000Z → 2018-03-23T07:18:22.222Z
+  + Cost: 15.77 đ
+
+- Task [#14738631] – [#1036] : system-tests: create new test for address-space endpoints \"host\".2
+  + Assignee: 1993
+  + Time: 2018-03-24T01:00:00.000Z → 2018-03-24T07:18:22.222Z
+  + Cost: 15.77 đ
+
+- Task [#14738634] – [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.2
+  + Assignee: 1993
+  + Time: 2018-03-25T01:00:00.000Z → 2018-03-25T07:18:22.222Z
+  + Cost: 15.77 đ
+
+- Task [#14739606] – [#1017] : Events sent to address of type queue not delivered after a while.2
+  + Assignee: 7663
+  + Time: 2018-03-21T01:00:00.000Z → 2018-03-21T07:50:04.000Z
+  + Cost: 11.39 đ
+
+- Task [#14740031] – [#1073] : system-tests: Create test for check if size of messages was exceeded.2
+  + Assignee: 787
+  + Time: 2018-03-21T01:00:00.000Z → 2018-03-21T07:16:52.000Z
+  + Cost: 15.70 đ
+
+- Task [#14740094] – Reference table for Developer role assumptions.2
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#14740105] – Self-provision an address/destination.2
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#14740112] – Document how to delete a destination/address.2
+  + Assignee: 1193
+  + Time: 2018-03-05T01:00:00.000Z → 2018-03-05T08:49:10.000Z
+  + Cost: 19.55 đ
+
+- Task [#14740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.2
+  + Assignee: 7663
+  + Time: 2018-03-22T01:00:00.000Z → 2018-03-23T09:17:53.333Z
+  + Cost: 53.83 đ
+
+- Task [#14740575] – [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.2
+  + Assignee: 7663
+  + Time: 2018-03-24T01:00:00.000Z → 2018-03-26T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#14742276] – [#1115] : New system-tests for websocket.2
+  + Assignee: 787
+  + Time: 2018-03-22T01:00:00.000Z → 2018-03-23T07:04:48.571Z
+  + Cost: 75.20 đ
+
+- Task [#14742572] – [#1097] : When creating many addresses at the same time, a few have missing autolinks.2
+  + Assignee: 9744
+  + Time: 2018-04-03T01:00:00.000Z → 2018-04-08T05:46:53.333Z
+  + Cost: 311.95 đ
+
+- Task [#14742576] – [#1117] : Response code/payload of AddressController REST API POST/DELETE operations.2
+  + Assignee: 7663
+  + Time: 2018-03-27T01:00:00.000Z → 2018-03-27T09:04:42.500Z
+  + Cost: 13.46 đ
+
+- Task [#14742577] – [#1091] : Endpoints declaratively specified should be checked in status.2
+  + Assignee: 7663
+  + Time: 2018-03-28T01:00:00.000Z → 2018-03-28T09:04:42.500Z
+  + Cost: 13.46 đ
+
+- Task [#14742584] – [#1123] :  system-tests: new test for auto scaleup after manual scaledown.2
+  + Assignee: 1993
+  + Time: 2018-03-26T01:00:00.000Z → 2018-03-27T02:21:17.142Z
+  + Cost: 63.39 đ
+
+- Task [#14742677] – [#1124] : system-tests: review of list of disabled tests from March and create new one for April.2
+  + Assignee: 1993
+  + Time: 2018-03-28T01:00:00.000Z → 2018-03-28T07:24:36.000Z
+  + Cost: 16.02 đ
+
+- Task [#14742678] – system-tests: unclosed archives exception in Jenkins when core-dump is stored.2
+  + Assignee: 1993
+  + Time: 2018-03-29T01:00:00.000Z → 2018-03-29T07:24:36.000Z
+  + Cost: 16.02 đ
+
+- Task [#14742679] – [#1128] : system-tests: Remove logs collecting for pods/statefull-sets.2
+  + Assignee: 1993
+  + Time: 2018-03-30T01:00:00.000Z → 2018-03-30T07:24:36.000Z
+  + Cost: 16.02 đ
+
+- Task [#14742680] – [#1127] : system-tests: Use ENUM instead of string tags.2
+  + Assignee: 787
+  + Time: 2018-03-24T01:00:00.000Z → 2018-03-24T02:16:20.000Z
+  + Cost: 3.18 đ
+
+- Task [#14742683] – [#1125] : system-tests: Rewrite tests to use Dependency injection.2
+  + Assignee: 1993
+  + Time: 2018-03-31T01:00:00.000Z → 2018-03-31T07:24:36.000Z
+  + Cost: 16.02 đ
+
+- Task [#15737477] – Investigate what's needed for operations (logs/monitoring).3
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#15737484] – [#972] : Make global-max-size parameter configurable via template/plan.3
+  + Assignee: 7663
+  + Time: 2018-03-29T01:00:00.000Z → 2018-03-29T01:56:33.333Z
+  + Cost: 1.57 đ
+
+- Task [#15737485] – [#973] : Configure per-address settings for each address created on broker.3
+  + Assignee: 9744
+  + Time: 2018-04-09T01:00:00.000Z → 2018-04-13T04:38:13.333Z
+  + Cost: 249.09 đ
+
+- Task [#15737492] – Docs: how to manage user permissions.3
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#15738010] – [#1009] : Make resync interval in controllers configurable.3
+  + Assignee: 7663
+  + Time: 2018-03-30T01:00:00.000Z → 2018-03-30T07:50:04.000Z
+  + Cost: 11.39 đ
+
+- Task [#15738011] – [#1011] : Separata status check from controller resync.3
+  + Assignee: 7663
+  + Time: 2018-03-31T01:00:00.000Z → 2018-03-31T07:50:04.000Z
+  + Cost: 11.39 đ
+
+- Task [#15738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.3
+  + Assignee: 787
+  + Time: 2018-03-25T01:00:00.000Z → 2018-03-25T07:04:55.555Z
+  + Cost: 15.21 đ
+
+- Task [#15738369] – [#1021] : system-tests: modify QueueTest#testScaledown.3
+  + Assignee: 1993
+  + Time: 2018-04-01T01:00:00.000Z → 2018-04-01T03:17:18.000Z
+  + Cost: 5.72 đ
+
+- Task [#15738609] – [#1034] : system-tests: create test for REST API - address resource required params are missing.3
+  + Assignee: 1993
+  + Time: 2018-04-02T01:00:00.000Z → 2018-04-02T01:10:30.000Z
+  + Cost: 0.44 đ
+
+- Task [#15738629] – [#1031] : system-tests: create new test for replace address-space list.3
+  + Assignee: 1993
+  + Time: 2018-04-03T01:00:00.000Z → 2018-04-03T01:10:30.000Z
+  + Cost: 0.44 đ
+
+- Task [#15738631] – [#1036] : system-tests: create new test for address-space endpoints \"host\".3
+  + Assignee: 1993
+  + Time: 2018-04-04T01:00:00.000Z → 2018-04-04T01:10:30.000Z
+  + Cost: 0.44 đ
+
+- Task [#15738634] – [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.3
+  + Assignee: 1993
+  + Time: 2018-04-05T01:00:00.000Z → 2018-04-05T01:10:30.000Z
+  + Cost: 0.44 đ
+
+- Task [#15739606] – [#1017] : Events sent to address of type queue not delivered after a while.3
+  + Assignee: 7663
+  + Time: 2018-04-01T01:00:00.000Z → 2018-04-01T02:21:36.666Z
+  + Cost: 2.27 đ
+
+- Task [#15740096] – Reference table for Developer role assumptions.3
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#15740105] – Self-provision an address/destination.3
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#15740112] – Document how to delete a destination/address.3
+  + Assignee: 1193
+  + Time: 2018-03-06T01:00:00.000Z → 2018-03-07T01:25:00.000Z
+  + Cost: 61.04 đ
+
+- Task [#15740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.3
+  + Assignee: 7663
+  + Time: 2018-04-02T01:00:00.000Z → 2018-04-04T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#15740575] – [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.3
+  + Assignee: 7663
+  + Time: 2018-04-05T01:00:00.000Z → 2018-04-05T09:04:42.500Z
+  + Cost: 13.46 đ
+
+- Task [#15742276] – [#1115] : New system-tests for websocket.3
+  + Assignee: 787
+  + Time: 2018-03-26T01:00:00.000Z → 2018-03-26T02:16:20.000Z
+  + Cost: 3.18 đ
+
+- Task [#15742576] – [#1117] : Response code/payload of AddressController REST API POST/DELETE operations.3
+  + Assignee: 7663
+  + Time: 2018-04-06T01:00:00.000Z → 2018-04-07T07:36:54.285Z
+  + Cost: 51.03 đ
+
+- Task [#15742577] – [#1091] : Endpoints declaratively specified should be checked in status.3
+  + Assignee: 7663
+  + Time: 2018-04-08T01:00:00.000Z → 2018-04-09T07:36:54.285Z
+  + Cost: 51.03 đ
+
+- Task [#15742677] – [#1124] : system-tests: review of list of disabled tests from March and create new one for April.3
+  + Assignee: 1993
+  + Time: 2018-04-06T01:00:00.000Z → 2018-04-07T04:30:30.000Z
+  + Cost: 68.77 đ
+
+- Task [#15742678] – system-tests: unclosed archives exception in Jenkins when core-dump is stored.3
+  + Assignee: 1993
+  + Time: 2018-04-08T01:00:00.000Z → 2018-04-09T04:30:30.000Z
+  + Cost: 68.77 đ
+
+- Task [#15742683] – [#1125] : system-tests: Rewrite tests to use Dependency injection.3
+  + Assignee: 1993
+  + Time: 2018-04-10T01:00:00.000Z → 2018-04-11T04:30:30.000Z
+  + Cost: 68.77 đ
+
+- Task [#16737477] – Investigate what's needed for operations (logs/monitoring).4
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#16737484] – [#972] : Make global-max-size parameter configurable via template/plan.4
+  + Assignee: 7663
+  + Time: 2018-04-10T01:00:00.000Z → 2018-04-10T07:50:04.000Z
+  + Cost: 11.39 đ
+
+- Task [#16737485] – [#973] : Configure per-address settings for each address created on broker.4
+  + Assignee: 9744
+  + Time: 2018-04-14T01:00:00.000Z → 2018-04-14T02:22:00.000Z
+  + Cost: 3.42 đ
+
+- Task [#16738010] – [#1009] : Make resync interval in controllers configurable.4
+  + Assignee: 7663
+  + Time: 2018-04-11T01:00:00.000Z → 2018-04-11T02:21:36.666Z
+  + Cost: 2.27 đ
+
+- Task [#16738011] – [#1011] : Separata status check from controller resync.4
+  + Assignee: 7663
+  + Time: 2018-04-12T01:00:00.000Z → 2018-04-12T02:21:36.666Z
+  + Cost: 2.27 đ
+
+- Task [#16738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.4
+  + Assignee: 787
+  + Time: 2018-03-27T01:00:00.000Z → 2018-03-27T06:17:28.000Z
+  + Cost: 13.23 đ
+
+- Task [#16738369] – [#1021] : system-tests: modify QueueTest#testScaledown.4
+  + Assignee: 1993
+  + Time: 2018-04-12T01:00:00.000Z → 2018-04-12T07:18:22.222Z
+  + Cost: 15.77 đ
+
+- Task [#16738609] – [#1034] : system-tests: create test for REST API - address resource required params are missing.4
+  + Assignee: 1993
+  + Time: 2018-04-13T01:00:00.000Z → 2018-04-13T04:12:28.571Z
+  + Cost: 8.02 đ
+
+- Task [#16738629] – [#1031] : system-tests: create new test for replace address-space list.4
+  + Assignee: 1993
+  + Time: 2018-04-14T01:00:00.000Z → 2018-04-14T04:12:28.571Z
+  + Cost: 8.02 đ
+
+- Task [#16738631] – [#1036] : system-tests: create new test for address-space endpoints \"host\".4
+  + Assignee: 1993
+  + Time: 2018-04-15T01:00:00.000Z → 2018-04-15T04:12:28.571Z
+  + Cost: 8.02 đ
+
+- Task [#16738634] – [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.4
+  + Assignee: 1993
+  + Time: 2018-04-16T01:00:00.000Z → 2018-04-16T04:12:28.571Z
+  + Cost: 8.02 đ
+
+- Task [#16739606] – [#1017] : Events sent to address of type queue not delivered after a while.4
+  + Assignee: 7663
+  + Time: 2018-04-13T01:00:00.000Z → 2018-04-14T09:17:53.333Z
+  + Cost: 53.83 đ
+
+- Task [#16740098] – Reference table for Developer role assumptions.4
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#16740105] – Self-provision an address/destination.4
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#16740112] – Document how to delete a destination/address.4
+  + Assignee: 1193
+  + Time: 2018-03-08T01:00:00.000Z → 2018-03-09T07:07:10.000Z
+  + Cost: 75.30 đ
+
+- Task [#16740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.4
+  + Assignee: 7663
+  + Time: 2018-04-15T01:00:00.000Z → 2018-04-15T09:04:42.500Z
+  + Cost: 13.46 đ
+
+- Task [#16740575] – [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.4
+  + Assignee: 7663
+  + Time: 2018-04-16T01:00:00.000Z → 2018-04-17T07:36:54.285Z
+  + Cost: 51.03 đ
+
+- Task [#16742276] – [#1115] : New system-tests for websocket.4
+  + Assignee: 787
+  + Time: 2018-03-28T01:00:00.000Z → 2018-03-28T05:00:50.000Z
+  + Cost: 10.03 đ
+
+- Task [#16742576] – [#1117] : Response code/payload of AddressController REST API POST/DELETE operations.4
+  + Assignee: 7663
+  + Time: 2018-04-18T01:00:00.000Z → 2018-04-19T01:27:56.000Z
+  + Cost: 40.78 đ
+
+- Task [#16742577] – [#1091] : Endpoints declaratively specified should be checked in status.4
+  + Assignee: 7663
+  + Time: 2018-04-20T01:00:00.000Z → 2018-04-21T01:27:56.000Z
+  + Cost: 40.78 đ
+
+- Task [#16742677] – [#1124] : system-tests: review of list of disabled tests from March and create new one for April.4
+  + Assignee: 1993
+  + Time: 2018-04-17T01:00:00.000Z → 2018-04-18T02:07:40.000Z
+  + Cost: 62.82 đ
+
+- Task [#16742678] – system-tests: unclosed archives exception in Jenkins when core-dump is stored.4
+  + Assignee: 1993
+  + Time: 2018-04-19T01:00:00.000Z → 2018-04-20T02:07:40.000Z
+  + Cost: 62.82 đ
+
+- Task [#17737477] – Investigate what's needed for operations (logs/monitoring).5
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#17737484] – [#972] : Make global-max-size parameter configurable via template/plan.5
+  + Assignee: 7663
+  + Time: 2018-04-22T01:00:00.000Z → 2018-04-22T02:21:36.666Z
+  + Cost: 2.27 đ
+
+- Task [#17737485] – [#973] : Configure per-address settings for each address created on broker.5
+  + Assignee: 9744
+  + Time: 2018-04-15T01:00:00.000Z → 2018-04-21T06:21:16.000Z
+  + Cost: 373.39 đ
+
+- Task [#17738010] – [#1009] : Make resync interval in controllers configurable.5
+  + Assignee: 7663
+  + Time: 2018-04-23T01:00:00.000Z → 2018-04-24T09:17:53.333Z
+  + Cost: 53.83 đ
+
+- Task [#17738011] – [#1011] : Separata status check from controller resync.5
+  + Assignee: 7663
+  + Time: 2018-04-25T01:00:00.000Z → 2018-04-26T09:17:53.333Z
+  + Cost: 53.83 đ
+
+- Task [#17738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.5
+  + Assignee: 787
+  + Time: 2018-03-29T01:00:00.000Z → 2018-03-29T04:44:26.666Z
+  + Cost: 9.35 đ
+
+- Task [#17738369] – [#1021] : system-tests: modify QueueTest#testScaledown.5
+  + Assignee: 1993
+  + Time: 2018-04-21T01:00:00.000Z → 2018-04-21T01:10:30.000Z
+  + Cost: 0.44 đ
+
+- Task [#17738609] – [#1034] : system-tests: create test for REST API - address resource required params are missing.5
+  + Assignee: 1993
+  + Time: 2018-04-22T01:00:00.000Z → 2018-04-22T06:28:53.333Z
+  + Cost: 13.70 đ
+
+- Task [#17738629] – [#1031] : system-tests: create new test for replace address-space list.5
+  + Assignee: 1993
+  + Time: 2018-04-23T01:00:00.000Z → 2018-04-23T06:28:53.333Z
+  + Cost: 13.70 đ
+
+- Task [#17738631] – [#1036] : system-tests: create new test for address-space endpoints \"host\".5
+  + Assignee: 1993
+  + Time: 2018-04-24T01:00:00.000Z → 2018-04-24T06:28:53.333Z
+  + Cost: 13.70 đ
+
+- Task [#17738634] – [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.5
+  + Assignee: 1993
+  + Time: 2018-04-25T01:00:00.000Z → 2018-04-25T06:28:53.333Z
+  + Cost: 13.70 đ
+
+- Task [#17739606] – [#1017] : Events sent to address of type queue not delivered after a while.5
+  + Assignee: 7663
+  + Time: 2018-04-27T01:00:00.000Z → 2018-04-29T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#17740087] – Reference table for Developer role assumptions.5
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#17740105] – Self-provision an address/destination.5
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#17740112] – Document how to delete a destination/address.5
+  + Assignee: 1193
+  + Time: 2018-03-10T01:00:00.000Z → 2018-03-10T01:42:26.666Z
+  + Cost: 1.77 đ
+
+- Task [#17740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.5
+  + Assignee: 7663
+  + Time: 2018-04-30T01:00:00.000Z → 2018-05-01T07:36:54.285Z
+  + Cost: 51.03 đ
+
+- Task [#17740575] – [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.5
+  + Assignee: 7663
+  + Time: 2018-05-02T01:00:00.000Z → 2018-05-03T01:27:56.000Z
+  + Cost: 40.78 đ
+
+- Task [#17742577] – [#1091] : Endpoints declaratively specified should be checked in status.5
+  + Assignee: 7663
+  + Time: 2018-05-04T01:00:00.000Z → 2018-05-06T07:28:30.000Z
+  + Cost: 90.79 đ
+
+- Task [#17742678] – system-tests: unclosed archives exception in Jenkins when core-dump is stored.5
+  + Assignee: 1993
+  + Time: 2018-04-26T01:00:00.000Z → 2018-04-28T03:27:10.000Z
+  + Cost: 126.13 đ
+
+- Task [#18737477] – Investigate what's needed for operations (logs/monitoring).6
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#18737485] – [#973] : Configure per-address settings for each address created on broker.6
+  + Assignee: 9744
+  + Time: 2018-04-22T01:00:00.000Z → 2018-04-27T05:46:53.333Z
+  + Cost: 311.95 đ
+
+- Task [#18738010] – [#1009] : Make resync interval in controllers configurable.6
+  + Assignee: 7663
+  + Time: 2018-05-07T01:00:00.000Z → 2018-05-09T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#18738011] – [#1011] : Separata status check from controller resync.6
+  + Assignee: 7663
+  + Time: 2018-05-10T01:00:00.000Z → 2018-05-12T08:47:06.666Z
+  + Cost: 92.98 đ
+
+- Task [#18738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.6
+  + Assignee: 787
+  + Time: 2018-03-30T01:00:00.000Z → 2018-03-30T07:16:52.000Z
+  + Cost: 15.70 đ
+
+- Task [#18738369] – [#1021] : system-tests: modify QueueTest#testScaledown.6
+  + Assignee: 1993
+  + Time: 2018-04-29T01:00:00.000Z → 2018-04-29T04:12:28.571Z
+  + Cost: 8.02 đ
+
+- Task [#18738609] – [#1034] : system-tests: create test for REST API - address resource required params are missing.6
+  + Assignee: 1993
+  + Time: 2018-04-30T01:00:00.000Z → 2018-04-30T02:14:12.000Z
+  + Cost: 3.09 đ
+
+- Task [#18738631] – [#1036] : system-tests: create new test for address-space endpoints \"host\".6
+  + Assignee: 1993
+  + Time: 2018-05-01T01:00:00.000Z → 2018-05-01T02:14:12.000Z
+  + Cost: 3.09 đ
+
+- Task [#18738634] – [#1040] : system-tests: create new test that verify that returned restapi routes are reachable.6
+  + Assignee: 1993
+  + Time: 2018-05-02T01:00:00.000Z → 2018-05-02T02:14:12.000Z
+  + Cost: 3.09 đ
+
+- Task [#18739606] – [#1017] : Events sent to address of type queue not delivered after a while.6
+  + Assignee: 7663
+  + Time: 2018-05-13T01:00:00.000Z → 2018-05-13T09:04:42.500Z
+  + Cost: 13.46 đ
+
+- Task [#18740094] – Reference table for Developer role assumptions.6
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#18740112] – Document how to delete a destination/address.6
+  + Assignee: 1193
+  + Time: 2018-03-11T01:00:00.000Z → 2018-03-11T04:12:00.000Z
+  + Cost: 8.00 đ
+
+- Task [#18740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.6
+  + Assignee: 7663
+  + Time: 2018-05-14T01:00:00.000Z → 2018-05-15T01:27:56.000Z
+  + Cost: 40.78 đ
+
+- Task [#18740575] – [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.6
+  + Assignee: 7663
+  + Time: 2018-05-16T01:00:00.000Z → 2018-05-18T07:28:30.000Z
+  + Cost: 90.79 đ
+
+- Task [#19737485] – [#973] : Configure per-address settings for each address created on broker.7
+  + Assignee: 9744
+  + Time: 2018-04-28T01:00:00.000Z → 2018-05-07T04:36:50.000Z
+  + Cost: 549.03 đ
+
+- Task [#19738010] – [#1009] : Make resync interval in controllers configurable.7
+  + Assignee: 7663
+  + Time: 2018-05-19T01:00:00.000Z → 2018-05-19T09:04:42.500Z
+  + Cost: 13.46 đ
+
+- Task [#19738011] – [#1011] : Separata status check from controller resync.7
+  + Assignee: 7663
+  + Time: 2018-05-20T01:00:00.000Z → 2018-05-20T09:04:42.500Z
+  + Cost: 13.46 đ
+
+- Task [#19738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.7
+  + Assignee: 787
+  + Time: 2018-03-31T01:00:00.000Z → 2018-03-31T07:33:50.000Z
+  + Cost: 16.41 đ
+
+- Task [#19738369] – [#1021] : system-tests: modify QueueTest#testScaledown.7
+  + Assignee: 1993
+  + Time: 2018-05-03T01:00:00.000Z → 2018-05-03T06:28:53.333Z
+  + Cost: 13.70 đ
+
+- Task [#19739606] – [#1017] : Events sent to address of type queue not delivered after a while.7
+  + Assignee: 7663
+  + Time: 2018-05-21T01:00:00.000Z → 2018-05-22T07:36:54.285Z
+  + Cost: 51.03 đ
+
+- Task [#19740096] – Reference table for Developer role assumptions.7
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#19740112] – Document how to delete a destination/address.7
+  + Assignee: 1193
+  + Time: 2018-03-12T01:00:00.000Z → 2018-03-12T02:05:20.000Z
+  + Cost: 2.72 đ
+
+- Task [#19740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.7
+  + Assignee: 7663
+  + Time: 2018-05-23T01:00:00.000Z → 2018-05-25T07:28:30.000Z
+  + Cost: 90.79 đ
+
+- Task [#19740575] – [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.7
+  + Assignee: 7663
+  + Time: 2018-05-26T01:00:00.000Z → 2018-05-28T04:16:00.000Z
+  + Cost: 85.44 đ
+
+- Task [#20737485] – [#973] : Configure per-address settings for each address created on broker.8
+  + Assignee: 9744
+  + Time: 2018-05-08T01:00:00.000Z → 2020-01-12T06:00:20.000Z
+  + Cost: 36852.51 đ
+
+- Task [#20738010] – [#1009] : Make resync interval in controllers configurable.8
+  + Assignee: 7663
+  + Time: 2018-05-29T01:00:00.000Z → 2018-05-30T07:36:54.285Z
+  + Cost: 51.03 đ
+
+- Task [#20738011] – [#1011] : Separata status check from controller resync.8
+  + Assignee: 7663
+  + Time: 2018-05-31T01:00:00.000Z → 2018-06-01T07:36:54.285Z
+  + Cost: 51.03 đ
+
+- Task [#20738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.8
+  + Assignee: 787
+  + Time: 2018-04-01T01:00:00.000Z → 2018-04-02T01:00:56.000Z
+  + Cost: 60.04 đ
+
+- Task [#20738369] – [#1021] : system-tests: modify QueueTest#testScaledown.8
+  + Assignee: 1993
+  + Time: 2018-05-04T01:00:00.000Z → 2018-05-04T02:14:12.000Z
+  + Cost: 3.09 đ
+
+- Task [#20739606] – [#1017] : Events sent to address of type queue not delivered after a while.8
+  + Assignee: 7663
+  + Time: 2018-06-02T01:00:00.000Z → 2018-06-03T01:27:56.000Z
+  + Cost: 40.78 đ
+
+- Task [#20740098] – Reference table for Developer role assumptions.8
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#20740112] – Document how to delete a destination/address.8
+  + Assignee: 1193
+  + Time: 2018-03-13T01:00:00.000Z → 2018-03-13T02:14:05.000Z
+  + Cost: 3.09 đ
+
+- Task [#20740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.8
+  + Assignee: 7663
+  + Time: 2018-06-04T01:00:00.000Z → 2018-06-06T04:16:00.000Z
+  + Cost: 85.44 đ
+
+- Task [#20740575] – [#1082] : address-controller: NPE when required parameters (address, plan or type) are not set.8
+  + Assignee: 7663
+  + Time: 2018-06-07T01:00:00.000Z → 2018-07-07T06:16:30.000Z
+  + Cost: 1208.79 đ
+
+- Task [#21738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.9
+  + Assignee: 787
+  + Time: 2018-04-03T01:00:00.000Z → 2018-04-04T07:04:48.571Z
+  + Cost: 75.20 đ
+
+- Task [#21738369] – [#1021] : system-tests: modify QueueTest#testScaledown.9
+  + Assignee: 1993
+  + Time: 2018-05-05T01:00:00.000Z → 2018-05-08T03:19:00.000Z
+  + Cost: 185.79 đ
+
+- Task [#21739606] – [#1017] : Events sent to address of type queue not delivered after a while.9
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#21740087] – Reference table for Developer role assumptions.9
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#21740112] – Document how to delete a destination/address.9
+  + Assignee: 1193
+  + Time: 2018-03-14T01:00:00.000Z → 2018-03-14T04:54:26.666Z
+  + Cost: 9.77 đ
+
+- Task [#21740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.9
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#22738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.10
+  + Assignee: 787
+  + Time: 2018-04-05T01:00:00.000Z → 2018-04-05T02:16:20.000Z
+  + Cost: 3.18 đ
+
+- Task [#22738369] – [#1021] : system-tests: modify QueueTest#testScaledown.10
+  + Assignee: 1993
+  + Time: 2018-05-09T01:00:00.000Z → 2018-05-09T02:37:53.333Z
+  + Cost: 4.08 đ
+
+- Task [#22739606] – [#1017] : Events sent to address of type queue not delivered after a while.10
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#22740094] – Reference table for Developer role assumptions.10
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#22740112] – Document how to delete a destination/address.10
+  + Assignee: 1193
+  + Time: 2018-03-15T01:00:00.000Z → 2018-03-15T01:12:52.000Z
+  + Cost: 0.54 đ
+
+- Task [#22740288] – [#1079] : standard-controller: is trying to connect to router which was already killed.10
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#23738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.11
+  + Assignee: 787
+  + Time: 2018-04-06T01:00:00.000Z → 2018-04-06T05:00:50.000Z
+  + Cost: 10.03 đ
+
+- Task [#23738369] – [#1021] : system-tests: modify QueueTest#testScaledown.11
+  + Assignee: 1993
+  + Time: 2018-05-10T01:00:00.000Z → 2018-05-11T02:21:17.142Z
+  + Cost: 63.39 đ
+
+- Task [#23740096] – Reference table for Developer role assumptions.11
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#23740112] – Document how to delete a destination/address.11
+  + Assignee: 1193
+  + Time: 2018-03-16T01:00:00.000Z → 2018-03-16T06:52:00.000Z
+  + Cost: 14.67 đ
+
+- Task [#24738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.12
+  + Assignee: 787
+  + Time: 2018-04-07T01:00:00.000Z → 2018-04-07T09:21:10.000Z
+  + Cost: 20.88 đ
+
+- Task [#24740098] – Reference table for Developer role assumptions.12
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#24740112] – Document how to delete a destination/address.12
+  + Assignee: 1193
+  + Time: 2018-03-17T01:00:00.000Z → 2018-03-17T03:46:33.333Z
+  + Cost: 6.94 đ
+
+- Task [#25738314] – [#1020] : system-tests: test{Pod,Credit}Limitations with webconsole.13
+  + Assignee: 787
+  + Time: 2018-04-08T01:00:00.000Z → 2018-04-10T04:01:53.333Z
+  + Cost: 127.58 đ
+
+- Task [#25740087] – Reference table for Developer role assumptions.13
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#25740112] – Document how to delete a destination/address.13
+  + Assignee: 1193
+  + Time: 2018-03-18T01:00:00.000Z → 2018-03-19T01:44:45.000Z
+  + Cost: 61.86 đ
+
+- Task [#26740094] – Reference table for Developer role assumptions.14
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#26740112] – Document how to delete a destination/address.14
+  + Assignee: 1193
+  + Time: 2018-03-20T01:00:00.000Z → 2018-03-20T01:34:40.000Z
+  + Cost: 1.44 đ
+
+- Task [#27740096] – Reference table for Developer role assumptions.15
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#27740112] – Document how to delete a destination/address.15
+  + Assignee: 1193
+  + Time: 2018-03-21T01:00:00.000Z → 2018-03-21T01:54:06.666Z
+  + Cost: 2.25 đ
+
+- Task [#28740098] – Reference table for Developer role assumptions.16
+  + Assignee: Unassigned
+  + Time: --- → ---
+  + Cost: 0.00 đ
+
+- Task [#28740112] – Document how to delete a destination/address.16
+  + Assignee: 1193
+  + Time: 2018-03-22T01:00:00.000Z → 2018-03-22T01:13:00.000Z
+  + Cost: 0.54 đ
+
+- Task [#29740112] – Document how to delete a destination/address.17
+  + Assignee: 1193
+  + Time: 2018-03-23T01:00:00.000Z → 2018-03-23T08:45:46.666Z
+  + Cost: 19.41 đ
+
+- Task [#30740112] – Document how to delete a destination/address.18
+  + Assignee: 1193
+  + Time: 2018-03-24T01:00:00.000Z → 2018-03-24T03:36:25.714Z
+  + Cost: 6.52 đ
+
+- Task [#31740112] – Document how to delete a destination/address.19
+  + Assignee: 1193
+  + Time: 2018-03-25T01:00:00.000Z → 2018-03-25T03:40:32.500Z
+  + Cost: 6.69 đ
+
+- Task [#32740112] – Document how to delete a destination/address.20
+  + Assignee: 1193
+  + Time: 2018-03-26T01:00:00.000Z → 2018-03-26T01:07:42.857Z
+  + Cost: 0.32 đ
+
+- Task [#33740112] – Document how to delete a destination/address.21
+  + Assignee: 1193
+  + Time: 2018-03-27T01:00:00.000Z → 2018-03-27T01:51:57.500Z
+  + Cost: 2.16 đ
+
+- Task [#34740112] – Document how to delete a destination/address.22
+  + Assignee: 1193
+  + Time: 2018-03-28T01:00:00.000Z → 2018-03-28T02:13:22.857Z
+  + Cost: 3.06 đ
+
+- Task [#35740112] – Document how to delete a destination/address.23
+  + Assignee: 1193
+  + Time: 2018-03-29T01:00:00.000Z → 2018-03-29T07:47:23.333Z
+  + Cost: 16.97 đ
+
+- Task [#36740112] – Document how to delete a destination/address.24
+  + Assignee: 1193
+  + Time: 2018-03-30T01:00:00.000Z → 2018-03-30T02:23:44.000Z
+  + Cost: 3.49 đ
+
+- Task [#37740112] – Document how to delete a destination/address.25
+  + Assignee: 1193
+  + Time: 2018-03-31T01:00:00.000Z → 2018-03-31T06:22:33.333Z
+  + Cost: 13.44 đ
+
+- Task [#38740112] – Document how to delete a destination/address.26
+  + Assignee: 1193
+  + Time: 2018-04-01T01:00:00.000Z → 2018-04-01T02:51:20.000Z
+  + Cost: 4.64 đ
+
+- Task [#39740112] – Document how to delete a destination/address.27
+  + Assignee: 1193
+  + Time: 2018-04-02T01:00:00.000Z → 2018-04-02T01:23:13.333Z
+  + Cost: 0.97 đ
+
+- Task [#40740112] – Document how to delete a destination/address.28
+  + Assignee: 1193
+  + Time: 2018-04-03T01:00:00.000Z → 2018-04-04T01:49:15.000Z
+  + Cost: 62.05 đ
+
+- Task [#41740112] – Document how to delete a destination/address.29
+  + Assignee: 1193
+  + Time: 2018-04-05T01:00:00.000Z → 2018-04-05T01:25:55.000Z
+  + Cost: 1.08 đ
+
+- Task [#42740112] – Document how to delete a destination/address.30
+  + Assignee: 1193
+  + Time: 2018-04-06T01:00:00.000Z → 2018-04-06T02:21:44.000Z
+  + Cost: 3.41 đ
+
+- Task [#43740112] – Document how to delete a destination/address.31
+  + Assignee: 1193
+  + Time: 2018-04-07T01:00:00.000Z → 2018-04-07T01:18:35.000Z
+  + Cost: 0.77 đ
+
+- Task [#44740112] – Document how to delete a destination/address.32
+  + Assignee: 1193
+  + Time: 2018-04-08T01:00:00.000Z → 2018-04-08T02:10:00.000Z
+  + Cost: 2.92 đ
+
+- Task [#45740112] – Document how to delete a destination/address.33
+  + Assignee: 1193
+  + Time: 2018-04-09T01:00:00.000Z → 2018-04-17T01:29:50.000Z
+  + Cost: 481.24 đ
+
+- Task [#46740112] – Document how to delete a destination/address.34
+  + Assignee: 1193
+  + Time: 2018-04-18T01:00:00.000Z → 2018-04-18T01:17:40.000Z
+  + Cost: 0.74 đ
+
+- Task [#47740112] – Document how to delete a destination/address.35
+  + Assignee: 1193
+  + Time: 2018-04-19T01:00:00.000Z → 2018-04-19T03:56:05.000Z
+  + Cost: 7.34 đ
+
+- Task [#48740112] – Document how to delete a destination/address.36
+  + Assignee: 1193
+  + Time: 2018-04-20T01:00:00.000Z → 2018-04-22T09:13:40.000Z
+  + Cost: 140.57 đ
+
+- Task [#49740112] – Document how to delete a destination/address.37
+  + Assignee: 1193
+  + Time: 2018-04-23T01:00:00.000Z → 2018-04-24T04:49:26.666Z
+  + Cost: 69.56 đ
+
+- Task [#50740112] – Document how to delete a destination/address.38
+  + Assignee: 1193
+  + Time: 2018-04-25T01:00:00.000Z → 2018-04-25T06:23:20.000Z
+  + Cost: 13.47 đ
+
+- Task [#51740112] – Document how to delete a destination/address.39
+  + Assignee: 1193
+  + Time: 2018-04-26T01:00:00.000Z → 2018-04-27T01:40:16.000Z
+  + Cost: 61.68 đ
+
+- Task [#52740112] – Document how to delete a destination/address.40
+  + Assignee: 1193
+  + Time: 2018-04-28T01:00:00.000Z → 2018-04-28T02:30:53.333Z
+  + Cost: 3.79 đ
+
+- Task [#53740112] – Document how to delete a destination/address.41
+  + Assignee: 1193
+  + Time: 2018-04-29T01:00:00.000Z → 2018-04-29T01:52:45.714Z
+  + Cost: 2.20 đ
+
+- Task [#54740112] – Document how to delete a destination/address.42
+  + Assignee: 1193
+  + Time: 2018-04-30T01:00:00.000Z → 2018-04-30T01:18:32.000Z
+  + Cost: 0.77 đ
+
+- Task [#55740112] – Document how to delete a destination/address.43
+  + Assignee: 1193
+  + Time: 2018-05-01T01:00:00.000Z → 2018-05-01T01:13:50.000Z
+  + Cost: 0.58 đ
+
+- Task [#56740112] – Document how to delete a destination/address.44
+  + Assignee: 1193
+  + Time: 2018-05-02T01:00:00.000Z → 2018-05-03T06:53:00.000Z
+  + Cost: 74.71 đ
+
+- Task [#57740112] – Document how to delete a destination/address.45
+  + Assignee: 1193
+  + Time: 2018-05-04T01:00:00.000Z → 2018-05-04T01:47:04.444Z
+  + Cost: 1.96 đ
+
+- Task [#58740112] – Document how to delete a destination/address.46
+  + Assignee: 1193
+  + Time: 2018-05-05T01:00:00.000Z → 2018-05-05T01:07:40.000Z
+  + Cost: 0.32 đ
+
+- Task [#59740112] – Document how to delete a destination/address.47
+  + Assignee: 1193
+  + Time: 2018-05-06T01:00:00.000Z → 2018-05-06T03:59:44.000Z
+  + Cost: 7.49 đ
+
+- Task [#60740112] – Document how to delete a destination/address.48
+  + Assignee: 1193
+  + Time: 2018-05-07T01:00:00.000Z → 2018-05-07T02:09:25.000Z
+  + Cost: 2.89 đ
+
+- Task [#61740112] – Document how to delete a destination/address.49
+  + Assignee: 1193
+  + Time: 2018-05-08T01:00:00.000Z → 2018-05-09T01:22:12.727Z
+  + Cost: 60.93 đ
+
+- Task [#62740112] – Document how to delete a destination/address.50
+  + Assignee: 1193
+  + Time: 2018-05-10T01:00:00.000Z → 2018-05-10T02:37:18.000Z
+  + Cost: 4.05 đ
+
+- Task [#63740112] – Document how to delete a destination/address.51
+  + Assignee: 1193
+  + Time: 2018-05-11T01:00:00.000Z → 2018-05-11T04:27:17.777Z
+  + Cost: 8.64 đ
+
+- Task [#64740112] – Document how to delete a destination/address.52
+  + Assignee: 1193
+  + Time: 2018-05-12T01:00:00.000Z → 2018-05-12T03:59:05.000Z
+  + Cost: 7.46 đ
+
+- Task [#65740112] – Document how to delete a destination/address.53
+  + Assignee: 1193
+  + Time: 2018-05-13T01:00:00.000Z → 2018-05-13T05:38:42.857Z
+  + Cost: 11.61 đ
+
+- Task [#66740112] – Document how to delete a destination/address.54
+  + Assignee: 1193
+  + Time: 2018-05-14T01:00:00.000Z → 2018-05-14T01:13:50.000Z
+  + Cost: 0.58 đ
+
+- Task [#67740112] – Document how to delete a destination/address.55
+  + Assignee: 1193
+  + Time: 2018-05-15T01:00:00.000Z → 2018-05-15T01:38:28.888Z
+  + Cost: 1.60 đ
+
+- Task [#68740112] – Document how to delete a destination/address.56
+  + Assignee: 1193
+  + Time: 2018-05-16T01:00:00.000Z → 2018-05-16T02:04:30.000Z
+  + Cost: 2.69 đ
+
+- Task [#69740112] – Document how to delete a destination/address.57
+  + Assignee: 1193
+  + Time: 2018-05-17T01:00:00.000Z → 2018-05-17T08:03:42.857Z
+  + Cost: 17.65 đ
+
+- Task [#70740112] – Document how to delete a destination/address.58
+  + Assignee: 1193
+  + Time: 2018-05-18T01:00:00.000Z → 2018-05-18T03:16:40.000Z
+  + Cost: 5.69 đ
+
+- Task [#71740112] – Document how to delete a destination/address.59
+  + Assignee: 1193
+  + Time: 2018-05-19T01:00:00.000Z → 2018-05-19T02:07:25.714Z
+  + Cost: 2.81 đ
+
+
+🧾 Tổng chi phí: 147155.01 đ
