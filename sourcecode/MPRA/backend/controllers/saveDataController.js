@@ -50,14 +50,11 @@ const saveDataController = async (req, res) => {
     try {
         const data = req.body;
         console.log("data",data);
+        
         const employees = [...data.employees].map(employee => ({
             ...employee
         }));
-        const tasks = [...data.tasks].map(task => ({
-            ...task,
-            kpiInTask: null,
-        }));
-        console.log("tasks",employees);
+        let tasks = [...data.tasks];
          
         
         
@@ -76,8 +73,7 @@ const saveDataController = async (req, res) => {
             return {
             ...task,
             assignee,
-            tags : topSkills,
-            evaluatePoint: RandomInt(0.8, 1), // Ensure RandomInt is defined and imported
+            tags : topSkills, // Ensure RandomInt is defined and imported
             status: "done",
             requireAssign: assignedEmployee ? assignedEmployee.qualities : null,
             }
@@ -89,6 +85,31 @@ const saveDataController = async (req, res) => {
             const assignedEmployee = employees.find(emp => emp.name === task.assignee);
             task.requireAssign = assignedEmployee ? assignedEmployee.qualities : null;
         });
+        tasks = tasks.map(task => {
+            let processedTask = { ...task , requireAsset: [] };
+
+            // Cải thiện logic để tạo tags
+            // Đảm bảo processedTask.requireAssign tồn tại và là một đối tượng
+            if (processedTask.requireAssign && typeof processedTask.requireAssign === 'object' && !Array.isArray(processedTask.requireAssign)) {
+                const requireAssign = processedTask.requireAssign;
+
+                // Chuyển đổi đối tượng thành mảng các cặp [key, value], sắp xếp theo giá trị giảm dần
+                const sortedSkills = Object.entries(requireAssign).sort(([, valueA], [, valueB]) => valueB - valueA);
+
+                // Lấy 2 kỹ năng có giá trị lớn nhất
+                processedTask.tags = sortedSkills.slice(0, 2).map(([skillName]) => skillName);
+            } else {
+                // Nếu requireAssign không hợp lệ hoặc không tồn tại, gán tags là mảng rỗng
+                processedTask.tags = [];
+            }
+
+            // Bạn có thể thêm các biến đổi khác ở đây, ví dụ:
+            // - Chuyển đổi chuỗi ngày thành đối tượng Date
+            // - Xác thực các trường cụ thể của task
+
+            return processedTask;
+        });
+        
         // const project = {
         //     startTime: START_DATE,
         //     endTime: END_DATE,
@@ -136,13 +157,6 @@ const projects = [...data.projects].map(project => {
             return {
                 ...task,
                 tags: topSkills,
-                kpiInTask: [
-                    {
-                        id: 1,
-                        type: "A",
-                        weight: task.estimateTime / totalDurationInDays,
-                    }
-                ],
                 requireAssign: assignedEmployee?.qualities || null,
                 startTime: null,
                 endTime: null,
@@ -248,7 +262,7 @@ const projectDX = projects.map(project => {
         requireAssignee: assignedEmployee ? assignedEmployee.qualities : null,
         assignee: assignee,
         tags : topSkills,
-        evaluatePoint: RandomInt(0.8, 1), // Ensure RandomInt is defined and imported
+        evaluatePoint: task.evaluatePoint, // Ensure RandomInt is defined and imported
         status: "done",
         responsibleEmployees: [assignee.name],
         }
@@ -293,17 +307,17 @@ projects_1.forEach(project => {
         const estimateTime = parseFloat(task.estimateTime);
         return total + (isFinite(estimateTime) ? estimateTime : 0);
     }, 0);
-    project.tasks.forEach(task => {
-        const estimateTime = parseFloat(task.estimateTime);
-        task.kpiInTask 
-            = [
-                {
-                    id: 1,
-                    type: "CircleTime",
-                    weight: estimateTime / totalEstimateTime,
-                }
-            ];
-    });
+    // project.tasks.forEach(task => {
+    //     const estimateTime = parseFloat(task.estimateTime);
+    //     task.kpiInTask 
+    //         = [
+    //             {
+    //                 id: 1,
+    //                 type: "CircleTime",
+    //                 weight: estimateTime / totalEstimateTime,
+    //             }
+    //         ];
+    // });
 });
 
 // Danh sách project chỉ lấy 50 task 
@@ -333,16 +347,16 @@ projects_2.forEach(project => {
         return total + (isFinite(estimateTime) ? estimateTime : 0);
     }
     , 0);
-    project.tasks.forEach(task => {
-        const estimateTime = parseFloat(task.estimateTime);
-        task.kpiInTask = [
-            {
-                id: 1,
-                type: "CircleTime",
-                weight: estimateTime / totalEstimateTime,
-            }
-        ];
-    });
+    // project.tasks.forEach(task => {
+    //     const estimateTime = parseFloat(task.estimateTime);
+    //     task.kpiInTask = [
+    //         {
+    //             id: 1,
+    //             type: "CircleTime",
+    //             weight: estimateTime / totalEstimateTime,
+    //         }
+    //     ];
+    // });
 });
 
 

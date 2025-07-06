@@ -107,6 +107,25 @@ exports.readServerFile = (req, res) => {
                 endTime: row['Resolved'] || '',
                 assignee: row['Assignee'] ,
                 estimateNormalTime: row['Estimated time'] || (new Date(row['Resolved']) - new Date(row['Created']))/1000/60/60/24,
+                kpiInTask: [
+                    {
+                        id:1,
+                        type:'Quality',
+                        weight:row['w1'] || 0,
+                        originalValue: row['KPI-Quality'] || 0
+                    },
+                    {
+                        id:2,
+                        type:'CircleTime',
+                        weight:row['w2'] || 0,
+                        originalValue: row['KPI-CircleTime'] || 0
+                    },                    {
+                        id:3,
+                        type:'CompletionRate',
+                        weight:row['w3'] || 0,
+                        originalValue: row['KPI-CompletionRate'] || 0
+                    }
+                ]
             });
 
             // employees

@@ -30,7 +30,7 @@ const DataViewer = () => {
                 {data[table].map((row, idx) => (
                   <tr key={idx}>
                     {Object.values(row).map((val, i) => (
-                      <td key={i}>{val}</td>
+                      <td key={i}>{typeof val === 'object' ? JSON.stringify(val) : val}</td>
                     ))}
                   </tr>
                 ))}

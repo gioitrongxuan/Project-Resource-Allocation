@@ -104,6 +104,7 @@ exports.readServerFileTaskInPast = (req, res) => {
                 endTime: row['Resolved'] || '',
                 assignee: row['Assignee'] ,
                 estimateNormalTime: row['Estimated time'] || (new Date(row['Resolved']) - new Date(row['Created']))/1000/60/60/24,
+                evaluatePoint: row['evaluatePoint']||'0,5',
             });
 
             // employees

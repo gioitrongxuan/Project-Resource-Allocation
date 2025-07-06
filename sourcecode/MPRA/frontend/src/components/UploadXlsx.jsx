@@ -101,7 +101,8 @@ const UploadXlsx = () => {
   
   const handleUseServerFile = async () => {
     // const res = await axiosInstance.get('/files/read-server-file/ENTMQMAAS_PROJECTS.xlsx');
-    const res = await axiosInstance.get('/files/read-server-file/all.xlsx');
+    // const res = await axiosInstance.get('/files/read-server-file/all.xlsx');
+    const res = await axiosInstance.get('/files/read-server-file/Input.xlsx');
 
     const result = res.data;
     console.log(result);
